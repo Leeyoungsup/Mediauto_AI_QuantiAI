@@ -38,20 +38,22 @@ PD-L1 stomach cell detection 실험 코드입니다. 기본 데이터 위치는
 
 - 원본 [Precise_BC_cell_scoring](https://github.com/Leeyoungsup/Precise_BC_cell_scoring)의
   일반 YOLOv11 학습 구조를 기준으로 합니다.
-- `nn.yolo_v11_m(num_classes=7)`의 단일 detection head가 7개 클래스를 직접
-  예측합니다. Epithelial/other gate나 계층형 분기 모델은 사용하지 않습니다.
-- 학습 loss는 `util.ComputeLoss`의 Box + Classification + DFL 합입니다.
+- `nn.yolo_v11_m_pdl1_hierarchical()`은 먼저 Epithelial / Immune / other를
+  분류합니다. Epithelial branch는 Negative/Positive, Immune branch는
+  Lymphocyte/Macrophage와 Negative/Positive를 각각 binary task로 학습합니다.
+- 최종 조건부 확률은 원래 7-class 순서로 합성되므로 기존 NMS와 시각화가
+  그대로 동작합니다. 별도의 hard gate threshold는 사용하지 않습니다.
+- 학습 loss는 Box + DFL + Objectness + Root + Epithelial polarity + Immune
+  type + Immune polarity이며, branch loss는 해당 root GT에만 적용됩니다.
 - 한 epoch에서 같은 학습 원본을 50회 사용하되, 매 접근마다 1024 캐시
   이미지에서 독립적인 512 랜덤 크롭과 augmentation을 적용합니다.
 - 학습 crop의 80%는 class 1~5 가운데 하나를 먼저 선택해 해당 세포가 crop
   중앙부에 포함되도록 합니다. 풍부한 Negative Epithelial과 other는 일반
   crop 및 희소 클래스 주변 문맥에서 계속 학습됩니다.
-- Classification BCE에는 이미 학습이 잘 되는 Negative Epithelial을 1로 둔
-  `sqrt(reference_count / class_count)` positive weight를 적용합니다. 가중치는
-  0.5~8배로 제한해 other는 낮추고 희소 클래스는 높입니다.
+- Root와 binary branch별로 제곱근 빈도 가중치를 적용합니다.
 - 체크포인트는
-  `../../model/mediautoAI_PDL1_Stomach/pdl1_flat_7class_balanced_yolov11/`에
-  저장합니다. 기존 `pdl1_flat_7class_yolov11/best_model.pt`가 있으면 모델
-  가중치만 warm-start하고 optimizer와 scheduler는 새로 시작합니다.
+  `../../model/mediautoAI_PDL1_Stomach/pdl1_hierarchical_eio_yolov11/`에
+  저장합니다. 기존 balanced flat best 모델에서 backbone, FPN, box 및
+  semantic feature를 warm-start하고 optimizer와 scheduler는 새로 시작합니다.
 - early stopping은 사용하지 않습니다. validation은 매 epoch, 시각화와 학습
   곡선 저장은 10 epoch마다 수행합니다.

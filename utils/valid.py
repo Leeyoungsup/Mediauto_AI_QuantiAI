@@ -163,6 +163,51 @@ Best Macro F1: {max(val_macro_f1s):.4f} (Epoch {val_macro_f1s.index(max(val_macr
     # plt.close()
 
 
+def plot_hierarchy_progress(history, epoch, save_dir):
+    """Save root and conditional-branch validation curves."""
+    if not history:
+        return None
+    epochs = range(1, len(history) + 1)
+    fig, (root_axis, branch_axis) = plt.subplots(1, 2, figsize=(15, 6))
+
+    root_keys = (
+        ('root_epithelial_recall', 'Epithelial root recall'),
+        ('root_immune_recall', 'Immune root recall'),
+        ('root_other_recall', 'other root recall'),
+        ('root_balanced_accuracy', 'Root balanced accuracy'),
+    )
+    for key, label in root_keys:
+        root_axis.plot(epochs, [item.get(key, 0) for item in history], label=label)
+    root_axis.set_title('Root: Epithelial / Immune / other')
+    root_axis.set_xlabel('Epoch')
+    root_axis.set_ylabel('Recall / Accuracy')
+    root_axis.set_ylim(0, 1)
+    root_axis.grid(True, alpha=0.3)
+    root_axis.legend()
+
+    branch_keys = (
+        ('epithelial_branch_accuracy', 'Epithelial polarity'),
+        ('immune_type_accuracy', 'Immune type'),
+        ('immune_polarity_accuracy', 'Immune polarity'),
+    )
+    for key, label in branch_keys:
+        branch_axis.plot(epochs, [item.get(key, 0) for item in history], label=label)
+    branch_axis.set_title('Conditional Branch Accuracy')
+    branch_axis.set_xlabel('Epoch')
+    branch_axis.set_ylabel('Accuracy among matched GT')
+    branch_axis.set_ylim(0, 1)
+    branch_axis.grid(True, alpha=0.3)
+    branch_axis.legend()
+
+    fig.suptitle(f'PD-L1 Hierarchy Validation - Epoch {epoch}', fontweight='bold')
+    plt.tight_layout()
+    save_path = os.path.join(save_dir, f'hierarchy_progress_epoch_{epoch}.png')
+    plt.savefig(save_path, dpi=150, bbox_inches='tight')
+    plt.close(fig)
+    print(f"📈 계층형 branch 그래프 저장: {save_path}")
+    return save_path
+
+
 def visualize_ground_truth_and_prediction_separately_single(model, dataset, idx=0, conf_threshold=0.5, iou_threshold=0.3, epoch=None, save_dir=None):
     """실제 라벨과 예측 라벨을 subplot으로 좌우에 표시하는 함수 (일반 YOLO, tissue context 없음)"""
     if len(dataset) <= idx:
