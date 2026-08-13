@@ -5,6 +5,7 @@ from utils.hierarchical import (
     PDL1HierarchicalComputeLoss,
     load_flat_checkpoint_into_pdl1_hierarchical,
 )
+from utils.valid import compute_point_label_metrics_single
 
 
 def _params():
@@ -113,3 +114,66 @@ def test_flat_checkpoint_warm_starts_new_hierarchy():
         flat_model.head.cls[0][4].weight[3:4]
         - flat_model.head.cls[0][4].weight[0:1],
     )
+
+
+def test_hierarchy_validation_reports_root_and_branch_metrics():
+    class Stub(torch.nn.Module):
+        def __init__(self):
+            super().__init__()
+            self.anchor = torch.nn.Parameter(torch.zeros(1))
+            self.head = type(
+                'HeadMetadata', (),
+                {'hierarchy_name': 'pdl1_epithelial_immune_other'},
+            )()
+
+        def forward(self, images, return_components=False):
+            batch = len(images)
+            dtype = images.dtype
+            device = images.device
+            predictions = torch.zeros(batch, 11, 1, dtype=dtype, device=device)
+            predictions[:, :4, 0] = torch.tensor(
+                [256, 256, 20, 20], dtype=dtype, device=device
+            )
+            class_ids = (3, 1, 6)
+            for index, class_id in enumerate(class_ids):
+                predictions[index, 4 + class_id, 0] = 0.9
+            components = {
+                'predictions': predictions,
+                'root_probability': torch.tensor(
+                    [[[0.9], [0.05], [0.05]],
+                     [[0.05], [0.9], [0.05]],
+                     [[0.05], [0.05], [0.9]]],
+                    dtype=dtype, device=device,
+                ),
+                'epithelial_positive_probability': torch.tensor(
+                    [[[0.9]], [[0.1]], [[0.1]]], dtype=dtype, device=device
+                ),
+                'immune_lymphocyte_probability': torch.tensor(
+                    [[[0.1]], [[0.9]], [[0.1]]], dtype=dtype, device=device
+                ),
+                'immune_negative_probability': torch.tensor(
+                    [[[0.1]], [[0.9]], [[0.1]]], dtype=dtype, device=device
+                ),
+            }
+            return components if return_components else predictions
+
+    model = Stub()
+    images = torch.zeros(3, 3, 512, 512)
+    targets = {
+        'idx': torch.tensor([0.0, 1.0, 2.0]),
+        'cls': torch.tensor([3.0, 1.0, 6.0]),
+        'box': torch.tensor([
+            [0.5, 0.5, 20 / 512, 20 / 512],
+            [0.5, 0.5, 20 / 512, 20 / 512],
+            [0.5, 0.5, 20 / 512, 20 / 512],
+        ]),
+    }
+    metrics = compute_point_label_metrics_single(
+        model, [(images, targets)], torch.device('cpu'),
+        {'names': {index: str(index) for index in range(7)}},
+        class_agnostic_nms=True,
+    )
+    assert metrics['root_balanced_accuracy'] == 1.0
+    assert metrics['epithelial_branch_accuracy'] == 1.0
+    assert metrics['immune_type_accuracy'] == 1.0
+    assert metrics['immune_polarity_accuracy'] == 1.0
