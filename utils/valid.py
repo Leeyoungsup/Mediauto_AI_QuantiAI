@@ -5,6 +5,7 @@ import os
 import matplotlib.pyplot as plt
 import matplotlib.patches as patches
 import numpy as np
+from utils.ihc_dataset import PDL1_CLASS_COLORS, PDL1_CLASS_NAMES
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
 
@@ -73,8 +74,9 @@ def plot_training_progress(train_losses, val_det_recalls, val_cls_accs, val_macr
     
     # 7. 클래스별 F1-score (class_stats_history가 있을 경우)
     if class_stats_history is not None and len(class_stats_history) > 0:
-        class_names = ["class0", "class1", "class2", "class3", "other"]
-        class_colors = ['green', 'yellow', 'orange', 'red', 'gray']
+        class_names = list(class_stats_history[-1])
+        color_cycle = plt.get_cmap('tab10').colors
+        class_colors = [color_cycle[i % len(color_cycle)] for i in range(len(class_names))]
         
         # 클래스별 F1 데이터 추출
         for class_idx, (class_name, color) in enumerate(zip(class_names, class_colors)):
@@ -422,7 +424,7 @@ def compute_validation_metrics(model, val_loader, device, params):
             scale = torch.tensor((w, h, w, h)).to(device)
             
             # 모델 예측만 수행 (loss 계산 제거)
-            with torch.amp.autocast('cuda'):
+            with torch.amp.autocast('cuda', enabled=(device.type == 'cuda')):
                 val_outputs = model(val_images)
             
             # NMS for metric calculation
@@ -753,7 +755,8 @@ def compute_point_label_metrics_single(model, val_loader, device, params,
         params: 파라미터 (클래스 이름 등)
         distance_threshold: 매칭 거리 임계값 (픽셀 단위, 기본 16px)
         class_agnostic_nms: 클래스 간 중복 box도 제거할지 여부
-        tumor_threshold: 계층형 모델의 hard gate 임계값. None이면 기존 soft 출력 사용
+        tumor_threshold: target/other 계층형 모델의 hard gate 임계값.
+            None이면 기존 soft 출력 사용
     
     Returns:
         dict: {
@@ -763,8 +766,8 @@ def compute_point_label_metrics_single(model, val_loader, device, params,
             'macro_recall': 클래스별 평균 재현율,
             'macro_f1': 클래스별 평균 F1,
             'overall_recall': 전체 재현율,
-            'gate_tumor_recall': 매칭된 실제 Tumor 중 Tumor branch로 보낸 비율,
-            'gate_other_recall': 매칭된 실제 Other 중 Other branch로 보낸 비율,
+            'gate_epithelial_recall': 매칭된 epithelial 중 epithelial branch 비율,
+            'gate_other_recall': 매칭된 Other 중 Other branch로 보낸 비율,
             'gate_score': 두 gate recall의 조화평균,
             'class_stats': 클래스별 상세 통계
         }
@@ -782,25 +785,42 @@ def compute_point_label_metrics_single(model, val_loader, device, params,
     total_matched = 0
     total_correct_class = 0
     
-    # 클래스별 통계 (4개 클래스로 수정)
+    # params에 설정된 전체 클래스 수를 사용합니다.
     num_classes = len(params.get('names', {}))
     class_tp = np.zeros(num_classes)  # True Positive (올바르게 탐지+분류)
     class_fp = np.zeros(num_classes)  # False Positive (잘못 탐지 또는 잘못 분류)
     class_fn = np.zeros(num_classes)  # False Negative (탐지 실패)
     class_gt_count = np.zeros(num_classes)  # GT 개수
     other_class_index = num_classes - 1
-    gate_tumor_total = 0
-    gate_tumor_correct = 0
+    epithelial_class_ids = set(params.get('gate_class_ids', (0, 3)))
+    gate_epithelial_total = 0
+    gate_epithelial_correct = 0
     gate_other_total = 0
     gate_other_correct = 0
+    hierarchy_root_total = np.zeros(3, dtype=np.int64)
+    hierarchy_root_correct = np.zeros(3, dtype=np.int64)
+    hierarchy_epithelial_total = 0
+    hierarchy_epithelial_correct = 0
+    hierarchy_immune_type_total = 0
+    hierarchy_immune_type_correct = 0
+    hierarchy_immune_polarity_total = 0
+    hierarchy_immune_polarity_correct = 0
+    base_model = model.module if hasattr(model, 'module') else model
+    is_pdl1_hierarchy = (
+        getattr(getattr(base_model, 'head', None), 'hierarchy_name', None)
+        == 'pdl1_epithelial_immune_other'
+    )
     
     with torch.no_grad():
         for batch_idx, (images, targets) in enumerate(val_loader):
             images = images.to(device).float() / 255
             
             # 예측 (단일 이미지)
-            with torch.amp.autocast('cuda'):
-                if tumor_threshold is None:
+            with torch.amp.autocast('cuda', enabled=(device.type == 'cuda')):
+                if is_pdl1_hierarchy:
+                    components = model(images, return_components=True)
+                    pred = components['predictions']
+                elif tumor_threshold is None:
                     pred = model(images)
                 else:
                     from utils.hierarchical import apply_tumor_gate
@@ -810,12 +830,30 @@ def compute_point_label_metrics_single(model, val_loader, device, params,
                     )
             
             # NMS 적용
-            results = util.non_max_suppression(
-                pred,
-                confidence_threshold=0.25,
-                iou_threshold=0.45,
-                class_agnostic=class_agnostic_nms,
-            )
+            if is_pdl1_hierarchy:
+                results, result_anchor_indices = util.non_max_suppression(
+                    pred,
+                    confidence_threshold=0.25,
+                    iou_threshold=0.45,
+                    class_agnostic=class_agnostic_nms,
+                    return_indices=True,
+                )
+            elif tumor_threshold is None:
+                results = util.non_max_suppression(
+                    pred,
+                    confidence_threshold=0.25,
+                    iou_threshold=0.45,
+                    class_agnostic=class_agnostic_nms,
+                )
+                result_anchor_indices = None
+            else:
+                results, result_anchor_indices = util.non_max_suppression(
+                    pred,
+                    confidence_threshold=0.25,
+                    iou_threshold=0.45,
+                    class_agnostic=class_agnostic_nms,
+                    return_indices=True,
+                )
             
             # 각 이미지에 대해 처리
             for i in range(len(images)):
@@ -832,11 +870,11 @@ def compute_point_label_metrics_single(model, val_loader, device, params,
                 batch_box = box_targets[batch_mask].cpu().numpy()
                 
                 # GT 중심점 계산 (normalized -> pixel)
-                img_size = 512  # 이미지 크기
+                image_height, image_width = images.shape[-2:]
                 gt_centers = []
                 for box in batch_box:
-                    x_center = box[0] * img_size
-                    y_center = box[1] * img_size
+                    x_center = box[0] * image_width
+                    y_center = box[1] * image_height
                     gt_centers.append([x_center, y_center])
                 gt_centers = np.array(gt_centers)
                 
@@ -883,16 +921,73 @@ def compute_point_label_metrics_single(model, val_loader, device, params,
                                 gt_cls = int(batch_cls[gt_idx])
                                 pred_cls = int(pred_classes[pred_idx])
 
-                                # Detection과 분리한 binary Tumor/Other gate 통계
-                                # (매칭된 cell만 대상으로 test notebook과 동일하게 계산)
-                                if gt_cls == other_class_index:
-                                    gate_other_total += 1
-                                    if pred_cls == other_class_index:
-                                        gate_other_correct += 1
+                                # Immune은 gate metric에서 제외합니다. 선택된 raw
+                                # anchor의 실제 gate probability로 epithelial/other만 평가합니다.
+                                if result_anchor_indices is not None:
+                                    anchor_index = result_anchor_indices[i][pred_idx]
+                                    gate_is_epithelial = bool(
+                                        components['tumor_probability'][i, 0, anchor_index]
+                                        >= tumor_threshold
+                                    )
                                 else:
-                                    gate_tumor_total += 1
-                                    if pred_cls != other_class_index:
-                                        gate_tumor_correct += 1
+                                    gate_is_epithelial = None
+
+                                if is_pdl1_hierarchy:
+                                    anchor_index = result_anchor_indices[i][pred_idx]
+                                    root_pred = int(
+                                        components['root_probability'][
+                                            i, :, anchor_index
+                                        ].argmax().item()
+                                    )
+                                    if gt_cls in (0, 3):
+                                        root_target = 0
+                                    elif gt_cls in (1, 2, 4, 5):
+                                        root_target = 1
+                                    else:
+                                        root_target = 2
+                                    hierarchy_root_total[root_target] += 1
+                                    hierarchy_root_correct[root_target] += int(
+                                        root_pred == root_target
+                                    )
+
+                                    if gt_cls in (0, 3):
+                                        hierarchy_epithelial_total += 1
+                                        positive_pred = bool(
+                                            components[
+                                                'epithelial_positive_probability'
+                                            ][i, 0, anchor_index] >= 0.5
+                                        )
+                                        hierarchy_epithelial_correct += int(
+                                            positive_pred == (gt_cls == 3)
+                                        )
+                                    elif gt_cls in (1, 2, 4, 5):
+                                        hierarchy_immune_type_total += 1
+                                        hierarchy_immune_polarity_total += 1
+                                        lymphocyte_pred = bool(
+                                            components[
+                                                'immune_lymphocyte_probability'
+                                            ][i, 0, anchor_index] >= 0.5
+                                        )
+                                        negative_pred = bool(
+                                            components[
+                                                'immune_negative_probability'
+                                            ][i, 0, anchor_index] >= 0.5
+                                        )
+                                        hierarchy_immune_type_correct += int(
+                                            lymphocyte_pred == (gt_cls in (1, 4))
+                                        )
+                                        hierarchy_immune_polarity_correct += int(
+                                            negative_pred == (gt_cls in (1, 2))
+                                        )
+
+                                if gt_cls in epithelial_class_ids and gate_is_epithelial is not None:
+                                    gate_epithelial_total += 1
+                                    if gate_is_epithelial:
+                                        gate_epithelial_correct += 1
+                                elif gt_cls == other_class_index and gate_is_epithelial is not None:
+                                    gate_other_total += 1
+                                    if not gate_is_epithelial:
+                                        gate_other_correct += 1
                                 
                                 # 클래스가 일치하면 TP
                                 if gt_cls == pred_cls:
@@ -926,15 +1021,33 @@ def compute_point_label_metrics_single(model, val_loader, device, params,
     # 메트릭 계산
     detection_recall = total_matched / total_gt if total_gt > 0 else 0
     classification_accuracy = total_correct_class / total_matched if total_matched > 0 else 0
-    gate_tumor_recall = (
-        gate_tumor_correct / gate_tumor_total if gate_tumor_total > 0 else 0
+    gate_epithelial_recall = (
+        gate_epithelial_correct / gate_epithelial_total
+        if gate_epithelial_total > 0 else 0
     )
     gate_other_recall = (
         gate_other_correct / gate_other_total if gate_other_total > 0 else 0
     )
     gate_score = (
-        2 * gate_tumor_recall * gate_other_recall
-        / (gate_tumor_recall + gate_other_recall + 1e-9)
+        2 * gate_epithelial_recall * gate_other_recall
+        / (gate_epithelial_recall + gate_other_recall + 1e-9)
+    )
+    root_recalls = np.divide(
+        hierarchy_root_correct, hierarchy_root_total,
+        out=np.zeros(3, dtype=np.float64), where=hierarchy_root_total > 0,
+    )
+    root_balanced_accuracy = float(root_recalls.mean())
+    epithelial_branch_accuracy = (
+        hierarchy_epithelial_correct / hierarchy_epithelial_total
+        if hierarchy_epithelial_total else 0.0
+    )
+    immune_type_accuracy = (
+        hierarchy_immune_type_correct / hierarchy_immune_type_total
+        if hierarchy_immune_type_total else 0.0
+    )
+    immune_polarity_accuracy = (
+        hierarchy_immune_polarity_correct / hierarchy_immune_polarity_total
+        if hierarchy_immune_polarity_total else 0.0
     )
     
     # 클래스별 메트릭
@@ -986,9 +1099,18 @@ def compute_point_label_metrics_single(model, val_loader, device, params,
         'macro_recall': macro_recall,
         'macro_f1': macro_f1,
         'overall_recall': overall_recall,
-        'gate_tumor_recall': gate_tumor_recall,
+        'gate_epithelial_recall': gate_epithelial_recall,
+        # 이전 checkpoint/plot 코드 호환용 alias
+        'gate_tumor_recall': gate_epithelial_recall,
         'gate_other_recall': gate_other_recall,
         'gate_score': gate_score,
+        'root_epithelial_recall': float(root_recalls[0]),
+        'root_immune_recall': float(root_recalls[1]),
+        'root_other_recall': float(root_recalls[2]),
+        'root_balanced_accuracy': root_balanced_accuracy,
+        'epithelial_branch_accuracy': epithelial_branch_accuracy,
+        'immune_type_accuracy': immune_type_accuracy,
+        'immune_polarity_accuracy': immune_polarity_accuracy,
         'class_stats': class_stats
     }
 
@@ -1202,124 +1324,109 @@ def compute_point_label_metrics(model, val_loader, device, params, distance_thre
         'class_stats': class_stats
     }
     
-def visualize_ground_truth_and_prediction_separately_detail_single(model, dataset, idx=0, conf_threshold=0.5, iou_threshold=0.3, epoch=None, save_dir=None):
-    """실제 라벨과 예측 라벨을 subplot으로 좌우에 표시하는 함수 (일반 YOLO, tissue context 없음)"""
-    if len(dataset) <= idx:
-        print(f"경고: 데이터셋이 비어 있거나 idx {idx}가 데이터셋 크기({len(dataset)})보다 큽니다.")
-        return
-    
+def visualize_ground_truth_and_prediction_separately_detail_single(
+        model, dataset, idx=0, conf_threshold=0.5, iou_threshold=0.3,
+        epoch=None, save_dir=None, class_names=None, class_colors=None,
+        gate_threshold=None):
+    """Plot PD-L1 ground truth and prediction using the seven supported classes."""
+    if not 0 <= idx < len(dataset):
+        print(f"경고: idx {idx}가 데이터셋 크기({len(dataset)}) 범위를 벗어났습니다.")
+        return None
+
+    class_names = class_names or getattr(dataset, 'class_names', PDL1_CLASS_NAMES)
+    class_colors = class_colors or getattr(dataset, 'class_colors', PDL1_CLASS_COLORS)
     model.eval()
     img, cls, box, _ = dataset[idx]
-    
-    # 모델이 있는 device 가져오기
     model_device = next(model.parameters()).device
-    
-    # 하나의 figure에 2개의 subplot 생성 (1행 2열)
-    fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(16, 8))
-    img = img.cpu() / 255.
-    # Subplot 1: Ground Truth (실제 라벨)
-    ax1.imshow(img.permute(1, 2, 0).cpu().numpy())
-    class_names ={
-    0: "class0",   # 0+
-    1: "class1",   # 1+
-    2: "class2",   # 2+
-    3: "class3",   # 3+
-    4: "other"
-    }
 
-    class_colors_hex = {
-        "class0": "#00FF00",           # 초록
-        "class1": "#FFFF00",              # 노랑
-        "class2": "#FFA500",    # 주황
-        "class3": "#FF0000",          # 빨강
-        "other": "#808080",          # 회색
-    }
+    fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(17, 8))
+    img = img.cpu().float() / 255.0
+    displayed_image = img.permute(1, 2, 0).numpy()
+    ax1.imshow(displayed_image)
 
-    colors = ["#00FF00","#FFFF00",              # 노랑
-        "#FFA500",    # 주황
-        "#FF0000",          # 빨강
-        "#808080",
-    ]
+    for class_tensor, box_tensor in zip(cls, box):
+        class_id = int(class_tensor.item())
+        if class_id not in class_names:
+            continue
+        center_x = box_tensor[0].item() * img.shape[2]
+        center_y = box_tensor[1].item() * img.shape[1]
+        ax1.scatter(
+            center_x, center_y, facecolors='none', s=24, marker='o',
+            edgecolors=class_colors[class_id], linewidths=1.2,
+        )
 
-    for i in range(len(cls)):
-        class_id = int(cls[i].item())
-        x_center, y_center, w, h = box[i].tolist()
-        
-        x = (x_center - w/2) * img.shape[2]
-        y = (y_center - h/2) * img.shape[1]
-        w_box = w * img.shape[2]
-        h_box = h * img.shape[1]
-        color=colors[class_id]
-        # 중심점 표시
-        # 중심점 좌표 계산
-        center_x = int(x + w_box / 2)
-        center_y = int(y + h_box / 2)
-
-        ax1.scatter(center_x, center_y, facecolors='none',  s=20, marker='o', edgecolors=color, linewidths=1)
-
-    gt_title = f'Ground Truth'
+    gt_title = f'Ground Truth - {len(cls)} cells'
     if epoch is not None:
         gt_title += f' - Epoch {epoch}'
-    ax1.set_title(gt_title, fontsize=16, fontweight='bold')
+    ax1.set_title(gt_title, fontsize=15, fontweight='bold')
     ax1.axis('off')
-    
-    # Subplot 2: Model Prediction (예측 라벨)
-    ax2.imshow(img.permute(1, 2, 0).cpu().numpy())
+
+    ax2.imshow(displayed_image)
     prediction_count = 0
     with torch.no_grad():
         img_input = img.unsqueeze(0).to(model_device)
-        with torch.amp.autocast('cuda'):
-            pred = model(img_input)
+        with torch.amp.autocast('cuda', enabled=(model_device.type == 'cuda')):
+            if gate_threshold is None:
+                pred = model(img_input)
+            else:
+                from utils.hierarchical import apply_tumor_gate
+                pred = apply_tumor_gate(
+                    model(img_input, return_components=True),
+                    tumor_threshold=gate_threshold,
+                )
 
-        # NMS 적용
-        results = util.non_max_suppression(pred, confidence_threshold=conf_threshold, iou_threshold=iou_threshold)
-        if len(results[0]) > 0:
-            for *xyxy, conf, cls_id in results[0]:
-                x1, y1, x2, y2 = xyxy
-                x1, y1, x2, y2 = x1.item(), y1.item(), x2.item(), y2.item()
-                w_pred = x2 - x1
-                h_pred = y2 - y1
-                
-                
-                color = colors[int(cls_id.item())]
-                center_x = (x1 + x2)//2
-                center_y = (y1 + y2)//2
-                ax2.scatter(center_x, center_y, facecolors='none',  s=20, marker='o', edgecolors=color, linewidths=1)
-
+        results = util.non_max_suppression(
+            pred, confidence_threshold=conf_threshold,
+            iou_threshold=iou_threshold, class_agnostic=True,
+        )
+        if results and len(results[0]) > 0:
+            for *xyxy, _confidence, cls_id in results[0]:
+                class_id = int(cls_id.item())
+                if class_id not in class_names:
+                    continue
+                x1, y1, x2, y2 = (coordinate.item() for coordinate in xyxy)
+                ax2.scatter(
+                    (x1 + x2) / 2, (y1 + y2) / 2,
+                    facecolors='none', s=24, marker='o',
+                    edgecolors=class_colors[class_id], linewidths=1.2,
+                )
                 prediction_count += 1
-        
-        if prediction_count == 0:
-            ax2.text(img.shape[2]//2, img.shape[1]//2, 'No Predictions', 
-                     fontsize=20, color='white', ha='center', va='center',
-                     bbox=dict(facecolor='red', alpha=0.8, pad=10))
-    
+
+    if prediction_count == 0:
+        ax2.text(
+            img.shape[2] / 2, img.shape[1] / 2, 'No Predictions',
+            fontsize=18, color='white', ha='center', va='center',
+            bbox=dict(facecolor='red', alpha=0.8, pad=10),
+        )
+
     pred_title = f'Model Prediction - {prediction_count} detections'
     if epoch is not None:
         pred_title += f' - Epoch {epoch}'
-    ax2.set_title(pred_title, fontsize=16, fontweight='bold')
+    ax2.set_title(pred_title, fontsize=15, fontweight='bold')
     ax2.axis('off')
-    
-    # 전체 figure 제목 설정
+
     if epoch is not None:
-        fig.suptitle(f'Validation Comparison - Epoch {epoch}, Sample {idx+1}', 
-                     fontsize=18, fontweight='bold', y=0.95)
-    
-    # 범례 추가
+        fig.suptitle(
+            f'Validation Comparison - Epoch {epoch}, Sample {idx + 1}',
+            fontsize=17, fontweight='bold', y=0.96,
+        )
+
     legend_elements = [
-        patches.Patch(color=colors[i], label=class_names[i]) for i in range(len(colors))
+        patches.Patch(color=class_colors[class_id], label=class_names[class_id])
+        for class_id in sorted(class_names)
     ]
-    fig.legend(handles=legend_elements, loc='lower center', ncol=4, 
-               bbox_to_anchor=(0.5, 0.02), fontsize=12)
-    
-    # 레이아웃 조정
+    fig.legend(
+        handles=legend_elements, loc='lower center', ncol=4,
+        bbox_to_anchor=(0.5, 0.01), fontsize=10,
+    )
     plt.tight_layout()
-    plt.subplots_adjust(bottom=0.15, top=0.85)
-    
-    # 저장
-    if save_dir and epoch:
+    plt.subplots_adjust(bottom=0.16, top=0.88)
+
+    save_path = None
+    if save_dir and epoch is not None:
+        os.makedirs(save_dir, exist_ok=True)
         save_path = os.path.join(save_dir, f'validation_comparison_epoch_{epoch}.png')
-        plt.savefig(save_path, dpi=150, bbox_inches='tight')
+        fig.savefig(save_path, dpi=150, bbox_inches='tight')
         print(f"✅ 비교 이미지 저장: {save_path}")
-    
-    # plt.show()
-    plt.clf()
+    plt.close(fig)
+    return save_path

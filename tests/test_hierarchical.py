@@ -17,6 +17,17 @@ def test_hierarchical_probabilities_sum_to_cell_probability():
     assert torch.allclose(probabilities.sum(dim=1), objectness.sigmoid().squeeze(1))
 
 
+def test_selective_gate_accepts_amp_mixed_dtypes():
+    objectness = torch.tensor([[[0.2, -0.4]]], dtype=torch.float16)
+    epithelial_gate = torch.tensor([[[0.7, -1.0]]], dtype=torch.float16)
+    detail = torch.randn(1, 6, 2, dtype=torch.float32)
+    probabilities = nn.HierarchicalHead.probabilities(
+        objectness, epithelial_gate, detail, gate_class_ids=(0, 3)
+    )
+    assert probabilities.shape == (1, 7, 2)
+    assert torch.isfinite(probabilities).all()
+
+
 def test_forward_loss_backward_and_eval_shape():
     model = nn.yolo_v11_n_hierarchical()
     images = torch.rand(2, 3, 128, 128)
@@ -63,6 +74,18 @@ def test_nms_defaults_to_one_mutually_exclusive_class():
     assert result[0][0, 5].item() == 0
 
 
+def test_nms_can_return_source_anchor_indices():
+    outputs = torch.tensor([[
+        [10.0, 30.0], [10.0, 30.0], [4.0, 4.0], [4.0, 4.0],
+        [0.1, 0.9], [0.2, 0.1],
+    ]])
+    result, indices = util.non_max_suppression(
+        outputs, confidence_threshold=0.25, return_indices=True
+    )
+    assert result[0].shape[0] == 1
+    assert indices[0].tolist() == [1]
+
+
 def test_explicit_tumor_gate_routes_low_probability_to_other():
     components = {
         'predictions': torch.zeros(1, 9, 2),
@@ -89,3 +112,55 @@ def test_flat_checkpoint_warm_start():
         hierarchical_model.head.grade[0].weight,
         flat_model.head.cls[0][4].weight[:4],
     )
+
+
+def test_seven_class_pdl1_head_and_checkpoint_transfer():
+    flat_model = nn.yolo_v11_n(num_classes=7)
+    hierarchical_model = nn.yolo_v11_n_hierarchical(
+        num_grades=6, gate_class_ids=(0, 3)
+    )
+    report = load_flat_checkpoint_into_hierarchical(
+        hierarchical_model, {'model_state_dict': flat_model.state_dict()}
+    )
+    assert report['loaded_fraction'] == 1.0
+
+    hierarchical_model.eval()
+    with torch.no_grad():
+        predictions = hierarchical_model(torch.rand(1, 3, 128, 128))
+    assert predictions.shape[1] == 11  # xywh + six PD-L1 classes + other
+
+
+def test_pdl1_immune_scores_survive_both_gate_decisions():
+    grade_probability = torch.tensor([[[0.1, 0.1], [0.7, 0.7],
+                                        [0.05, 0.05], [0.05, 0.05],
+                                        [0.05, 0.05], [0.05, 0.05]]])
+    components = {
+        'predictions': torch.zeros(1, 11, 2),
+        'objectness': torch.tensor([[[0.9, 0.9]]]),
+        'tumor_probability': torch.tensor([[[0.4, 0.8]]]),
+        'grade_probability': grade_probability,
+        'gate_class_ids': (0, 3),
+    }
+    predictions = apply_tumor_gate(components, tumor_threshold=0.6)
+
+    # Epithelial follows the gate, immune class 1 remains on both sides.
+    assert predictions[0, 4, 0] == 0
+    assert predictions[0, 4, 1] > 0
+    assert predictions[0, 5, 0] > 0
+    assert predictions[0, 5, 1] > 0
+    assert predictions[0, 10, 0] > 0
+    assert predictions[0, 10, 1] == 0
+
+
+def test_pdl1_immune_only_batch_has_no_epithelial_gate_loss():
+    model = nn.yolo_v11_n_hierarchical(num_grades=6, gate_class_ids=(0, 3))
+    model.train()
+    images = torch.rand(1, 3, 128, 128)
+    targets = {
+        'idx': torch.tensor([0.0]),
+        'cls': torch.tensor([1.0]),  # Negative Lymphocyte
+        'box': torch.tensor([[0.5, 0.5, 0.1, 0.1]]),
+    }
+    losses = HierarchicalComputeLoss(model, {'top_k': 5})(model(images), targets)
+    assert losses['tumor'].item() == 0.0
+    assert losses['grade'].item() > 0.0

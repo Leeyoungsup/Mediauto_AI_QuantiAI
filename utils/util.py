@@ -121,7 +121,8 @@ def compute_metric(output, target, iou_v):
 
 
 def non_max_suppression(outputs, confidence_threshold=0.001, iou_threshold=0.65,
-                        class_agnostic=False, multi_label=False):
+                        class_agnostic=False, multi_label=False,
+                        return_indices=False):
     """Apply NMS to model predictions.
 
     IHC cell classes are mutually exclusive, so the default is one best class
@@ -140,7 +141,9 @@ def non_max_suppression(outputs, confidence_threshold=0.001, iou_threshold=0.65,
     start = time()
     limit = 0.5 + 0.05 * bs  # seconds to quit after
     output = [torch.zeros((0, 6), device=outputs.device)] * bs
+    output_indices = [torch.zeros(0, dtype=torch.long, device=outputs.device)] * bs
     for index, x in enumerate(outputs):  # image index, image inference
+        anchor_indices = xc[index].nonzero(as_tuple=False).squeeze(1)
         x = x.transpose(0, -1)[xc[index]]  # confidence
 
         # If none remain process next image
@@ -153,15 +156,20 @@ def non_max_suppression(outputs, confidence_threshold=0.001, iou_threshold=0.65,
         if nc > 1 and multi_label:
             i, j = (cls > confidence_threshold).nonzero(as_tuple=False).T
             x = torch.cat((box[i], x[i, 4 + j, None], j[:, None].float()), 1)
+            anchor_indices = anchor_indices[i]
         else:  # best class only
             conf, j = cls.max(1, keepdim=True)
-            x = torch.cat((box, conf, j.float()), 1)[conf.view(-1) > confidence_threshold]
+            confidence_mask = conf.view(-1) > confidence_threshold
+            x = torch.cat((box, conf, j.float()), 1)[confidence_mask]
+            anchor_indices = anchor_indices[confidence_mask]
 
         # Check shape
         n = x.shape[0]  # number of boxes
         if not n:  # no boxes
             continue
-        x = x[x[:, 4].argsort(descending=True)]  # sort by confidence and remove excess boxes
+        order = x[:, 4].argsort(descending=True)
+        x = x[order]  # sort by confidence and remove excess boxes
+        anchor_indices = anchor_indices[order]
 
         # Batched NMS (per-class offset) or class-agnostic NMS
         if class_agnostic:
@@ -172,9 +180,12 @@ def non_max_suppression(outputs, confidence_threshold=0.001, iou_threshold=0.65,
         indices = torchvision.ops.nms(boxes, scores, iou_threshold)  # NMS
 
         output[index] = x[indices]
+        output_indices[index] = anchor_indices[indices]
         if (time() - start) > limit:
             break  # time limit exceeded
 
+    if return_indices:
+        return output, output_indices
     return output
 
 
@@ -693,7 +704,19 @@ class ComputeLoss:
         self.device = device
 
         self.box_loss = BoxLoss(m.ch - 1).to(device)
-        self.cls_loss = torch.nn.BCEWithLogitsLoss(reduction='none')
+        cls_pos_weight = params.get('cls_pos_weight')
+        if cls_pos_weight is not None:
+            cls_pos_weight = torch.as_tensor(
+                cls_pos_weight, dtype=torch.float32, device=device
+            )
+            if cls_pos_weight.numel() != self.nc:
+                raise ValueError(
+                    f"cls_pos_weight has {cls_pos_weight.numel()} values; "
+                    f"expected {self.nc}"
+                )
+        self.cls_loss = torch.nn.BCEWithLogitsLoss(
+            reduction='none', pos_weight=cls_pos_weight
+        )
         self.assigner = Assigner(nc=self.nc, top_k=10, alpha=0.5, beta=6.0)
 
         self.project = torch.arange(m.ch, dtype=torch.float, device=device)
