@@ -35,6 +35,7 @@ PDL1_CLASS_COLORS = {
     6: "#7f7f7f",
 }
 IMAGE_SUFFIXES = (".jpeg", ".jpg", ".png", ".tif", ".tiff")
+MAX_CELL_BOX_SIZE_PX = 100.0
 
 
 def slide_id_from_stem(stem: str) -> str:
@@ -262,6 +263,12 @@ class IHCHierarchicalDataset(Dataset):
             cx, cy = float(cell["local_x"]), float(cell["local_y"])
             x0, y0, x1, y1 = cx - width / 2, cy - height / 2, cx + width / 2, cy + height / 2
         else:
+            return None
+
+        # Cell boxes larger than 100 px in either dimension are annotation
+        # errors. Apply the limit in the source-image coordinate system before
+        # clipping or resizing so every downstream consumer sees the same set.
+        if x1 - x0 > MAX_CELL_BOX_SIZE_PX or y1 - y0 > MAX_CELL_BOX_SIZE_PX:
             return None
 
         x0, x1 = np.clip([x0, x1], 0, image_width)

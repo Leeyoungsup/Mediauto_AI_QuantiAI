@@ -786,7 +786,8 @@ def compute_distance_matrix(centers1, centers2):
 
 def compute_point_label_metrics_single(model, val_loader, device, params,
                                        distance_threshold=16, class_agnostic_nms=False,
-                                       tumor_threshold=None):
+                                       tumor_threshold=None,
+                                       confidence_threshold=0.25):
     """
     Point-label에 최적화된 검증 메트릭 계산 (일반 YOLO, tissue context 없음)
     - Distance-based matching (IoU 대신 중심점 거리 사용)
@@ -802,6 +803,7 @@ def compute_point_label_metrics_single(model, val_loader, device, params,
         class_agnostic_nms: 클래스 간 중복 box도 제거할지 여부
         tumor_threshold: target/other 계층형 모델의 hard gate 임계값.
             None이면 기존 soft 출력 사용
+        confidence_threshold: NMS 전에 유지할 최소 class confidence
     
     Returns:
         dict: {
@@ -878,7 +880,7 @@ def compute_point_label_metrics_single(model, val_loader, device, params,
             if is_pdl1_hierarchy:
                 results, result_anchor_indices = util.non_max_suppression(
                     pred,
-                    confidence_threshold=0.25,
+                    confidence_threshold=confidence_threshold,
                     iou_threshold=0.45,
                     class_agnostic=class_agnostic_nms,
                     return_indices=True,
@@ -886,7 +888,7 @@ def compute_point_label_metrics_single(model, val_loader, device, params,
             elif tumor_threshold is None:
                 results = util.non_max_suppression(
                     pred,
-                    confidence_threshold=0.25,
+                    confidence_threshold=confidence_threshold,
                     iou_threshold=0.45,
                     class_agnostic=class_agnostic_nms,
                 )
@@ -894,7 +896,7 @@ def compute_point_label_metrics_single(model, val_loader, device, params,
             else:
                 results, result_anchor_indices = util.non_max_suppression(
                     pred,
-                    confidence_threshold=0.25,
+                    confidence_threshold=confidence_threshold,
                     iou_threshold=0.45,
                     class_agnostic=class_agnostic_nms,
                     return_indices=True,
@@ -968,7 +970,9 @@ def compute_point_label_metrics_single(model, val_loader, device, params,
 
                                 # Immune은 gate metric에서 제외합니다. 선택된 raw
                                 # anchor의 실제 gate probability로 epithelial/other만 평가합니다.
-                                if result_anchor_indices is not None:
+                                if (result_anchor_indices is not None
+                                        and tumor_threshold is not None
+                                        and not is_pdl1_hierarchy):
                                     anchor_index = result_anchor_indices[i][pred_idx]
                                     gate_is_epithelial = bool(
                                         components['tumor_probability'][i, 0, anchor_index]

@@ -54,6 +54,31 @@ def test_nested_discovery_class_filter_cache_and_center_crop(tmp_path):
     assert dataset.cache_memory_bytes == 1024 * 1024 * 3
 
 
+def test_source_boxes_larger_than_100_pixels_are_filtered(tmp_path):
+    _, label_path = _write_pair(tmp_path, "slide_a")
+    data = json.loads(label_path.read_text(encoding="utf-8"))
+    data["cells"] = [
+        {
+            "class_name": "Negative Epithelial",
+            "local_coordinates": [[10, 10], [110, 10], [110, 110], [10, 110]],
+        },
+        {
+            "class_name": "Positive Epithelial",
+            "local_coordinates": [[10, 10], [111, 10], [111, 30], [10, 30]],
+        },
+        {
+            "class_name": "Positive Lymphocyte",
+            "local_coordinates": [[10, 10], [30, 10], [30, 111], [10, 111]],
+        },
+    ]
+    label_path.write_text(json.dumps(data), encoding="utf-8")
+
+    labels = IHCHierarchicalDataset.load_labels(label_path)
+
+    # Exactly 100x100 is valid; either dimension above 100 is rejected.
+    assert labels[:, 0].tolist() == [0.0]
+
+
 def test_random_crop_updates_and_filters_boxes(tmp_path, monkeypatch):
     _, label_path = _write_pair(tmp_path, "slide_a")
     data = json.loads(label_path.read_text(encoding="utf-8"))
