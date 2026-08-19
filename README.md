@@ -34,6 +34,11 @@ PD-L1 stomach cell detection 실험 코드입니다. 기본 데이터 위치는
 학습은 `Precise_PDL1_ST_hierarchical_train.ipynb`, 평가는
 `Precise_PDL1_ST_hierarchical_test.ipynb`에서 실행합니다.
 
+Epithelial 여부만 이진 분류하는 실험은
+`Precise_PDL1_ST_tumor_other_train.ipynb`를 사용합니다. 이 노트북에서는
+Negative/Positive Epithelial만 `Tumor`이고, Lymphocyte·Macrophage와 기존
+`other`는 모두 `Other`로 합칩니다.
+
 ## 모델
 
 - 원본 [Precise_BC_cell_scoring](https://github.com/Leeyoungsup/Precise_BC_cell_scoring)의
