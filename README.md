@@ -87,3 +87,16 @@ GPU_ID=1, batch size=16, 최대 2000 epoch, epoch당 50회 반복,
 AdamW(lr=1e-4)를 기본값으로 사용합니다. 양성 세포를 대상으로 80% class-aware crop을
 적용하고, 검증 점수는 `0.7 * Macro F1 + 0.3 * Detection Recall`입니다.
 저장 경로는 `../../model/mediautoAI_PDL1_Stomach/pdl1_flat_4class_negative_immune_other_yolov11/`입니다.
+
+## Flat 5-class / 7-class 비교 실험
+
+- `Precise_PDL1_ST_flat_5class_train.ipynb`: Negative Epithelial / Negative Immune /
+  Positive Epithelial / Positive Immune / other. 림프구·대식세포를 polarity별로 합칩니다.
+- `Precise_PDL1_ST_flat_7class_train.ipynb`: 원본 7개 클래스를 그대로 사용합니다.
+
+두 실험 모두 일반 YOLOv11-m과 Box + Cls + DFL loss를 사용합니다.
+현재 flat 4-class 코드의 설정(GPU_ID=0, batch size=16, lr=1e-4, 최대 2000 epoch,
+epoch당 50회 반복, 원본 7개 클래스에 동일한 crop 가중치)을 따릅니다.
+기존 slide split 및 검증/시각화 흐름을 유지하며 처음부터 학습합니다.
+체크포인트는 각각 `../../model/mediautoAI_PDL1_Stomach/pdl1_flat_5class/`와
+`../../model/mediautoAI_PDL1_Stomach/pdl1_flat_7class/`에 저장합니다.
