@@ -62,3 +62,28 @@ Negative/Positive Epithelial만 `Tumor`이고, Lymphocyte·Macrophage와 기존
   semantic feature를 warm-start하고 optimizer와 scheduler는 새로 시작합니다.
 - early stopping은 사용하지 않습니다. validation은 매 epoch, 시각화와 학습
   곡선 저장은 10 epoch마다 수행합니다.
+
+## 면역세포 통합 5-class 실험
+
+`Precise_PDL1_ST_merged_immune_train.ipynb`는 림프구/대식세포를 합쳐
+Negative Epithelial, Negative Immune, Positive Epithelial, Positive Immune,
+other의 5개 클래스로 학습합니다. Root(Epithelial / Immune / other)와 각
+세포군의 polarity 분기를 유지하고 immune type head/loss는 제거했습니다.
+구현은 `utils/pdl1_merged_immune.py`에 있습니다.
+
+GPU_ID=1, batch size=16, 최대 2000 epoch, epoch당 50회 반복을 기본값으로
+사용합니다. 처음부터 학습하며, 검증 점수는 `0.7 * Macro F1 + 0.3 * Detection Recall`입니다.
+체크포인트는 `../../model/mediautoAI_PDL1_Stomach/pdl1_merged_immune_hierarchical_yolov11/`에 저장합니다.
+
+## Negative Immune을 other로 합치는 flat 4-class 실험
+
+`Precise_PDL1_ST_flat_4class_train.ipynb`는 일반 YOLOv11-m으로
+Negative Epithelial / Positive Epithelial / Positive Immune / other를 직접 검출합니다.
+Positive Lymphocyte와 Positive Macrophage는 Positive Immune으로,
+Negative Lymphocyte와 Negative Macrophage는 기존 other와 합칩니다.
+세포 bbox는 유지하며 계층형 head/loss는 사용하지 않습니다.
+
+GPU_ID=1, batch size=16, 최대 2000 epoch, epoch당 50회 반복,
+AdamW(lr=1e-4)를 기본값으로 사용합니다. 양성 세포를 대상으로 80% class-aware crop을
+적용하고, 검증 점수는 `0.7 * Macro F1 + 0.3 * Detection Recall`입니다.
+저장 경로는 `../../model/mediautoAI_PDL1_Stomach/pdl1_flat_4class_negative_immune_other_yolov11/`입니다.
