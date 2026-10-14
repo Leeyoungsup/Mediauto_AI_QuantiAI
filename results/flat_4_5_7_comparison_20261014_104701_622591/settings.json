@@ -1,0 +1,128 @@
+{
+  "confidence": 0.1,
+  "nms_iou": 0.45,
+  "distance_pixels": 16,
+  "input_size": 512,
+  "resize_size": 1024,
+  "validation_slides": [
+    "CODIPAI-STBX-SS-04321-I-PD-22.ndpi__fbb4b006f8d4",
+    "CODIPAI-STBX-SS-04324-I-PD-22.ndpi__3d7038c68446",
+    "CODIPAI-STBX-SS-04330-I-PD-22.ndpi__86981b3f5da8"
+  ],
+  "visual_indices": [
+    0,
+    10,
+    20,
+    30,
+    40,
+    51
+  ],
+  "checkpoint_name": "last_model.pt",
+  "experiments": {
+    "flat4": {
+      "path": "../../model/mediautoAI_PDL1_Stomach/pdl1_flat_4class_negative_immune_other/last_model.pt",
+      "architecture": "pdl1_flat_4class_negative_immune_other",
+      "names": {
+        "0": "Negative Epithelial",
+        "1": "Positive Epithelial",
+        "2": "Positive Immune",
+        "3": "other"
+      },
+      "colors": {
+        "0": "#1f77b4",
+        "1": "#d62728",
+        "2": "#ff7f0e",
+        "3": "#7f7f7f"
+      },
+      "source_mapping": [
+        0,
+        3,
+        3,
+        1,
+        2,
+        2,
+        3
+      ],
+      "common_mapping": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "flat5": {
+      "path": "../../model/mediautoAI_PDL1_Stomach/pdl1_flat_5class/last_model.pt",
+      "architecture": "pdl1_flat_5class",
+      "names": {
+        "0": "Negative Epithelial",
+        "1": "Negative Immune",
+        "2": "Positive Epithelial",
+        "3": "Positive Immune",
+        "4": "other"
+      },
+      "colors": {
+        "0": "#1f77b4",
+        "1": "#2ca02c",
+        "2": "#d62728",
+        "3": "#ff7f0e",
+        "4": "#7f7f7f"
+      },
+      "source_mapping": [
+        0,
+        1,
+        1,
+        2,
+        3,
+        3,
+        4
+      ],
+      "common_mapping": [
+        0,
+        3,
+        1,
+        2,
+        3
+      ]
+    },
+    "flat7": {
+      "path": "../../model/mediautoAI_PDL1_Stomach/pdl1_flat_7class/last_model.pt",
+      "architecture": "pdl1_flat_7class",
+      "names": {
+        "0": "Negative Epithelial",
+        "1": "Negative Lymphocyte",
+        "2": "Negative Macrophage",
+        "3": "Positive Epithelial",
+        "4": "Positive Lymphocyte",
+        "5": "Positive Macrophage",
+        "6": "other"
+      },
+      "colors": {
+        "0": "#1f77b4",
+        "1": "#17becf",
+        "2": "#2ca02c",
+        "3": "#d62728",
+        "4": "#ff7f0e",
+        "5": "#9467bd",
+        "6": "#7f7f7f"
+      },
+      "source_mapping": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "common_mapping": [
+        0,
+        3,
+        3,
+        1,
+        2,
+        2,
+        3
+      ]
+    }
+  }
+}

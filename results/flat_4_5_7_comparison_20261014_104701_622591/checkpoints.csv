@@ -1,0 +1,4 @@
+model,checkpoint,epoch,saved_macro_f1,cls_pos_weight
+flat4,/home/user/urbandatalab/YSLee/model/mediautoAI_PDL1_Stomach/pdl1_flat_4class_negative_immune_other/last_model.pt,2000,0.3359933539769937,
+flat5,/home/user/urbandatalab/YSLee/model/mediautoAI_PDL1_Stomach/pdl1_flat_5class/last_model.pt,1530,0.28512779955077666,
+flat7,/home/user/urbandatalab/YSLee/model/mediautoAI_PDL1_Stomach/pdl1_flat_7class/last_model.pt,1515,0.18410063082403766,
