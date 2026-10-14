@@ -100,3 +100,15 @@ epoch당 50회 반복, 원본 7개 클래스에 동일한 crop 가중치)을 따
 기존 slide split 및 검증/시각화 흐름을 유지하며 처음부터 학습합니다.
 체크포인트는 각각 `../../model/mediautoAI_PDL1_Stomach/pdl1_flat_5class/`와
 `../../model/mediautoAI_PDL1_Stomach/pdl1_flat_7class/`에 저장합니다.
+
+## Flat 4 / 5 / 7-class 통합 평가
+
+`Precise_PDL1_ST_flat_4_5_7class_test.ipynb`에서 각 실험의 `best_model.pt`를
+동일한 validation split과 confidence 기준으로 비교합니다. 원래 클래스별 지표와
+공통 4-class 지표를 각각 계산하고, 동일 타일의 GT 및 세 모델 예측을 나란히 저장합니다.
+공통 평가에서는 음성 면역세포를 other로 합치고, 그룹별 최대 score 및 class-agnostic NMS를 사용합니다.
+이는 학습 시 사용한 validation 비교이며 독립적인 test set 평가는 아닙니다.
+
+실행 전 첫 코드 셀의 체크포인트 경로, GPU_ID, confidence, VIS_INDICES를 확인하세요.
+CSV 지표, checkpoint 정보, validation 타일 목록, 설정 및 비교 그림은
+`results/flat_4_5_7_comparison_<실행시각>/`에 저장됩니다.
