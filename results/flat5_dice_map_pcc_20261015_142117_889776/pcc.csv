@@ -1,0 +1,37 @@
+model,class,unit,pcc,pcc_undefined_reason,n_samples,count_mae,count_bias
+flat5,ALL,tile,0.9903933997801384,,400,12.91,12.865
+flat5,Negative Epithelial,tile,0.9937462503248692,,400,2.395,2.275
+flat5,Negative Immune,tile,0.9981929130240633,,400,0.1275,0.0275
+flat5,Positive Epithelial,tile,0.9997725934857359,,400,0.2325,0.1725
+flat5,Positive Immune,tile,0.999293188816488,,400,0.4825,0.4075
+flat5,other,tile,0.9935268204126568,,400,10.0975,9.9825
+flat5_positive_weighted,ALL,tile,0.9900152751037431,,400,13.8925,13.8225
+flat5_positive_weighted,Negative Epithelial,tile,0.9968129211808594,,400,2.0075,1.8925
+flat5_positive_weighted,Negative Immune,tile,0.9975025179815228,,400,0.19,0.115
+flat5_positive_weighted,Positive Epithelial,tile,0.9996865813754005,,400,0.32,0.295
+flat5_positive_weighted,Positive Immune,tile,0.9992815441633585,,400,0.475,0.435
+flat5_positive_weighted,other,tile,0.9912486155426115,,400,11.22,11.085
+flat5,ALL,patch,0.9865675992659905,,100,51.46,51.46
+flat5,Negative Epithelial,patch,0.9954274232079219,,100,9.16,9.1
+flat5,Negative Immune,patch,0.9991852093503538,,100,0.39,0.11
+flat5,Positive Epithelial,patch,0.9999453513940528,,100,0.71,0.69
+flat5,Positive Immune,patch,0.9996209135481334,,100,1.75,1.63
+flat5,other,patch,0.9910596729901102,,100,39.93,39.93
+flat5_positive_weighted,ALL,patch,0.9856339561768478,,100,55.33,55.29
+flat5_positive_weighted,Negative Epithelial,patch,0.9975679500345496,,100,7.67,7.57
+flat5_positive_weighted,Negative Immune,patch,0.9988429501486421,,100,0.58,0.46
+flat5_positive_weighted,Positive Epithelial,patch,0.9998380900088503,,100,1.2,1.18
+flat5_positive_weighted,Positive Immune,patch,0.9995631185091493,,100,1.78,1.74
+flat5_positive_weighted,other,patch,0.9879730024650986,,100,44.38,44.34
+flat5,ALL,slide,0.9926579408077891,,24,214.41666666666666,214.41666666666666
+flat5,Negative Epithelial,slide,0.9975662216072622,,24,37.916666666666664,37.916666666666664
+flat5,Negative Immune,slide,0.9994540424886119,,24,1.375,0.4583333333333333
+flat5,Positive Epithelial,slide,0.9999929558007955,,24,2.9583333333333335,2.875
+flat5,Positive Immune,slide,0.999751060276878,,24,7.125,6.791666666666667
+flat5,other,slide,0.992589053079363,,24,166.375,166.375
+flat5_positive_weighted,ALL,slide,0.9920276584776881,,24,230.375,230.375
+flat5_positive_weighted,Negative Epithelial,slide,0.9986603195659458,,24,31.625,31.541666666666668
+flat5_positive_weighted,Negative Immune,slide,0.9995139196893513,,24,2.0833333333333335,1.9166666666666667
+flat5_positive_weighted,Positive Epithelial,slide,0.9999644981844471,,24,5.0,4.916666666666667
+flat5_positive_weighted,Positive Immune,slide,0.9997067707764563,,24,7.25,7.25
+flat5_positive_weighted,other,slide,0.9897709206893088,,24,184.75,184.75
