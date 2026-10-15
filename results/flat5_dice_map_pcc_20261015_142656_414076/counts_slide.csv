@@ -1,0 +1,241 @@
+model,slide,class,gt_count,pred_count
+flat5,CODIPAI-STBX-SS-04320-I-PD-22.ndpi__14e53e4c2b62,Negative Epithelial,1903,1946
+flat5,CODIPAI-STBX-SS-04320-I-PD-22.ndpi__14e53e4c2b62,Negative Immune,78,79
+flat5,CODIPAI-STBX-SS-04320-I-PD-22.ndpi__14e53e4c2b62,Positive Epithelial,63,65
+flat5,CODIPAI-STBX-SS-04320-I-PD-22.ndpi__14e53e4c2b62,Positive Immune,283,294
+flat5,CODIPAI-STBX-SS-04320-I-PD-22.ndpi__14e53e4c2b62,other,4935,5079
+flat5,CODIPAI-STBX-SS-04321-I-PD-22.ndpi__fbb4b006f8d4,Negative Epithelial,1239,1251
+flat5,CODIPAI-STBX-SS-04321-I-PD-22.ndpi__fbb4b006f8d4,Negative Immune,253,254
+flat5,CODIPAI-STBX-SS-04321-I-PD-22.ndpi__fbb4b006f8d4,Positive Epithelial,0,1
+flat5,CODIPAI-STBX-SS-04321-I-PD-22.ndpi__fbb4b006f8d4,Positive Immune,148,150
+flat5,CODIPAI-STBX-SS-04321-I-PD-22.ndpi__fbb4b006f8d4,other,6338,6506
+flat5,CODIPAI-STBX-SS-04322-I-PD-22.ndpi__ea8e3ff733bc,Negative Epithelial,584,597
+flat5,CODIPAI-STBX-SS-04322-I-PD-22.ndpi__ea8e3ff733bc,Negative Immune,12,12
+flat5,CODIPAI-STBX-SS-04322-I-PD-22.ndpi__ea8e3ff733bc,Positive Epithelial,6,6
+flat5,CODIPAI-STBX-SS-04322-I-PD-22.ndpi__ea8e3ff733bc,Positive Immune,44,46
+flat5,CODIPAI-STBX-SS-04322-I-PD-22.ndpi__ea8e3ff733bc,other,4828,5022
+flat5,CODIPAI-STBX-SS-04323-I-PD-22.ndpi__fb38ac018389,Negative Epithelial,984,1007
+flat5,CODIPAI-STBX-SS-04323-I-PD-22.ndpi__fb38ac018389,Negative Immune,65,64
+flat5,CODIPAI-STBX-SS-04323-I-PD-22.ndpi__fb38ac018389,Positive Epithelial,4,3
+flat5,CODIPAI-STBX-SS-04323-I-PD-22.ndpi__fb38ac018389,Positive Immune,206,209
+flat5,CODIPAI-STBX-SS-04323-I-PD-22.ndpi__fb38ac018389,other,5879,6044
+flat5,CODIPAI-STBX-SS-04324-I-PD-22.ndpi__3d7038c68446,Negative Epithelial,2902,2956
+flat5,CODIPAI-STBX-SS-04324-I-PD-22.ndpi__3d7038c68446,Negative Immune,28,29
+flat5,CODIPAI-STBX-SS-04324-I-PD-22.ndpi__3d7038c68446,Positive Epithelial,538,542
+flat5,CODIPAI-STBX-SS-04324-I-PD-22.ndpi__3d7038c68446,Positive Immune,509,525
+flat5,CODIPAI-STBX-SS-04324-I-PD-22.ndpi__3d7038c68446,other,7701,7945
+flat5,CODIPAI-STBX-SS-04325-I-PD-22.ndpi__19fb5dfbe60a,Negative Epithelial,124,127
+flat5,CODIPAI-STBX-SS-04325-I-PD-22.ndpi__19fb5dfbe60a,Negative Immune,68,67
+flat5,CODIPAI-STBX-SS-04325-I-PD-22.ndpi__19fb5dfbe60a,Positive Epithelial,2088,2129
+flat5,CODIPAI-STBX-SS-04325-I-PD-22.ndpi__19fb5dfbe60a,Positive Immune,700,713
+flat5,CODIPAI-STBX-SS-04325-I-PD-22.ndpi__19fb5dfbe60a,other,2571,2696
+flat5,CODIPAI-STBX-SS-04326-I-PD-22.ndpi__74fce2ff798a,Negative Epithelial,176,178
+flat5,CODIPAI-STBX-SS-04326-I-PD-22.ndpi__74fce2ff798a,Negative Immune,16,15
+flat5,CODIPAI-STBX-SS-04326-I-PD-22.ndpi__74fce2ff798a,Positive Epithelial,86,87
+flat5,CODIPAI-STBX-SS-04326-I-PD-22.ndpi__74fce2ff798a,Positive Immune,114,111
+flat5,CODIPAI-STBX-SS-04326-I-PD-22.ndpi__74fce2ff798a,other,2832,2897
+flat5,CODIPAI-STBX-SS-04327-I-PD-22.ndpi__e514d744a656,Negative Epithelial,1021,1040
+flat5,CODIPAI-STBX-SS-04327-I-PD-22.ndpi__e514d744a656,Negative Immune,76,80
+flat5,CODIPAI-STBX-SS-04327-I-PD-22.ndpi__e514d744a656,Positive Epithelial,0,0
+flat5,CODIPAI-STBX-SS-04327-I-PD-22.ndpi__e514d744a656,Positive Immune,38,37
+flat5,CODIPAI-STBX-SS-04327-I-PD-22.ndpi__e514d744a656,other,3207,3310
+flat5,CODIPAI-STBX-SS-04328-I-PD-22.ndpi__72e6d29b69e4,Negative Epithelial,1619,1659
+flat5,CODIPAI-STBX-SS-04328-I-PD-22.ndpi__72e6d29b69e4,Negative Immune,116,115
+flat5,CODIPAI-STBX-SS-04328-I-PD-22.ndpi__72e6d29b69e4,Positive Epithelial,1,2
+flat5,CODIPAI-STBX-SS-04328-I-PD-22.ndpi__72e6d29b69e4,Positive Immune,278,284
+flat5,CODIPAI-STBX-SS-04328-I-PD-22.ndpi__72e6d29b69e4,other,3538,3662
+flat5,CODIPAI-STBX-SS-04329-I-PD-22.ndpi__7c796a533ca6,Negative Epithelial,453,461
+flat5,CODIPAI-STBX-SS-04329-I-PD-22.ndpi__7c796a533ca6,Negative Immune,31,32
+flat5,CODIPAI-STBX-SS-04329-I-PD-22.ndpi__7c796a533ca6,Positive Epithelial,13,13
+flat5,CODIPAI-STBX-SS-04329-I-PD-22.ndpi__7c796a533ca6,Positive Immune,150,154
+flat5,CODIPAI-STBX-SS-04329-I-PD-22.ndpi__7c796a533ca6,other,2809,2900
+flat5,CODIPAI-STBX-SS-04330-I-PD-22.ndpi__86981b3f5da8,Negative Epithelial,403,413
+flat5,CODIPAI-STBX-SS-04330-I-PD-22.ndpi__86981b3f5da8,Negative Immune,141,134
+flat5,CODIPAI-STBX-SS-04330-I-PD-22.ndpi__86981b3f5da8,Positive Epithelial,443,452
+flat5,CODIPAI-STBX-SS-04330-I-PD-22.ndpi__86981b3f5da8,Positive Immune,768,789
+flat5,CODIPAI-STBX-SS-04330-I-PD-22.ndpi__86981b3f5da8,other,4778,4919
+flat5,CODIPAI-STBX-SS-04331-I-PD-22.ndpi__b4123461a043,Negative Epithelial,697,712
+flat5,CODIPAI-STBX-SS-04331-I-PD-22.ndpi__b4123461a043,Negative Immune,29,30
+flat5,CODIPAI-STBX-SS-04331-I-PD-22.ndpi__b4123461a043,Positive Epithelial,125,126
+flat5,CODIPAI-STBX-SS-04331-I-PD-22.ndpi__b4123461a043,Positive Immune,226,231
+flat5,CODIPAI-STBX-SS-04331-I-PD-22.ndpi__b4123461a043,other,3837,4030
+flat5,CODIPAI-STBX-SS-04332-I-PD-22.ndpi__5fea13563d92,Negative Epithelial,3494,3606
+flat5,CODIPAI-STBX-SS-04332-I-PD-22.ndpi__5fea13563d92,Negative Immune,217,221
+flat5,CODIPAI-STBX-SS-04332-I-PD-22.ndpi__5fea13563d92,Positive Epithelial,165,171
+flat5,CODIPAI-STBX-SS-04332-I-PD-22.ndpi__5fea13563d92,Positive Immune,703,728
+flat5,CODIPAI-STBX-SS-04332-I-PD-22.ndpi__5fea13563d92,other,2281,2326
+flat5,CODIPAI-STBX-SS-04333-I-PD-22.ndpi__6551101236bf,Negative Epithelial,0,0
+flat5,CODIPAI-STBX-SS-04333-I-PD-22.ndpi__6551101236bf,Negative Immune,0,0
+flat5,CODIPAI-STBX-SS-04333-I-PD-22.ndpi__6551101236bf,Positive Epithelial,0,0
+flat5,CODIPAI-STBX-SS-04333-I-PD-22.ndpi__6551101236bf,Positive Immune,0,0
+flat5,CODIPAI-STBX-SS-04333-I-PD-22.ndpi__6551101236bf,other,2734,2786
+flat5,CODIPAI-STBX-SS-04334-I-PD-22.ndpi__0ac93e3885a5,Negative Epithelial,1,1
+flat5,CODIPAI-STBX-SS-04334-I-PD-22.ndpi__0ac93e3885a5,Negative Immune,4,4
+flat5,CODIPAI-STBX-SS-04334-I-PD-22.ndpi__0ac93e3885a5,Positive Epithelial,238,240
+flat5,CODIPAI-STBX-SS-04334-I-PD-22.ndpi__0ac93e3885a5,Positive Immune,82,86
+flat5,CODIPAI-STBX-SS-04334-I-PD-22.ndpi__0ac93e3885a5,other,5819,5996
+flat5,CODIPAI-STBX-SS-04335-I-PD-22.ndpi__ee4f01d53ab8,Negative Epithelial,3094,3153
+flat5,CODIPAI-STBX-SS-04335-I-PD-22.ndpi__ee4f01d53ab8,Negative Immune,102,106
+flat5,CODIPAI-STBX-SS-04335-I-PD-22.ndpi__ee4f01d53ab8,Positive Epithelial,4,4
+flat5,CODIPAI-STBX-SS-04335-I-PD-22.ndpi__ee4f01d53ab8,Positive Immune,174,180
+flat5,CODIPAI-STBX-SS-04335-I-PD-22.ndpi__ee4f01d53ab8,other,4015,4155
+flat5,CODIPAI-STBX-SS-04336-I-PD-22.ndpi__61722d18ad2e,Negative Epithelial,938,960
+flat5,CODIPAI-STBX-SS-04336-I-PD-22.ndpi__61722d18ad2e,Negative Immune,26,27
+flat5,CODIPAI-STBX-SS-04336-I-PD-22.ndpi__61722d18ad2e,Positive Epithelial,4,4
+flat5,CODIPAI-STBX-SS-04336-I-PD-22.ndpi__61722d18ad2e,Positive Immune,21,22
+flat5,CODIPAI-STBX-SS-04336-I-PD-22.ndpi__61722d18ad2e,other,4173,4292
+flat5,CODIPAI-STBX-SS-04337-I-PD-22.ndpi__2bf1ee99ffb2,Negative Epithelial,189,189
+flat5,CODIPAI-STBX-SS-04337-I-PD-22.ndpi__2bf1ee99ffb2,Negative Immune,5,5
+flat5,CODIPAI-STBX-SS-04337-I-PD-22.ndpi__2bf1ee99ffb2,Positive Epithelial,131,132
+flat5,CODIPAI-STBX-SS-04337-I-PD-22.ndpi__2bf1ee99ffb2,Positive Immune,148,152
+flat5,CODIPAI-STBX-SS-04337-I-PD-22.ndpi__2bf1ee99ffb2,other,4322,4465
+flat5,CODIPAI-STBX-SS-04339-I-PD-22.ndpi__4251c3629de5,Negative Epithelial,599,953
+flat5,CODIPAI-STBX-SS-04339-I-PD-22.ndpi__4251c3629de5,Negative Immune,2,6
+flat5,CODIPAI-STBX-SS-04339-I-PD-22.ndpi__4251c3629de5,Positive Epithelial,3,4
+flat5,CODIPAI-STBX-SS-04339-I-PD-22.ndpi__4251c3629de5,Positive Immune,21,34
+flat5,CODIPAI-STBX-SS-04339-I-PD-22.ndpi__4251c3629de5,other,3272,4214
+flat5,CODIPAI-STBX-SS-04340-I-PD-22.ndpi__5f8363c7a635,Negative Epithelial,1175,1186
+flat5,CODIPAI-STBX-SS-04340-I-PD-22.ndpi__5f8363c7a635,Negative Immune,10,10
+flat5,CODIPAI-STBX-SS-04340-I-PD-22.ndpi__5f8363c7a635,Positive Epithelial,0,0
+flat5,CODIPAI-STBX-SS-04340-I-PD-22.ndpi__5f8363c7a635,Positive Immune,4,4
+flat5,CODIPAI-STBX-SS-04340-I-PD-22.ndpi__5f8363c7a635,other,3845,3979
+flat5,CODIPAI-STBX-SS-04341-I-PD-22.ndpi__58e86713adc5,Negative Epithelial,1197,1227
+flat5,CODIPAI-STBX-SS-04341-I-PD-22.ndpi__58e86713adc5,Negative Immune,4,4
+flat5,CODIPAI-STBX-SS-04341-I-PD-22.ndpi__58e86713adc5,Positive Epithelial,0,0
+flat5,CODIPAI-STBX-SS-04341-I-PD-22.ndpi__58e86713adc5,Positive Immune,34,36
+flat5,CODIPAI-STBX-SS-04341-I-PD-22.ndpi__58e86713adc5,other,2012,2085
+flat5,CODIPAI-STBX-SS-04342-I-PD-22.ndpi__6bb57fe2fa06,Negative Epithelial,1822,1881
+flat5,CODIPAI-STBX-SS-04342-I-PD-22.ndpi__6bb57fe2fa06,Negative Immune,1,1
+flat5,CODIPAI-STBX-SS-04342-I-PD-22.ndpi__6bb57fe2fa06,Positive Epithelial,2,2
+flat5,CODIPAI-STBX-SS-04342-I-PD-22.ndpi__6bb57fe2fa06,Positive Immune,235,260
+flat5,CODIPAI-STBX-SS-04342-I-PD-22.ndpi__6bb57fe2fa06,other,4737,4948
+flat5,CODIPAI-STBX-SS-04343-I-PD-22.ndpi__8386143e3209,Negative Epithelial,631,651
+flat5,CODIPAI-STBX-SS-04343-I-PD-22.ndpi__8386143e3209,Negative Immune,46,46
+flat5,CODIPAI-STBX-SS-04343-I-PD-22.ndpi__8386143e3209,Positive Epithelial,6,6
+flat5,CODIPAI-STBX-SS-04343-I-PD-22.ndpi__8386143e3209,Positive Immune,246,250
+flat5,CODIPAI-STBX-SS-04343-I-PD-22.ndpi__8386143e3209,other,3939,4059
+flat5,CODIPAI-STBX-SS-04344-I-PD-22.ndpi__b91c896f73dc,Negative Epithelial,85,86
+flat5,CODIPAI-STBX-SS-04344-I-PD-22.ndpi__b91c896f73dc,Negative Immune,4,4
+flat5,CODIPAI-STBX-SS-04344-I-PD-22.ndpi__b91c896f73dc,Positive Epithelial,0,0
+flat5,CODIPAI-STBX-SS-04344-I-PD-22.ndpi__b91c896f73dc,Positive Immune,30,30
+flat5,CODIPAI-STBX-SS-04344-I-PD-22.ndpi__b91c896f73dc,other,3447,3527
+flat5_positive_weighted,CODIPAI-STBX-SS-04320-I-PD-22.ndpi__14e53e4c2b62,Negative Epithelial,1903,1941
+flat5_positive_weighted,CODIPAI-STBX-SS-04320-I-PD-22.ndpi__14e53e4c2b62,Negative Immune,78,78
+flat5_positive_weighted,CODIPAI-STBX-SS-04320-I-PD-22.ndpi__14e53e4c2b62,Positive Epithelial,63,65
+flat5_positive_weighted,CODIPAI-STBX-SS-04320-I-PD-22.ndpi__14e53e4c2b62,Positive Immune,283,291
+flat5_positive_weighted,CODIPAI-STBX-SS-04320-I-PD-22.ndpi__14e53e4c2b62,other,4935,5128
+flat5_positive_weighted,CODIPAI-STBX-SS-04321-I-PD-22.ndpi__fbb4b006f8d4,Negative Epithelial,1239,1264
+flat5_positive_weighted,CODIPAI-STBX-SS-04321-I-PD-22.ndpi__fbb4b006f8d4,Negative Immune,253,258
+flat5_positive_weighted,CODIPAI-STBX-SS-04321-I-PD-22.ndpi__fbb4b006f8d4,Positive Epithelial,0,0
+flat5_positive_weighted,CODIPAI-STBX-SS-04321-I-PD-22.ndpi__fbb4b006f8d4,Positive Immune,148,148
+flat5_positive_weighted,CODIPAI-STBX-SS-04321-I-PD-22.ndpi__fbb4b006f8d4,other,6338,6567
+flat5_positive_weighted,CODIPAI-STBX-SS-04322-I-PD-22.ndpi__ea8e3ff733bc,Negative Epithelial,584,598
+flat5_positive_weighted,CODIPAI-STBX-SS-04322-I-PD-22.ndpi__ea8e3ff733bc,Negative Immune,12,14
+flat5_positive_weighted,CODIPAI-STBX-SS-04322-I-PD-22.ndpi__ea8e3ff733bc,Positive Epithelial,6,6
+flat5_positive_weighted,CODIPAI-STBX-SS-04322-I-PD-22.ndpi__ea8e3ff733bc,Positive Immune,44,46
+flat5_positive_weighted,CODIPAI-STBX-SS-04322-I-PD-22.ndpi__ea8e3ff733bc,other,4828,5026
+flat5_positive_weighted,CODIPAI-STBX-SS-04323-I-PD-22.ndpi__fb38ac018389,Negative Epithelial,984,1002
+flat5_positive_weighted,CODIPAI-STBX-SS-04323-I-PD-22.ndpi__fb38ac018389,Negative Immune,65,66
+flat5_positive_weighted,CODIPAI-STBX-SS-04323-I-PD-22.ndpi__fb38ac018389,Positive Epithelial,4,3
+flat5_positive_weighted,CODIPAI-STBX-SS-04323-I-PD-22.ndpi__fb38ac018389,Positive Immune,206,212
+flat5_positive_weighted,CODIPAI-STBX-SS-04323-I-PD-22.ndpi__fb38ac018389,other,5879,6045
+flat5_positive_weighted,CODIPAI-STBX-SS-04324-I-PD-22.ndpi__3d7038c68446,Negative Epithelial,2902,2938
+flat5_positive_weighted,CODIPAI-STBX-SS-04324-I-PD-22.ndpi__3d7038c68446,Negative Immune,28,32
+flat5_positive_weighted,CODIPAI-STBX-SS-04324-I-PD-22.ndpi__3d7038c68446,Positive Epithelial,538,551
+flat5_positive_weighted,CODIPAI-STBX-SS-04324-I-PD-22.ndpi__3d7038c68446,Positive Immune,509,517
+flat5_positive_weighted,CODIPAI-STBX-SS-04324-I-PD-22.ndpi__3d7038c68446,other,7701,7987
+flat5_positive_weighted,CODIPAI-STBX-SS-04325-I-PD-22.ndpi__19fb5dfbe60a,Negative Epithelial,124,124
+flat5_positive_weighted,CODIPAI-STBX-SS-04325-I-PD-22.ndpi__19fb5dfbe60a,Negative Immune,68,69
+flat5_positive_weighted,CODIPAI-STBX-SS-04325-I-PD-22.ndpi__19fb5dfbe60a,Positive Epithelial,2088,2140
+flat5_positive_weighted,CODIPAI-STBX-SS-04325-I-PD-22.ndpi__19fb5dfbe60a,Positive Immune,700,713
+flat5_positive_weighted,CODIPAI-STBX-SS-04325-I-PD-22.ndpi__19fb5dfbe60a,other,2571,2724
+flat5_positive_weighted,CODIPAI-STBX-SS-04326-I-PD-22.ndpi__74fce2ff798a,Negative Epithelial,176,179
+flat5_positive_weighted,CODIPAI-STBX-SS-04326-I-PD-22.ndpi__74fce2ff798a,Negative Immune,16,15
+flat5_positive_weighted,CODIPAI-STBX-SS-04326-I-PD-22.ndpi__74fce2ff798a,Positive Epithelial,86,87
+flat5_positive_weighted,CODIPAI-STBX-SS-04326-I-PD-22.ndpi__74fce2ff798a,Positive Immune,114,116
+flat5_positive_weighted,CODIPAI-STBX-SS-04326-I-PD-22.ndpi__74fce2ff798a,other,2832,2909
+flat5_positive_weighted,CODIPAI-STBX-SS-04327-I-PD-22.ndpi__e514d744a656,Negative Epithelial,1021,1039
+flat5_positive_weighted,CODIPAI-STBX-SS-04327-I-PD-22.ndpi__e514d744a656,Negative Immune,76,83
+flat5_positive_weighted,CODIPAI-STBX-SS-04327-I-PD-22.ndpi__e514d744a656,Positive Epithelial,0,0
+flat5_positive_weighted,CODIPAI-STBX-SS-04327-I-PD-22.ndpi__e514d744a656,Positive Immune,38,38
+flat5_positive_weighted,CODIPAI-STBX-SS-04327-I-PD-22.ndpi__e514d744a656,other,3207,3324
+flat5_positive_weighted,CODIPAI-STBX-SS-04328-I-PD-22.ndpi__72e6d29b69e4,Negative Epithelial,1619,1650
+flat5_positive_weighted,CODIPAI-STBX-SS-04328-I-PD-22.ndpi__72e6d29b69e4,Negative Immune,116,121
+flat5_positive_weighted,CODIPAI-STBX-SS-04328-I-PD-22.ndpi__72e6d29b69e4,Positive Epithelial,1,1
+flat5_positive_weighted,CODIPAI-STBX-SS-04328-I-PD-22.ndpi__72e6d29b69e4,Positive Immune,278,287
+flat5_positive_weighted,CODIPAI-STBX-SS-04328-I-PD-22.ndpi__72e6d29b69e4,other,3538,3641
+flat5_positive_weighted,CODIPAI-STBX-SS-04329-I-PD-22.ndpi__7c796a533ca6,Negative Epithelial,453,455
+flat5_positive_weighted,CODIPAI-STBX-SS-04329-I-PD-22.ndpi__7c796a533ca6,Negative Immune,31,32
+flat5_positive_weighted,CODIPAI-STBX-SS-04329-I-PD-22.ndpi__7c796a533ca6,Positive Epithelial,13,13
+flat5_positive_weighted,CODIPAI-STBX-SS-04329-I-PD-22.ndpi__7c796a533ca6,Positive Immune,150,157
+flat5_positive_weighted,CODIPAI-STBX-SS-04329-I-PD-22.ndpi__7c796a533ca6,other,2809,2917
+flat5_positive_weighted,CODIPAI-STBX-SS-04330-I-PD-22.ndpi__86981b3f5da8,Negative Epithelial,403,413
+flat5_positive_weighted,CODIPAI-STBX-SS-04330-I-PD-22.ndpi__86981b3f5da8,Negative Immune,141,140
+flat5_positive_weighted,CODIPAI-STBX-SS-04330-I-PD-22.ndpi__86981b3f5da8,Positive Epithelial,443,469
+flat5_positive_weighted,CODIPAI-STBX-SS-04330-I-PD-22.ndpi__86981b3f5da8,Positive Immune,768,801
+flat5_positive_weighted,CODIPAI-STBX-SS-04330-I-PD-22.ndpi__86981b3f5da8,other,4778,4908
+flat5_positive_weighted,CODIPAI-STBX-SS-04331-I-PD-22.ndpi__b4123461a043,Negative Epithelial,697,710
+flat5_positive_weighted,CODIPAI-STBX-SS-04331-I-PD-22.ndpi__b4123461a043,Negative Immune,29,29
+flat5_positive_weighted,CODIPAI-STBX-SS-04331-I-PD-22.ndpi__b4123461a043,Positive Epithelial,125,125
+flat5_positive_weighted,CODIPAI-STBX-SS-04331-I-PD-22.ndpi__b4123461a043,Positive Immune,226,231
+flat5_positive_weighted,CODIPAI-STBX-SS-04331-I-PD-22.ndpi__b4123461a043,other,3837,4019
+flat5_positive_weighted,CODIPAI-STBX-SS-04332-I-PD-22.ndpi__5fea13563d92,Negative Epithelial,3494,3607
+flat5_positive_weighted,CODIPAI-STBX-SS-04332-I-PD-22.ndpi__5fea13563d92,Negative Immune,217,228
+flat5_positive_weighted,CODIPAI-STBX-SS-04332-I-PD-22.ndpi__5fea13563d92,Positive Epithelial,165,179
+flat5_positive_weighted,CODIPAI-STBX-SS-04332-I-PD-22.ndpi__5fea13563d92,Positive Immune,703,736
+flat5_positive_weighted,CODIPAI-STBX-SS-04332-I-PD-22.ndpi__5fea13563d92,other,2281,2337
+flat5_positive_weighted,CODIPAI-STBX-SS-04333-I-PD-22.ndpi__6551101236bf,Negative Epithelial,0,1
+flat5_positive_weighted,CODIPAI-STBX-SS-04333-I-PD-22.ndpi__6551101236bf,Negative Immune,0,0
+flat5_positive_weighted,CODIPAI-STBX-SS-04333-I-PD-22.ndpi__6551101236bf,Positive Epithelial,0,0
+flat5_positive_weighted,CODIPAI-STBX-SS-04333-I-PD-22.ndpi__6551101236bf,Positive Immune,0,0
+flat5_positive_weighted,CODIPAI-STBX-SS-04333-I-PD-22.ndpi__6551101236bf,other,2734,2780
+flat5_positive_weighted,CODIPAI-STBX-SS-04334-I-PD-22.ndpi__0ac93e3885a5,Negative Epithelial,1,1
+flat5_positive_weighted,CODIPAI-STBX-SS-04334-I-PD-22.ndpi__0ac93e3885a5,Negative Immune,4,4
+flat5_positive_weighted,CODIPAI-STBX-SS-04334-I-PD-22.ndpi__0ac93e3885a5,Positive Epithelial,238,246
+flat5_positive_weighted,CODIPAI-STBX-SS-04334-I-PD-22.ndpi__0ac93e3885a5,Positive Immune,82,84
+flat5_positive_weighted,CODIPAI-STBX-SS-04334-I-PD-22.ndpi__0ac93e3885a5,other,5819,6013
+flat5_positive_weighted,CODIPAI-STBX-SS-04335-I-PD-22.ndpi__ee4f01d53ab8,Negative Epithelial,3094,3161
+flat5_positive_weighted,CODIPAI-STBX-SS-04335-I-PD-22.ndpi__ee4f01d53ab8,Negative Immune,102,107
+flat5_positive_weighted,CODIPAI-STBX-SS-04335-I-PD-22.ndpi__ee4f01d53ab8,Positive Epithelial,4,4
+flat5_positive_weighted,CODIPAI-STBX-SS-04335-I-PD-22.ndpi__ee4f01d53ab8,Positive Immune,174,177
+flat5_positive_weighted,CODIPAI-STBX-SS-04335-I-PD-22.ndpi__ee4f01d53ab8,other,4015,4194
+flat5_positive_weighted,CODIPAI-STBX-SS-04336-I-PD-22.ndpi__61722d18ad2e,Negative Epithelial,938,960
+flat5_positive_weighted,CODIPAI-STBX-SS-04336-I-PD-22.ndpi__61722d18ad2e,Negative Immune,26,27
+flat5_positive_weighted,CODIPAI-STBX-SS-04336-I-PD-22.ndpi__61722d18ad2e,Positive Epithelial,4,4
+flat5_positive_weighted,CODIPAI-STBX-SS-04336-I-PD-22.ndpi__61722d18ad2e,Positive Immune,21,21
+flat5_positive_weighted,CODIPAI-STBX-SS-04336-I-PD-22.ndpi__61722d18ad2e,other,4173,4309
+flat5_positive_weighted,CODIPAI-STBX-SS-04337-I-PD-22.ndpi__2bf1ee99ffb2,Negative Epithelial,189,188
+flat5_positive_weighted,CODIPAI-STBX-SS-04337-I-PD-22.ndpi__2bf1ee99ffb2,Negative Immune,5,5
+flat5_positive_weighted,CODIPAI-STBX-SS-04337-I-PD-22.ndpi__2bf1ee99ffb2,Positive Epithelial,131,132
+flat5_positive_weighted,CODIPAI-STBX-SS-04337-I-PD-22.ndpi__2bf1ee99ffb2,Positive Immune,148,151
+flat5_positive_weighted,CODIPAI-STBX-SS-04337-I-PD-22.ndpi__2bf1ee99ffb2,other,4322,4496
+flat5_positive_weighted,CODIPAI-STBX-SS-04339-I-PD-22.ndpi__4251c3629de5,Negative Epithelial,599,860
+flat5_positive_weighted,CODIPAI-STBX-SS-04339-I-PD-22.ndpi__4251c3629de5,Negative Immune,2,4
+flat5_positive_weighted,CODIPAI-STBX-SS-04339-I-PD-22.ndpi__4251c3629de5,Positive Epithelial,3,4
+flat5_positive_weighted,CODIPAI-STBX-SS-04339-I-PD-22.ndpi__4251c3629de5,Positive Immune,21,33
+flat5_positive_weighted,CODIPAI-STBX-SS-04339-I-PD-22.ndpi__4251c3629de5,other,3272,4376
+flat5_positive_weighted,CODIPAI-STBX-SS-04340-I-PD-22.ndpi__5f8363c7a635,Negative Epithelial,1175,1191
+flat5_positive_weighted,CODIPAI-STBX-SS-04340-I-PD-22.ndpi__5f8363c7a635,Negative Immune,10,10
+flat5_positive_weighted,CODIPAI-STBX-SS-04340-I-PD-22.ndpi__5f8363c7a635,Positive Epithelial,0,0
+flat5_positive_weighted,CODIPAI-STBX-SS-04340-I-PD-22.ndpi__5f8363c7a635,Positive Immune,4,4
+flat5_positive_weighted,CODIPAI-STBX-SS-04340-I-PD-22.ndpi__5f8363c7a635,other,3845,3962
+flat5_positive_weighted,CODIPAI-STBX-SS-04341-I-PD-22.ndpi__58e86713adc5,Negative Epithelial,1197,1222
+flat5_positive_weighted,CODIPAI-STBX-SS-04341-I-PD-22.ndpi__58e86713adc5,Negative Immune,4,4
+flat5_positive_weighted,CODIPAI-STBX-SS-04341-I-PD-22.ndpi__58e86713adc5,Positive Epithelial,0,0
+flat5_positive_weighted,CODIPAI-STBX-SS-04341-I-PD-22.ndpi__58e86713adc5,Positive Immune,34,37
+flat5_positive_weighted,CODIPAI-STBX-SS-04341-I-PD-22.ndpi__58e86713adc5,other,2012,2061
+flat5_positive_weighted,CODIPAI-STBX-SS-04342-I-PD-22.ndpi__6bb57fe2fa06,Negative Epithelial,1822,1845
+flat5_positive_weighted,CODIPAI-STBX-SS-04342-I-PD-22.ndpi__6bb57fe2fa06,Negative Immune,1,1
+flat5_positive_weighted,CODIPAI-STBX-SS-04342-I-PD-22.ndpi__6bb57fe2fa06,Positive Epithelial,2,3
+flat5_positive_weighted,CODIPAI-STBX-SS-04342-I-PD-22.ndpi__6bb57fe2fa06,Positive Immune,235,257
+flat5_positive_weighted,CODIPAI-STBX-SS-04342-I-PD-22.ndpi__6bb57fe2fa06,other,4737,4929
+flat5_positive_weighted,CODIPAI-STBX-SS-04343-I-PD-22.ndpi__8386143e3209,Negative Epithelial,631,650
+flat5_positive_weighted,CODIPAI-STBX-SS-04343-I-PD-22.ndpi__8386143e3209,Negative Immune,46,49
+flat5_positive_weighted,CODIPAI-STBX-SS-04343-I-PD-22.ndpi__8386143e3209,Positive Epithelial,6,6
+flat5_positive_weighted,CODIPAI-STBX-SS-04343-I-PD-22.ndpi__8386143e3209,Positive Immune,246,248
+flat5_positive_weighted,CODIPAI-STBX-SS-04343-I-PD-22.ndpi__8386143e3209,other,3939,4083
+flat5_positive_weighted,CODIPAI-STBX-SS-04344-I-PD-22.ndpi__b91c896f73dc,Negative Epithelial,85,88
+flat5_positive_weighted,CODIPAI-STBX-SS-04344-I-PD-22.ndpi__b91c896f73dc,Negative Immune,4,4
+flat5_positive_weighted,CODIPAI-STBX-SS-04344-I-PD-22.ndpi__b91c896f73dc,Positive Epithelial,0,0
+flat5_positive_weighted,CODIPAI-STBX-SS-04344-I-PD-22.ndpi__b91c896f73dc,Positive Immune,30,31
+flat5_positive_weighted,CODIPAI-STBX-SS-04344-I-PD-22.ndpi__b91c896f73dc,other,3447,3548

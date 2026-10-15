@@ -1,0 +1,4001 @@
+model,tile,class,gt_count,pred_count
+flat5,0,Negative Epithelial,0,0
+flat5,0,Negative Immune,0,0
+flat5,0,Positive Epithelial,0,0
+flat5,0,Positive Immune,0,0
+flat5,0,other,179,184
+flat5,1,Negative Epithelial,0,0
+flat5,1,Negative Immune,0,0
+flat5,1,Positive Epithelial,0,0
+flat5,1,Positive Immune,0,0
+flat5,1,other,58,60
+flat5,2,Negative Epithelial,0,0
+flat5,2,Negative Immune,0,0
+flat5,2,Positive Epithelial,0,0
+flat5,2,Positive Immune,0,0
+flat5,2,other,263,270
+flat5,3,Negative Epithelial,0,0
+flat5,3,Negative Immune,0,0
+flat5,3,Positive Epithelial,0,0
+flat5,3,Positive Immune,0,0
+flat5,3,other,403,412
+flat5,4,Negative Epithelial,56,57
+flat5,4,Negative Immune,2,2
+flat5,4,Positive Epithelial,0,0
+flat5,4,Positive Immune,1,1
+flat5,4,other,286,295
+flat5,5,Negative Epithelial,12,12
+flat5,5,Negative Immune,3,3
+flat5,5,Positive Epithelial,0,0
+flat5,5,Positive Immune,0,0
+flat5,5,other,462,475
+flat5,6,Negative Epithelial,52,51
+flat5,6,Negative Immune,7,7
+flat5,6,Positive Epithelial,0,0
+flat5,6,Positive Immune,9,10
+flat5,6,other,290,301
+flat5,7,Negative Epithelial,110,113
+flat5,7,Negative Immune,11,11
+flat5,7,Positive Epithelial,0,0
+flat5,7,Positive Immune,9,9
+flat5,7,other,199,198
+flat5,8,Negative Epithelial,0,0
+flat5,8,Negative Immune,0,0
+flat5,8,Positive Epithelial,0,0
+flat5,8,Positive Immune,0,0
+flat5,8,other,182,194
+flat5,9,Negative Epithelial,0,0
+flat5,9,Negative Immune,0,0
+flat5,9,Positive Epithelial,0,0
+flat5,9,Positive Immune,0,0
+flat5,9,other,304,307
+flat5,10,Negative Epithelial,0,0
+flat5,10,Negative Immune,0,0
+flat5,10,Positive Epithelial,0,0
+flat5,10,Positive Immune,0,0
+flat5,10,other,60,64
+flat5,11,Negative Epithelial,0,0
+flat5,11,Negative Immune,0,0
+flat5,11,Positive Epithelial,0,0
+flat5,11,Positive Immune,0,0
+flat5,11,other,28,31
+flat5,12,Negative Epithelial,0,0
+flat5,12,Negative Immune,0,0
+flat5,12,Positive Epithelial,0,0
+flat5,12,Positive Immune,0,0
+flat5,12,other,255,268
+flat5,13,Negative Epithelial,14,14
+flat5,13,Negative Immune,1,1
+flat5,13,Positive Epithelial,0,0
+flat5,13,Positive Immune,1,0
+flat5,13,other,290,301
+flat5,14,Negative Epithelial,8,8
+flat5,14,Negative Immune,0,0
+flat5,14,Positive Epithelial,0,0
+flat5,14,Positive Immune,1,1
+flat5,14,other,109,119
+flat5,15,Negative Epithelial,46,46
+flat5,15,Negative Immune,5,5
+flat5,15,Positive Epithelial,0,0
+flat5,15,Positive Immune,1,1
+flat5,15,other,425,429
+flat5,16,Negative Epithelial,6,5
+flat5,16,Negative Immune,1,1
+flat5,16,Positive Epithelial,0,0
+flat5,16,Positive Immune,3,4
+flat5,16,other,143,155
+flat5,17,Negative Epithelial,119,122
+flat5,17,Negative Immune,0,1
+flat5,17,Positive Epithelial,17,18
+flat5,17,Positive Immune,34,37
+flat5,17,other,76,75
+flat5,18,Negative Epithelial,306,313
+flat5,18,Negative Immune,8,8
+flat5,18,Positive Epithelial,11,11
+flat5,18,Positive Immune,29,31
+flat5,18,other,135,137
+flat5,19,Negative Epithelial,265,271
+flat5,19,Negative Immune,21,21
+flat5,19,Positive Epithelial,30,30
+flat5,19,Positive Immune,98,99
+flat5,19,other,120,119
+flat5,20,Negative Epithelial,148,148
+flat5,20,Negative Immune,2,2
+flat5,20,Positive Epithelial,1,1
+flat5,20,Positive Immune,27,27
+flat5,20,other,278,283
+flat5,21,Negative Epithelial,62,66
+flat5,21,Negative Immune,2,2
+flat5,21,Positive Epithelial,0,1
+flat5,21,Positive Immune,13,14
+flat5,21,other,149,153
+flat5,22,Negative Epithelial,334,348
+flat5,22,Negative Immune,4,4
+flat5,22,Positive Epithelial,0,0
+flat5,22,Positive Immune,29,32
+flat5,22,other,121,123
+flat5,23,Negative Epithelial,365,372
+flat5,23,Negative Immune,11,11
+flat5,23,Positive Epithelial,4,4
+flat5,23,Positive Immune,28,28
+flat5,23,other,120,126
+flat5,24,Negative Epithelial,0,0
+flat5,24,Negative Immune,0,0
+flat5,24,Positive Epithelial,0,0
+flat5,24,Positive Immune,0,0
+flat5,24,other,314,317
+flat5,25,Negative Epithelial,0,0
+flat5,25,Negative Immune,0,0
+flat5,25,Positive Epithelial,0,0
+flat5,25,Positive Immune,0,0
+flat5,25,other,351,355
+flat5,26,Negative Epithelial,0,0
+flat5,26,Negative Immune,0,0
+flat5,26,Positive Epithelial,0,0
+flat5,26,Positive Immune,0,0
+flat5,26,other,255,258
+flat5,27,Negative Epithelial,0,0
+flat5,27,Negative Immune,0,0
+flat5,27,Positive Epithelial,0,0
+flat5,27,Positive Immune,0,0
+flat5,27,other,447,458
+flat5,28,Negative Epithelial,0,0
+flat5,28,Negative Immune,0,0
+flat5,28,Positive Epithelial,0,0
+flat5,28,Positive Immune,0,0
+flat5,28,other,326,330
+flat5,29,Negative Epithelial,0,0
+flat5,29,Negative Immune,0,0
+flat5,29,Positive Epithelial,0,0
+flat5,29,Positive Immune,0,0
+flat5,29,other,93,95
+flat5,30,Negative Epithelial,0,0
+flat5,30,Negative Immune,0,0
+flat5,30,Positive Epithelial,0,0
+flat5,30,Positive Immune,0,0
+flat5,30,other,450,455
+flat5,31,Negative Epithelial,0,0
+flat5,31,Negative Immune,0,0
+flat5,31,Positive Epithelial,0,0
+flat5,31,Positive Immune,0,0
+flat5,31,other,97,97
+flat5,32,Negative Epithelial,0,0
+flat5,32,Negative Immune,0,0
+flat5,32,Positive Epithelial,0,0
+flat5,32,Positive Immune,0,0
+flat5,32,other,189,193
+flat5,33,Negative Epithelial,154,156
+flat5,33,Negative Immune,18,18
+flat5,33,Positive Epithelial,0,0
+flat5,33,Positive Immune,21,22
+flat5,33,other,315,316
+flat5,34,Negative Epithelial,0,0
+flat5,34,Negative Immune,0,0
+flat5,34,Positive Epithelial,0,0
+flat5,34,Positive Immune,0,0
+flat5,34,other,156,163
+flat5,35,Negative Epithelial,4,5
+flat5,35,Negative Immune,0,0
+flat5,35,Positive Epithelial,0,0
+flat5,35,Positive Immune,0,0
+flat5,35,other,111,118
+flat5,36,Negative Epithelial,229,233
+flat5,36,Negative Immune,23,24
+flat5,36,Positive Epithelial,0,0
+flat5,36,Positive Immune,26,26
+flat5,36,other,228,231
+flat5,37,Negative Epithelial,0,0
+flat5,37,Negative Immune,0,0
+flat5,37,Positive Epithelial,0,0
+flat5,37,Positive Immune,0,0
+flat5,37,other,32,34
+flat5,38,Negative Epithelial,61,66
+flat5,38,Negative Immune,3,2
+flat5,38,Positive Epithelial,0,0
+flat5,38,Positive Immune,3,3
+flat5,38,other,56,55
+flat5,39,Negative Epithelial,0,0
+flat5,39,Negative Immune,0,0
+flat5,39,Positive Epithelial,0,0
+flat5,39,Positive Immune,0,0
+flat5,39,other,3,3
+flat5,40,Negative Epithelial,95,95
+flat5,40,Negative Immune,47,47
+flat5,40,Positive Epithelial,0,0
+flat5,40,Positive Immune,16,16
+flat5,40,other,551,587
+flat5,41,Negative Epithelial,134,134
+flat5,41,Negative Immune,51,50
+flat5,41,Positive Epithelial,0,0
+flat5,41,Positive Immune,22,22
+flat5,41,other,424,445
+flat5,42,Negative Epithelial,123,125
+flat5,42,Negative Immune,23,23
+flat5,42,Positive Epithelial,0,0
+flat5,42,Positive Immune,14,15
+flat5,42,other,356,359
+flat5,43,Negative Epithelial,126,122
+flat5,43,Negative Immune,44,46
+flat5,43,Positive Epithelial,0,0
+flat5,43,Positive Immune,14,14
+flat5,43,other,315,327
+flat5,44,Negative Epithelial,79,79
+flat5,44,Negative Immune,13,13
+flat5,44,Positive Epithelial,0,0
+flat5,44,Positive Immune,10,11
+flat5,44,other,344,354
+flat5,45,Negative Epithelial,0,0
+flat5,45,Negative Immune,0,0
+flat5,45,Positive Epithelial,0,1
+flat5,45,Positive Immune,0,0
+flat5,45,other,139,143
+flat5,46,Negative Epithelial,230,233
+flat5,46,Negative Immune,31,31
+flat5,46,Positive Epithelial,0,0
+flat5,46,Positive Immune,20,20
+flat5,46,other,372,389
+flat5,47,Negative Epithelial,4,3
+flat5,47,Negative Immune,0,0
+flat5,47,Positive Epithelial,0,0
+flat5,47,Positive Immune,2,1
+flat5,47,other,414,424
+flat5,48,Negative Epithelial,0,0
+flat5,48,Negative Immune,0,0
+flat5,48,Positive Epithelial,0,0
+flat5,48,Positive Immune,0,0
+flat5,48,other,213,228
+flat5,49,Negative Epithelial,53,54
+flat5,49,Negative Immune,2,2
+flat5,49,Positive Epithelial,0,0
+flat5,49,Positive Immune,1,2
+flat5,49,other,242,255
+flat5,50,Negative Epithelial,88,88
+flat5,50,Negative Immune,4,4
+flat5,50,Positive Epithelial,0,0
+flat5,50,Positive Immune,16,16
+flat5,50,other,159,163
+flat5,51,Negative Epithelial,139,143
+flat5,51,Negative Immune,3,3
+flat5,51,Positive Epithelial,0,0
+flat5,51,Positive Immune,7,7
+flat5,51,other,106,113
+flat5,52,Negative Epithelial,42,45
+flat5,52,Negative Immune,0,0
+flat5,52,Positive Epithelial,0,0
+flat5,52,Positive Immune,3,3
+flat5,52,other,377,389
+flat5,53,Negative Epithelial,3,3
+flat5,53,Negative Immune,0,0
+flat5,53,Positive Epithelial,0,0
+flat5,53,Positive Immune,2,3
+flat5,53,other,400,416
+flat5,54,Negative Epithelial,221,224
+flat5,54,Negative Immune,1,1
+flat5,54,Positive Epithelial,0,0
+flat5,54,Positive Immune,3,3
+flat5,54,other,166,168
+flat5,55,Negative Epithelial,28,29
+flat5,55,Negative Immune,2,2
+flat5,55,Positive Epithelial,0,0
+flat5,55,Positive Immune,12,12
+flat5,55,other,390,401
+flat5,56,Negative Epithelial,5,5
+flat5,56,Negative Immune,0,0
+flat5,56,Positive Epithelial,0,0
+flat5,56,Positive Immune,0,0
+flat5,56,other,280,285
+flat5,57,Negative Epithelial,0,0
+flat5,57,Negative Immune,0,0
+flat5,57,Positive Epithelial,0,0
+flat5,57,Positive Immune,0,0
+flat5,57,other,422,439
+flat5,58,Negative Epithelial,0,0
+flat5,58,Negative Immune,0,0
+flat5,58,Positive Epithelial,0,0
+flat5,58,Positive Immune,0,0
+flat5,58,other,114,124
+flat5,59,Negative Epithelial,0,0
+flat5,59,Negative Immune,0,0
+flat5,59,Positive Epithelial,0,0
+flat5,59,Positive Immune,0,0
+flat5,59,other,486,501
+flat5,60,Negative Epithelial,2,2
+flat5,60,Negative Immune,0,0
+flat5,60,Positive Epithelial,0,0
+flat5,60,Positive Immune,0,0
+flat5,60,other,358,378
+flat5,61,Negative Epithelial,0,1
+flat5,61,Negative Immune,0,0
+flat5,61,Positive Epithelial,0,0
+flat5,61,Positive Immune,0,0
+flat5,61,other,76,94
+flat5,62,Negative Epithelial,3,3
+flat5,62,Negative Immune,0,0
+flat5,62,Positive Epithelial,2,2
+flat5,62,Positive Immune,0,0
+flat5,62,other,589,602
+flat5,63,Negative Epithelial,0,0
+flat5,63,Negative Immune,0,0
+flat5,63,Positive Epithelial,4,4
+flat5,63,Positive Immune,0,0
+flat5,63,other,450,466
+flat5,64,Negative Epithelial,243,241
+flat5,64,Negative Immune,6,5
+flat5,64,Positive Epithelial,0,0
+flat5,64,Positive Immune,24,24
+flat5,64,other,291,309
+flat5,65,Negative Epithelial,12,14
+flat5,65,Negative Immune,2,2
+flat5,65,Positive Epithelial,0,0
+flat5,65,Positive Immune,4,4
+flat5,65,other,192,199
+flat5,66,Negative Epithelial,261,265
+flat5,66,Negative Immune,17,17
+flat5,66,Positive Epithelial,4,3
+flat5,66,Positive Immune,44,45
+flat5,66,other,319,329
+flat5,67,Negative Epithelial,18,19
+flat5,67,Negative Immune,0,0
+flat5,67,Positive Epithelial,0,0
+flat5,67,Positive Immune,0,0
+flat5,67,other,154,166
+flat5,68,Negative Epithelial,0,0
+flat5,68,Negative Immune,0,0
+flat5,68,Positive Epithelial,0,0
+flat5,68,Positive Immune,0,0
+flat5,68,other,525,540
+flat5,69,Negative Epithelial,0,0
+flat5,69,Negative Immune,0,0
+flat5,69,Positive Epithelial,0,0
+flat5,69,Positive Immune,0,0
+flat5,69,other,266,277
+flat5,70,Negative Epithelial,109,109
+flat5,70,Negative Immune,3,3
+flat5,70,Positive Epithelial,0,0
+flat5,70,Positive Immune,22,23
+flat5,70,other,435,452
+flat5,71,Negative Epithelial,173,180
+flat5,71,Negative Immune,6,6
+flat5,71,Positive Epithelial,0,0
+flat5,71,Positive Immune,24,24
+flat5,71,other,302,306
+flat5,72,Negative Epithelial,0,0
+flat5,72,Negative Immune,0,0
+flat5,72,Positive Epithelial,0,0
+flat5,72,Positive Immune,0,0
+flat5,72,other,108,115
+flat5,73,Negative Epithelial,62,62
+flat5,73,Negative Immune,0,0
+flat5,73,Positive Epithelial,0,0
+flat5,73,Positive Immune,12,13
+flat5,73,other,650,665
+flat5,74,Negative Epithelial,32,37
+flat5,74,Negative Immune,0,0
+flat5,74,Positive Epithelial,0,0
+flat5,74,Positive Immune,8,8
+flat5,74,other,178,183
+flat5,75,Negative Epithelial,54,57
+flat5,75,Negative Immune,29,28
+flat5,75,Positive Epithelial,0,0
+flat5,75,Positive Immune,61,60
+flat5,75,other,548,555
+flat5,76,Negative Epithelial,7,8
+flat5,76,Negative Immune,1,2
+flat5,76,Positive Epithelial,0,0
+flat5,76,Positive Immune,2,2
+flat5,76,other,792,794
+flat5,77,Negative Epithelial,0,0
+flat5,77,Negative Immune,0,0
+flat5,77,Positive Epithelial,0,0
+flat5,77,Positive Immune,0,0
+flat5,77,other,160,161
+flat5,78,Negative Epithelial,4,6
+flat5,78,Negative Immune,1,1
+flat5,78,Positive Epithelial,0,0
+flat5,78,Positive Immune,5,5
+flat5,78,other,782,811
+flat5,79,Negative Epithelial,9,9
+flat5,79,Negative Immune,0,0
+flat5,79,Positive Epithelial,0,0
+flat5,79,Positive Immune,0,1
+flat5,79,other,177,182
+flat5,80,Negative Epithelial,188,200
+flat5,80,Negative Immune,0,0
+flat5,80,Positive Epithelial,118,117
+flat5,80,Positive Immune,13,13
+flat5,80,other,310,319
+flat5,81,Negative Epithelial,510,525
+flat5,81,Negative Immune,5,5
+flat5,81,Positive Epithelial,31,31
+flat5,81,Positive Immune,30,32
+flat5,81,other,374,380
+flat5,82,Negative Epithelial,343,344
+flat5,82,Negative Immune,2,2
+flat5,82,Positive Epithelial,243,247
+flat5,82,Positive Immune,75,80
+flat5,82,other,308,316
+flat5,83,Negative Epithelial,509,516
+flat5,83,Negative Immune,4,5
+flat5,83,Positive Epithelial,102,103
+flat5,83,Positive Immune,99,99
+flat5,83,other,305,321
+flat5,84,Negative Epithelial,438,447
+flat5,84,Negative Immune,6,6
+flat5,84,Positive Epithelial,22,22
+flat5,84,Positive Immune,92,93
+flat5,84,other,442,450
+flat5,85,Negative Epithelial,295,301
+flat5,85,Negative Immune,0,0
+flat5,85,Positive Epithelial,6,6
+flat5,85,Positive Immune,21,22
+flat5,85,other,259,267
+flat5,86,Negative Epithelial,424,431
+flat5,86,Negative Immune,8,8
+flat5,86,Positive Epithelial,16,16
+flat5,86,Positive Immune,154,159
+flat5,86,other,467,470
+flat5,87,Negative Epithelial,195,192
+flat5,87,Negative Immune,3,3
+flat5,87,Positive Epithelial,0,0
+flat5,87,Positive Immune,25,27
+flat5,87,other,367,389
+flat5,88,Negative Epithelial,0,0
+flat5,88,Negative Immune,0,0
+flat5,88,Positive Epithelial,0,0
+flat5,88,Positive Immune,0,0
+flat5,88,other,1306,1348
+flat5,89,Negative Epithelial,0,0
+flat5,89,Negative Immune,0,0
+flat5,89,Positive Epithelial,0,0
+flat5,89,Positive Immune,0,0
+flat5,89,other,1129,1156
+flat5,90,Negative Epithelial,0,0
+flat5,90,Negative Immune,0,0
+flat5,90,Positive Epithelial,0,0
+flat5,90,Positive Immune,0,0
+flat5,90,other,1230,1276
+flat5,91,Negative Epithelial,0,0
+flat5,91,Negative Immune,0,0
+flat5,91,Positive Epithelial,0,0
+flat5,91,Positive Immune,0,0
+flat5,91,other,1204,1253
+flat5,92,Negative Epithelial,10,10
+flat5,92,Negative Immune,9,9
+flat5,92,Positive Epithelial,159,163
+flat5,92,Positive Immune,28,28
+flat5,92,other,152,152
+flat5,93,Negative Epithelial,0,0
+flat5,93,Negative Immune,1,1
+flat5,93,Positive Epithelial,96,103
+flat5,93,Positive Immune,6,6
+flat5,93,other,53,60
+flat5,94,Negative Epithelial,0,0
+flat5,94,Negative Immune,2,2
+flat5,94,Positive Epithelial,160,161
+flat5,94,Positive Immune,47,48
+flat5,94,other,164,169
+flat5,95,Negative Epithelial,4,4
+flat5,95,Negative Immune,1,1
+flat5,95,Positive Epithelial,157,161
+flat5,95,Positive Immune,30,31
+flat5,95,other,96,101
+flat5,96,Negative Epithelial,0,0
+flat5,96,Negative Immune,1,1
+flat5,96,Positive Epithelial,93,92
+flat5,96,Positive Immune,26,26
+flat5,96,other,204,223
+flat5,97,Negative Epithelial,4,4
+flat5,97,Negative Immune,2,2
+flat5,97,Positive Epithelial,84,84
+flat5,97,Positive Immune,32,32
+flat5,97,other,246,256
+flat5,98,Negative Epithelial,6,6
+flat5,98,Negative Immune,8,8
+flat5,98,Positive Epithelial,56,57
+flat5,98,Positive Immune,54,54
+flat5,98,other,213,222
+flat5,99,Negative Epithelial,0,0
+flat5,99,Negative Immune,11,11
+flat5,99,Positive Epithelial,68,70
+flat5,99,Positive Immune,74,76
+flat5,99,other,261,269
+flat5,100,Negative Epithelial,20,20
+flat5,100,Negative Immune,1,0
+flat5,100,Positive Epithelial,167,166
+flat5,100,Positive Immune,31,32
+flat5,100,other,151,157
+flat5,101,Negative Epithelial,45,45
+flat5,101,Negative Immune,12,12
+flat5,101,Positive Epithelial,130,133
+flat5,101,Positive Immune,38,38
+flat5,101,other,188,190
+flat5,102,Negative Epithelial,0,0
+flat5,102,Negative Immune,1,1
+flat5,102,Positive Epithelial,90,89
+flat5,102,Positive Immune,40,40
+flat5,102,other,258,274
+flat5,103,Negative Epithelial,0,0
+flat5,103,Negative Immune,2,2
+flat5,103,Positive Epithelial,40,45
+flat5,103,Positive Immune,6,6
+flat5,103,other,339,348
+flat5,104,Negative Epithelial,0,0
+flat5,104,Negative Immune,0,0
+flat5,104,Positive Epithelial,0,0
+flat5,104,Positive Immune,0,0
+flat5,104,other,0,17
+flat5,105,Negative Epithelial,3,4
+flat5,105,Negative Immune,3,3
+flat5,105,Positive Epithelial,74,75
+flat5,105,Positive Immune,24,24
+flat5,105,other,31,31
+flat5,106,Negative Epithelial,0,0
+flat5,106,Negative Immune,0,0
+flat5,106,Positive Epithelial,0,0
+flat5,106,Positive Immune,0,0
+flat5,106,other,0,1
+flat5,107,Negative Epithelial,20,20
+flat5,107,Negative Immune,3,3
+flat5,107,Positive Epithelial,116,118
+flat5,107,Positive Immune,92,96
+flat5,107,other,57,56
+flat5,108,Negative Epithelial,3,4
+flat5,108,Negative Immune,2,2
+flat5,108,Positive Epithelial,35,38
+flat5,108,Positive Immune,19,20
+flat5,108,other,5,4
+flat5,109,Negative Epithelial,0,0
+flat5,109,Negative Immune,0,0
+flat5,109,Positive Epithelial,0,0
+flat5,109,Positive Immune,0,0
+flat5,109,other,0,0
+flat5,110,Negative Epithelial,6,6
+flat5,110,Negative Immune,5,5
+flat5,110,Positive Epithelial,308,312
+flat5,110,Positive Immune,66,67
+flat5,110,other,62,62
+flat5,111,Negative Epithelial,0,1
+flat5,111,Negative Immune,0,0
+flat5,111,Positive Epithelial,10,13
+flat5,111,Positive Immune,0,1
+flat5,111,other,1,3
+flat5,112,Negative Epithelial,3,3
+flat5,112,Negative Immune,4,4
+flat5,112,Positive Epithelial,228,230
+flat5,112,Positive Immune,73,73
+flat5,112,other,47,48
+flat5,113,Negative Epithelial,0,0
+flat5,113,Negative Immune,0,0
+flat5,113,Positive Epithelial,5,7
+flat5,113,Positive Immune,1,1
+flat5,113,other,14,24
+flat5,114,Negative Epithelial,0,0
+flat5,114,Negative Immune,0,0
+flat5,114,Positive Epithelial,12,12
+flat5,114,Positive Immune,13,14
+flat5,114,other,13,14
+flat5,115,Negative Epithelial,0,0
+flat5,115,Negative Immune,0,0
+flat5,115,Positive Epithelial,0,0
+flat5,115,Positive Immune,0,0
+flat5,115,other,16,15
+flat5,116,Negative Epithelial,5,5
+flat5,116,Negative Immune,2,2
+flat5,116,Positive Epithelial,1,1
+flat5,116,Positive Immune,0,0
+flat5,116,other,263,266
+flat5,117,Negative Epithelial,84,85
+flat5,117,Negative Immune,6,5
+flat5,117,Positive Epithelial,19,19
+flat5,117,Positive Immune,18,16
+flat5,117,other,271,275
+flat5,118,Negative Epithelial,9,9
+flat5,118,Negative Immune,0,0
+flat5,118,Positive Epithelial,11,11
+flat5,118,Positive Immune,25,24
+flat5,118,other,282,293
+flat5,119,Negative Epithelial,75,74
+flat5,119,Negative Immune,6,6
+flat5,119,Positive Epithelial,9,9
+flat5,119,Positive Immune,44,44
+flat5,119,other,273,284
+flat5,120,Negative Epithelial,1,1
+flat5,120,Negative Immune,0,0
+flat5,120,Positive Epithelial,20,20
+flat5,120,Positive Immune,13,13
+flat5,120,other,345,349
+flat5,121,Negative Epithelial,2,3
+flat5,121,Negative Immune,2,2
+flat5,121,Positive Epithelial,12,12
+flat5,121,Positive Immune,14,14
+flat5,121,other,456,465
+flat5,122,Negative Epithelial,0,0
+flat5,122,Negative Immune,0,0
+flat5,122,Positive Epithelial,0,0
+flat5,122,Positive Immune,0,0
+flat5,122,other,65,70
+flat5,123,Negative Epithelial,0,0
+flat5,123,Negative Immune,0,0
+flat5,123,Positive Epithelial,14,15
+flat5,123,Positive Immune,0,0
+flat5,123,other,119,124
+flat5,124,Negative Epithelial,0,0
+flat5,124,Negative Immune,0,0
+flat5,124,Positive Epithelial,0,0
+flat5,124,Positive Immune,0,0
+flat5,124,other,304,310
+flat5,125,Negative Epithelial,0,1
+flat5,125,Negative Immune,0,0
+flat5,125,Positive Epithelial,0,0
+flat5,125,Positive Immune,0,0
+flat5,125,other,177,178
+flat5,126,Negative Epithelial,0,0
+flat5,126,Negative Immune,0,0
+flat5,126,Positive Epithelial,0,0
+flat5,126,Positive Immune,0,0
+flat5,126,other,227,232
+flat5,127,Negative Epithelial,0,0
+flat5,127,Negative Immune,0,0
+flat5,127,Positive Epithelial,0,0
+flat5,127,Positive Immune,0,0
+flat5,127,other,50,51
+flat5,128,Negative Epithelial,7,7
+flat5,128,Negative Immune,0,0
+flat5,128,Positive Epithelial,0,0
+flat5,128,Positive Immune,0,0
+flat5,128,other,189,195
+flat5,129,Negative Epithelial,71,71
+flat5,129,Negative Immune,4,4
+flat5,129,Positive Epithelial,0,0
+flat5,129,Positive Immune,0,0
+flat5,129,other,263,268
+flat5,130,Negative Epithelial,7,7
+flat5,130,Negative Immune,0,0
+flat5,130,Positive Epithelial,0,0
+flat5,130,Positive Immune,0,0
+flat5,130,other,231,238
+flat5,131,Negative Epithelial,46,46
+flat5,131,Negative Immune,3,3
+flat5,131,Positive Epithelial,0,0
+flat5,131,Positive Immune,0,0
+flat5,131,other,217,223
+flat5,132,Negative Epithelial,109,110
+flat5,132,Negative Immune,16,16
+flat5,132,Positive Epithelial,0,0
+flat5,132,Positive Immune,9,9
+flat5,132,other,248,255
+flat5,133,Negative Epithelial,65,65
+flat5,133,Negative Immune,7,9
+flat5,133,Positive Epithelial,0,0
+flat5,133,Positive Immune,1,1
+flat5,133,other,133,136
+flat5,134,Negative Epithelial,66,66
+flat5,134,Negative Immune,8,9
+flat5,134,Positive Epithelial,0,0
+flat5,134,Positive Immune,0,0
+flat5,134,other,205,212
+flat5,135,Negative Epithelial,9,10
+flat5,135,Negative Immune,4,5
+flat5,135,Positive Epithelial,0,0
+flat5,135,Positive Immune,2,2
+flat5,135,other,143,147
+flat5,136,Negative Epithelial,133,136
+flat5,136,Negative Immune,0,0
+flat5,136,Positive Epithelial,0,0
+flat5,136,Positive Immune,0,0
+flat5,136,other,176,185
+flat5,137,Negative Epithelial,192,193
+flat5,137,Negative Immune,14,14
+flat5,137,Positive Epithelial,0,0
+flat5,137,Positive Immune,11,10
+flat5,137,other,218,225
+flat5,138,Negative Epithelial,149,153
+flat5,138,Negative Immune,6,6
+flat5,138,Positive Epithelial,0,0
+flat5,138,Positive Immune,5,5
+flat5,138,other,201,209
+flat5,139,Negative Epithelial,68,75
+flat5,139,Negative Immune,4,4
+flat5,139,Positive Epithelial,0,0
+flat5,139,Positive Immune,0,0
+flat5,139,other,162,174
+flat5,140,Negative Epithelial,0,0
+flat5,140,Negative Immune,0,0
+flat5,140,Positive Epithelial,0,0
+flat5,140,Positive Immune,0,0
+flat5,140,other,125,130
+flat5,141,Negative Epithelial,16,16
+flat5,141,Negative Immune,2,2
+flat5,141,Positive Epithelial,0,0
+flat5,141,Positive Immune,6,6
+flat5,141,other,125,129
+flat5,142,Negative Epithelial,77,79
+flat5,142,Negative Immune,8,8
+flat5,142,Positive Epithelial,0,0
+flat5,142,Positive Immune,4,4
+flat5,142,other,287,292
+flat5,143,Negative Epithelial,6,6
+flat5,143,Negative Immune,0,0
+flat5,143,Positive Epithelial,0,0
+flat5,143,Positive Immune,0,0
+flat5,143,other,284,292
+flat5,144,Negative Epithelial,120,120
+flat5,144,Negative Immune,5,5
+flat5,144,Positive Epithelial,0,0
+flat5,144,Positive Immune,10,10
+flat5,144,other,186,190
+flat5,145,Negative Epithelial,80,81
+flat5,145,Negative Immune,4,4
+flat5,145,Positive Epithelial,0,0
+flat5,145,Positive Immune,15,15
+flat5,145,other,170,174
+flat5,146,Negative Epithelial,16,18
+flat5,146,Negative Immune,0,0
+flat5,146,Positive Epithelial,0,0
+flat5,146,Positive Immune,8,8
+flat5,146,other,323,329
+flat5,147,Negative Epithelial,71,71
+flat5,147,Negative Immune,7,7
+flat5,147,Positive Epithelial,0,1
+flat5,147,Positive Immune,10,10
+flat5,147,other,174,178
+flat5,148,Negative Epithelial,42,44
+flat5,148,Negative Immune,1,1
+flat5,148,Positive Epithelial,0,0
+flat5,148,Positive Immune,9,9
+flat5,148,other,399,419
+flat5,149,Negative Epithelial,81,84
+flat5,149,Negative Immune,3,4
+flat5,149,Positive Epithelial,0,0
+flat5,149,Positive Immune,12,13
+flat5,149,other,357,366
+flat5,150,Negative Epithelial,32,32
+flat5,150,Negative Immune,1,2
+flat5,150,Positive Epithelial,0,0
+flat5,150,Positive Immune,9,11
+flat5,150,other,187,200
+flat5,151,Negative Epithelial,67,68
+flat5,151,Negative Immune,1,1
+flat5,151,Positive Epithelial,0,0
+flat5,151,Positive Immune,17,17
+flat5,151,other,211,222
+flat5,152,Negative Epithelial,158,162
+flat5,152,Negative Immune,15,15
+flat5,152,Positive Epithelial,0,0
+flat5,152,Positive Immune,26,29
+flat5,152,other,209,216
+flat5,153,Negative Epithelial,59,59
+flat5,153,Negative Immune,2,1
+flat5,153,Positive Epithelial,0,0
+flat5,153,Positive Immune,22,21
+flat5,153,other,105,110
+flat5,154,Negative Epithelial,106,107
+flat5,154,Negative Immune,7,7
+flat5,154,Positive Epithelial,0,0
+flat5,154,Positive Immune,52,52
+flat5,154,other,184,187
+flat5,155,Negative Epithelial,68,70
+flat5,155,Negative Immune,4,4
+flat5,155,Positive Epithelial,0,0
+flat5,155,Positive Immune,6,6
+flat5,155,other,157,160
+flat5,156,Negative Epithelial,161,168
+flat5,156,Negative Immune,26,25
+flat5,156,Positive Epithelial,1,1
+flat5,156,Positive Immune,13,13
+flat5,156,other,280,286
+flat5,157,Negative Epithelial,155,160
+flat5,157,Negative Immune,10,9
+flat5,157,Positive Epithelial,0,0
+flat5,157,Positive Immune,16,16
+flat5,157,other,219,232
+flat5,158,Negative Epithelial,257,263
+flat5,158,Negative Immune,24,24
+flat5,158,Positive Epithelial,0,0
+flat5,158,Positive Immune,33,33
+flat5,158,other,164,169
+flat5,159,Negative Epithelial,146,152
+flat5,159,Negative Immune,6,6
+flat5,159,Positive Epithelial,0,0
+flat5,159,Positive Immune,20,21
+flat5,159,other,213,224
+flat5,160,Negative Epithelial,54,57
+flat5,160,Negative Immune,2,2
+flat5,160,Positive Epithelial,1,1
+flat5,160,Positive Immune,27,28
+flat5,160,other,292,302
+flat5,161,Negative Epithelial,59,59
+flat5,161,Negative Immune,9,9
+flat5,161,Positive Epithelial,0,0
+flat5,161,Positive Immune,36,36
+flat5,161,other,263,267
+flat5,162,Negative Epithelial,24,24
+flat5,162,Negative Immune,1,1
+flat5,162,Positive Epithelial,0,0
+flat5,162,Positive Immune,13,13
+flat5,162,other,148,155
+flat5,163,Negative Epithelial,95,98
+flat5,163,Negative Immune,4,5
+flat5,163,Positive Epithelial,0,0
+flat5,163,Positive Immune,16,18
+flat5,163,other,94,97
+flat5,164,Negative Epithelial,33,33
+flat5,164,Negative Immune,3,3
+flat5,164,Positive Epithelial,7,7
+flat5,164,Positive Immune,12,12
+flat5,164,other,379,391
+flat5,165,Negative Epithelial,0,0
+flat5,165,Negative Immune,0,0
+flat5,165,Positive Epithelial,0,0
+flat5,165,Positive Immune,2,2
+flat5,165,other,383,393
+flat5,166,Negative Epithelial,40,42
+flat5,166,Negative Immune,2,2
+flat5,166,Positive Epithelial,5,5
+flat5,166,Positive Immune,26,28
+flat5,166,other,402,416
+flat5,167,Negative Epithelial,56,55
+flat5,167,Negative Immune,3,3
+flat5,167,Positive Epithelial,0,0
+flat5,167,Positive Immune,10,10
+flat5,167,other,281,301
+flat5,168,Negative Epithelial,0,0
+flat5,168,Negative Immune,0,0
+flat5,168,Positive Epithelial,0,0
+flat5,168,Positive Immune,0,0
+flat5,168,other,0,2
+flat5,169,Negative Epithelial,0,0
+flat5,169,Negative Immune,0,0
+flat5,169,Positive Epithelial,0,0
+flat5,169,Positive Immune,0,0
+flat5,169,other,5,7
+flat5,170,Negative Epithelial,26,26
+flat5,170,Negative Immune,0,0
+flat5,170,Positive Epithelial,0,0
+flat5,170,Positive Immune,2,1
+flat5,170,other,273,278
+flat5,171,Negative Epithelial,66,67
+flat5,171,Negative Immune,7,7
+flat5,171,Positive Epithelial,0,0
+flat5,171,Positive Immune,6,6
+flat5,171,other,289,291
+flat5,172,Negative Epithelial,0,0
+flat5,172,Negative Immune,0,0
+flat5,172,Positive Epithelial,0,0
+flat5,172,Positive Immune,0,0
+flat5,172,other,19,24
+flat5,173,Negative Epithelial,7,7
+flat5,173,Negative Immune,10,6
+flat5,173,Positive Epithelial,99,97
+flat5,173,Positive Immune,50,49
+flat5,173,other,487,501
+flat5,174,Negative Epithelial,0,2
+flat5,174,Negative Immune,0,0
+flat5,174,Positive Epithelial,0,6
+flat5,174,Positive Immune,0,0
+flat5,174,other,22,21
+flat5,175,Negative Epithelial,12,11
+flat5,175,Negative Immune,4,4
+flat5,175,Positive Epithelial,39,35
+flat5,175,Positive Immune,36,38
+flat5,175,other,750,750
+flat5,176,Negative Epithelial,133,139
+flat5,176,Negative Immune,22,21
+flat5,176,Positive Epithelial,26,26
+flat5,176,Positive Immune,147,154
+flat5,176,other,284,293
+flat5,177,Negative Epithelial,76,76
+flat5,177,Negative Immune,15,15
+flat5,177,Positive Epithelial,26,26
+flat5,177,Positive Immune,80,80
+flat5,177,other,354,372
+flat5,178,Negative Epithelial,145,148
+flat5,178,Negative Immune,25,25
+flat5,178,Positive Epithelial,75,79
+flat5,178,Positive Immune,140,146
+flat5,178,other,381,401
+flat5,179,Negative Epithelial,0,0
+flat5,179,Negative Immune,3,2
+flat5,179,Positive Epithelial,0,1
+flat5,179,Positive Immune,8,6
+flat5,179,other,431,445
+flat5,180,Negative Epithelial,25,25
+flat5,180,Negative Immune,31,30
+flat5,180,Positive Epithelial,105,106
+flat5,180,Positive Immune,66,69
+flat5,180,other,387,386
+flat5,181,Negative Epithelial,0,0
+flat5,181,Negative Immune,0,0
+flat5,181,Positive Epithelial,0,0
+flat5,181,Positive Immune,0,0
+flat5,181,other,220,233
+flat5,182,Negative Epithelial,0,0
+flat5,182,Negative Immune,0,0
+flat5,182,Positive Epithelial,0,0
+flat5,182,Positive Immune,0,0
+flat5,182,other,151,167
+flat5,183,Negative Epithelial,0,0
+flat5,183,Negative Immune,0,0
+flat5,183,Positive Epithelial,0,0
+flat5,183,Positive Immune,0,0
+flat5,183,other,29,34
+flat5,184,Negative Epithelial,0,0
+flat5,184,Negative Immune,2,2
+flat5,184,Positive Epithelial,0,0
+flat5,184,Positive Immune,12,13
+flat5,184,other,313,324
+flat5,185,Negative Epithelial,5,5
+flat5,185,Negative Immune,10,10
+flat5,185,Positive Epithelial,38,40
+flat5,185,Positive Immune,114,115
+flat5,185,other,392,397
+flat5,186,Negative Epithelial,0,0
+flat5,186,Negative Immune,0,0
+flat5,186,Positive Epithelial,0,0
+flat5,186,Positive Immune,9,10
+flat5,186,other,267,272
+flat5,187,Negative Epithelial,0,0
+flat5,187,Negative Immune,19,19
+flat5,187,Positive Epithelial,35,36
+flat5,187,Positive Immune,106,109
+flat5,187,other,291,299
+flat5,188,Negative Epithelial,85,86
+flat5,188,Negative Immune,4,4
+flat5,188,Positive Epithelial,26,26
+flat5,188,Positive Immune,6,7
+flat5,188,other,61,62
+flat5,189,Negative Epithelial,39,39
+flat5,189,Negative Immune,1,1
+flat5,189,Positive Epithelial,56,57
+flat5,189,Positive Immune,5,5
+flat5,189,other,133,137
+flat5,190,Negative Epithelial,39,42
+flat5,190,Negative Immune,3,4
+flat5,190,Positive Epithelial,0,0
+flat5,190,Positive Immune,0,0
+flat5,190,other,93,103
+flat5,191,Negative Epithelial,0,0
+flat5,191,Negative Immune,2,2
+flat5,191,Positive Epithelial,0,0
+flat5,191,Positive Immune,5,5
+flat5,191,other,173,181
+flat5,192,Negative Epithelial,80,80
+flat5,192,Negative Immune,11,11
+flat5,192,Positive Epithelial,0,0
+flat5,192,Positive Immune,76,76
+flat5,192,other,301,307
+flat5,193,Negative Epithelial,41,41
+flat5,193,Negative Immune,1,1
+flat5,193,Positive Epithelial,2,2
+flat5,193,Positive Immune,12,12
+flat5,193,other,248,253
+flat5,194,Negative Epithelial,0,0
+flat5,194,Negative Immune,0,0
+flat5,194,Positive Epithelial,0,0
+flat5,194,Positive Immune,0,0
+flat5,194,other,8,9
+flat5,195,Negative Epithelial,0,0
+flat5,195,Negative Immune,0,0
+flat5,195,Positive Epithelial,0,0
+flat5,195,Positive Immune,0,0
+flat5,195,other,76,86
+flat5,196,Negative Epithelial,31,33
+flat5,196,Negative Immune,0,0
+flat5,196,Positive Epithelial,0,0
+flat5,196,Positive Immune,4,4
+flat5,196,other,105,116
+flat5,197,Negative Epithelial,157,160
+flat5,197,Negative Immune,5,5
+flat5,197,Positive Epithelial,0,0
+flat5,197,Positive Immune,12,12
+flat5,197,other,311,321
+flat5,198,Negative Epithelial,78,80
+flat5,198,Negative Immune,0,0
+flat5,198,Positive Epithelial,0,0
+flat5,198,Positive Immune,34,34
+flat5,198,other,568,603
+flat5,199,Negative Epithelial,27,28
+flat5,199,Negative Immune,0,0
+flat5,199,Positive Epithelial,0,0
+flat5,199,Positive Immune,22,25
+flat5,199,other,551,596
+flat5,200,Negative Epithelial,51,52
+flat5,200,Negative Immune,1,1
+flat5,200,Positive Epithelial,27,27
+flat5,200,Positive Immune,26,27
+flat5,200,other,366,375
+flat5,201,Negative Epithelial,0,0
+flat5,201,Negative Immune,0,0
+flat5,201,Positive Epithelial,0,0
+flat5,201,Positive Immune,3,4
+flat5,201,other,498,515
+flat5,202,Negative Epithelial,65,67
+flat5,202,Negative Immune,1,1
+flat5,202,Positive Epithelial,14,14
+flat5,202,Positive Immune,21,20
+flat5,202,other,229,238
+flat5,203,Negative Epithelial,4,4
+flat5,203,Negative Immune,0,0
+flat5,203,Positive Epithelial,0,0
+flat5,203,Positive Immune,0,0
+flat5,203,other,116,128
+flat5,204,Negative Epithelial,412,425
+flat5,204,Negative Immune,21,21
+flat5,204,Positive Epithelial,0,0
+flat5,204,Positive Immune,37,40
+flat5,204,other,135,136
+flat5,205,Negative Epithelial,440,461
+flat5,205,Negative Immune,21,22
+flat5,205,Positive Epithelial,0,0
+flat5,205,Positive Immune,21,21
+flat5,205,other,102,99
+flat5,206,Negative Epithelial,380,398
+flat5,206,Negative Immune,20,21
+flat5,206,Positive Epithelial,1,1
+flat5,206,Positive Immune,28,31
+flat5,206,other,131,131
+flat5,207,Negative Epithelial,357,374
+flat5,207,Negative Immune,21,21
+flat5,207,Positive Epithelial,1,1
+flat5,207,Positive Immune,9,8
+flat5,207,other,115,119
+flat5,208,Negative Epithelial,1,1
+flat5,208,Negative Immune,0,0
+flat5,208,Positive Epithelial,0,0
+flat5,208,Positive Immune,0,0
+flat5,208,other,0,1
+flat5,209,Negative Epithelial,363,374
+flat5,209,Negative Immune,9,10
+flat5,209,Positive Epithelial,0,0
+flat5,209,Positive Immune,32,33
+flat5,209,other,52,51
+flat5,210,Negative Epithelial,1,1
+flat5,210,Negative Immune,0,0
+flat5,210,Positive Epithelial,2,3
+flat5,210,Positive Immune,2,2
+flat5,210,other,20,25
+flat5,211,Negative Epithelial,394,403
+flat5,211,Negative Immune,28,27
+flat5,211,Positive Epithelial,21,22
+flat5,211,Positive Immune,54,57
+flat5,211,other,139,139
+flat5,212,Negative Epithelial,44,45
+flat5,212,Negative Immune,4,4
+flat5,212,Positive Epithelial,2,2
+flat5,212,Positive Immune,51,51
+flat5,212,other,113,120
+flat5,213,Negative Epithelial,126,131
+flat5,213,Negative Immune,19,19
+flat5,213,Positive Epithelial,22,22
+flat5,213,Positive Immune,74,77
+flat5,213,other,80,79
+flat5,214,Negative Epithelial,239,241
+flat5,214,Negative Immune,10,9
+flat5,214,Positive Epithelial,36,36
+flat5,214,Positive Immune,43,45
+flat5,214,other,163,166
+flat5,215,Negative Epithelial,25,28
+flat5,215,Negative Immune,0,1
+flat5,215,Positive Epithelial,1,2
+flat5,215,Positive Immune,24,24
+flat5,215,other,20,20
+flat5,216,Negative Epithelial,1,0
+flat5,216,Negative Immune,4,3
+flat5,216,Positive Epithelial,0,0
+flat5,216,Positive Immune,5,7
+flat5,216,other,122,142
+flat5,217,Negative Epithelial,74,72
+flat5,217,Negative Immune,3,3
+flat5,217,Positive Epithelial,39,41
+flat5,217,Positive Immune,60,63
+flat5,217,other,309,318
+flat5,218,Negative Epithelial,202,207
+flat5,218,Negative Immune,36,39
+flat5,218,Positive Epithelial,18,18
+flat5,218,Positive Immune,117,119
+flat5,218,other,478,478
+flat5,219,Negative Epithelial,435,445
+flat5,219,Negative Immune,21,21
+flat5,219,Positive Epithelial,22,23
+flat5,219,Positive Immune,146,150
+flat5,219,other,302,302
+flat5,220,Negative Epithelial,0,0
+flat5,220,Negative Immune,0,0
+flat5,220,Positive Epithelial,0,0
+flat5,220,Positive Immune,0,0
+flat5,220,other,286,295
+flat5,221,Negative Epithelial,0,0
+flat5,221,Negative Immune,0,0
+flat5,221,Positive Epithelial,0,0
+flat5,221,Positive Immune,0,0
+flat5,221,other,347,353
+flat5,222,Negative Epithelial,0,0
+flat5,222,Negative Immune,0,0
+flat5,222,Positive Epithelial,0,0
+flat5,222,Positive Immune,0,0
+flat5,222,other,353,357
+flat5,223,Negative Epithelial,0,0
+flat5,223,Negative Immune,0,0
+flat5,223,Positive Epithelial,0,0
+flat5,223,Positive Immune,0,0
+flat5,223,other,386,397
+flat5,224,Negative Epithelial,0,0
+flat5,224,Negative Immune,0,0
+flat5,224,Positive Epithelial,0,0
+flat5,224,Positive Immune,0,0
+flat5,224,other,281,286
+flat5,225,Negative Epithelial,0,0
+flat5,225,Negative Immune,0,0
+flat5,225,Positive Epithelial,0,0
+flat5,225,Positive Immune,0,0
+flat5,225,other,368,372
+flat5,226,Negative Epithelial,0,0
+flat5,226,Negative Immune,0,0
+flat5,226,Positive Epithelial,0,0
+flat5,226,Positive Immune,0,0
+flat5,226,other,0,1
+flat5,227,Negative Epithelial,0,0
+flat5,227,Negative Immune,0,0
+flat5,227,Positive Epithelial,0,0
+flat5,227,Positive Immune,0,0
+flat5,227,other,0,0
+flat5,228,Negative Epithelial,0,0
+flat5,228,Negative Immune,0,0
+flat5,228,Positive Epithelial,0,0
+flat5,228,Positive Immune,0,0
+flat5,228,other,44,44
+flat5,229,Negative Epithelial,0,0
+flat5,229,Negative Immune,0,0
+flat5,229,Positive Epithelial,0,0
+flat5,229,Positive Immune,0,0
+flat5,229,other,201,204
+flat5,230,Negative Epithelial,0,0
+flat5,230,Negative Immune,0,0
+flat5,230,Positive Epithelial,0,0
+flat5,230,Positive Immune,0,0
+flat5,230,other,130,135
+flat5,231,Negative Epithelial,0,0
+flat5,231,Negative Immune,0,0
+flat5,231,Positive Epithelial,0,0
+flat5,231,Positive Immune,0,0
+flat5,231,other,338,342
+flat5,232,Negative Epithelial,0,0
+flat5,232,Negative Immune,0,0
+flat5,232,Positive Epithelial,0,0
+flat5,232,Positive Immune,0,0
+flat5,232,other,243,263
+flat5,233,Negative Epithelial,0,0
+flat5,233,Negative Immune,4,4
+flat5,233,Positive Epithelial,156,156
+flat5,233,Positive Immune,48,49
+flat5,233,other,192,195
+flat5,234,Negative Epithelial,0,0
+flat5,234,Negative Immune,0,0
+flat5,234,Positive Epithelial,0,0
+flat5,234,Positive Immune,0,0
+flat5,234,other,230,247
+flat5,235,Negative Epithelial,1,1
+flat5,235,Negative Immune,0,0
+flat5,235,Positive Epithelial,82,84
+flat5,235,Positive Immune,34,37
+flat5,235,other,313,317
+flat5,236,Negative Epithelial,0,0
+flat5,236,Negative Immune,0,0
+flat5,236,Positive Epithelial,0,0
+flat5,236,Positive Immune,0,0
+flat5,236,other,696,712
+flat5,237,Negative Epithelial,0,0
+flat5,237,Negative Immune,0,0
+flat5,237,Positive Epithelial,0,0
+flat5,237,Positive Immune,0,0
+flat5,237,other,664,685
+flat5,238,Negative Epithelial,0,0
+flat5,238,Negative Immune,0,0
+flat5,238,Positive Epithelial,0,0
+flat5,238,Positive Immune,0,0
+flat5,238,other,648,669
+flat5,239,Negative Epithelial,0,0
+flat5,239,Negative Immune,0,0
+flat5,239,Positive Epithelial,0,0
+flat5,239,Positive Immune,0,0
+flat5,239,other,558,570
+flat5,240,Negative Epithelial,0,0
+flat5,240,Negative Immune,0,0
+flat5,240,Positive Epithelial,0,0
+flat5,240,Positive Immune,0,0
+flat5,240,other,635,649
+flat5,241,Negative Epithelial,0,0
+flat5,241,Negative Immune,0,0
+flat5,241,Positive Epithelial,0,0
+flat5,241,Positive Immune,0,0
+flat5,241,other,423,439
+flat5,242,Negative Epithelial,0,0
+flat5,242,Negative Immune,0,0
+flat5,242,Positive Epithelial,0,0
+flat5,242,Positive Immune,0,0
+flat5,242,other,587,605
+flat5,243,Negative Epithelial,0,0
+flat5,243,Negative Immune,0,0
+flat5,243,Positive Epithelial,0,0
+flat5,243,Positive Immune,0,0
+flat5,243,other,630,645
+flat5,244,Negative Epithelial,49,50
+flat5,244,Negative Immune,1,1
+flat5,244,Positive Epithelial,0,0
+flat5,244,Positive Immune,6,7
+flat5,244,other,466,477
+flat5,245,Negative Epithelial,143,145
+flat5,245,Negative Immune,2,2
+flat5,245,Positive Epithelial,0,0
+flat5,245,Positive Immune,6,7
+flat5,245,other,101,111
+flat5,246,Negative Epithelial,122,124
+flat5,246,Negative Immune,2,2
+flat5,246,Positive Epithelial,0,0
+flat5,246,Positive Immune,17,17
+flat5,246,other,455,470
+flat5,247,Negative Epithelial,201,203
+flat5,247,Negative Immune,0,0
+flat5,247,Positive Epithelial,0,0
+flat5,247,Positive Immune,7,7
+flat5,247,other,189,189
+flat5,248,Negative Epithelial,213,218
+flat5,248,Negative Immune,12,12
+flat5,248,Positive Epithelial,0,0
+flat5,248,Positive Immune,16,17
+flat5,248,other,211,218
+flat5,249,Negative Epithelial,350,360
+flat5,249,Negative Immune,8,9
+flat5,249,Positive Epithelial,0,0
+flat5,249,Positive Immune,13,13
+flat5,249,other,125,127
+flat5,250,Negative Epithelial,245,254
+flat5,250,Negative Immune,6,7
+flat5,250,Positive Epithelial,0,0
+flat5,250,Positive Immune,6,6
+flat5,250,other,181,187
+flat5,251,Negative Epithelial,314,325
+flat5,251,Negative Immune,16,16
+flat5,251,Positive Epithelial,0,0
+flat5,251,Positive Immune,22,22
+flat5,251,other,154,155
+flat5,252,Negative Epithelial,325,327
+flat5,252,Negative Immune,24,24
+flat5,252,Positive Epithelial,0,0
+flat5,252,Positive Immune,15,15
+flat5,252,other,228,230
+flat5,253,Negative Epithelial,437,446
+flat5,253,Negative Immune,9,10
+flat5,253,Positive Epithelial,4,4
+flat5,253,Positive Immune,17,17
+flat5,253,other,120,122
+flat5,254,Negative Epithelial,120,119
+flat5,254,Negative Immune,5,5
+flat5,254,Positive Epithelial,0,0
+flat5,254,Positive Immune,2,2
+flat5,254,other,135,154
+flat5,255,Negative Epithelial,180,184
+flat5,255,Negative Immune,0,0
+flat5,255,Positive Epithelial,0,0
+flat5,255,Positive Immune,15,17
+flat5,255,other,173,178
+flat5,256,Negative Epithelial,118,119
+flat5,256,Negative Immune,3,3
+flat5,256,Positive Epithelial,0,0
+flat5,256,Positive Immune,9,9
+flat5,256,other,471,499
+flat5,257,Negative Epithelial,71,71
+flat5,257,Negative Immune,7,7
+flat5,257,Positive Epithelial,0,0
+flat5,257,Positive Immune,4,4
+flat5,257,other,398,410
+flat5,258,Negative Epithelial,44,44
+flat5,258,Negative Immune,4,5
+flat5,258,Positive Epithelial,0,0
+flat5,258,Positive Immune,2,2
+flat5,258,other,273,284
+flat5,259,Negative Epithelial,162,164
+flat5,259,Negative Immune,3,3
+flat5,259,Positive Epithelial,0,0
+flat5,259,Positive Immune,17,18
+flat5,259,other,335,344
+flat5,260,Negative Epithelial,0,0
+flat5,260,Negative Immune,0,0
+flat5,260,Positive Epithelial,0,0
+flat5,260,Positive Immune,0,0
+flat5,260,other,400,411
+flat5,261,Negative Epithelial,59,58
+flat5,261,Negative Immune,0,0
+flat5,261,Positive Epithelial,0,0
+flat5,261,Positive Immune,0,0
+flat5,261,other,402,416
+flat5,262,Negative Epithelial,42,43
+flat5,262,Negative Immune,0,0
+flat5,262,Positive Epithelial,0,0
+flat5,262,Positive Immune,0,0
+flat5,262,other,363,366
+flat5,263,Negative Epithelial,122,124
+flat5,263,Negative Immune,0,0
+flat5,263,Positive Epithelial,0,0
+flat5,263,Positive Immune,0,0
+flat5,263,other,164,170
+flat5,264,Negative Epithelial,147,150
+flat5,264,Negative Immune,13,14
+flat5,264,Positive Epithelial,0,0
+flat5,264,Positive Immune,0,0
+flat5,264,other,134,141
+flat5,265,Negative Epithelial,122,125
+flat5,265,Negative Immune,9,9
+flat5,265,Positive Epithelial,1,1
+flat5,265,Positive Immune,1,1
+flat5,265,other,198,211
+flat5,266,Negative Epithelial,143,148
+flat5,266,Negative Immune,1,1
+flat5,266,Positive Epithelial,2,2
+flat5,266,Positive Immune,0,0
+flat5,266,other,233,237
+flat5,267,Negative Epithelial,72,73
+flat5,267,Negative Immune,2,2
+flat5,267,Positive Epithelial,0,0
+flat5,267,Positive Immune,1,2
+flat5,267,other,95,97
+flat5,268,Negative Epithelial,1,0
+flat5,268,Negative Immune,0,0
+flat5,268,Positive Epithelial,0,0
+flat5,268,Positive Immune,0,0
+flat5,268,other,196,211
+flat5,269,Negative Epithelial,15,18
+flat5,269,Negative Immune,0,0
+flat5,269,Positive Epithelial,0,0
+flat5,269,Positive Immune,0,0
+flat5,269,other,125,134
+flat5,270,Negative Epithelial,80,80
+flat5,270,Negative Immune,0,0
+flat5,270,Positive Epithelial,1,1
+flat5,270,Positive Immune,5,5
+flat5,270,other,262,270
+flat5,271,Negative Epithelial,74,77
+flat5,271,Negative Immune,1,1
+flat5,271,Positive Epithelial,0,0
+flat5,271,Positive Immune,13,13
+flat5,271,other,262,267
+flat5,272,Negative Epithelial,24,24
+flat5,272,Negative Immune,0,0
+flat5,272,Positive Epithelial,0,0
+flat5,272,Positive Immune,1,1
+flat5,272,other,325,328
+flat5,273,Negative Epithelial,37,40
+flat5,273,Negative Immune,0,0
+flat5,273,Positive Epithelial,0,0
+flat5,273,Positive Immune,0,0
+flat5,273,other,215,215
+flat5,274,Negative Epithelial,0,0
+flat5,274,Negative Immune,0,0
+flat5,274,Positive Epithelial,0,0
+flat5,274,Positive Immune,0,0
+flat5,274,other,340,351
+flat5,275,Negative Epithelial,0,0
+flat5,275,Negative Immune,0,0
+flat5,275,Positive Epithelial,0,0
+flat5,275,Positive Immune,0,0
+flat5,275,other,459,467
+flat5,276,Negative Epithelial,0,0
+flat5,276,Negative Immune,0,0
+flat5,276,Positive Epithelial,0,0
+flat5,276,Positive Immune,0,0
+flat5,276,other,328,353
+flat5,277,Negative Epithelial,45,44
+flat5,277,Negative Immune,0,0
+flat5,277,Positive Epithelial,19,19
+flat5,277,Positive Immune,14,15
+flat5,277,other,458,463
+flat5,278,Negative Epithelial,0,0
+flat5,278,Negative Immune,0,0
+flat5,278,Positive Epithelial,0,0
+flat5,278,Positive Immune,0,0
+flat5,278,other,392,407
+flat5,279,Negative Epithelial,0,0
+flat5,279,Negative Immune,0,0
+flat5,279,Positive Epithelial,0,0
+flat5,279,Positive Immune,1,0
+flat5,279,other,419,438
+flat5,280,Negative Epithelial,32,32
+flat5,280,Negative Immune,0,0
+flat5,280,Positive Epithelial,22,23
+flat5,280,Positive Immune,46,46
+flat5,280,other,339,356
+flat5,281,Negative Epithelial,26,28
+flat5,281,Negative Immune,0,0
+flat5,281,Positive Epithelial,29,28
+flat5,281,Positive Immune,44,47
+flat5,281,other,276,288
+flat5,282,Negative Epithelial,45,44
+flat5,282,Negative Immune,0,0
+flat5,282,Positive Epithelial,19,19
+flat5,282,Positive Immune,14,14
+flat5,282,other,397,413
+flat5,283,Negative Epithelial,41,41
+flat5,283,Negative Immune,5,5
+flat5,283,Positive Epithelial,42,43
+flat5,283,Positive Immune,29,30
+flat5,283,other,222,229
+flat5,284,Negative Epithelial,0,0
+flat5,284,Negative Immune,0,0
+flat5,284,Positive Epithelial,0,0
+flat5,284,Positive Immune,0,0
+flat5,284,other,379,388
+flat5,285,Negative Epithelial,0,0
+flat5,285,Negative Immune,0,0
+flat5,285,Positive Epithelial,0,0
+flat5,285,Positive Immune,0,0
+flat5,285,other,325,332
+flat5,286,Negative Epithelial,0,0
+flat5,286,Negative Immune,0,0
+flat5,286,Positive Epithelial,0,0
+flat5,286,Positive Immune,0,0
+flat5,286,other,398,402
+flat5,287,Negative Epithelial,0,0
+flat5,287,Negative Immune,0,0
+flat5,287,Positive Epithelial,0,0
+flat5,287,Positive Immune,0,0
+flat5,287,other,389,396
+flat5,288,Negative Epithelial,0,0
+flat5,288,Negative Immune,0,0
+flat5,288,Positive Epithelial,0,0
+flat5,288,Positive Immune,0,0
+flat5,288,other,0,0
+flat5,289,Negative Epithelial,57,57
+flat5,289,Negative Immune,0,0
+flat5,289,Positive Epithelial,2,2
+flat5,289,Positive Immune,5,5
+flat5,289,other,351,356
+flat5,290,Negative Epithelial,0,0
+flat5,290,Negative Immune,0,0
+flat5,290,Positive Epithelial,0,0
+flat5,290,Positive Immune,0,0
+flat5,290,other,19,23
+flat5,291,Negative Epithelial,1,2
+flat5,291,Negative Immune,0,0
+flat5,291,Positive Epithelial,0,0
+flat5,291,Positive Immune,0,0
+flat5,291,other,268,279
+flat5,292,Negative Epithelial,92,94
+flat5,292,Negative Immune,1,1
+flat5,292,Positive Epithelial,1,1
+flat5,292,Positive Immune,11,11
+flat5,292,other,394,400
+flat5,293,Negative Epithelial,183,187
+flat5,293,Negative Immune,0,0
+flat5,293,Positive Epithelial,0,0
+flat5,293,Positive Immune,4,4
+flat5,293,other,179,189
+flat5,294,Negative Epithelial,106,108
+flat5,294,Negative Immune,1,1
+flat5,294,Positive Epithelial,0,0
+flat5,294,Positive Immune,1,1
+flat5,294,other,311,322
+flat5,295,Negative Epithelial,160,167
+flat5,295,Negative Immune,0,0
+flat5,295,Positive Epithelial,0,0
+flat5,295,Positive Immune,0,0
+flat5,295,other,174,184
+flat5,296,Negative Epithelial,0,0
+flat5,296,Negative Immune,0,0
+flat5,296,Positive Epithelial,0,0
+flat5,296,Positive Immune,0,0
+flat5,296,other,0,210
+flat5,297,Negative Epithelial,0,10
+flat5,297,Negative Immune,0,1
+flat5,297,Positive Epithelial,0,0
+flat5,297,Positive Immune,0,0
+flat5,297,other,0,207
+flat5,298,Negative Epithelial,0,175
+flat5,298,Negative Immune,0,2
+flat5,298,Positive Epithelial,0,0
+flat5,298,Positive Immune,0,7
+flat5,298,other,0,258
+flat5,299,Negative Epithelial,0,153
+flat5,299,Negative Immune,0,1
+flat5,299,Positive Epithelial,0,1
+flat5,299,Positive Immune,0,6
+flat5,299,other,0,179
+flat5,300,Negative Epithelial,0,0
+flat5,300,Negative Immune,0,0
+flat5,300,Positive Epithelial,0,0
+flat5,300,Positive Immune,0,0
+flat5,300,other,453,459
+flat5,301,Negative Epithelial,0,0
+flat5,301,Negative Immune,0,0
+flat5,301,Positive Epithelial,0,0
+flat5,301,Positive Immune,0,0
+flat5,301,other,361,368
+flat5,302,Negative Epithelial,0,0
+flat5,302,Negative Immune,0,0
+flat5,302,Positive Epithelial,0,0
+flat5,302,Positive Immune,0,0
+flat5,302,other,496,506
+flat5,303,Negative Epithelial,0,0
+flat5,303,Negative Immune,0,0
+flat5,303,Positive Epithelial,0,0
+flat5,303,Positive Immune,0,0
+flat5,303,other,266,274
+flat5,304,Negative Epithelial,164,168
+flat5,304,Negative Immune,0,0
+flat5,304,Positive Epithelial,0,0
+flat5,304,Positive Immune,0,0
+flat5,304,other,235,248
+flat5,305,Negative Epithelial,106,106
+flat5,305,Negative Immune,1,1
+flat5,305,Positive Epithelial,0,0
+flat5,305,Positive Immune,0,0
+flat5,305,other,255,271
+flat5,306,Negative Epithelial,333,334
+flat5,306,Negative Immune,2,2
+flat5,306,Positive Epithelial,0,0
+flat5,306,Positive Immune,0,0
+flat5,306,other,292,306
+flat5,307,Negative Epithelial,316,318
+flat5,307,Negative Immune,7,7
+flat5,307,Positive Epithelial,0,0
+flat5,307,Positive Immune,2,2
+flat5,307,other,318,327
+flat5,308,Negative Epithelial,3,4
+flat5,308,Negative Immune,0,0
+flat5,308,Positive Epithelial,0,0
+flat5,308,Positive Immune,0,0
+flat5,308,other,347,369
+flat5,309,Negative Epithelial,0,0
+flat5,309,Negative Immune,0,0
+flat5,309,Positive Epithelial,0,0
+flat5,309,Positive Immune,0,0
+flat5,309,other,330,345
+flat5,310,Negative Epithelial,192,195
+flat5,310,Negative Immune,0,0
+flat5,310,Positive Epithelial,0,0
+flat5,310,Positive Immune,0,0
+flat5,310,other,333,341
+flat5,311,Negative Epithelial,61,61
+flat5,311,Negative Immune,0,0
+flat5,311,Positive Epithelial,0,0
+flat5,311,Positive Immune,2,2
+flat5,311,other,395,405
+flat5,312,Negative Epithelial,0,0
+flat5,312,Negative Immune,0,0
+flat5,312,Positive Epithelial,0,0
+flat5,312,Positive Immune,0,0
+flat5,312,other,152,158
+flat5,313,Negative Epithelial,0,0
+flat5,313,Negative Immune,0,0
+flat5,313,Positive Epithelial,0,0
+flat5,313,Positive Immune,0,0
+flat5,313,other,49,51
+flat5,314,Negative Epithelial,0,0
+flat5,314,Negative Immune,0,0
+flat5,314,Positive Epithelial,0,0
+flat5,314,Positive Immune,0,0
+flat5,314,other,611,624
+flat5,315,Negative Epithelial,0,0
+flat5,315,Negative Immune,0,0
+flat5,315,Positive Epithelial,0,0
+flat5,315,Positive Immune,0,0
+flat5,315,other,528,534
+flat5,316,Negative Epithelial,0,0
+flat5,316,Negative Immune,0,0
+flat5,316,Positive Epithelial,0,0
+flat5,316,Positive Immune,0,0
+flat5,316,other,0,0
+flat5,317,Negative Epithelial,0,0
+flat5,317,Negative Immune,0,0
+flat5,317,Positive Epithelial,0,0
+flat5,317,Positive Immune,0,0
+flat5,317,other,45,51
+flat5,318,Negative Epithelial,0,0
+flat5,318,Negative Immune,0,0
+flat5,318,Positive Epithelial,0,0
+flat5,318,Positive Immune,0,0
+flat5,318,other,207,213
+flat5,319,Negative Epithelial,0,0
+flat5,319,Negative Immune,0,0
+flat5,319,Positive Epithelial,0,0
+flat5,319,Positive Immune,0,0
+flat5,319,other,219,220
+flat5,320,Negative Epithelial,36,37
+flat5,320,Negative Immune,0,0
+flat5,320,Positive Epithelial,0,0
+flat5,320,Positive Immune,0,0
+flat5,320,other,370,388
+flat5,321,Negative Epithelial,284,291
+flat5,321,Negative Immune,0,0
+flat5,321,Positive Epithelial,0,0
+flat5,321,Positive Immune,10,11
+flat5,321,other,222,232
+flat5,322,Negative Epithelial,357,362
+flat5,322,Negative Immune,1,1
+flat5,322,Positive Epithelial,0,0
+flat5,322,Positive Immune,12,12
+flat5,322,other,188,198
+flat5,323,Negative Epithelial,520,537
+flat5,323,Negative Immune,3,3
+flat5,323,Positive Epithelial,0,0
+flat5,323,Positive Immune,12,13
+flat5,323,other,90,96
+flat5,324,Negative Epithelial,0,0
+flat5,324,Negative Immune,0,0
+flat5,324,Positive Epithelial,0,0
+flat5,324,Positive Immune,0,0
+flat5,324,other,262,272
+flat5,325,Negative Epithelial,0,0
+flat5,325,Negative Immune,0,0
+flat5,325,Positive Epithelial,0,0
+flat5,325,Positive Immune,0,0
+flat5,325,other,180,182
+flat5,326,Negative Epithelial,0,0
+flat5,326,Negative Immune,0,0
+flat5,326,Positive Epithelial,0,0
+flat5,326,Positive Immune,0,0
+flat5,326,other,106,108
+flat5,327,Negative Epithelial,0,0
+flat5,327,Negative Immune,0,0
+flat5,327,Positive Epithelial,0,0
+flat5,327,Positive Immune,0,0
+flat5,327,other,123,125
+flat5,328,Negative Epithelial,31,31
+flat5,328,Negative Immune,0,0
+flat5,328,Positive Epithelial,0,0
+flat5,328,Positive Immune,0,0
+flat5,328,other,237,245
+flat5,329,Negative Epithelial,0,0
+flat5,329,Negative Immune,0,0
+flat5,329,Positive Epithelial,0,0
+flat5,329,Positive Immune,0,0
+flat5,329,other,7,11
+flat5,330,Negative Epithelial,0,0
+flat5,330,Negative Immune,0,0
+flat5,330,Positive Epithelial,0,0
+flat5,330,Positive Immune,0,0
+flat5,330,other,63,70
+flat5,331,Negative Epithelial,0,0
+flat5,331,Negative Immune,0,0
+flat5,331,Positive Epithelial,0,0
+flat5,331,Positive Immune,0,0
+flat5,331,other,0,0
+flat5,332,Negative Epithelial,0,0
+flat5,332,Negative Immune,0,0
+flat5,332,Positive Epithelial,0,0
+flat5,332,Positive Immune,0,0
+flat5,332,other,0,1
+flat5,333,Negative Epithelial,0,0
+flat5,333,Negative Immune,0,0
+flat5,333,Positive Epithelial,0,0
+flat5,333,Positive Immune,0,0
+flat5,333,other,0,0
+flat5,334,Negative Epithelial,0,0
+flat5,334,Negative Immune,0,0
+flat5,334,Positive Epithelial,0,0
+flat5,334,Positive Immune,0,0
+flat5,334,other,0,0
+flat5,335,Negative Epithelial,0,0
+flat5,335,Negative Immune,0,0
+flat5,335,Positive Epithelial,0,0
+flat5,335,Positive Immune,0,0
+flat5,335,other,0,0
+flat5,336,Negative Epithelial,0,0
+flat5,336,Negative Immune,0,0
+flat5,336,Positive Epithelial,0,0
+flat5,336,Positive Immune,0,0
+flat5,336,other,0,0
+flat5,337,Negative Epithelial,0,0
+flat5,337,Negative Immune,0,0
+flat5,337,Positive Epithelial,0,0
+flat5,337,Positive Immune,0,0
+flat5,337,other,0,0
+flat5,338,Negative Epithelial,0,0
+flat5,338,Negative Immune,0,0
+flat5,338,Positive Epithelial,0,0
+flat5,338,Positive Immune,0,0
+flat5,338,other,9,8
+flat5,339,Negative Epithelial,15,15
+flat5,339,Negative Immune,0,0
+flat5,339,Positive Epithelial,0,0
+flat5,339,Positive Immune,0,0
+flat5,339,other,163,166
+flat5,340,Negative Epithelial,0,0
+flat5,340,Negative Immune,0,0
+flat5,340,Positive Epithelial,0,0
+flat5,340,Positive Immune,0,0
+flat5,340,other,2,8
+flat5,341,Negative Epithelial,0,0
+flat5,341,Negative Immune,0,0
+flat5,341,Positive Epithelial,0,0
+flat5,341,Positive Immune,0,0
+flat5,341,other,0,0
+flat5,342,Negative Epithelial,80,80
+flat5,342,Negative Immune,0,0
+flat5,342,Positive Epithelial,0,0
+flat5,342,Positive Immune,0,0
+flat5,342,other,201,198
+flat5,343,Negative Epithelial,99,101
+flat5,343,Negative Immune,0,0
+flat5,343,Positive Epithelial,0,0
+flat5,343,Positive Immune,9,10
+flat5,343,other,82,84
+flat5,344,Negative Epithelial,146,148
+flat5,344,Negative Immune,0,0
+flat5,344,Positive Epithelial,0,0
+flat5,344,Positive Immune,10,10
+flat5,344,other,178,187
+flat5,345,Negative Epithelial,114,117
+flat5,345,Negative Immune,0,0
+flat5,345,Positive Epithelial,0,0
+flat5,345,Positive Immune,12,12
+flat5,345,other,200,205
+flat5,346,Negative Epithelial,237,242
+flat5,346,Negative Immune,0,0
+flat5,346,Positive Epithelial,0,0
+flat5,346,Positive Immune,11,11
+flat5,346,other,183,185
+flat5,347,Negative Epithelial,105,106
+flat5,347,Negative Immune,0,0
+flat5,347,Positive Epithelial,0,0
+flat5,347,Positive Immune,12,13
+flat5,347,other,240,251
+flat5,348,Negative Epithelial,86,96
+flat5,348,Negative Immune,0,0
+flat5,348,Positive Epithelial,0,0
+flat5,348,Positive Immune,0,0
+flat5,348,other,84,93
+flat5,349,Negative Epithelial,24,26
+flat5,349,Negative Immune,0,0
+flat5,349,Positive Epithelial,0,0
+flat5,349,Positive Immune,0,0
+flat5,349,other,39,45
+flat5,350,Negative Epithelial,116,118
+flat5,350,Negative Immune,0,0
+flat5,350,Positive Epithelial,0,0
+flat5,350,Positive Immune,0,0
+flat5,350,other,160,161
+flat5,351,Negative Epithelial,85,88
+flat5,351,Negative Immune,0,0
+flat5,351,Positive Epithelial,0,0
+flat5,351,Positive Immune,3,4
+flat5,351,other,185,187
+flat5,352,Negative Epithelial,0,0
+flat5,352,Negative Immune,0,0
+flat5,352,Positive Epithelial,0,0
+flat5,352,Positive Immune,0,0
+flat5,352,other,0,0
+flat5,353,Negative Epithelial,0,0
+flat5,353,Negative Immune,0,0
+flat5,353,Positive Epithelial,0,0
+flat5,353,Positive Immune,0,0
+flat5,353,other,70,72
+flat5,354,Negative Epithelial,0,0
+flat5,354,Negative Immune,0,0
+flat5,354,Positive Epithelial,0,0
+flat5,354,Positive Immune,0,0
+flat5,354,other,79,83
+flat5,355,Negative Epithelial,63,65
+flat5,355,Negative Immune,0,0
+flat5,355,Positive Epithelial,0,0
+flat5,355,Positive Immune,16,17
+flat5,355,other,195,197
+flat5,356,Negative Epithelial,80,81
+flat5,356,Negative Immune,0,0
+flat5,356,Positive Epithelial,2,2
+flat5,356,Positive Immune,11,16
+flat5,356,other,226,232
+flat5,357,Negative Epithelial,108,112
+flat5,357,Negative Immune,0,0
+flat5,357,Positive Epithelial,0,0
+flat5,357,Positive Immune,31,36
+flat5,357,other,225,237
+flat5,358,Negative Epithelial,42,46
+flat5,358,Negative Immune,0,0
+flat5,358,Positive Epithelial,0,0
+flat5,358,Positive Immune,13,14
+flat5,358,other,212,232
+flat5,359,Negative Epithelial,65,67
+flat5,359,Negative Immune,0,0
+flat5,359,Positive Epithelial,0,0
+flat5,359,Positive Immune,37,37
+flat5,359,other,230,227
+flat5,360,Negative Epithelial,58,65
+flat5,360,Negative Immune,0,0
+flat5,360,Positive Epithelial,0,0
+flat5,360,Positive Immune,18,21
+flat5,360,other,212,217
+flat5,361,Negative Epithelial,101,104
+flat5,361,Negative Immune,0,0
+flat5,361,Positive Epithelial,0,0
+flat5,361,Positive Immune,21,25
+flat5,361,other,170,173
+flat5,362,Negative Epithelial,57,62
+flat5,362,Negative Immune,0,0
+flat5,362,Positive Epithelial,0,0
+flat5,362,Positive Immune,4,4
+flat5,362,other,238,258
+flat5,363,Negative Epithelial,57,58
+flat5,363,Negative Immune,1,1
+flat5,363,Positive Epithelial,0,0
+flat5,363,Positive Immune,27,30
+flat5,363,other,219,233
+flat5,364,Negative Epithelial,46,46
+flat5,364,Negative Immune,0,0
+flat5,364,Positive Epithelial,0,0
+flat5,364,Positive Immune,0,0
+flat5,364,other,87,91
+flat5,365,Negative Epithelial,7,7
+flat5,365,Negative Immune,0,0
+flat5,365,Positive Epithelial,0,0
+flat5,365,Positive Immune,0,0
+flat5,365,other,168,176
+flat5,366,Negative Epithelial,0,0
+flat5,366,Negative Immune,0,0
+flat5,366,Positive Epithelial,0,0
+flat5,366,Positive Immune,0,0
+flat5,366,other,72,94
+flat5,367,Negative Epithelial,0,0
+flat5,367,Negative Immune,0,0
+flat5,367,Positive Epithelial,0,0
+flat5,367,Positive Immune,0,0
+flat5,367,other,301,321
+flat5,368,Negative Epithelial,44,46
+flat5,368,Negative Immune,1,1
+flat5,368,Positive Epithelial,0,0
+flat5,368,Positive Immune,15,15
+flat5,368,other,81,84
+flat5,369,Negative Epithelial,0,3
+flat5,369,Negative Immune,0,0
+flat5,369,Positive Epithelial,0,0
+flat5,369,Positive Immune,0,0
+flat5,369,other,8,6
+flat5,370,Negative Epithelial,139,140
+flat5,370,Negative Immune,1,1
+flat5,370,Positive Epithelial,5,5
+flat5,370,Positive Immune,16,16
+flat5,370,other,139,140
+flat5,371,Negative Epithelial,0,0
+flat5,371,Negative Immune,0,0
+flat5,371,Positive Epithelial,0,0
+flat5,371,Positive Immune,0,0
+flat5,371,other,0,0
+flat5,372,Negative Epithelial,89,90
+flat5,372,Negative Immune,0,0
+flat5,372,Positive Epithelial,1,1
+flat5,372,Positive Immune,0,0
+flat5,372,other,49,52
+flat5,373,Negative Epithelial,64,69
+flat5,373,Negative Immune,1,1
+flat5,373,Positive Epithelial,0,0
+flat5,373,Positive Immune,99,102
+flat5,373,other,243,248
+flat5,374,Negative Epithelial,1,0
+flat5,374,Negative Immune,0,0
+flat5,374,Positive Epithelial,0,0
+flat5,374,Positive Immune,0,0
+flat5,374,other,30,36
+flat5,375,Negative Epithelial,14,14
+flat5,375,Negative Immune,0,0
+flat5,375,Positive Epithelial,0,0
+flat5,375,Positive Immune,57,58
+flat5,375,other,172,173
+flat5,376,Negative Epithelial,0,0
+flat5,376,Negative Immune,0,0
+flat5,376,Positive Epithelial,0,0
+flat5,376,Positive Immune,0,0
+flat5,376,other,439,451
+flat5,377,Negative Epithelial,130,136
+flat5,377,Negative Immune,0,0
+flat5,377,Positive Epithelial,0,0
+flat5,377,Positive Immune,2,2
+flat5,377,other,204,209
+flat5,378,Negative Epithelial,0,0
+flat5,378,Negative Immune,0,0
+flat5,378,Positive Epithelial,0,0
+flat5,378,Positive Immune,0,0
+flat5,378,other,554,572
+flat5,379,Negative Epithelial,1,1
+flat5,379,Negative Immune,0,0
+flat5,379,Positive Epithelial,0,0
+flat5,379,Positive Immune,0,0
+flat5,379,other,306,322
+flat5,380,Negative Epithelial,9,9
+flat5,380,Negative Immune,21,21
+flat5,380,Positive Epithelial,0,0
+flat5,380,Positive Immune,30,30
+flat5,380,other,716,730
+flat5,381,Negative Epithelial,86,88
+flat5,381,Negative Immune,9,8
+flat5,381,Positive Epithelial,0,0
+flat5,381,Positive Immune,12,12
+flat5,381,other,122,127
+flat5,382,Negative Epithelial,20,21
+flat5,382,Negative Immune,9,10
+flat5,382,Positive Epithelial,0,0
+flat5,382,Positive Immune,8,8
+flat5,382,other,459,475
+flat5,383,Negative Epithelial,34,34
+flat5,383,Negative Immune,4,4
+flat5,383,Positive Epithelial,0,0
+flat5,383,Positive Immune,7,7
+flat5,383,other,417,434
+flat5,384,Negative Epithelial,0,0
+flat5,384,Negative Immune,0,0
+flat5,384,Positive Epithelial,0,0
+flat5,384,Positive Immune,0,0
+flat5,384,other,0,3
+flat5,385,Negative Epithelial,0,0
+flat5,385,Negative Immune,0,0
+flat5,385,Positive Epithelial,0,0
+flat5,385,Positive Immune,0,0
+flat5,385,other,126,127
+flat5,386,Negative Epithelial,0,0
+flat5,386,Negative Immune,0,0
+flat5,386,Positive Epithelial,0,0
+flat5,386,Positive Immune,0,0
+flat5,386,other,68,71
+flat5,387,Negative Epithelial,47,47
+flat5,387,Negative Immune,0,0
+flat5,387,Positive Epithelial,0,0
+flat5,387,Positive Immune,16,16
+flat5,387,other,556,566
+flat5,388,Negative Epithelial,0,0
+flat5,388,Negative Immune,0,0
+flat5,388,Positive Epithelial,0,0
+flat5,388,Positive Immune,0,0
+flat5,388,other,182,191
+flat5,389,Negative Epithelial,30,30
+flat5,389,Negative Immune,4,4
+flat5,389,Positive Epithelial,0,0
+flat5,389,Positive Immune,10,10
+flat5,389,other,505,505
+flat5,390,Negative Epithelial,0,0
+flat5,390,Negative Immune,0,0
+flat5,390,Positive Epithelial,0,0
+flat5,390,Positive Immune,0,0
+flat5,390,other,13,15
+flat5,391,Negative Epithelial,8,9
+flat5,391,Negative Immune,0,0
+flat5,391,Positive Epithelial,0,0
+flat5,391,Positive Immune,4,4
+flat5,391,other,322,327
+flat5,392,Negative Epithelial,0,0
+flat5,392,Negative Immune,0,0
+flat5,392,Positive Epithelial,0,0
+flat5,392,Positive Immune,0,0
+flat5,392,other,137,142
+flat5,393,Negative Epithelial,0,0
+flat5,393,Negative Immune,0,0
+flat5,393,Positive Epithelial,0,0
+flat5,393,Positive Immune,0,0
+flat5,393,other,208,212
+flat5,394,Negative Epithelial,0,0
+flat5,394,Negative Immune,0,0
+flat5,394,Positive Epithelial,0,0
+flat5,394,Positive Immune,0,0
+flat5,394,other,1,2
+flat5,395,Negative Epithelial,0,0
+flat5,395,Negative Immune,0,0
+flat5,395,Positive Epithelial,0,0
+flat5,395,Positive Immune,0,0
+flat5,395,other,96,99
+flat5,396,Negative Epithelial,0,0
+flat5,396,Negative Immune,0,0
+flat5,396,Positive Epithelial,0,0
+flat5,396,Positive Immune,0,0
+flat5,396,other,496,515
+flat5,397,Negative Epithelial,0,0
+flat5,397,Negative Immune,0,0
+flat5,397,Positive Epithelial,0,0
+flat5,397,Positive Immune,0,0
+flat5,397,other,408,410
+flat5,398,Negative Epithelial,0,0
+flat5,398,Negative Immune,0,0
+flat5,398,Positive Epithelial,0,0
+flat5,398,Positive Immune,0,0
+flat5,398,other,307,318
+flat5,399,Negative Epithelial,0,0
+flat5,399,Negative Immune,0,0
+flat5,399,Positive Epithelial,0,0
+flat5,399,Positive Immune,0,0
+flat5,399,other,22,24
+flat5_positive_weighted,0,Negative Epithelial,0,0
+flat5_positive_weighted,0,Negative Immune,0,0
+flat5_positive_weighted,0,Positive Epithelial,0,0
+flat5_positive_weighted,0,Positive Immune,0,0
+flat5_positive_weighted,0,other,179,187
+flat5_positive_weighted,1,Negative Epithelial,0,0
+flat5_positive_weighted,1,Negative Immune,0,0
+flat5_positive_weighted,1,Positive Epithelial,0,0
+flat5_positive_weighted,1,Positive Immune,0,0
+flat5_positive_weighted,1,other,58,66
+flat5_positive_weighted,2,Negative Epithelial,0,0
+flat5_positive_weighted,2,Negative Immune,0,0
+flat5_positive_weighted,2,Positive Epithelial,0,0
+flat5_positive_weighted,2,Positive Immune,0,0
+flat5_positive_weighted,2,other,263,271
+flat5_positive_weighted,3,Negative Epithelial,0,0
+flat5_positive_weighted,3,Negative Immune,0,0
+flat5_positive_weighted,3,Positive Epithelial,0,0
+flat5_positive_weighted,3,Positive Immune,0,0
+flat5_positive_weighted,3,other,403,411
+flat5_positive_weighted,4,Negative Epithelial,56,55
+flat5_positive_weighted,4,Negative Immune,2,2
+flat5_positive_weighted,4,Positive Epithelial,0,0
+flat5_positive_weighted,4,Positive Immune,1,1
+flat5_positive_weighted,4,other,286,298
+flat5_positive_weighted,5,Negative Epithelial,12,10
+flat5_positive_weighted,5,Negative Immune,3,3
+flat5_positive_weighted,5,Positive Epithelial,0,0
+flat5_positive_weighted,5,Positive Immune,0,0
+flat5_positive_weighted,5,other,462,476
+flat5_positive_weighted,6,Negative Epithelial,52,52
+flat5_positive_weighted,6,Negative Immune,7,7
+flat5_positive_weighted,6,Positive Epithelial,0,0
+flat5_positive_weighted,6,Positive Immune,9,9
+flat5_positive_weighted,6,other,290,302
+flat5_positive_weighted,7,Negative Epithelial,110,113
+flat5_positive_weighted,7,Negative Immune,11,11
+flat5_positive_weighted,7,Positive Epithelial,0,0
+flat5_positive_weighted,7,Positive Immune,9,9
+flat5_positive_weighted,7,other,199,200
+flat5_positive_weighted,8,Negative Epithelial,0,0
+flat5_positive_weighted,8,Negative Immune,0,0
+flat5_positive_weighted,8,Positive Epithelial,0,0
+flat5_positive_weighted,8,Positive Immune,0,0
+flat5_positive_weighted,8,other,182,193
+flat5_positive_weighted,9,Negative Epithelial,0,0
+flat5_positive_weighted,9,Negative Immune,0,0
+flat5_positive_weighted,9,Positive Epithelial,0,0
+flat5_positive_weighted,9,Positive Immune,0,0
+flat5_positive_weighted,9,other,304,306
+flat5_positive_weighted,10,Negative Epithelial,0,0
+flat5_positive_weighted,10,Negative Immune,0,0
+flat5_positive_weighted,10,Positive Epithelial,0,0
+flat5_positive_weighted,10,Positive Immune,0,0
+flat5_positive_weighted,10,other,60,62
+flat5_positive_weighted,11,Negative Epithelial,0,0
+flat5_positive_weighted,11,Negative Immune,0,0
+flat5_positive_weighted,11,Positive Epithelial,0,0
+flat5_positive_weighted,11,Positive Immune,0,0
+flat5_positive_weighted,11,other,28,34
+flat5_positive_weighted,12,Negative Epithelial,0,0
+flat5_positive_weighted,12,Negative Immune,0,0
+flat5_positive_weighted,12,Positive Epithelial,0,0
+flat5_positive_weighted,12,Positive Immune,0,0
+flat5_positive_weighted,12,other,255,279
+flat5_positive_weighted,13,Negative Epithelial,14,14
+flat5_positive_weighted,13,Negative Immune,1,1
+flat5_positive_weighted,13,Positive Epithelial,0,0
+flat5_positive_weighted,13,Positive Immune,1,1
+flat5_positive_weighted,13,other,290,300
+flat5_positive_weighted,14,Negative Epithelial,8,7
+flat5_positive_weighted,14,Negative Immune,0,0
+flat5_positive_weighted,14,Positive Epithelial,0,0
+flat5_positive_weighted,14,Positive Immune,1,1
+flat5_positive_weighted,14,other,109,123
+flat5_positive_weighted,15,Negative Epithelial,46,46
+flat5_positive_weighted,15,Negative Immune,5,5
+flat5_positive_weighted,15,Positive Epithelial,0,0
+flat5_positive_weighted,15,Positive Immune,1,1
+flat5_positive_weighted,15,other,425,432
+flat5_positive_weighted,16,Negative Epithelial,6,7
+flat5_positive_weighted,16,Negative Immune,1,1
+flat5_positive_weighted,16,Positive Epithelial,0,0
+flat5_positive_weighted,16,Positive Immune,3,3
+flat5_positive_weighted,16,other,143,147
+flat5_positive_weighted,17,Negative Epithelial,119,122
+flat5_positive_weighted,17,Negative Immune,0,0
+flat5_positive_weighted,17,Positive Epithelial,17,19
+flat5_positive_weighted,17,Positive Immune,34,36
+flat5_positive_weighted,17,other,76,78
+flat5_positive_weighted,18,Negative Epithelial,306,313
+flat5_positive_weighted,18,Negative Immune,8,8
+flat5_positive_weighted,18,Positive Epithelial,11,11
+flat5_positive_weighted,18,Positive Immune,29,30
+flat5_positive_weighted,18,other,135,141
+flat5_positive_weighted,19,Negative Epithelial,265,275
+flat5_positive_weighted,19,Negative Immune,21,21
+flat5_positive_weighted,19,Positive Epithelial,30,30
+flat5_positive_weighted,19,Positive Immune,98,100
+flat5_positive_weighted,19,other,120,123
+flat5_positive_weighted,20,Negative Epithelial,148,147
+flat5_positive_weighted,20,Negative Immune,2,2
+flat5_positive_weighted,20,Positive Epithelial,1,1
+flat5_positive_weighted,20,Positive Immune,27,27
+flat5_positive_weighted,20,other,278,286
+flat5_positive_weighted,21,Negative Epithelial,62,65
+flat5_positive_weighted,21,Negative Immune,2,2
+flat5_positive_weighted,21,Positive Epithelial,0,0
+flat5_positive_weighted,21,Positive Immune,13,14
+flat5_positive_weighted,21,other,149,160
+flat5_positive_weighted,22,Negative Epithelial,334,344
+flat5_positive_weighted,22,Negative Immune,4,4
+flat5_positive_weighted,22,Positive Epithelial,0,0
+flat5_positive_weighted,22,Positive Immune,29,31
+flat5_positive_weighted,22,other,121,131
+flat5_positive_weighted,23,Negative Epithelial,365,371
+flat5_positive_weighted,23,Negative Immune,11,11
+flat5_positive_weighted,23,Positive Epithelial,4,4
+flat5_positive_weighted,23,Positive Immune,28,28
+flat5_positive_weighted,23,other,120,122
+flat5_positive_weighted,24,Negative Epithelial,0,0
+flat5_positive_weighted,24,Negative Immune,0,0
+flat5_positive_weighted,24,Positive Epithelial,0,0
+flat5_positive_weighted,24,Positive Immune,0,0
+flat5_positive_weighted,24,other,314,317
+flat5_positive_weighted,25,Negative Epithelial,0,0
+flat5_positive_weighted,25,Negative Immune,0,0
+flat5_positive_weighted,25,Positive Epithelial,0,0
+flat5_positive_weighted,25,Positive Immune,0,0
+flat5_positive_weighted,25,other,351,360
+flat5_positive_weighted,26,Negative Epithelial,0,0
+flat5_positive_weighted,26,Negative Immune,0,0
+flat5_positive_weighted,26,Positive Epithelial,0,0
+flat5_positive_weighted,26,Positive Immune,0,0
+flat5_positive_weighted,26,other,255,259
+flat5_positive_weighted,27,Negative Epithelial,0,0
+flat5_positive_weighted,27,Negative Immune,0,0
+flat5_positive_weighted,27,Positive Epithelial,0,0
+flat5_positive_weighted,27,Positive Immune,0,0
+flat5_positive_weighted,27,other,447,459
+flat5_positive_weighted,28,Negative Epithelial,0,0
+flat5_positive_weighted,28,Negative Immune,0,0
+flat5_positive_weighted,28,Positive Epithelial,0,0
+flat5_positive_weighted,28,Positive Immune,0,0
+flat5_positive_weighted,28,other,326,333
+flat5_positive_weighted,29,Negative Epithelial,0,0
+flat5_positive_weighted,29,Negative Immune,0,0
+flat5_positive_weighted,29,Positive Epithelial,0,0
+flat5_positive_weighted,29,Positive Immune,0,0
+flat5_positive_weighted,29,other,93,99
+flat5_positive_weighted,30,Negative Epithelial,0,0
+flat5_positive_weighted,30,Negative Immune,0,0
+flat5_positive_weighted,30,Positive Epithelial,0,0
+flat5_positive_weighted,30,Positive Immune,0,0
+flat5_positive_weighted,30,other,450,457
+flat5_positive_weighted,31,Negative Epithelial,0,0
+flat5_positive_weighted,31,Negative Immune,0,0
+flat5_positive_weighted,31,Positive Epithelial,0,0
+flat5_positive_weighted,31,Positive Immune,0,0
+flat5_positive_weighted,31,other,97,97
+flat5_positive_weighted,32,Negative Epithelial,0,0
+flat5_positive_weighted,32,Negative Immune,0,0
+flat5_positive_weighted,32,Positive Epithelial,0,0
+flat5_positive_weighted,32,Positive Immune,0,0
+flat5_positive_weighted,32,other,189,199
+flat5_positive_weighted,33,Negative Epithelial,154,157
+flat5_positive_weighted,33,Negative Immune,18,20
+flat5_positive_weighted,33,Positive Epithelial,0,0
+flat5_positive_weighted,33,Positive Immune,21,21
+flat5_positive_weighted,33,other,315,320
+flat5_positive_weighted,34,Negative Epithelial,0,0
+flat5_positive_weighted,34,Negative Immune,0,0
+flat5_positive_weighted,34,Positive Epithelial,0,0
+flat5_positive_weighted,34,Positive Immune,0,0
+flat5_positive_weighted,34,other,156,158
+flat5_positive_weighted,35,Negative Epithelial,4,5
+flat5_positive_weighted,35,Negative Immune,0,0
+flat5_positive_weighted,35,Positive Epithelial,0,0
+flat5_positive_weighted,35,Positive Immune,0,0
+flat5_positive_weighted,35,other,111,116
+flat5_positive_weighted,36,Negative Epithelial,229,230
+flat5_positive_weighted,36,Negative Immune,23,24
+flat5_positive_weighted,36,Positive Epithelial,0,0
+flat5_positive_weighted,36,Positive Immune,26,26
+flat5_positive_weighted,36,other,228,230
+flat5_positive_weighted,37,Negative Epithelial,0,0
+flat5_positive_weighted,37,Negative Immune,0,0
+flat5_positive_weighted,37,Positive Epithelial,0,0
+flat5_positive_weighted,37,Positive Immune,0,0
+flat5_positive_weighted,37,other,32,35
+flat5_positive_weighted,38,Negative Epithelial,61,64
+flat5_positive_weighted,38,Negative Immune,3,3
+flat5_positive_weighted,38,Positive Epithelial,0,0
+flat5_positive_weighted,38,Positive Immune,3,3
+flat5_positive_weighted,38,other,56,57
+flat5_positive_weighted,39,Negative Epithelial,0,0
+flat5_positive_weighted,39,Negative Immune,0,0
+flat5_positive_weighted,39,Positive Epithelial,0,0
+flat5_positive_weighted,39,Positive Immune,0,0
+flat5_positive_weighted,39,other,3,4
+flat5_positive_weighted,40,Negative Epithelial,95,95
+flat5_positive_weighted,40,Negative Immune,47,47
+flat5_positive_weighted,40,Positive Epithelial,0,0
+flat5_positive_weighted,40,Positive Immune,16,16
+flat5_positive_weighted,40,other,551,578
+flat5_positive_weighted,41,Negative Epithelial,134,140
+flat5_positive_weighted,41,Negative Immune,51,50
+flat5_positive_weighted,41,Positive Epithelial,0,0
+flat5_positive_weighted,41,Positive Immune,22,22
+flat5_positive_weighted,41,other,424,457
+flat5_positive_weighted,42,Negative Epithelial,123,126
+flat5_positive_weighted,42,Negative Immune,23,25
+flat5_positive_weighted,42,Positive Epithelial,0,0
+flat5_positive_weighted,42,Positive Immune,14,13
+flat5_positive_weighted,42,other,356,381
+flat5_positive_weighted,43,Negative Epithelial,126,123
+flat5_positive_weighted,43,Negative Immune,44,45
+flat5_positive_weighted,43,Positive Epithelial,0,0
+flat5_positive_weighted,43,Positive Immune,14,14
+flat5_positive_weighted,43,other,315,331
+flat5_positive_weighted,44,Negative Epithelial,79,79
+flat5_positive_weighted,44,Negative Immune,13,13
+flat5_positive_weighted,44,Positive Epithelial,0,0
+flat5_positive_weighted,44,Positive Immune,10,11
+flat5_positive_weighted,44,other,344,364
+flat5_positive_weighted,45,Negative Epithelial,0,1
+flat5_positive_weighted,45,Negative Immune,0,0
+flat5_positive_weighted,45,Positive Epithelial,0,0
+flat5_positive_weighted,45,Positive Immune,0,0
+flat5_positive_weighted,45,other,139,152
+flat5_positive_weighted,46,Negative Epithelial,230,240
+flat5_positive_weighted,46,Negative Immune,31,31
+flat5_positive_weighted,46,Positive Epithelial,0,0
+flat5_positive_weighted,46,Positive Immune,20,21
+flat5_positive_weighted,46,other,372,377
+flat5_positive_weighted,47,Negative Epithelial,4,4
+flat5_positive_weighted,47,Negative Immune,0,0
+flat5_positive_weighted,47,Positive Epithelial,0,0
+flat5_positive_weighted,47,Positive Immune,2,1
+flat5_positive_weighted,47,other,414,427
+flat5_positive_weighted,48,Negative Epithelial,0,0
+flat5_positive_weighted,48,Negative Immune,0,0
+flat5_positive_weighted,48,Positive Epithelial,0,0
+flat5_positive_weighted,48,Positive Immune,0,0
+flat5_positive_weighted,48,other,213,232
+flat5_positive_weighted,49,Negative Epithelial,53,54
+flat5_positive_weighted,49,Negative Immune,2,2
+flat5_positive_weighted,49,Positive Epithelial,0,0
+flat5_positive_weighted,49,Positive Immune,1,1
+flat5_positive_weighted,49,other,242,248
+flat5_positive_weighted,50,Negative Epithelial,88,91
+flat5_positive_weighted,50,Negative Immune,4,4
+flat5_positive_weighted,50,Positive Epithelial,0,0
+flat5_positive_weighted,50,Positive Immune,16,16
+flat5_positive_weighted,50,other,159,163
+flat5_positive_weighted,51,Negative Epithelial,139,144
+flat5_positive_weighted,51,Negative Immune,3,4
+flat5_positive_weighted,51,Positive Epithelial,0,0
+flat5_positive_weighted,51,Positive Immune,7,7
+flat5_positive_weighted,51,other,106,109
+flat5_positive_weighted,52,Negative Epithelial,42,43
+flat5_positive_weighted,52,Negative Immune,0,0
+flat5_positive_weighted,52,Positive Epithelial,0,0
+flat5_positive_weighted,52,Positive Immune,3,3
+flat5_positive_weighted,52,other,377,386
+flat5_positive_weighted,53,Negative Epithelial,3,3
+flat5_positive_weighted,53,Negative Immune,0,0
+flat5_positive_weighted,53,Positive Epithelial,0,0
+flat5_positive_weighted,53,Positive Immune,2,3
+flat5_positive_weighted,53,other,400,416
+flat5_positive_weighted,54,Negative Epithelial,221,224
+flat5_positive_weighted,54,Negative Immune,1,1
+flat5_positive_weighted,54,Positive Epithelial,0,0
+flat5_positive_weighted,54,Positive Immune,3,3
+flat5_positive_weighted,54,other,166,171
+flat5_positive_weighted,55,Negative Epithelial,28,29
+flat5_positive_weighted,55,Negative Immune,2,3
+flat5_positive_weighted,55,Positive Epithelial,0,0
+flat5_positive_weighted,55,Positive Immune,12,12
+flat5_positive_weighted,55,other,390,401
+flat5_positive_weighted,56,Negative Epithelial,5,5
+flat5_positive_weighted,56,Negative Immune,0,0
+flat5_positive_weighted,56,Positive Epithelial,0,0
+flat5_positive_weighted,56,Positive Immune,0,0
+flat5_positive_weighted,56,other,280,282
+flat5_positive_weighted,57,Negative Epithelial,0,0
+flat5_positive_weighted,57,Negative Immune,0,0
+flat5_positive_weighted,57,Positive Epithelial,0,0
+flat5_positive_weighted,57,Positive Immune,0,0
+flat5_positive_weighted,57,other,422,442
+flat5_positive_weighted,58,Negative Epithelial,0,0
+flat5_positive_weighted,58,Negative Immune,0,0
+flat5_positive_weighted,58,Positive Epithelial,0,0
+flat5_positive_weighted,58,Positive Immune,0,1
+flat5_positive_weighted,58,other,114,128
+flat5_positive_weighted,59,Negative Epithelial,0,0
+flat5_positive_weighted,59,Negative Immune,0,0
+flat5_positive_weighted,59,Positive Epithelial,0,0
+flat5_positive_weighted,59,Positive Immune,0,0
+flat5_positive_weighted,59,other,486,501
+flat5_positive_weighted,60,Negative Epithelial,2,2
+flat5_positive_weighted,60,Negative Immune,0,0
+flat5_positive_weighted,60,Positive Epithelial,0,0
+flat5_positive_weighted,60,Positive Immune,0,0
+flat5_positive_weighted,60,other,358,387
+flat5_positive_weighted,61,Negative Epithelial,0,0
+flat5_positive_weighted,61,Negative Immune,0,0
+flat5_positive_weighted,61,Positive Epithelial,0,0
+flat5_positive_weighted,61,Positive Immune,0,0
+flat5_positive_weighted,61,other,76,93
+flat5_positive_weighted,62,Negative Epithelial,3,3
+flat5_positive_weighted,62,Negative Immune,0,0
+flat5_positive_weighted,62,Positive Epithelial,2,2
+flat5_positive_weighted,62,Positive Immune,0,0
+flat5_positive_weighted,62,other,589,600
+flat5_positive_weighted,63,Negative Epithelial,0,0
+flat5_positive_weighted,63,Negative Immune,0,0
+flat5_positive_weighted,63,Positive Epithelial,4,4
+flat5_positive_weighted,63,Positive Immune,0,0
+flat5_positive_weighted,63,other,450,467
+flat5_positive_weighted,64,Negative Epithelial,243,245
+flat5_positive_weighted,64,Negative Immune,6,6
+flat5_positive_weighted,64,Positive Epithelial,0,0
+flat5_positive_weighted,64,Positive Immune,24,24
+flat5_positive_weighted,64,other,291,296
+flat5_positive_weighted,65,Negative Epithelial,12,14
+flat5_positive_weighted,65,Negative Immune,2,2
+flat5_positive_weighted,65,Positive Epithelial,0,0
+flat5_positive_weighted,65,Positive Immune,4,4
+flat5_positive_weighted,65,other,192,197
+flat5_positive_weighted,66,Negative Epithelial,261,263
+flat5_positive_weighted,66,Negative Immune,17,18
+flat5_positive_weighted,66,Positive Epithelial,4,3
+flat5_positive_weighted,66,Positive Immune,44,45
+flat5_positive_weighted,66,other,319,331
+flat5_positive_weighted,67,Negative Epithelial,18,23
+flat5_positive_weighted,67,Negative Immune,0,0
+flat5_positive_weighted,67,Positive Epithelial,0,0
+flat5_positive_weighted,67,Positive Immune,0,0
+flat5_positive_weighted,67,other,154,162
+flat5_positive_weighted,68,Negative Epithelial,0,0
+flat5_positive_weighted,68,Negative Immune,0,0
+flat5_positive_weighted,68,Positive Epithelial,0,0
+flat5_positive_weighted,68,Positive Immune,0,0
+flat5_positive_weighted,68,other,525,542
+flat5_positive_weighted,69,Negative Epithelial,0,0
+flat5_positive_weighted,69,Negative Immune,0,0
+flat5_positive_weighted,69,Positive Epithelial,0,0
+flat5_positive_weighted,69,Positive Immune,0,0
+flat5_positive_weighted,69,other,266,274
+flat5_positive_weighted,70,Negative Epithelial,109,108
+flat5_positive_weighted,70,Negative Immune,3,3
+flat5_positive_weighted,70,Positive Epithelial,0,0
+flat5_positive_weighted,70,Positive Immune,22,24
+flat5_positive_weighted,70,other,435,449
+flat5_positive_weighted,71,Negative Epithelial,173,178
+flat5_positive_weighted,71,Negative Immune,6,6
+flat5_positive_weighted,71,Positive Epithelial,0,0
+flat5_positive_weighted,71,Positive Immune,24,24
+flat5_positive_weighted,71,other,302,311
+flat5_positive_weighted,72,Negative Epithelial,0,0
+flat5_positive_weighted,72,Negative Immune,0,0
+flat5_positive_weighted,72,Positive Epithelial,0,0
+flat5_positive_weighted,72,Positive Immune,0,0
+flat5_positive_weighted,72,other,108,119
+flat5_positive_weighted,73,Negative Epithelial,62,62
+flat5_positive_weighted,73,Negative Immune,0,0
+flat5_positive_weighted,73,Positive Epithelial,0,0
+flat5_positive_weighted,73,Positive Immune,12,13
+flat5_positive_weighted,73,other,650,667
+flat5_positive_weighted,74,Negative Epithelial,32,32
+flat5_positive_weighted,74,Negative Immune,0,0
+flat5_positive_weighted,74,Positive Epithelial,0,0
+flat5_positive_weighted,74,Positive Immune,8,10
+flat5_positive_weighted,74,other,178,191
+flat5_positive_weighted,75,Negative Epithelial,54,56
+flat5_positive_weighted,75,Negative Immune,29,29
+flat5_positive_weighted,75,Positive Epithelial,0,0
+flat5_positive_weighted,75,Positive Immune,61,61
+flat5_positive_weighted,75,other,548,552
+flat5_positive_weighted,76,Negative Epithelial,7,7
+flat5_positive_weighted,76,Negative Immune,1,1
+flat5_positive_weighted,76,Positive Epithelial,0,0
+flat5_positive_weighted,76,Positive Immune,2,2
+flat5_positive_weighted,76,other,792,788
+flat5_positive_weighted,77,Negative Epithelial,0,0
+flat5_positive_weighted,77,Negative Immune,0,0
+flat5_positive_weighted,77,Positive Epithelial,0,0
+flat5_positive_weighted,77,Positive Immune,0,0
+flat5_positive_weighted,77,other,160,163
+flat5_positive_weighted,78,Negative Epithelial,4,4
+flat5_positive_weighted,78,Negative Immune,1,1
+flat5_positive_weighted,78,Positive Epithelial,0,0
+flat5_positive_weighted,78,Positive Immune,5,5
+flat5_positive_weighted,78,other,782,819
+flat5_positive_weighted,79,Negative Epithelial,9,10
+flat5_positive_weighted,79,Negative Immune,0,0
+flat5_positive_weighted,79,Positive Epithelial,0,0
+flat5_positive_weighted,79,Positive Immune,0,0
+flat5_positive_weighted,79,other,177,184
+flat5_positive_weighted,80,Negative Epithelial,188,198
+flat5_positive_weighted,80,Negative Immune,0,0
+flat5_positive_weighted,80,Positive Epithelial,118,121
+flat5_positive_weighted,80,Positive Immune,13,13
+flat5_positive_weighted,80,other,310,322
+flat5_positive_weighted,81,Negative Epithelial,510,519
+flat5_positive_weighted,81,Negative Immune,5,5
+flat5_positive_weighted,81,Positive Epithelial,31,31
+flat5_positive_weighted,81,Positive Immune,30,30
+flat5_positive_weighted,81,other,374,379
+flat5_positive_weighted,82,Negative Epithelial,343,342
+flat5_positive_weighted,82,Negative Immune,2,2
+flat5_positive_weighted,82,Positive Epithelial,243,247
+flat5_positive_weighted,82,Positive Immune,75,75
+flat5_positive_weighted,82,other,308,316
+flat5_positive_weighted,83,Negative Epithelial,509,512
+flat5_positive_weighted,83,Negative Immune,4,4
+flat5_positive_weighted,83,Positive Epithelial,102,108
+flat5_positive_weighted,83,Positive Immune,99,101
+flat5_positive_weighted,83,other,305,325
+flat5_positive_weighted,84,Negative Epithelial,438,445
+flat5_positive_weighted,84,Negative Immune,6,6
+flat5_positive_weighted,84,Positive Epithelial,22,22
+flat5_positive_weighted,84,Positive Immune,92,95
+flat5_positive_weighted,84,other,442,447
+flat5_positive_weighted,85,Negative Epithelial,295,297
+flat5_positive_weighted,85,Negative Immune,0,0
+flat5_positive_weighted,85,Positive Epithelial,6,6
+flat5_positive_weighted,85,Positive Immune,21,22
+flat5_positive_weighted,85,other,259,269
+flat5_positive_weighted,86,Negative Epithelial,424,426
+flat5_positive_weighted,86,Negative Immune,8,11
+flat5_positive_weighted,86,Positive Epithelial,16,16
+flat5_positive_weighted,86,Positive Immune,154,156
+flat5_positive_weighted,86,other,467,473
+flat5_positive_weighted,87,Negative Epithelial,195,199
+flat5_positive_weighted,87,Negative Immune,3,3
+flat5_positive_weighted,87,Positive Epithelial,0,0
+flat5_positive_weighted,87,Positive Immune,25,25
+flat5_positive_weighted,87,other,367,382
+flat5_positive_weighted,88,Negative Epithelial,0,0
+flat5_positive_weighted,88,Negative Immune,0,0
+flat5_positive_weighted,88,Positive Epithelial,0,0
+flat5_positive_weighted,88,Positive Immune,0,0
+flat5_positive_weighted,88,other,1306,1354
+flat5_positive_weighted,89,Negative Epithelial,0,0
+flat5_positive_weighted,89,Negative Immune,0,0
+flat5_positive_weighted,89,Positive Epithelial,0,0
+flat5_positive_weighted,89,Positive Immune,0,0
+flat5_positive_weighted,89,other,1129,1162
+flat5_positive_weighted,90,Negative Epithelial,0,0
+flat5_positive_weighted,90,Negative Immune,0,0
+flat5_positive_weighted,90,Positive Epithelial,0,0
+flat5_positive_weighted,90,Positive Immune,0,0
+flat5_positive_weighted,90,other,1230,1284
+flat5_positive_weighted,91,Negative Epithelial,0,0
+flat5_positive_weighted,91,Negative Immune,0,1
+flat5_positive_weighted,91,Positive Epithelial,0,0
+flat5_positive_weighted,91,Positive Immune,0,0
+flat5_positive_weighted,91,other,1204,1274
+flat5_positive_weighted,92,Negative Epithelial,10,10
+flat5_positive_weighted,92,Negative Immune,9,9
+flat5_positive_weighted,92,Positive Epithelial,159,165
+flat5_positive_weighted,92,Positive Immune,28,28
+flat5_positive_weighted,92,other,152,153
+flat5_positive_weighted,93,Negative Epithelial,0,0
+flat5_positive_weighted,93,Negative Immune,1,1
+flat5_positive_weighted,93,Positive Epithelial,96,103
+flat5_positive_weighted,93,Positive Immune,6,9
+flat5_positive_weighted,93,other,53,58
+flat5_positive_weighted,94,Negative Epithelial,0,0
+flat5_positive_weighted,94,Negative Immune,2,2
+flat5_positive_weighted,94,Positive Epithelial,160,163
+flat5_positive_weighted,94,Positive Immune,47,49
+flat5_positive_weighted,94,other,164,165
+flat5_positive_weighted,95,Negative Epithelial,4,4
+flat5_positive_weighted,95,Negative Immune,1,1
+flat5_positive_weighted,95,Positive Epithelial,157,162
+flat5_positive_weighted,95,Positive Immune,30,31
+flat5_positive_weighted,95,other,96,99
+flat5_positive_weighted,96,Negative Epithelial,0,0
+flat5_positive_weighted,96,Negative Immune,1,1
+flat5_positive_weighted,96,Positive Epithelial,93,96
+flat5_positive_weighted,96,Positive Immune,26,26
+flat5_positive_weighted,96,other,204,214
+flat5_positive_weighted,97,Negative Epithelial,4,4
+flat5_positive_weighted,97,Negative Immune,2,2
+flat5_positive_weighted,97,Positive Epithelial,84,85
+flat5_positive_weighted,97,Positive Immune,32,32
+flat5_positive_weighted,97,other,246,258
+flat5_positive_weighted,98,Negative Epithelial,6,6
+flat5_positive_weighted,98,Negative Immune,8,8
+flat5_positive_weighted,98,Positive Epithelial,56,57
+flat5_positive_weighted,98,Positive Immune,54,56
+flat5_positive_weighted,98,other,213,222
+flat5_positive_weighted,99,Negative Epithelial,0,0
+flat5_positive_weighted,99,Negative Immune,11,11
+flat5_positive_weighted,99,Positive Epithelial,68,69
+flat5_positive_weighted,99,Positive Immune,74,74
+flat5_positive_weighted,99,other,261,272
+flat5_positive_weighted,100,Negative Epithelial,20,20
+flat5_positive_weighted,100,Negative Immune,1,1
+flat5_positive_weighted,100,Positive Epithelial,167,167
+flat5_positive_weighted,100,Positive Immune,31,32
+flat5_positive_weighted,100,other,151,159
+flat5_positive_weighted,101,Negative Epithelial,45,45
+flat5_positive_weighted,101,Negative Immune,12,12
+flat5_positive_weighted,101,Positive Epithelial,130,131
+flat5_positive_weighted,101,Positive Immune,38,38
+flat5_positive_weighted,101,other,188,189
+flat5_positive_weighted,102,Negative Epithelial,0,0
+flat5_positive_weighted,102,Negative Immune,1,1
+flat5_positive_weighted,102,Positive Epithelial,90,88
+flat5_positive_weighted,102,Positive Immune,40,42
+flat5_positive_weighted,102,other,258,271
+flat5_positive_weighted,103,Negative Epithelial,0,0
+flat5_positive_weighted,103,Negative Immune,2,2
+flat5_positive_weighted,103,Positive Epithelial,40,45
+flat5_positive_weighted,103,Positive Immune,6,7
+flat5_positive_weighted,103,other,339,347
+flat5_positive_weighted,104,Negative Epithelial,0,0
+flat5_positive_weighted,104,Negative Immune,0,0
+flat5_positive_weighted,104,Positive Epithelial,0,0
+flat5_positive_weighted,104,Positive Immune,0,0
+flat5_positive_weighted,104,other,0,23
+flat5_positive_weighted,105,Negative Epithelial,3,3
+flat5_positive_weighted,105,Negative Immune,3,3
+flat5_positive_weighted,105,Positive Epithelial,74,76
+flat5_positive_weighted,105,Positive Immune,24,24
+flat5_positive_weighted,105,other,31,31
+flat5_positive_weighted,106,Negative Epithelial,0,0
+flat5_positive_weighted,106,Negative Immune,0,0
+flat5_positive_weighted,106,Positive Epithelial,0,0
+flat5_positive_weighted,106,Positive Immune,0,0
+flat5_positive_weighted,106,other,0,8
+flat5_positive_weighted,107,Negative Epithelial,20,19
+flat5_positive_weighted,107,Negative Immune,3,4
+flat5_positive_weighted,107,Positive Epithelial,116,117
+flat5_positive_weighted,107,Positive Immune,92,92
+flat5_positive_weighted,107,other,57,57
+flat5_positive_weighted,108,Negative Epithelial,3,4
+flat5_positive_weighted,108,Negative Immune,2,2
+flat5_positive_weighted,108,Positive Epithelial,35,39
+flat5_positive_weighted,108,Positive Immune,19,20
+flat5_positive_weighted,108,other,5,5
+flat5_positive_weighted,109,Negative Epithelial,0,0
+flat5_positive_weighted,109,Negative Immune,0,0
+flat5_positive_weighted,109,Positive Epithelial,0,0
+flat5_positive_weighted,109,Positive Immune,0,0
+flat5_positive_weighted,109,other,0,2
+flat5_positive_weighted,110,Negative Epithelial,6,6
+flat5_positive_weighted,110,Negative Immune,5,4
+flat5_positive_weighted,110,Positive Epithelial,308,314
+flat5_positive_weighted,110,Positive Immune,66,66
+flat5_positive_weighted,110,other,62,63
+flat5_positive_weighted,111,Negative Epithelial,0,0
+flat5_positive_weighted,111,Negative Immune,0,1
+flat5_positive_weighted,111,Positive Epithelial,10,15
+flat5_positive_weighted,111,Positive Immune,0,0
+flat5_positive_weighted,111,other,1,2
+flat5_positive_weighted,112,Negative Epithelial,3,3
+flat5_positive_weighted,112,Negative Immune,4,4
+flat5_positive_weighted,112,Positive Epithelial,228,232
+flat5_positive_weighted,112,Positive Immune,73,73
+flat5_positive_weighted,112,other,47,48
+flat5_positive_weighted,113,Negative Epithelial,0,0
+flat5_positive_weighted,113,Negative Immune,0,0
+flat5_positive_weighted,113,Positive Epithelial,5,4
+flat5_positive_weighted,113,Positive Immune,1,1
+flat5_positive_weighted,113,other,14,46
+flat5_positive_weighted,114,Negative Epithelial,0,0
+flat5_positive_weighted,114,Negative Immune,0,0
+flat5_positive_weighted,114,Positive Epithelial,12,12
+flat5_positive_weighted,114,Positive Immune,13,13
+flat5_positive_weighted,114,other,13,13
+flat5_positive_weighted,115,Negative Epithelial,0,0
+flat5_positive_weighted,115,Negative Immune,0,0
+flat5_positive_weighted,115,Positive Epithelial,0,0
+flat5_positive_weighted,115,Positive Immune,0,0
+flat5_positive_weighted,115,other,16,19
+flat5_positive_weighted,116,Negative Epithelial,5,5
+flat5_positive_weighted,116,Negative Immune,2,2
+flat5_positive_weighted,116,Positive Epithelial,1,1
+flat5_positive_weighted,116,Positive Immune,0,0
+flat5_positive_weighted,116,other,263,271
+flat5_positive_weighted,117,Negative Epithelial,84,86
+flat5_positive_weighted,117,Negative Immune,6,5
+flat5_positive_weighted,117,Positive Epithelial,19,20
+flat5_positive_weighted,117,Positive Immune,18,17
+flat5_positive_weighted,117,other,271,273
+flat5_positive_weighted,118,Negative Epithelial,9,9
+flat5_positive_weighted,118,Negative Immune,0,0
+flat5_positive_weighted,118,Positive Epithelial,11,11
+flat5_positive_weighted,118,Positive Immune,25,27
+flat5_positive_weighted,118,other,282,291
+flat5_positive_weighted,119,Negative Epithelial,75,75
+flat5_positive_weighted,119,Negative Immune,6,6
+flat5_positive_weighted,119,Positive Epithelial,9,9
+flat5_positive_weighted,119,Positive Immune,44,44
+flat5_positive_weighted,119,other,273,286
+flat5_positive_weighted,120,Negative Epithelial,1,1
+flat5_positive_weighted,120,Negative Immune,0,0
+flat5_positive_weighted,120,Positive Epithelial,20,20
+flat5_positive_weighted,120,Positive Immune,13,14
+flat5_positive_weighted,120,other,345,351
+flat5_positive_weighted,121,Negative Epithelial,2,3
+flat5_positive_weighted,121,Negative Immune,2,2
+flat5_positive_weighted,121,Positive Epithelial,12,12
+flat5_positive_weighted,121,Positive Immune,14,14
+flat5_positive_weighted,121,other,456,465
+flat5_positive_weighted,122,Negative Epithelial,0,0
+flat5_positive_weighted,122,Negative Immune,0,0
+flat5_positive_weighted,122,Positive Epithelial,0,0
+flat5_positive_weighted,122,Positive Immune,0,0
+flat5_positive_weighted,122,other,65,70
+flat5_positive_weighted,123,Negative Epithelial,0,0
+flat5_positive_weighted,123,Negative Immune,0,0
+flat5_positive_weighted,123,Positive Epithelial,14,14
+flat5_positive_weighted,123,Positive Immune,0,0
+flat5_positive_weighted,123,other,119,127
+flat5_positive_weighted,124,Negative Epithelial,0,0
+flat5_positive_weighted,124,Negative Immune,0,0
+flat5_positive_weighted,124,Positive Epithelial,0,0
+flat5_positive_weighted,124,Positive Immune,0,0
+flat5_positive_weighted,124,other,304,308
+flat5_positive_weighted,125,Negative Epithelial,0,0
+flat5_positive_weighted,125,Negative Immune,0,0
+flat5_positive_weighted,125,Positive Epithelial,0,0
+flat5_positive_weighted,125,Positive Immune,0,0
+flat5_positive_weighted,125,other,177,182
+flat5_positive_weighted,126,Negative Epithelial,0,0
+flat5_positive_weighted,126,Negative Immune,0,0
+flat5_positive_weighted,126,Positive Epithelial,0,0
+flat5_positive_weighted,126,Positive Immune,0,0
+flat5_positive_weighted,126,other,227,232
+flat5_positive_weighted,127,Negative Epithelial,0,0
+flat5_positive_weighted,127,Negative Immune,0,0
+flat5_positive_weighted,127,Positive Epithelial,0,0
+flat5_positive_weighted,127,Positive Immune,0,0
+flat5_positive_weighted,127,other,50,53
+flat5_positive_weighted,128,Negative Epithelial,7,6
+flat5_positive_weighted,128,Negative Immune,0,0
+flat5_positive_weighted,128,Positive Epithelial,0,0
+flat5_positive_weighted,128,Positive Immune,0,0
+flat5_positive_weighted,128,other,189,197
+flat5_positive_weighted,129,Negative Epithelial,71,71
+flat5_positive_weighted,129,Negative Immune,4,4
+flat5_positive_weighted,129,Positive Epithelial,0,0
+flat5_positive_weighted,129,Positive Immune,0,0
+flat5_positive_weighted,129,other,263,271
+flat5_positive_weighted,130,Negative Epithelial,7,7
+flat5_positive_weighted,130,Negative Immune,0,0
+flat5_positive_weighted,130,Positive Epithelial,0,0
+flat5_positive_weighted,130,Positive Immune,0,0
+flat5_positive_weighted,130,other,231,237
+flat5_positive_weighted,131,Negative Epithelial,46,46
+flat5_positive_weighted,131,Negative Immune,3,4
+flat5_positive_weighted,131,Positive Epithelial,0,0
+flat5_positive_weighted,131,Positive Immune,0,0
+flat5_positive_weighted,131,other,217,226
+flat5_positive_weighted,132,Negative Epithelial,109,112
+flat5_positive_weighted,132,Negative Immune,16,17
+flat5_positive_weighted,132,Positive Epithelial,0,0
+flat5_positive_weighted,132,Positive Immune,9,9
+flat5_positive_weighted,132,other,248,254
+flat5_positive_weighted,133,Negative Epithelial,65,66
+flat5_positive_weighted,133,Negative Immune,7,9
+flat5_positive_weighted,133,Positive Epithelial,0,0
+flat5_positive_weighted,133,Positive Immune,1,1
+flat5_positive_weighted,133,other,133,139
+flat5_positive_weighted,134,Negative Epithelial,66,65
+flat5_positive_weighted,134,Negative Immune,8,9
+flat5_positive_weighted,134,Positive Epithelial,0,0
+flat5_positive_weighted,134,Positive Immune,0,0
+flat5_positive_weighted,134,other,205,217
+flat5_positive_weighted,135,Negative Epithelial,9,9
+flat5_positive_weighted,135,Negative Immune,4,6
+flat5_positive_weighted,135,Positive Epithelial,0,0
+flat5_positive_weighted,135,Positive Immune,2,2
+flat5_positive_weighted,135,other,143,152
+flat5_positive_weighted,136,Negative Epithelial,133,134
+flat5_positive_weighted,136,Negative Immune,0,1
+flat5_positive_weighted,136,Positive Epithelial,0,0
+flat5_positive_weighted,136,Positive Immune,0,0
+flat5_positive_weighted,136,other,176,186
+flat5_positive_weighted,137,Negative Epithelial,192,192
+flat5_positive_weighted,137,Negative Immune,14,13
+flat5_positive_weighted,137,Positive Epithelial,0,0
+flat5_positive_weighted,137,Positive Immune,11,11
+flat5_positive_weighted,137,other,218,224
+flat5_positive_weighted,138,Negative Epithelial,149,153
+flat5_positive_weighted,138,Negative Immune,6,6
+flat5_positive_weighted,138,Positive Epithelial,0,0
+flat5_positive_weighted,138,Positive Immune,5,5
+flat5_positive_weighted,138,other,201,205
+flat5_positive_weighted,139,Negative Epithelial,68,78
+flat5_positive_weighted,139,Negative Immune,4,4
+flat5_positive_weighted,139,Positive Epithelial,0,0
+flat5_positive_weighted,139,Positive Immune,0,0
+flat5_positive_weighted,139,other,162,172
+flat5_positive_weighted,140,Negative Epithelial,0,0
+flat5_positive_weighted,140,Negative Immune,0,0
+flat5_positive_weighted,140,Positive Epithelial,0,0
+flat5_positive_weighted,140,Positive Immune,0,0
+flat5_positive_weighted,140,other,125,131
+flat5_positive_weighted,141,Negative Epithelial,16,16
+flat5_positive_weighted,141,Negative Immune,2,2
+flat5_positive_weighted,141,Positive Epithelial,0,0
+flat5_positive_weighted,141,Positive Immune,6,6
+flat5_positive_weighted,141,other,125,130
+flat5_positive_weighted,142,Negative Epithelial,77,78
+flat5_positive_weighted,142,Negative Immune,8,8
+flat5_positive_weighted,142,Positive Epithelial,0,0
+flat5_positive_weighted,142,Positive Immune,4,4
+flat5_positive_weighted,142,other,287,290
+flat5_positive_weighted,143,Negative Epithelial,6,6
+flat5_positive_weighted,143,Negative Immune,0,0
+flat5_positive_weighted,143,Positive Epithelial,0,0
+flat5_positive_weighted,143,Positive Immune,0,0
+flat5_positive_weighted,143,other,284,293
+flat5_positive_weighted,144,Negative Epithelial,120,120
+flat5_positive_weighted,144,Negative Immune,5,5
+flat5_positive_weighted,144,Positive Epithelial,0,0
+flat5_positive_weighted,144,Positive Immune,10,10
+flat5_positive_weighted,144,other,186,192
+flat5_positive_weighted,145,Negative Epithelial,80,80
+flat5_positive_weighted,145,Negative Immune,4,4
+flat5_positive_weighted,145,Positive Epithelial,0,0
+flat5_positive_weighted,145,Positive Immune,15,15
+flat5_positive_weighted,145,other,170,174
+flat5_positive_weighted,146,Negative Epithelial,16,16
+flat5_positive_weighted,146,Negative Immune,0,0
+flat5_positive_weighted,146,Positive Epithelial,0,0
+flat5_positive_weighted,146,Positive Immune,8,8
+flat5_positive_weighted,146,other,323,329
+flat5_positive_weighted,147,Negative Epithelial,71,71
+flat5_positive_weighted,147,Negative Immune,7,8
+flat5_positive_weighted,147,Positive Epithelial,0,0
+flat5_positive_weighted,147,Positive Immune,10,10
+flat5_positive_weighted,147,other,174,176
+flat5_positive_weighted,148,Negative Epithelial,42,43
+flat5_positive_weighted,148,Negative Immune,1,1
+flat5_positive_weighted,148,Positive Epithelial,0,0
+flat5_positive_weighted,148,Positive Immune,9,9
+flat5_positive_weighted,148,other,399,407
+flat5_positive_weighted,149,Negative Epithelial,81,83
+flat5_positive_weighted,149,Negative Immune,3,3
+flat5_positive_weighted,149,Positive Epithelial,0,0
+flat5_positive_weighted,149,Positive Immune,12,13
+flat5_positive_weighted,149,other,357,360
+flat5_positive_weighted,150,Negative Epithelial,32,33
+flat5_positive_weighted,150,Negative Immune,1,1
+flat5_positive_weighted,150,Positive Epithelial,0,0
+flat5_positive_weighted,150,Positive Immune,9,9
+flat5_positive_weighted,150,other,187,192
+flat5_positive_weighted,151,Negative Epithelial,67,68
+flat5_positive_weighted,151,Negative Immune,1,1
+flat5_positive_weighted,151,Positive Epithelial,0,0
+flat5_positive_weighted,151,Positive Immune,17,17
+flat5_positive_weighted,151,other,211,217
+flat5_positive_weighted,152,Negative Epithelial,158,163
+flat5_positive_weighted,152,Negative Immune,15,15
+flat5_positive_weighted,152,Positive Epithelial,0,0
+flat5_positive_weighted,152,Positive Immune,26,29
+flat5_positive_weighted,152,other,209,214
+flat5_positive_weighted,153,Negative Epithelial,59,60
+flat5_positive_weighted,153,Negative Immune,2,1
+flat5_positive_weighted,153,Positive Epithelial,0,0
+flat5_positive_weighted,153,Positive Immune,22,24
+flat5_positive_weighted,153,other,105,112
+flat5_positive_weighted,154,Negative Epithelial,106,106
+flat5_positive_weighted,154,Negative Immune,7,7
+flat5_positive_weighted,154,Positive Epithelial,0,0
+flat5_positive_weighted,154,Positive Immune,52,52
+flat5_positive_weighted,154,other,184,190
+flat5_positive_weighted,155,Negative Epithelial,68,71
+flat5_positive_weighted,155,Negative Immune,4,3
+flat5_positive_weighted,155,Positive Epithelial,0,0
+flat5_positive_weighted,155,Positive Immune,6,6
+flat5_positive_weighted,155,other,157,161
+flat5_positive_weighted,156,Negative Epithelial,161,167
+flat5_positive_weighted,156,Negative Immune,26,26
+flat5_positive_weighted,156,Positive Epithelial,1,1
+flat5_positive_weighted,156,Positive Immune,13,14
+flat5_positive_weighted,156,other,280,288
+flat5_positive_weighted,157,Negative Epithelial,155,160
+flat5_positive_weighted,157,Negative Immune,10,11
+flat5_positive_weighted,157,Positive Epithelial,0,0
+flat5_positive_weighted,157,Positive Immune,16,16
+flat5_positive_weighted,157,other,219,228
+flat5_positive_weighted,158,Negative Epithelial,257,262
+flat5_positive_weighted,158,Negative Immune,24,27
+flat5_positive_weighted,158,Positive Epithelial,0,0
+flat5_positive_weighted,158,Positive Immune,33,34
+flat5_positive_weighted,158,other,164,172
+flat5_positive_weighted,159,Negative Epithelial,146,147
+flat5_positive_weighted,159,Negative Immune,6,8
+flat5_positive_weighted,159,Positive Epithelial,0,0
+flat5_positive_weighted,159,Positive Immune,20,21
+flat5_positive_weighted,159,other,213,229
+flat5_positive_weighted,160,Negative Epithelial,54,54
+flat5_positive_weighted,160,Negative Immune,2,2
+flat5_positive_weighted,160,Positive Epithelial,1,1
+flat5_positive_weighted,160,Positive Immune,27,27
+flat5_positive_weighted,160,other,292,307
+flat5_positive_weighted,161,Negative Epithelial,59,59
+flat5_positive_weighted,161,Negative Immune,9,9
+flat5_positive_weighted,161,Positive Epithelial,0,0
+flat5_positive_weighted,161,Positive Immune,36,37
+flat5_positive_weighted,161,other,263,265
+flat5_positive_weighted,162,Negative Epithelial,24,24
+flat5_positive_weighted,162,Negative Immune,1,1
+flat5_positive_weighted,162,Positive Epithelial,0,0
+flat5_positive_weighted,162,Positive Immune,13,14
+flat5_positive_weighted,162,other,148,151
+flat5_positive_weighted,163,Negative Epithelial,95,95
+flat5_positive_weighted,163,Negative Immune,4,4
+flat5_positive_weighted,163,Positive Epithelial,0,0
+flat5_positive_weighted,163,Positive Immune,16,17
+flat5_positive_weighted,163,other,94,104
+flat5_positive_weighted,164,Negative Epithelial,33,33
+flat5_positive_weighted,164,Negative Immune,3,3
+flat5_positive_weighted,164,Positive Epithelial,7,7
+flat5_positive_weighted,164,Positive Immune,12,12
+flat5_positive_weighted,164,other,379,393
+flat5_positive_weighted,165,Negative Epithelial,0,0
+flat5_positive_weighted,165,Negative Immune,0,0
+flat5_positive_weighted,165,Positive Epithelial,0,0
+flat5_positive_weighted,165,Positive Immune,2,2
+flat5_positive_weighted,165,other,383,391
+flat5_positive_weighted,166,Negative Epithelial,40,43
+flat5_positive_weighted,166,Negative Immune,2,3
+flat5_positive_weighted,166,Positive Epithelial,5,5
+flat5_positive_weighted,166,Positive Immune,26,30
+flat5_positive_weighted,166,other,402,414
+flat5_positive_weighted,167,Negative Epithelial,56,55
+flat5_positive_weighted,167,Negative Immune,3,3
+flat5_positive_weighted,167,Positive Epithelial,0,0
+flat5_positive_weighted,167,Positive Immune,10,10
+flat5_positive_weighted,167,other,281,302
+flat5_positive_weighted,168,Negative Epithelial,0,0
+flat5_positive_weighted,168,Negative Immune,0,0
+flat5_positive_weighted,168,Positive Epithelial,0,0
+flat5_positive_weighted,168,Positive Immune,0,0
+flat5_positive_weighted,168,other,0,1
+flat5_positive_weighted,169,Negative Epithelial,0,0
+flat5_positive_weighted,169,Negative Immune,0,0
+flat5_positive_weighted,169,Positive Epithelial,0,0
+flat5_positive_weighted,169,Positive Immune,0,0
+flat5_positive_weighted,169,other,5,10
+flat5_positive_weighted,170,Negative Epithelial,26,26
+flat5_positive_weighted,170,Negative Immune,0,0
+flat5_positive_weighted,170,Positive Epithelial,0,0
+flat5_positive_weighted,170,Positive Immune,2,2
+flat5_positive_weighted,170,other,273,288
+flat5_positive_weighted,171,Negative Epithelial,66,66
+flat5_positive_weighted,171,Negative Immune,7,7
+flat5_positive_weighted,171,Positive Epithelial,0,0
+flat5_positive_weighted,171,Positive Immune,6,6
+flat5_positive_weighted,171,other,289,291
+flat5_positive_weighted,172,Negative Epithelial,0,1
+flat5_positive_weighted,172,Negative Immune,0,0
+flat5_positive_weighted,172,Positive Epithelial,0,0
+flat5_positive_weighted,172,Positive Immune,0,0
+flat5_positive_weighted,172,other,19,22
+flat5_positive_weighted,173,Negative Epithelial,7,7
+flat5_positive_weighted,173,Negative Immune,10,7
+flat5_positive_weighted,173,Positive Epithelial,99,108
+flat5_positive_weighted,173,Positive Immune,50,55
+flat5_positive_weighted,173,other,487,505
+flat5_positive_weighted,174,Negative Epithelial,0,0
+flat5_positive_weighted,174,Negative Immune,0,0
+flat5_positive_weighted,174,Positive Epithelial,0,0
+flat5_positive_weighted,174,Positive Immune,0,0
+flat5_positive_weighted,174,other,22,31
+flat5_positive_weighted,175,Negative Epithelial,12,11
+flat5_positive_weighted,175,Negative Immune,4,5
+flat5_positive_weighted,175,Positive Epithelial,39,44
+flat5_positive_weighted,175,Positive Immune,36,36
+flat5_positive_weighted,175,other,750,749
+flat5_positive_weighted,176,Negative Epithelial,133,138
+flat5_positive_weighted,176,Negative Immune,22,24
+flat5_positive_weighted,176,Positive Epithelial,26,27
+flat5_positive_weighted,176,Positive Immune,147,153
+flat5_positive_weighted,176,other,284,287
+flat5_positive_weighted,177,Negative Epithelial,76,76
+flat5_positive_weighted,177,Negative Immune,15,15
+flat5_positive_weighted,177,Positive Epithelial,26,25
+flat5_positive_weighted,177,Positive Immune,80,84
+flat5_positive_weighted,177,other,354,368
+flat5_positive_weighted,178,Negative Epithelial,145,148
+flat5_positive_weighted,178,Negative Immune,25,26
+flat5_positive_weighted,178,Positive Epithelial,75,80
+flat5_positive_weighted,178,Positive Immune,140,146
+flat5_positive_weighted,178,other,381,390
+flat5_positive_weighted,179,Negative Epithelial,0,0
+flat5_positive_weighted,179,Negative Immune,3,2
+flat5_positive_weighted,179,Positive Epithelial,0,0
+flat5_positive_weighted,179,Positive Immune,8,10
+flat5_positive_weighted,179,other,431,444
+flat5_positive_weighted,180,Negative Epithelial,25,25
+flat5_positive_weighted,180,Negative Immune,31,30
+flat5_positive_weighted,180,Positive Epithelial,105,109
+flat5_positive_weighted,180,Positive Immune,66,68
+flat5_positive_weighted,180,other,387,388
+flat5_positive_weighted,181,Negative Epithelial,0,0
+flat5_positive_weighted,181,Negative Immune,0,0
+flat5_positive_weighted,181,Positive Epithelial,0,0
+flat5_positive_weighted,181,Positive Immune,0,0
+flat5_positive_weighted,181,other,220,235
+flat5_positive_weighted,182,Negative Epithelial,0,0
+flat5_positive_weighted,182,Negative Immune,0,0
+flat5_positive_weighted,182,Positive Epithelial,0,0
+flat5_positive_weighted,182,Positive Immune,0,0
+flat5_positive_weighted,182,other,151,170
+flat5_positive_weighted,183,Negative Epithelial,0,2
+flat5_positive_weighted,183,Negative Immune,0,0
+flat5_positive_weighted,183,Positive Epithelial,0,0
+flat5_positive_weighted,183,Positive Immune,0,0
+flat5_positive_weighted,183,other,29,30
+flat5_positive_weighted,184,Negative Epithelial,0,0
+flat5_positive_weighted,184,Negative Immune,2,2
+flat5_positive_weighted,184,Positive Epithelial,0,0
+flat5_positive_weighted,184,Positive Immune,12,14
+flat5_positive_weighted,184,other,313,324
+flat5_positive_weighted,185,Negative Epithelial,5,5
+flat5_positive_weighted,185,Negative Immune,10,10
+flat5_positive_weighted,185,Positive Epithelial,38,41
+flat5_positive_weighted,185,Positive Immune,114,115
+flat5_positive_weighted,185,other,392,400
+flat5_positive_weighted,186,Negative Epithelial,0,0
+flat5_positive_weighted,186,Negative Immune,0,0
+flat5_positive_weighted,186,Positive Epithelial,0,0
+flat5_positive_weighted,186,Positive Immune,9,12
+flat5_positive_weighted,186,other,267,269
+flat5_positive_weighted,187,Negative Epithelial,0,0
+flat5_positive_weighted,187,Negative Immune,19,19
+flat5_positive_weighted,187,Positive Epithelial,35,35
+flat5_positive_weighted,187,Positive Immune,106,108
+flat5_positive_weighted,187,other,291,296
+flat5_positive_weighted,188,Negative Epithelial,85,86
+flat5_positive_weighted,188,Negative Immune,4,4
+flat5_positive_weighted,188,Positive Epithelial,26,26
+flat5_positive_weighted,188,Positive Immune,6,7
+flat5_positive_weighted,188,other,61,62
+flat5_positive_weighted,189,Negative Epithelial,39,39
+flat5_positive_weighted,189,Negative Immune,1,1
+flat5_positive_weighted,189,Positive Epithelial,56,56
+flat5_positive_weighted,189,Positive Immune,5,5
+flat5_positive_weighted,189,other,133,137
+flat5_positive_weighted,190,Negative Epithelial,39,39
+flat5_positive_weighted,190,Negative Immune,3,3
+flat5_positive_weighted,190,Positive Epithelial,0,0
+flat5_positive_weighted,190,Positive Immune,0,0
+flat5_positive_weighted,190,other,93,111
+flat5_positive_weighted,191,Negative Epithelial,0,0
+flat5_positive_weighted,191,Negative Immune,2,2
+flat5_positive_weighted,191,Positive Epithelial,0,0
+flat5_positive_weighted,191,Positive Immune,5,5
+flat5_positive_weighted,191,other,173,182
+flat5_positive_weighted,192,Negative Epithelial,80,80
+flat5_positive_weighted,192,Negative Immune,11,11
+flat5_positive_weighted,192,Positive Epithelial,0,0
+flat5_positive_weighted,192,Positive Immune,76,76
+flat5_positive_weighted,192,other,301,309
+flat5_positive_weighted,193,Negative Epithelial,41,43
+flat5_positive_weighted,193,Negative Immune,1,1
+flat5_positive_weighted,193,Positive Epithelial,2,2
+flat5_positive_weighted,193,Positive Immune,12,13
+flat5_positive_weighted,193,other,248,256
+flat5_positive_weighted,194,Negative Epithelial,0,0
+flat5_positive_weighted,194,Negative Immune,0,0
+flat5_positive_weighted,194,Positive Epithelial,0,0
+flat5_positive_weighted,194,Positive Immune,0,0
+flat5_positive_weighted,194,other,8,10
+flat5_positive_weighted,195,Negative Epithelial,0,0
+flat5_positive_weighted,195,Negative Immune,0,0
+flat5_positive_weighted,195,Positive Epithelial,0,0
+flat5_positive_weighted,195,Positive Immune,0,0
+flat5_positive_weighted,195,other,76,81
+flat5_positive_weighted,196,Negative Epithelial,31,36
+flat5_positive_weighted,196,Negative Immune,0,0
+flat5_positive_weighted,196,Positive Epithelial,0,0
+flat5_positive_weighted,196,Positive Immune,4,6
+flat5_positive_weighted,196,other,105,116
+flat5_positive_weighted,197,Negative Epithelial,157,158
+flat5_positive_weighted,197,Negative Immune,5,5
+flat5_positive_weighted,197,Positive Epithelial,0,0
+flat5_positive_weighted,197,Positive Immune,12,12
+flat5_positive_weighted,197,other,311,323
+flat5_positive_weighted,198,Negative Epithelial,78,78
+flat5_positive_weighted,198,Negative Immune,0,0
+flat5_positive_weighted,198,Positive Epithelial,0,0
+flat5_positive_weighted,198,Positive Immune,34,36
+flat5_positive_weighted,198,other,568,595
+flat5_positive_weighted,199,Negative Epithelial,27,28
+flat5_positive_weighted,199,Negative Immune,0,0
+flat5_positive_weighted,199,Positive Epithelial,0,0
+flat5_positive_weighted,199,Positive Immune,22,22
+flat5_positive_weighted,199,other,551,587
+flat5_positive_weighted,200,Negative Epithelial,51,52
+flat5_positive_weighted,200,Negative Immune,1,1
+flat5_positive_weighted,200,Positive Epithelial,27,27
+flat5_positive_weighted,200,Positive Immune,26,26
+flat5_positive_weighted,200,other,366,378
+flat5_positive_weighted,201,Negative Epithelial,0,0
+flat5_positive_weighted,201,Negative Immune,0,0
+flat5_positive_weighted,201,Positive Epithelial,0,0
+flat5_positive_weighted,201,Positive Immune,3,3
+flat5_positive_weighted,201,other,498,521
+flat5_positive_weighted,202,Negative Epithelial,65,67
+flat5_positive_weighted,202,Negative Immune,1,1
+flat5_positive_weighted,202,Positive Epithelial,14,14
+flat5_positive_weighted,202,Positive Immune,21,20
+flat5_positive_weighted,202,other,229,234
+flat5_positive_weighted,203,Negative Epithelial,4,4
+flat5_positive_weighted,203,Negative Immune,0,0
+flat5_positive_weighted,203,Positive Epithelial,0,0
+flat5_positive_weighted,203,Positive Immune,0,0
+flat5_positive_weighted,203,other,116,117
+flat5_positive_weighted,204,Negative Epithelial,412,426
+flat5_positive_weighted,204,Negative Immune,21,22
+flat5_positive_weighted,204,Positive Epithelial,0,0
+flat5_positive_weighted,204,Positive Immune,37,40
+flat5_positive_weighted,204,other,135,140
+flat5_positive_weighted,205,Negative Epithelial,440,454
+flat5_positive_weighted,205,Negative Immune,21,24
+flat5_positive_weighted,205,Positive Epithelial,0,0
+flat5_positive_weighted,205,Positive Immune,21,21
+flat5_positive_weighted,205,other,102,103
+flat5_positive_weighted,206,Negative Epithelial,380,390
+flat5_positive_weighted,206,Negative Immune,20,21
+flat5_positive_weighted,206,Positive Epithelial,1,1
+flat5_positive_weighted,206,Positive Immune,28,31
+flat5_positive_weighted,206,other,131,132
+flat5_positive_weighted,207,Negative Epithelial,357,373
+flat5_positive_weighted,207,Negative Immune,21,23
+flat5_positive_weighted,207,Positive Epithelial,1,1
+flat5_positive_weighted,207,Positive Immune,9,9
+flat5_positive_weighted,207,other,115,116
+flat5_positive_weighted,208,Negative Epithelial,1,1
+flat5_positive_weighted,208,Negative Immune,0,0
+flat5_positive_weighted,208,Positive Epithelial,0,0
+flat5_positive_weighted,208,Positive Immune,0,0
+flat5_positive_weighted,208,other,0,0
+flat5_positive_weighted,209,Negative Epithelial,363,373
+flat5_positive_weighted,209,Negative Immune,9,9
+flat5_positive_weighted,209,Positive Epithelial,0,0
+flat5_positive_weighted,209,Positive Immune,32,33
+flat5_positive_weighted,209,other,52,53
+flat5_positive_weighted,210,Negative Epithelial,1,2
+flat5_positive_weighted,210,Negative Immune,0,0
+flat5_positive_weighted,210,Positive Epithelial,2,2
+flat5_positive_weighted,210,Positive Immune,2,2
+flat5_positive_weighted,210,other,20,24
+flat5_positive_weighted,211,Negative Epithelial,394,403
+flat5_positive_weighted,211,Negative Immune,28,29
+flat5_positive_weighted,211,Positive Epithelial,21,22
+flat5_positive_weighted,211,Positive Immune,54,55
+flat5_positive_weighted,211,other,139,140
+flat5_positive_weighted,212,Negative Epithelial,44,48
+flat5_positive_weighted,212,Negative Immune,4,5
+flat5_positive_weighted,212,Positive Epithelial,2,3
+flat5_positive_weighted,212,Positive Immune,51,54
+flat5_positive_weighted,212,other,113,117
+flat5_positive_weighted,213,Negative Epithelial,126,129
+flat5_positive_weighted,213,Negative Immune,19,19
+flat5_positive_weighted,213,Positive Epithelial,22,22
+flat5_positive_weighted,213,Positive Immune,74,78
+flat5_positive_weighted,213,other,80,84
+flat5_positive_weighted,214,Negative Epithelial,239,251
+flat5_positive_weighted,214,Negative Immune,10,10
+flat5_positive_weighted,214,Positive Epithelial,36,36
+flat5_positive_weighted,214,Positive Immune,43,48
+flat5_positive_weighted,214,other,163,165
+flat5_positive_weighted,215,Negative Epithelial,25,29
+flat5_positive_weighted,215,Negative Immune,0,0
+flat5_positive_weighted,215,Positive Epithelial,1,1
+flat5_positive_weighted,215,Positive Immune,24,26
+flat5_positive_weighted,215,other,20,20
+flat5_positive_weighted,216,Negative Epithelial,1,0
+flat5_positive_weighted,216,Negative Immune,4,4
+flat5_positive_weighted,216,Positive Epithelial,0,2
+flat5_positive_weighted,216,Positive Immune,5,10
+flat5_positive_weighted,216,other,122,145
+flat5_positive_weighted,217,Negative Epithelial,74,75
+flat5_positive_weighted,217,Negative Immune,3,4
+flat5_positive_weighted,217,Positive Epithelial,39,46
+flat5_positive_weighted,217,Positive Immune,60,63
+flat5_positive_weighted,217,other,309,317
+flat5_positive_weighted,218,Negative Epithelial,202,205
+flat5_positive_weighted,218,Negative Immune,36,38
+flat5_positive_weighted,218,Positive Epithelial,18,19
+flat5_positive_weighted,218,Positive Immune,117,117
+flat5_positive_weighted,218,other,478,481
+flat5_positive_weighted,219,Negative Epithelial,435,448
+flat5_positive_weighted,219,Negative Immune,21,20
+flat5_positive_weighted,219,Positive Epithelial,22,24
+flat5_positive_weighted,219,Positive Immune,146,149
+flat5_positive_weighted,219,other,302,300
+flat5_positive_weighted,220,Negative Epithelial,0,0
+flat5_positive_weighted,220,Negative Immune,0,0
+flat5_positive_weighted,220,Positive Epithelial,0,0
+flat5_positive_weighted,220,Positive Immune,0,0
+flat5_positive_weighted,220,other,286,295
+flat5_positive_weighted,221,Negative Epithelial,0,0
+flat5_positive_weighted,221,Negative Immune,0,0
+flat5_positive_weighted,221,Positive Epithelial,0,0
+flat5_positive_weighted,221,Positive Immune,0,0
+flat5_positive_weighted,221,other,347,351
+flat5_positive_weighted,222,Negative Epithelial,0,0
+flat5_positive_weighted,222,Negative Immune,0,0
+flat5_positive_weighted,222,Positive Epithelial,0,0
+flat5_positive_weighted,222,Positive Immune,0,0
+flat5_positive_weighted,222,other,353,356
+flat5_positive_weighted,223,Negative Epithelial,0,0
+flat5_positive_weighted,223,Negative Immune,0,0
+flat5_positive_weighted,223,Positive Epithelial,0,0
+flat5_positive_weighted,223,Positive Immune,0,0
+flat5_positive_weighted,223,other,386,392
+flat5_positive_weighted,224,Negative Epithelial,0,0
+flat5_positive_weighted,224,Negative Immune,0,0
+flat5_positive_weighted,224,Positive Epithelial,0,0
+flat5_positive_weighted,224,Positive Immune,0,0
+flat5_positive_weighted,224,other,281,284
+flat5_positive_weighted,225,Negative Epithelial,0,0
+flat5_positive_weighted,225,Negative Immune,0,0
+flat5_positive_weighted,225,Positive Epithelial,0,0
+flat5_positive_weighted,225,Positive Immune,0,0
+flat5_positive_weighted,225,other,368,373
+flat5_positive_weighted,226,Negative Epithelial,0,1
+flat5_positive_weighted,226,Negative Immune,0,0
+flat5_positive_weighted,226,Positive Epithelial,0,0
+flat5_positive_weighted,226,Positive Immune,0,0
+flat5_positive_weighted,226,other,0,0
+flat5_positive_weighted,227,Negative Epithelial,0,0
+flat5_positive_weighted,227,Negative Immune,0,0
+flat5_positive_weighted,227,Positive Epithelial,0,0
+flat5_positive_weighted,227,Positive Immune,0,0
+flat5_positive_weighted,227,other,0,0
+flat5_positive_weighted,228,Negative Epithelial,0,0
+flat5_positive_weighted,228,Negative Immune,0,0
+flat5_positive_weighted,228,Positive Epithelial,0,0
+flat5_positive_weighted,228,Positive Immune,0,0
+flat5_positive_weighted,228,other,44,44
+flat5_positive_weighted,229,Negative Epithelial,0,0
+flat5_positive_weighted,229,Negative Immune,0,0
+flat5_positive_weighted,229,Positive Epithelial,0,0
+flat5_positive_weighted,229,Positive Immune,0,0
+flat5_positive_weighted,229,other,201,207
+flat5_positive_weighted,230,Negative Epithelial,0,0
+flat5_positive_weighted,230,Negative Immune,0,0
+flat5_positive_weighted,230,Positive Epithelial,0,0
+flat5_positive_weighted,230,Positive Immune,0,0
+flat5_positive_weighted,230,other,130,133
+flat5_positive_weighted,231,Negative Epithelial,0,0
+flat5_positive_weighted,231,Negative Immune,0,0
+flat5_positive_weighted,231,Positive Epithelial,0,0
+flat5_positive_weighted,231,Positive Immune,0,0
+flat5_positive_weighted,231,other,338,345
+flat5_positive_weighted,232,Negative Epithelial,0,0
+flat5_positive_weighted,232,Negative Immune,0,0
+flat5_positive_weighted,232,Positive Epithelial,0,0
+flat5_positive_weighted,232,Positive Immune,0,0
+flat5_positive_weighted,232,other,243,262
+flat5_positive_weighted,233,Negative Epithelial,0,0
+flat5_positive_weighted,233,Negative Immune,4,4
+flat5_positive_weighted,233,Positive Epithelial,156,158
+flat5_positive_weighted,233,Positive Immune,48,48
+flat5_positive_weighted,233,other,192,196
+flat5_positive_weighted,234,Negative Epithelial,0,0
+flat5_positive_weighted,234,Negative Immune,0,0
+flat5_positive_weighted,234,Positive Epithelial,0,0
+flat5_positive_weighted,234,Positive Immune,0,0
+flat5_positive_weighted,234,other,230,260
+flat5_positive_weighted,235,Negative Epithelial,1,1
+flat5_positive_weighted,235,Negative Immune,0,0
+flat5_positive_weighted,235,Positive Epithelial,82,88
+flat5_positive_weighted,235,Positive Immune,34,36
+flat5_positive_weighted,235,other,313,316
+flat5_positive_weighted,236,Negative Epithelial,0,0
+flat5_positive_weighted,236,Negative Immune,0,0
+flat5_positive_weighted,236,Positive Epithelial,0,0
+flat5_positive_weighted,236,Positive Immune,0,0
+flat5_positive_weighted,236,other,696,710
+flat5_positive_weighted,237,Negative Epithelial,0,0
+flat5_positive_weighted,237,Negative Immune,0,0
+flat5_positive_weighted,237,Positive Epithelial,0,0
+flat5_positive_weighted,237,Positive Immune,0,0
+flat5_positive_weighted,237,other,664,688
+flat5_positive_weighted,238,Negative Epithelial,0,0
+flat5_positive_weighted,238,Negative Immune,0,0
+flat5_positive_weighted,238,Positive Epithelial,0,0
+flat5_positive_weighted,238,Positive Immune,0,0
+flat5_positive_weighted,238,other,648,664
+flat5_positive_weighted,239,Negative Epithelial,0,0
+flat5_positive_weighted,239,Negative Immune,0,0
+flat5_positive_weighted,239,Positive Epithelial,0,0
+flat5_positive_weighted,239,Positive Immune,0,0
+flat5_positive_weighted,239,other,558,576
+flat5_positive_weighted,240,Negative Epithelial,0,0
+flat5_positive_weighted,240,Negative Immune,0,0
+flat5_positive_weighted,240,Positive Epithelial,0,0
+flat5_positive_weighted,240,Positive Immune,0,0
+flat5_positive_weighted,240,other,635,649
+flat5_positive_weighted,241,Negative Epithelial,0,0
+flat5_positive_weighted,241,Negative Immune,0,0
+flat5_positive_weighted,241,Positive Epithelial,0,0
+flat5_positive_weighted,241,Positive Immune,0,0
+flat5_positive_weighted,241,other,423,442
+flat5_positive_weighted,242,Negative Epithelial,0,0
+flat5_positive_weighted,242,Negative Immune,0,0
+flat5_positive_weighted,242,Positive Epithelial,0,0
+flat5_positive_weighted,242,Positive Immune,0,0
+flat5_positive_weighted,242,other,587,602
+flat5_positive_weighted,243,Negative Epithelial,0,0
+flat5_positive_weighted,243,Negative Immune,0,0
+flat5_positive_weighted,243,Positive Epithelial,0,0
+flat5_positive_weighted,243,Positive Immune,0,0
+flat5_positive_weighted,243,other,630,648
+flat5_positive_weighted,244,Negative Epithelial,49,51
+flat5_positive_weighted,244,Negative Immune,1,1
+flat5_positive_weighted,244,Positive Epithelial,0,0
+flat5_positive_weighted,244,Positive Immune,6,7
+flat5_positive_weighted,244,other,466,489
+flat5_positive_weighted,245,Negative Epithelial,143,147
+flat5_positive_weighted,245,Negative Immune,2,2
+flat5_positive_weighted,245,Positive Epithelial,0,0
+flat5_positive_weighted,245,Positive Immune,6,6
+flat5_positive_weighted,245,other,101,115
+flat5_positive_weighted,246,Negative Epithelial,122,124
+flat5_positive_weighted,246,Negative Immune,2,2
+flat5_positive_weighted,246,Positive Epithelial,0,0
+flat5_positive_weighted,246,Positive Immune,17,17
+flat5_positive_weighted,246,other,455,474
+flat5_positive_weighted,247,Negative Epithelial,201,204
+flat5_positive_weighted,247,Negative Immune,0,0
+flat5_positive_weighted,247,Positive Epithelial,0,0
+flat5_positive_weighted,247,Positive Immune,7,7
+flat5_positive_weighted,247,other,189,194
+flat5_positive_weighted,248,Negative Epithelial,213,217
+flat5_positive_weighted,248,Negative Immune,12,13
+flat5_positive_weighted,248,Positive Epithelial,0,0
+flat5_positive_weighted,248,Positive Immune,16,16
+flat5_positive_weighted,248,other,211,221
+flat5_positive_weighted,249,Negative Epithelial,350,361
+flat5_positive_weighted,249,Negative Immune,8,8
+flat5_positive_weighted,249,Positive Epithelial,0,0
+flat5_positive_weighted,249,Positive Immune,13,13
+flat5_positive_weighted,249,other,125,129
+flat5_positive_weighted,250,Negative Epithelial,245,257
+flat5_positive_weighted,250,Negative Immune,6,8
+flat5_positive_weighted,250,Positive Epithelial,0,0
+flat5_positive_weighted,250,Positive Immune,6,6
+flat5_positive_weighted,250,other,181,182
+flat5_positive_weighted,251,Negative Epithelial,314,325
+flat5_positive_weighted,251,Negative Immune,16,17
+flat5_positive_weighted,251,Positive Epithelial,0,0
+flat5_positive_weighted,251,Positive Immune,22,22
+flat5_positive_weighted,251,other,154,155
+flat5_positive_weighted,252,Negative Epithelial,325,327
+flat5_positive_weighted,252,Negative Immune,24,25
+flat5_positive_weighted,252,Positive Epithelial,0,0
+flat5_positive_weighted,252,Positive Immune,15,15
+flat5_positive_weighted,252,other,228,234
+flat5_positive_weighted,253,Negative Epithelial,437,449
+flat5_positive_weighted,253,Negative Immune,9,10
+flat5_positive_weighted,253,Positive Epithelial,4,4
+flat5_positive_weighted,253,Positive Immune,17,17
+flat5_positive_weighted,253,other,120,122
+flat5_positive_weighted,254,Negative Epithelial,120,120
+flat5_positive_weighted,254,Negative Immune,5,3
+flat5_positive_weighted,254,Positive Epithelial,0,0
+flat5_positive_weighted,254,Positive Immune,2,2
+flat5_positive_weighted,254,other,135,152
+flat5_positive_weighted,255,Negative Epithelial,180,178
+flat5_positive_weighted,255,Negative Immune,0,0
+flat5_positive_weighted,255,Positive Epithelial,0,0
+flat5_positive_weighted,255,Positive Immune,15,16
+flat5_positive_weighted,255,other,173,185
+flat5_positive_weighted,256,Negative Epithelial,118,120
+flat5_positive_weighted,256,Negative Immune,3,3
+flat5_positive_weighted,256,Positive Epithelial,0,0
+flat5_positive_weighted,256,Positive Immune,9,10
+flat5_positive_weighted,256,other,471,497
+flat5_positive_weighted,257,Negative Epithelial,71,73
+flat5_positive_weighted,257,Negative Immune,7,8
+flat5_positive_weighted,257,Positive Epithelial,0,0
+flat5_positive_weighted,257,Positive Immune,4,4
+flat5_positive_weighted,257,other,398,411
+flat5_positive_weighted,258,Negative Epithelial,44,45
+flat5_positive_weighted,258,Negative Immune,4,4
+flat5_positive_weighted,258,Positive Epithelial,0,0
+flat5_positive_weighted,258,Positive Immune,2,2
+flat5_positive_weighted,258,other,273,283
+flat5_positive_weighted,259,Negative Epithelial,162,163
+flat5_positive_weighted,259,Negative Immune,3,3
+flat5_positive_weighted,259,Positive Epithelial,0,0
+flat5_positive_weighted,259,Positive Immune,17,17
+flat5_positive_weighted,259,other,335,351
+flat5_positive_weighted,260,Negative Epithelial,0,0
+flat5_positive_weighted,260,Negative Immune,0,0
+flat5_positive_weighted,260,Positive Epithelial,0,0
+flat5_positive_weighted,260,Positive Immune,0,0
+flat5_positive_weighted,260,other,400,423
+flat5_positive_weighted,261,Negative Epithelial,59,60
+flat5_positive_weighted,261,Negative Immune,0,0
+flat5_positive_weighted,261,Positive Epithelial,0,0
+flat5_positive_weighted,261,Positive Immune,0,0
+flat5_positive_weighted,261,other,402,420
+flat5_positive_weighted,262,Negative Epithelial,42,43
+flat5_positive_weighted,262,Negative Immune,0,0
+flat5_positive_weighted,262,Positive Epithelial,0,0
+flat5_positive_weighted,262,Positive Immune,0,0
+flat5_positive_weighted,262,other,363,368
+flat5_positive_weighted,263,Negative Epithelial,122,123
+flat5_positive_weighted,263,Negative Immune,0,0
+flat5_positive_weighted,263,Positive Epithelial,0,0
+flat5_positive_weighted,263,Positive Immune,0,0
+flat5_positive_weighted,263,other,164,168
+flat5_positive_weighted,264,Negative Epithelial,147,150
+flat5_positive_weighted,264,Negative Immune,13,13
+flat5_positive_weighted,264,Positive Epithelial,0,0
+flat5_positive_weighted,264,Positive Immune,0,0
+flat5_positive_weighted,264,other,134,140
+flat5_positive_weighted,265,Negative Epithelial,122,126
+flat5_positive_weighted,265,Negative Immune,9,9
+flat5_positive_weighted,265,Positive Epithelial,1,1
+flat5_positive_weighted,265,Positive Immune,1,1
+flat5_positive_weighted,265,other,198,206
+flat5_positive_weighted,266,Negative Epithelial,143,147
+flat5_positive_weighted,266,Negative Immune,1,1
+flat5_positive_weighted,266,Positive Epithelial,2,2
+flat5_positive_weighted,266,Positive Immune,0,0
+flat5_positive_weighted,266,other,233,237
+flat5_positive_weighted,267,Negative Epithelial,72,72
+flat5_positive_weighted,267,Negative Immune,2,2
+flat5_positive_weighted,267,Positive Epithelial,0,0
+flat5_positive_weighted,267,Positive Immune,1,1
+flat5_positive_weighted,267,other,95,96
+flat5_positive_weighted,268,Negative Epithelial,1,0
+flat5_positive_weighted,268,Negative Immune,0,0
+flat5_positive_weighted,268,Positive Epithelial,0,0
+flat5_positive_weighted,268,Positive Immune,0,0
+flat5_positive_weighted,268,other,196,210
+flat5_positive_weighted,269,Negative Epithelial,15,18
+flat5_positive_weighted,269,Negative Immune,0,0
+flat5_positive_weighted,269,Positive Epithelial,0,0
+flat5_positive_weighted,269,Positive Immune,0,0
+flat5_positive_weighted,269,other,125,134
+flat5_positive_weighted,270,Negative Epithelial,80,80
+flat5_positive_weighted,270,Negative Immune,0,1
+flat5_positive_weighted,270,Positive Epithelial,1,1
+flat5_positive_weighted,270,Positive Immune,5,5
+flat5_positive_weighted,270,other,262,267
+flat5_positive_weighted,271,Negative Epithelial,74,79
+flat5_positive_weighted,271,Negative Immune,1,1
+flat5_positive_weighted,271,Positive Epithelial,0,0
+flat5_positive_weighted,271,Positive Immune,13,13
+flat5_positive_weighted,271,other,262,269
+flat5_positive_weighted,272,Negative Epithelial,24,24
+flat5_positive_weighted,272,Negative Immune,0,0
+flat5_positive_weighted,272,Positive Epithelial,0,0
+flat5_positive_weighted,272,Positive Immune,1,1
+flat5_positive_weighted,272,other,325,329
+flat5_positive_weighted,273,Negative Epithelial,37,38
+flat5_positive_weighted,273,Negative Immune,0,0
+flat5_positive_weighted,273,Positive Epithelial,0,0
+flat5_positive_weighted,273,Positive Immune,0,0
+flat5_positive_weighted,273,other,215,219
+flat5_positive_weighted,274,Negative Epithelial,0,0
+flat5_positive_weighted,274,Negative Immune,0,0
+flat5_positive_weighted,274,Positive Epithelial,0,0
+flat5_positive_weighted,274,Positive Immune,0,0
+flat5_positive_weighted,274,other,340,352
+flat5_positive_weighted,275,Negative Epithelial,0,0
+flat5_positive_weighted,275,Negative Immune,0,0
+flat5_positive_weighted,275,Positive Epithelial,0,0
+flat5_positive_weighted,275,Positive Immune,0,0
+flat5_positive_weighted,275,other,459,471
+flat5_positive_weighted,276,Negative Epithelial,0,0
+flat5_positive_weighted,276,Negative Immune,0,0
+flat5_positive_weighted,276,Positive Epithelial,0,0
+flat5_positive_weighted,276,Positive Immune,0,0
+flat5_positive_weighted,276,other,328,355
+flat5_positive_weighted,277,Negative Epithelial,45,44
+flat5_positive_weighted,277,Negative Immune,0,0
+flat5_positive_weighted,277,Positive Epithelial,19,19
+flat5_positive_weighted,277,Positive Immune,14,15
+flat5_positive_weighted,277,other,458,463
+flat5_positive_weighted,278,Negative Epithelial,0,0
+flat5_positive_weighted,278,Negative Immune,0,0
+flat5_positive_weighted,278,Positive Epithelial,0,0
+flat5_positive_weighted,278,Positive Immune,0,0
+flat5_positive_weighted,278,other,392,410
+flat5_positive_weighted,279,Negative Epithelial,0,0
+flat5_positive_weighted,279,Negative Immune,0,0
+flat5_positive_weighted,279,Positive Epithelial,0,0
+flat5_positive_weighted,279,Positive Immune,1,1
+flat5_positive_weighted,279,other,419,441
+flat5_positive_weighted,280,Negative Epithelial,32,32
+flat5_positive_weighted,280,Negative Immune,0,0
+flat5_positive_weighted,280,Positive Epithelial,22,22
+flat5_positive_weighted,280,Positive Immune,46,44
+flat5_positive_weighted,280,other,339,361
+flat5_positive_weighted,281,Negative Epithelial,26,25
+flat5_positive_weighted,281,Negative Immune,0,0
+flat5_positive_weighted,281,Positive Epithelial,29,30
+flat5_positive_weighted,281,Positive Immune,44,47
+flat5_positive_weighted,281,other,276,296
+flat5_positive_weighted,282,Negative Epithelial,45,45
+flat5_positive_weighted,282,Negative Immune,0,0
+flat5_positive_weighted,282,Positive Epithelial,19,19
+flat5_positive_weighted,282,Positive Immune,14,14
+flat5_positive_weighted,282,other,397,420
+flat5_positive_weighted,283,Negative Epithelial,41,42
+flat5_positive_weighted,283,Negative Immune,5,5
+flat5_positive_weighted,283,Positive Epithelial,42,42
+flat5_positive_weighted,283,Positive Immune,29,30
+flat5_positive_weighted,283,other,222,229
+flat5_positive_weighted,284,Negative Epithelial,0,0
+flat5_positive_weighted,284,Negative Immune,0,0
+flat5_positive_weighted,284,Positive Epithelial,0,0
+flat5_positive_weighted,284,Positive Immune,0,0
+flat5_positive_weighted,284,other,379,391
+flat5_positive_weighted,285,Negative Epithelial,0,0
+flat5_positive_weighted,285,Negative Immune,0,0
+flat5_positive_weighted,285,Positive Epithelial,0,0
+flat5_positive_weighted,285,Positive Immune,0,0
+flat5_positive_weighted,285,other,325,331
+flat5_positive_weighted,286,Negative Epithelial,0,0
+flat5_positive_weighted,286,Negative Immune,0,0
+flat5_positive_weighted,286,Positive Epithelial,0,0
+flat5_positive_weighted,286,Positive Immune,0,0
+flat5_positive_weighted,286,other,398,400
+flat5_positive_weighted,287,Negative Epithelial,0,0
+flat5_positive_weighted,287,Negative Immune,0,0
+flat5_positive_weighted,287,Positive Epithelial,0,0
+flat5_positive_weighted,287,Positive Immune,0,0
+flat5_positive_weighted,287,other,389,399
+flat5_positive_weighted,288,Negative Epithelial,0,0
+flat5_positive_weighted,288,Negative Immune,0,0
+flat5_positive_weighted,288,Positive Epithelial,0,0
+flat5_positive_weighted,288,Positive Immune,0,0
+flat5_positive_weighted,288,other,0,0
+flat5_positive_weighted,289,Negative Epithelial,57,57
+flat5_positive_weighted,289,Negative Immune,0,0
+flat5_positive_weighted,289,Positive Epithelial,2,2
+flat5_positive_weighted,289,Positive Immune,5,5
+flat5_positive_weighted,289,other,351,358
+flat5_positive_weighted,290,Negative Epithelial,0,0
+flat5_positive_weighted,290,Negative Immune,0,0
+flat5_positive_weighted,290,Positive Epithelial,0,0
+flat5_positive_weighted,290,Positive Immune,0,0
+flat5_positive_weighted,290,other,19,22
+flat5_positive_weighted,291,Negative Epithelial,1,2
+flat5_positive_weighted,291,Negative Immune,0,0
+flat5_positive_weighted,291,Positive Epithelial,0,0
+flat5_positive_weighted,291,Positive Immune,0,0
+flat5_positive_weighted,291,other,268,278
+flat5_positive_weighted,292,Negative Epithelial,92,92
+flat5_positive_weighted,292,Negative Immune,1,1
+flat5_positive_weighted,292,Positive Epithelial,1,1
+flat5_positive_weighted,292,Positive Immune,11,11
+flat5_positive_weighted,292,other,394,402
+flat5_positive_weighted,293,Negative Epithelial,183,186
+flat5_positive_weighted,293,Negative Immune,0,0
+flat5_positive_weighted,293,Positive Epithelial,0,0
+flat5_positive_weighted,293,Positive Immune,4,4
+flat5_positive_weighted,293,other,179,193
+flat5_positive_weighted,294,Negative Epithelial,106,107
+flat5_positive_weighted,294,Negative Immune,1,1
+flat5_positive_weighted,294,Positive Epithelial,0,0
+flat5_positive_weighted,294,Positive Immune,1,1
+flat5_positive_weighted,294,other,311,324
+flat5_positive_weighted,295,Negative Epithelial,160,171
+flat5_positive_weighted,295,Negative Immune,0,0
+flat5_positive_weighted,295,Positive Epithelial,0,0
+flat5_positive_weighted,295,Positive Immune,0,0
+flat5_positive_weighted,295,other,174,186
+flat5_positive_weighted,296,Negative Epithelial,0,9
+flat5_positive_weighted,296,Negative Immune,0,0
+flat5_positive_weighted,296,Positive Epithelial,0,0
+flat5_positive_weighted,296,Positive Immune,0,0
+flat5_positive_weighted,296,other,0,207
+flat5_positive_weighted,297,Negative Epithelial,0,5
+flat5_positive_weighted,297,Negative Immune,0,1
+flat5_positive_weighted,297,Positive Epithelial,0,0
+flat5_positive_weighted,297,Positive Immune,0,6
+flat5_positive_weighted,297,other,0,257
+flat5_positive_weighted,298,Negative Epithelial,0,113
+flat5_positive_weighted,298,Negative Immune,0,0
+flat5_positive_weighted,298,Positive Epithelial,0,1
+flat5_positive_weighted,298,Positive Immune,0,3
+flat5_positive_weighted,298,other,0,296
+flat5_positive_weighted,299,Negative Epithelial,0,118
+flat5_positive_weighted,299,Negative Immune,0,1
+flat5_positive_weighted,299,Positive Epithelial,0,0
+flat5_positive_weighted,299,Positive Immune,0,3
+flat5_positive_weighted,299,other,0,233
+flat5_positive_weighted,300,Negative Epithelial,0,0
+flat5_positive_weighted,300,Negative Immune,0,0
+flat5_positive_weighted,300,Positive Epithelial,0,0
+flat5_positive_weighted,300,Positive Immune,0,0
+flat5_positive_weighted,300,other,453,464
+flat5_positive_weighted,301,Negative Epithelial,0,0
+flat5_positive_weighted,301,Negative Immune,0,0
+flat5_positive_weighted,301,Positive Epithelial,0,0
+flat5_positive_weighted,301,Positive Immune,0,0
+flat5_positive_weighted,301,other,361,372
+flat5_positive_weighted,302,Negative Epithelial,0,0
+flat5_positive_weighted,302,Negative Immune,0,0
+flat5_positive_weighted,302,Positive Epithelial,0,0
+flat5_positive_weighted,302,Positive Immune,0,0
+flat5_positive_weighted,302,other,496,507
+flat5_positive_weighted,303,Negative Epithelial,0,0
+flat5_positive_weighted,303,Negative Immune,0,0
+flat5_positive_weighted,303,Positive Epithelial,0,0
+flat5_positive_weighted,303,Positive Immune,0,0
+flat5_positive_weighted,303,other,266,277
+flat5_positive_weighted,304,Negative Epithelial,164,168
+flat5_positive_weighted,304,Negative Immune,0,0
+flat5_positive_weighted,304,Positive Epithelial,0,0
+flat5_positive_weighted,304,Positive Immune,0,0
+flat5_positive_weighted,304,other,235,247
+flat5_positive_weighted,305,Negative Epithelial,106,109
+flat5_positive_weighted,305,Negative Immune,1,1
+flat5_positive_weighted,305,Positive Epithelial,0,0
+flat5_positive_weighted,305,Positive Immune,0,0
+flat5_positive_weighted,305,other,255,264
+flat5_positive_weighted,306,Negative Epithelial,333,334
+flat5_positive_weighted,306,Negative Immune,2,2
+flat5_positive_weighted,306,Positive Epithelial,0,0
+flat5_positive_weighted,306,Positive Immune,0,0
+flat5_positive_weighted,306,other,292,313
+flat5_positive_weighted,307,Negative Epithelial,316,320
+flat5_positive_weighted,307,Negative Immune,7,7
+flat5_positive_weighted,307,Positive Epithelial,0,0
+flat5_positive_weighted,307,Positive Immune,2,2
+flat5_positive_weighted,307,other,318,321
+flat5_positive_weighted,308,Negative Epithelial,3,3
+flat5_positive_weighted,308,Negative Immune,0,0
+flat5_positive_weighted,308,Positive Epithelial,0,0
+flat5_positive_weighted,308,Positive Immune,0,0
+flat5_positive_weighted,308,other,347,363
+flat5_positive_weighted,309,Negative Epithelial,0,0
+flat5_positive_weighted,309,Negative Immune,0,0
+flat5_positive_weighted,309,Positive Epithelial,0,0
+flat5_positive_weighted,309,Positive Immune,0,0
+flat5_positive_weighted,309,other,330,338
+flat5_positive_weighted,310,Negative Epithelial,192,196
+flat5_positive_weighted,310,Negative Immune,0,0
+flat5_positive_weighted,310,Positive Epithelial,0,0
+flat5_positive_weighted,310,Positive Immune,0,0
+flat5_positive_weighted,310,other,333,336
+flat5_positive_weighted,311,Negative Epithelial,61,61
+flat5_positive_weighted,311,Negative Immune,0,0
+flat5_positive_weighted,311,Positive Epithelial,0,0
+flat5_positive_weighted,311,Positive Immune,2,2
+flat5_positive_weighted,311,other,395,406
+flat5_positive_weighted,312,Negative Epithelial,0,0
+flat5_positive_weighted,312,Negative Immune,0,0
+flat5_positive_weighted,312,Positive Epithelial,0,0
+flat5_positive_weighted,312,Positive Immune,0,0
+flat5_positive_weighted,312,other,152,160
+flat5_positive_weighted,313,Negative Epithelial,0,0
+flat5_positive_weighted,313,Negative Immune,0,0
+flat5_positive_weighted,313,Positive Epithelial,0,0
+flat5_positive_weighted,313,Positive Immune,0,0
+flat5_positive_weighted,313,other,49,50
+flat5_positive_weighted,314,Negative Epithelial,0,0
+flat5_positive_weighted,314,Negative Immune,0,0
+flat5_positive_weighted,314,Positive Epithelial,0,0
+flat5_positive_weighted,314,Positive Immune,0,0
+flat5_positive_weighted,314,other,611,628
+flat5_positive_weighted,315,Negative Epithelial,0,0
+flat5_positive_weighted,315,Negative Immune,0,0
+flat5_positive_weighted,315,Positive Epithelial,0,0
+flat5_positive_weighted,315,Positive Immune,0,0
+flat5_positive_weighted,315,other,528,536
+flat5_positive_weighted,316,Negative Epithelial,0,0
+flat5_positive_weighted,316,Negative Immune,0,0
+flat5_positive_weighted,316,Positive Epithelial,0,0
+flat5_positive_weighted,316,Positive Immune,0,0
+flat5_positive_weighted,316,other,0,0
+flat5_positive_weighted,317,Negative Epithelial,0,0
+flat5_positive_weighted,317,Negative Immune,0,0
+flat5_positive_weighted,317,Positive Epithelial,0,0
+flat5_positive_weighted,317,Positive Immune,0,0
+flat5_positive_weighted,317,other,45,51
+flat5_positive_weighted,318,Negative Epithelial,0,0
+flat5_positive_weighted,318,Negative Immune,0,0
+flat5_positive_weighted,318,Positive Epithelial,0,0
+flat5_positive_weighted,318,Positive Immune,0,0
+flat5_positive_weighted,318,other,207,213
+flat5_positive_weighted,319,Negative Epithelial,0,0
+flat5_positive_weighted,319,Negative Immune,0,0
+flat5_positive_weighted,319,Positive Epithelial,0,0
+flat5_positive_weighted,319,Positive Immune,0,0
+flat5_positive_weighted,319,other,219,222
+flat5_positive_weighted,320,Negative Epithelial,36,36
+flat5_positive_weighted,320,Negative Immune,0,0
+flat5_positive_weighted,320,Positive Epithelial,0,0
+flat5_positive_weighted,320,Positive Immune,0,0
+flat5_positive_weighted,320,other,370,382
+flat5_positive_weighted,321,Negative Epithelial,284,289
+flat5_positive_weighted,321,Negative Immune,0,0
+flat5_positive_weighted,321,Positive Epithelial,0,0
+flat5_positive_weighted,321,Positive Immune,10,10
+flat5_positive_weighted,321,other,222,229
+flat5_positive_weighted,322,Negative Epithelial,357,362
+flat5_positive_weighted,322,Negative Immune,1,1
+flat5_positive_weighted,322,Positive Epithelial,0,0
+flat5_positive_weighted,322,Positive Immune,12,12
+flat5_positive_weighted,322,other,188,196
+flat5_positive_weighted,323,Negative Epithelial,520,535
+flat5_positive_weighted,323,Negative Immune,3,3
+flat5_positive_weighted,323,Positive Epithelial,0,0
+flat5_positive_weighted,323,Positive Immune,12,15
+flat5_positive_weighted,323,other,90,92
+flat5_positive_weighted,324,Negative Epithelial,0,0
+flat5_positive_weighted,324,Negative Immune,0,0
+flat5_positive_weighted,324,Positive Epithelial,0,0
+flat5_positive_weighted,324,Positive Immune,0,0
+flat5_positive_weighted,324,other,262,263
+flat5_positive_weighted,325,Negative Epithelial,0,0
+flat5_positive_weighted,325,Negative Immune,0,0
+flat5_positive_weighted,325,Positive Epithelial,0,0
+flat5_positive_weighted,325,Positive Immune,0,0
+flat5_positive_weighted,325,other,180,182
+flat5_positive_weighted,326,Negative Epithelial,0,0
+flat5_positive_weighted,326,Negative Immune,0,0
+flat5_positive_weighted,326,Positive Epithelial,0,0
+flat5_positive_weighted,326,Positive Immune,0,0
+flat5_positive_weighted,326,other,106,108
+flat5_positive_weighted,327,Negative Epithelial,0,0
+flat5_positive_weighted,327,Negative Immune,0,0
+flat5_positive_weighted,327,Positive Epithelial,0,0
+flat5_positive_weighted,327,Positive Immune,0,0
+flat5_positive_weighted,327,other,123,123
+flat5_positive_weighted,328,Negative Epithelial,31,31
+flat5_positive_weighted,328,Negative Immune,0,0
+flat5_positive_weighted,328,Positive Epithelial,0,0
+flat5_positive_weighted,328,Positive Immune,0,0
+flat5_positive_weighted,328,other,237,242
+flat5_positive_weighted,329,Negative Epithelial,0,0
+flat5_positive_weighted,329,Negative Immune,0,0
+flat5_positive_weighted,329,Positive Epithelial,0,0
+flat5_positive_weighted,329,Positive Immune,0,0
+flat5_positive_weighted,329,other,7,11
+flat5_positive_weighted,330,Negative Epithelial,0,0
+flat5_positive_weighted,330,Negative Immune,0,0
+flat5_positive_weighted,330,Positive Epithelial,0,0
+flat5_positive_weighted,330,Positive Immune,0,0
+flat5_positive_weighted,330,other,63,75
+flat5_positive_weighted,331,Negative Epithelial,0,0
+flat5_positive_weighted,331,Negative Immune,0,0
+flat5_positive_weighted,331,Positive Epithelial,0,0
+flat5_positive_weighted,331,Positive Immune,0,0
+flat5_positive_weighted,331,other,0,0
+flat5_positive_weighted,332,Negative Epithelial,0,0
+flat5_positive_weighted,332,Negative Immune,0,0
+flat5_positive_weighted,332,Positive Epithelial,0,0
+flat5_positive_weighted,332,Positive Immune,0,0
+flat5_positive_weighted,332,other,0,1
+flat5_positive_weighted,333,Negative Epithelial,0,0
+flat5_positive_weighted,333,Negative Immune,0,0
+flat5_positive_weighted,333,Positive Epithelial,0,0
+flat5_positive_weighted,333,Positive Immune,0,0
+flat5_positive_weighted,333,other,0,0
+flat5_positive_weighted,334,Negative Epithelial,0,0
+flat5_positive_weighted,334,Negative Immune,0,0
+flat5_positive_weighted,334,Positive Epithelial,0,0
+flat5_positive_weighted,334,Positive Immune,0,0
+flat5_positive_weighted,334,other,0,0
+flat5_positive_weighted,335,Negative Epithelial,0,0
+flat5_positive_weighted,335,Negative Immune,0,0
+flat5_positive_weighted,335,Positive Epithelial,0,0
+flat5_positive_weighted,335,Positive Immune,0,0
+flat5_positive_weighted,335,other,0,0
+flat5_positive_weighted,336,Negative Epithelial,0,0
+flat5_positive_weighted,336,Negative Immune,0,0
+flat5_positive_weighted,336,Positive Epithelial,0,0
+flat5_positive_weighted,336,Positive Immune,0,0
+flat5_positive_weighted,336,other,0,0
+flat5_positive_weighted,337,Negative Epithelial,0,0
+flat5_positive_weighted,337,Negative Immune,0,0
+flat5_positive_weighted,337,Positive Epithelial,0,0
+flat5_positive_weighted,337,Positive Immune,0,0
+flat5_positive_weighted,337,other,0,0
+flat5_positive_weighted,338,Negative Epithelial,0,0
+flat5_positive_weighted,338,Negative Immune,0,0
+flat5_positive_weighted,338,Positive Epithelial,0,0
+flat5_positive_weighted,338,Positive Immune,0,0
+flat5_positive_weighted,338,other,9,8
+flat5_positive_weighted,339,Negative Epithelial,15,15
+flat5_positive_weighted,339,Negative Immune,0,0
+flat5_positive_weighted,339,Positive Epithelial,0,0
+flat5_positive_weighted,339,Positive Immune,0,0
+flat5_positive_weighted,339,other,163,162
+flat5_positive_weighted,340,Negative Epithelial,0,0
+flat5_positive_weighted,340,Negative Immune,0,0
+flat5_positive_weighted,340,Positive Epithelial,0,0
+flat5_positive_weighted,340,Positive Immune,0,0
+flat5_positive_weighted,340,other,2,4
+flat5_positive_weighted,341,Negative Epithelial,0,0
+flat5_positive_weighted,341,Negative Immune,0,0
+flat5_positive_weighted,341,Positive Epithelial,0,0
+flat5_positive_weighted,341,Positive Immune,0,0
+flat5_positive_weighted,341,other,0,0
+flat5_positive_weighted,342,Negative Epithelial,80,81
+flat5_positive_weighted,342,Negative Immune,0,0
+flat5_positive_weighted,342,Positive Epithelial,0,0
+flat5_positive_weighted,342,Positive Immune,0,0
+flat5_positive_weighted,342,other,201,197
+flat5_positive_weighted,343,Negative Epithelial,99,98
+flat5_positive_weighted,343,Negative Immune,0,0
+flat5_positive_weighted,343,Positive Epithelial,0,0
+flat5_positive_weighted,343,Positive Immune,9,9
+flat5_positive_weighted,343,other,82,84
+flat5_positive_weighted,344,Negative Epithelial,146,149
+flat5_positive_weighted,344,Negative Immune,0,0
+flat5_positive_weighted,344,Positive Epithelial,0,0
+flat5_positive_weighted,344,Positive Immune,10,12
+flat5_positive_weighted,344,other,178,191
+flat5_positive_weighted,345,Negative Epithelial,114,115
+flat5_positive_weighted,345,Negative Immune,0,0
+flat5_positive_weighted,345,Positive Epithelial,0,0
+flat5_positive_weighted,345,Positive Immune,12,13
+flat5_positive_weighted,345,other,200,204
+flat5_positive_weighted,346,Negative Epithelial,237,239
+flat5_positive_weighted,346,Negative Immune,0,0
+flat5_positive_weighted,346,Positive Epithelial,0,0
+flat5_positive_weighted,346,Positive Immune,11,11
+flat5_positive_weighted,346,other,183,186
+flat5_positive_weighted,347,Negative Epithelial,105,108
+flat5_positive_weighted,347,Negative Immune,0,0
+flat5_positive_weighted,347,Positive Epithelial,0,0
+flat5_positive_weighted,347,Positive Immune,12,12
+flat5_positive_weighted,347,other,240,252
+flat5_positive_weighted,348,Negative Epithelial,86,90
+flat5_positive_weighted,348,Negative Immune,0,0
+flat5_positive_weighted,348,Positive Epithelial,0,1
+flat5_positive_weighted,348,Positive Immune,0,0
+flat5_positive_weighted,348,other,84,92
+flat5_positive_weighted,349,Negative Epithelial,24,25
+flat5_positive_weighted,349,Negative Immune,0,0
+flat5_positive_weighted,349,Positive Epithelial,0,0
+flat5_positive_weighted,349,Positive Immune,0,0
+flat5_positive_weighted,349,other,39,43
+flat5_positive_weighted,350,Negative Epithelial,116,118
+flat5_positive_weighted,350,Negative Immune,0,0
+flat5_positive_weighted,350,Positive Epithelial,0,0
+flat5_positive_weighted,350,Positive Immune,0,0
+flat5_positive_weighted,350,other,160,154
+flat5_positive_weighted,351,Negative Epithelial,85,85
+flat5_positive_weighted,351,Negative Immune,0,0
+flat5_positive_weighted,351,Positive Epithelial,0,0
+flat5_positive_weighted,351,Positive Immune,3,3
+flat5_positive_weighted,351,other,185,188
+flat5_positive_weighted,352,Negative Epithelial,0,0
+flat5_positive_weighted,352,Negative Immune,0,0
+flat5_positive_weighted,352,Positive Epithelial,0,0
+flat5_positive_weighted,352,Positive Immune,0,0
+flat5_positive_weighted,352,other,0,0
+flat5_positive_weighted,353,Negative Epithelial,0,0
+flat5_positive_weighted,353,Negative Immune,0,0
+flat5_positive_weighted,353,Positive Epithelial,0,0
+flat5_positive_weighted,353,Positive Immune,0,0
+flat5_positive_weighted,353,other,70,78
+flat5_positive_weighted,354,Negative Epithelial,0,0
+flat5_positive_weighted,354,Negative Immune,0,0
+flat5_positive_weighted,354,Positive Epithelial,0,0
+flat5_positive_weighted,354,Positive Immune,0,0
+flat5_positive_weighted,354,other,79,86
+flat5_positive_weighted,355,Negative Epithelial,63,62
+flat5_positive_weighted,355,Negative Immune,0,0
+flat5_positive_weighted,355,Positive Epithelial,0,0
+flat5_positive_weighted,355,Positive Immune,16,19
+flat5_positive_weighted,355,other,195,195
+flat5_positive_weighted,356,Negative Epithelial,80,81
+flat5_positive_weighted,356,Negative Immune,0,0
+flat5_positive_weighted,356,Positive Epithelial,2,2
+flat5_positive_weighted,356,Positive Immune,11,9
+flat5_positive_weighted,356,other,226,227
+flat5_positive_weighted,357,Negative Epithelial,108,109
+flat5_positive_weighted,357,Negative Immune,0,0
+flat5_positive_weighted,357,Positive Epithelial,0,0
+flat5_positive_weighted,357,Positive Immune,31,33
+flat5_positive_weighted,357,other,225,243
+flat5_positive_weighted,358,Negative Epithelial,42,43
+flat5_positive_weighted,358,Negative Immune,0,0
+flat5_positive_weighted,358,Positive Epithelial,0,0
+flat5_positive_weighted,358,Positive Immune,13,16
+flat5_positive_weighted,358,other,212,241
+flat5_positive_weighted,359,Negative Epithelial,65,66
+flat5_positive_weighted,359,Negative Immune,0,0
+flat5_positive_weighted,359,Positive Epithelial,0,0
+flat5_positive_weighted,359,Positive Immune,37,41
+flat5_positive_weighted,359,other,230,224
+flat5_positive_weighted,360,Negative Epithelial,58,59
+flat5_positive_weighted,360,Negative Immune,0,0
+flat5_positive_weighted,360,Positive Epithelial,0,0
+flat5_positive_weighted,360,Positive Immune,18,22
+flat5_positive_weighted,360,other,212,212
+flat5_positive_weighted,361,Negative Epithelial,101,103
+flat5_positive_weighted,361,Negative Immune,0,0
+flat5_positive_weighted,361,Positive Epithelial,0,0
+flat5_positive_weighted,361,Positive Immune,21,24
+flat5_positive_weighted,361,other,170,170
+flat5_positive_weighted,362,Negative Epithelial,57,58
+flat5_positive_weighted,362,Negative Immune,0,0
+flat5_positive_weighted,362,Positive Epithelial,0,0
+flat5_positive_weighted,362,Positive Immune,4,4
+flat5_positive_weighted,362,other,238,245
+flat5_positive_weighted,363,Negative Epithelial,57,57
+flat5_positive_weighted,363,Negative Immune,1,1
+flat5_positive_weighted,363,Positive Epithelial,0,0
+flat5_positive_weighted,363,Positive Immune,27,29
+flat5_positive_weighted,363,other,219,231
+flat5_positive_weighted,364,Negative Epithelial,46,46
+flat5_positive_weighted,364,Negative Immune,0,0
+flat5_positive_weighted,364,Positive Epithelial,0,0
+flat5_positive_weighted,364,Positive Immune,0,0
+flat5_positive_weighted,364,other,87,90
+flat5_positive_weighted,365,Negative Epithelial,7,7
+flat5_positive_weighted,365,Negative Immune,0,0
+flat5_positive_weighted,365,Positive Epithelial,0,0
+flat5_positive_weighted,365,Positive Immune,0,0
+flat5_positive_weighted,365,other,168,175
+flat5_positive_weighted,366,Negative Epithelial,0,0
+flat5_positive_weighted,366,Negative Immune,0,0
+flat5_positive_weighted,366,Positive Epithelial,0,0
+flat5_positive_weighted,366,Positive Immune,0,0
+flat5_positive_weighted,366,other,72,87
+flat5_positive_weighted,367,Negative Epithelial,0,0
+flat5_positive_weighted,367,Negative Immune,0,0
+flat5_positive_weighted,367,Positive Epithelial,0,0
+flat5_positive_weighted,367,Positive Immune,0,0
+flat5_positive_weighted,367,other,301,331
+flat5_positive_weighted,368,Negative Epithelial,44,46
+flat5_positive_weighted,368,Negative Immune,1,1
+flat5_positive_weighted,368,Positive Epithelial,0,0
+flat5_positive_weighted,368,Positive Immune,15,16
+flat5_positive_weighted,368,other,81,83
+flat5_positive_weighted,369,Negative Epithelial,0,4
+flat5_positive_weighted,369,Negative Immune,0,0
+flat5_positive_weighted,369,Positive Epithelial,0,0
+flat5_positive_weighted,369,Positive Immune,0,0
+flat5_positive_weighted,369,other,8,6
+flat5_positive_weighted,370,Negative Epithelial,139,140
+flat5_positive_weighted,370,Negative Immune,1,1
+flat5_positive_weighted,370,Positive Epithelial,5,5
+flat5_positive_weighted,370,Positive Immune,16,16
+flat5_positive_weighted,370,other,139,141
+flat5_positive_weighted,371,Negative Epithelial,0,0
+flat5_positive_weighted,371,Negative Immune,0,0
+flat5_positive_weighted,371,Positive Epithelial,0,0
+flat5_positive_weighted,371,Positive Immune,0,0
+flat5_positive_weighted,371,other,0,0
+flat5_positive_weighted,372,Negative Epithelial,89,91
+flat5_positive_weighted,372,Negative Immune,0,0
+flat5_positive_weighted,372,Positive Epithelial,1,1
+flat5_positive_weighted,372,Positive Immune,0,0
+flat5_positive_weighted,372,other,49,53
+flat5_positive_weighted,373,Negative Epithelial,64,69
+flat5_positive_weighted,373,Negative Immune,1,1
+flat5_positive_weighted,373,Positive Epithelial,0,0
+flat5_positive_weighted,373,Positive Immune,99,100
+flat5_positive_weighted,373,other,243,249
+flat5_positive_weighted,374,Negative Epithelial,1,1
+flat5_positive_weighted,374,Negative Immune,0,0
+flat5_positive_weighted,374,Positive Epithelial,0,0
+flat5_positive_weighted,374,Positive Immune,0,0
+flat5_positive_weighted,374,other,30,34
+flat5_positive_weighted,375,Negative Epithelial,14,14
+flat5_positive_weighted,375,Negative Immune,0,0
+flat5_positive_weighted,375,Positive Epithelial,0,0
+flat5_positive_weighted,375,Positive Immune,57,57
+flat5_positive_weighted,375,other,172,174
+flat5_positive_weighted,376,Negative Epithelial,0,0
+flat5_positive_weighted,376,Negative Immune,0,0
+flat5_positive_weighted,376,Positive Epithelial,0,0
+flat5_positive_weighted,376,Positive Immune,0,0
+flat5_positive_weighted,376,other,439,454
+flat5_positive_weighted,377,Negative Epithelial,130,133
+flat5_positive_weighted,377,Negative Immune,0,0
+flat5_positive_weighted,377,Positive Epithelial,0,0
+flat5_positive_weighted,377,Positive Immune,2,2
+flat5_positive_weighted,377,other,204,208
+flat5_positive_weighted,378,Negative Epithelial,0,0
+flat5_positive_weighted,378,Negative Immune,0,0
+flat5_positive_weighted,378,Positive Epithelial,0,0
+flat5_positive_weighted,378,Positive Immune,0,0
+flat5_positive_weighted,378,other,554,571
+flat5_positive_weighted,379,Negative Epithelial,1,1
+flat5_positive_weighted,379,Negative Immune,0,0
+flat5_positive_weighted,379,Positive Epithelial,0,0
+flat5_positive_weighted,379,Positive Immune,0,0
+flat5_positive_weighted,379,other,306,334
+flat5_positive_weighted,380,Negative Epithelial,9,9
+flat5_positive_weighted,380,Negative Immune,21,23
+flat5_positive_weighted,380,Positive Epithelial,0,0
+flat5_positive_weighted,380,Positive Immune,30,30
+flat5_positive_weighted,380,other,716,732
+flat5_positive_weighted,381,Negative Epithelial,86,88
+flat5_positive_weighted,381,Negative Immune,9,8
+flat5_positive_weighted,381,Positive Epithelial,0,0
+flat5_positive_weighted,381,Positive Immune,12,12
+flat5_positive_weighted,381,other,122,127
+flat5_positive_weighted,382,Negative Epithelial,20,20
+flat5_positive_weighted,382,Negative Immune,9,11
+flat5_positive_weighted,382,Positive Epithelial,0,0
+flat5_positive_weighted,382,Positive Immune,8,8
+flat5_positive_weighted,382,other,459,475
+flat5_positive_weighted,383,Negative Epithelial,34,34
+flat5_positive_weighted,383,Negative Immune,4,4
+flat5_positive_weighted,383,Positive Epithelial,0,0
+flat5_positive_weighted,383,Positive Immune,7,7
+flat5_positive_weighted,383,other,417,442
+flat5_positive_weighted,384,Negative Epithelial,0,1
+flat5_positive_weighted,384,Negative Immune,0,0
+flat5_positive_weighted,384,Positive Epithelial,0,0
+flat5_positive_weighted,384,Positive Immune,0,0
+flat5_positive_weighted,384,other,0,1
+flat5_positive_weighted,385,Negative Epithelial,0,0
+flat5_positive_weighted,385,Negative Immune,0,0
+flat5_positive_weighted,385,Positive Epithelial,0,0
+flat5_positive_weighted,385,Positive Immune,0,0
+flat5_positive_weighted,385,other,126,133
+flat5_positive_weighted,386,Negative Epithelial,0,1
+flat5_positive_weighted,386,Negative Immune,0,0
+flat5_positive_weighted,386,Positive Epithelial,0,0
+flat5_positive_weighted,386,Positive Immune,0,0
+flat5_positive_weighted,386,other,68,75
+flat5_positive_weighted,387,Negative Epithelial,47,47
+flat5_positive_weighted,387,Negative Immune,0,0
+flat5_positive_weighted,387,Positive Epithelial,0,0
+flat5_positive_weighted,387,Positive Immune,16,16
+flat5_positive_weighted,387,other,556,569
+flat5_positive_weighted,388,Negative Epithelial,0,1
+flat5_positive_weighted,388,Negative Immune,0,0
+flat5_positive_weighted,388,Positive Epithelial,0,0
+flat5_positive_weighted,388,Positive Immune,0,0
+flat5_positive_weighted,388,other,182,195
+flat5_positive_weighted,389,Negative Epithelial,30,30
+flat5_positive_weighted,389,Negative Immune,4,4
+flat5_positive_weighted,389,Positive Epithelial,0,0
+flat5_positive_weighted,389,Positive Immune,10,11
+flat5_positive_weighted,389,other,505,506
+flat5_positive_weighted,390,Negative Epithelial,0,0
+flat5_positive_weighted,390,Negative Immune,0,0
+flat5_positive_weighted,390,Positive Epithelial,0,0
+flat5_positive_weighted,390,Positive Immune,0,0
+flat5_positive_weighted,390,other,13,16
+flat5_positive_weighted,391,Negative Epithelial,8,8
+flat5_positive_weighted,391,Negative Immune,0,0
+flat5_positive_weighted,391,Positive Epithelial,0,0
+flat5_positive_weighted,391,Positive Immune,4,4
+flat5_positive_weighted,391,other,322,330
+flat5_positive_weighted,392,Negative Epithelial,0,0
+flat5_positive_weighted,392,Negative Immune,0,0
+flat5_positive_weighted,392,Positive Epithelial,0,0
+flat5_positive_weighted,392,Positive Immune,0,0
+flat5_positive_weighted,392,other,137,143
+flat5_positive_weighted,393,Negative Epithelial,0,0
+flat5_positive_weighted,393,Negative Immune,0,0
+flat5_positive_weighted,393,Positive Epithelial,0,0
+flat5_positive_weighted,393,Positive Immune,0,0
+flat5_positive_weighted,393,other,208,214
+flat5_positive_weighted,394,Negative Epithelial,0,0
+flat5_positive_weighted,394,Negative Immune,0,0
+flat5_positive_weighted,394,Positive Epithelial,0,0
+flat5_positive_weighted,394,Positive Immune,0,0
+flat5_positive_weighted,394,other,1,1
+flat5_positive_weighted,395,Negative Epithelial,0,0
+flat5_positive_weighted,395,Negative Immune,0,0
+flat5_positive_weighted,395,Positive Epithelial,0,0
+flat5_positive_weighted,395,Positive Immune,0,0
+flat5_positive_weighted,395,other,96,99
+flat5_positive_weighted,396,Negative Epithelial,0,0
+flat5_positive_weighted,396,Negative Immune,0,0
+flat5_positive_weighted,396,Positive Epithelial,0,0
+flat5_positive_weighted,396,Positive Immune,0,0
+flat5_positive_weighted,396,other,496,512
+flat5_positive_weighted,397,Negative Epithelial,0,0
+flat5_positive_weighted,397,Negative Immune,0,0
+flat5_positive_weighted,397,Positive Epithelial,0,0
+flat5_positive_weighted,397,Positive Immune,0,0
+flat5_positive_weighted,397,other,408,412
+flat5_positive_weighted,398,Negative Epithelial,0,0
+flat5_positive_weighted,398,Negative Immune,0,0
+flat5_positive_weighted,398,Positive Epithelial,0,0
+flat5_positive_weighted,398,Positive Immune,0,0
+flat5_positive_weighted,398,other,307,317
+flat5_positive_weighted,399,Negative Epithelial,0,0
+flat5_positive_weighted,399,Negative Immune,0,0
+flat5_positive_weighted,399,Positive Epithelial,0,0
+flat5_positive_weighted,399,Positive Immune,0,0
+flat5_positive_weighted,399,other,22,25

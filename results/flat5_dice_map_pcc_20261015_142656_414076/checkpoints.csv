@@ -1,0 +1,3 @@
+model,checkpoint,epoch,cls_pos_weight
+flat5,/home/user/urbandatalab/YSLee/model/mediautoAI_PDL1_Stomach/pdl1_flat_5class/last_model.pt,598,
+flat5_positive_weighted,/home/user/urbandatalab/YSLee/model/mediautoAI_PDL1_Stomach/pdl1_flat_5class_positive_weighted/last_model.pt,591,"[1.0, 1.0, 2.0, 2.0, 1.0]"

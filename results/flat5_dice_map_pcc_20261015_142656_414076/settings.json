@@ -1,0 +1,23 @@
+{
+  "eval_mode": "all",
+  "data_root": "../../data/mediautoAI_PDL1_Stomach",
+  "ap_confidence": 0.001,
+  "operating_confidence": 0.1,
+  "nms_iou": 0.45,
+  "ap_iou": 0.5,
+  "ap_method": "101-point interpolated; no maxDets/crowd/ignore",
+  "dice_empty_policy": "NaN if both empty",
+  "pcc_definition": "GT vs predicted ordinal CPS Grade",
+  "cps_grade_thresholds": [
+    1,
+    5,
+    10
+  ],
+  "cps_summary_unit": "slide",
+  "cps_cap": 100,
+  "cps_zero_denominator": "NaN; excluded pair with coverage reported",
+  "checkpoint_name": "last_model.pt",
+  "max_tiles": null,
+  "input_size": 512,
+  "resize_size": 1024
+}

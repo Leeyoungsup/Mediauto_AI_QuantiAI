@@ -1,0 +1,1001 @@
+model,patch,class,gt_count,pred_count
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04320-I-PD-22.ndpi__14e53e4c2b62/patch_1.jpeg,Negative Epithelial,0,0
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04320-I-PD-22.ndpi__14e53e4c2b62/patch_1.jpeg,Negative Immune,0,0
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04320-I-PD-22.ndpi__14e53e4c2b62/patch_1.jpeg,Positive Epithelial,0,0
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04320-I-PD-22.ndpi__14e53e4c2b62/patch_1.jpeg,Positive Immune,0,0
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04320-I-PD-22.ndpi__14e53e4c2b62/patch_1.jpeg,other,903,926
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04320-I-PD-22.ndpi__14e53e4c2b62/patch_2.jpeg,Negative Epithelial,230,233
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04320-I-PD-22.ndpi__14e53e4c2b62/patch_2.jpeg,Negative Immune,23,23
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04320-I-PD-22.ndpi__14e53e4c2b62/patch_2.jpeg,Positive Epithelial,0,0
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04320-I-PD-22.ndpi__14e53e4c2b62/patch_2.jpeg,Positive Immune,19,20
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04320-I-PD-22.ndpi__14e53e4c2b62/patch_2.jpeg,other,1237,1269
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04320-I-PD-22.ndpi__14e53e4c2b62/patch_3.jpeg,Negative Epithelial,0,0
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04320-I-PD-22.ndpi__14e53e4c2b62/patch_3.jpeg,Negative Immune,0,0
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04320-I-PD-22.ndpi__14e53e4c2b62/patch_3.jpeg,Positive Epithelial,0,0
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04320-I-PD-22.ndpi__14e53e4c2b62/patch_3.jpeg,Positive Immune,0,0
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04320-I-PD-22.ndpi__14e53e4c2b62/patch_3.jpeg,other,574,596
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04320-I-PD-22.ndpi__14e53e4c2b62/patch_4.jpeg,Negative Epithelial,68,68
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04320-I-PD-22.ndpi__14e53e4c2b62/patch_4.jpeg,Negative Immune,6,6
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04320-I-PD-22.ndpi__14e53e4c2b62/patch_4.jpeg,Positive Epithelial,0,0
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04320-I-PD-22.ndpi__14e53e4c2b62/patch_4.jpeg,Positive Immune,3,2
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04320-I-PD-22.ndpi__14e53e4c2b62/patch_4.jpeg,other,1079,1117
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04320-I-PD-22.ndpi__14e53e4c2b62/patch_5.jpeg,Negative Epithelial,696,711
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04320-I-PD-22.ndpi__14e53e4c2b62/patch_5.jpeg,Negative Immune,30,31
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04320-I-PD-22.ndpi__14e53e4c2b62/patch_5.jpeg,Positive Epithelial,58,59
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04320-I-PD-22.ndpi__14e53e4c2b62/patch_5.jpeg,Positive Immune,164,171
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04320-I-PD-22.ndpi__14e53e4c2b62/patch_5.jpeg,other,474,486
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04320-I-PD-22.ndpi__14e53e4c2b62/patch_6.jpeg,Negative Epithelial,909,934
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04320-I-PD-22.ndpi__14e53e4c2b62/patch_6.jpeg,Negative Immune,19,19
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04320-I-PD-22.ndpi__14e53e4c2b62/patch_6.jpeg,Positive Epithelial,5,6
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04320-I-PD-22.ndpi__14e53e4c2b62/patch_6.jpeg,Positive Immune,97,101
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04320-I-PD-22.ndpi__14e53e4c2b62/patch_6.jpeg,other,668,685
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04321-I-PD-22.ndpi__fbb4b006f8d4/patch_1.jpeg,Negative Epithelial,0,0
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04321-I-PD-22.ndpi__fbb4b006f8d4/patch_1.jpeg,Negative Immune,0,0
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04321-I-PD-22.ndpi__fbb4b006f8d4/patch_1.jpeg,Positive Epithelial,0,0
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04321-I-PD-22.ndpi__fbb4b006f8d4/patch_1.jpeg,Positive Immune,0,0
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04321-I-PD-22.ndpi__fbb4b006f8d4/patch_1.jpeg,other,1367,1388
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04321-I-PD-22.ndpi__fbb4b006f8d4/patch_2.jpeg,Negative Epithelial,0,0
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04321-I-PD-22.ndpi__fbb4b006f8d4/patch_2.jpeg,Negative Immune,0,0
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04321-I-PD-22.ndpi__fbb4b006f8d4/patch_2.jpeg,Positive Epithelial,0,0
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04321-I-PD-22.ndpi__fbb4b006f8d4/patch_2.jpeg,Positive Immune,0,0
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04321-I-PD-22.ndpi__fbb4b006f8d4/patch_2.jpeg,other,966,977
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04321-I-PD-22.ndpi__fbb4b006f8d4/patch_3.jpeg,Negative Epithelial,158,161
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04321-I-PD-22.ndpi__fbb4b006f8d4/patch_3.jpeg,Negative Immune,18,18
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04321-I-PD-22.ndpi__fbb4b006f8d4/patch_3.jpeg,Positive Epithelial,0,0
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04321-I-PD-22.ndpi__fbb4b006f8d4/patch_3.jpeg,Positive Immune,21,22
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04321-I-PD-22.ndpi__fbb4b006f8d4/patch_3.jpeg,other,771,790
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04321-I-PD-22.ndpi__fbb4b006f8d4/patch_4.jpeg,Negative Epithelial,290,299
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04321-I-PD-22.ndpi__fbb4b006f8d4/patch_4.jpeg,Negative Immune,26,26
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04321-I-PD-22.ndpi__fbb4b006f8d4/patch_4.jpeg,Positive Epithelial,0,0
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04321-I-PD-22.ndpi__fbb4b006f8d4/patch_4.jpeg,Positive Immune,29,29
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04321-I-PD-22.ndpi__fbb4b006f8d4/patch_4.jpeg,other,319,323
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04321-I-PD-22.ndpi__fbb4b006f8d4/patch_5.jpeg,Negative Epithelial,478,476
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04321-I-PD-22.ndpi__fbb4b006f8d4/patch_5.jpeg,Negative Immune,165,166
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04321-I-PD-22.ndpi__fbb4b006f8d4/patch_5.jpeg,Positive Epithelial,0,0
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04321-I-PD-22.ndpi__fbb4b006f8d4/patch_5.jpeg,Positive Immune,66,67
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04321-I-PD-22.ndpi__fbb4b006f8d4/patch_5.jpeg,other,1646,1718
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04321-I-PD-22.ndpi__fbb4b006f8d4/patch_6.jpeg,Negative Epithelial,313,315
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04321-I-PD-22.ndpi__fbb4b006f8d4/patch_6.jpeg,Negative Immune,44,44
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04321-I-PD-22.ndpi__fbb4b006f8d4/patch_6.jpeg,Positive Epithelial,0,1
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04321-I-PD-22.ndpi__fbb4b006f8d4/patch_6.jpeg,Positive Immune,32,32
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04321-I-PD-22.ndpi__fbb4b006f8d4/patch_6.jpeg,other,1269,1310
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04322-I-PD-22.ndpi__ea8e3ff733bc/patch_1.jpeg,Negative Epithelial,280,285
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04322-I-PD-22.ndpi__ea8e3ff733bc/patch_1.jpeg,Negative Immune,9,9
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04322-I-PD-22.ndpi__ea8e3ff733bc/patch_1.jpeg,Positive Epithelial,0,0
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04322-I-PD-22.ndpi__ea8e3ff733bc/patch_1.jpeg,Positive Immune,24,25
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04322-I-PD-22.ndpi__ea8e3ff733bc/patch_1.jpeg,other,720,759
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04322-I-PD-22.ndpi__ea8e3ff733bc/patch_2.jpeg,Negative Epithelial,294,301
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04322-I-PD-22.ndpi__ea8e3ff733bc/patch_2.jpeg,Negative Immune,3,3
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04322-I-PD-22.ndpi__ea8e3ff733bc/patch_2.jpeg,Positive Epithelial,0,0
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04322-I-PD-22.ndpi__ea8e3ff733bc/patch_2.jpeg,Positive Immune,20,21
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04322-I-PD-22.ndpi__ea8e3ff733bc/patch_2.jpeg,other,1333,1374
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04322-I-PD-22.ndpi__ea8e3ff733bc/patch_3.jpeg,Negative Epithelial,5,5
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04322-I-PD-22.ndpi__ea8e3ff733bc/patch_3.jpeg,Negative Immune,0,0
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04322-I-PD-22.ndpi__ea8e3ff733bc/patch_3.jpeg,Positive Epithelial,0,0
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04322-I-PD-22.ndpi__ea8e3ff733bc/patch_3.jpeg,Positive Immune,0,0
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04322-I-PD-22.ndpi__ea8e3ff733bc/patch_3.jpeg,other,1302,1349
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04322-I-PD-22.ndpi__ea8e3ff733bc/patch_4.jpeg,Negative Epithelial,5,6
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04322-I-PD-22.ndpi__ea8e3ff733bc/patch_4.jpeg,Negative Immune,0,0
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04322-I-PD-22.ndpi__ea8e3ff733bc/patch_4.jpeg,Positive Epithelial,6,6
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04322-I-PD-22.ndpi__ea8e3ff733bc/patch_4.jpeg,Positive Immune,0,0
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04322-I-PD-22.ndpi__ea8e3ff733bc/patch_4.jpeg,other,1473,1540
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04323-I-PD-22.ndpi__fb38ac018389/patch_1.jpeg,Negative Epithelial,534,539
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04323-I-PD-22.ndpi__fb38ac018389/patch_1.jpeg,Negative Immune,25,24
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04323-I-PD-22.ndpi__fb38ac018389/patch_1.jpeg,Positive Epithelial,4,3
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04323-I-PD-22.ndpi__fb38ac018389/patch_1.jpeg,Positive Immune,72,73
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04323-I-PD-22.ndpi__fb38ac018389/patch_1.jpeg,other,956,1003
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04323-I-PD-22.ndpi__fb38ac018389/patch_2.jpeg,Negative Epithelial,282,289
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04323-I-PD-22.ndpi__fb38ac018389/patch_2.jpeg,Negative Immune,9,9
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04323-I-PD-22.ndpi__fb38ac018389/patch_2.jpeg,Positive Epithelial,0,0
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04323-I-PD-22.ndpi__fb38ac018389/patch_2.jpeg,Positive Immune,46,47
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04323-I-PD-22.ndpi__fb38ac018389/patch_2.jpeg,other,1528,1575
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04323-I-PD-22.ndpi__fb38ac018389/patch_3.jpeg,Negative Epithelial,148,156
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04323-I-PD-22.ndpi__fb38ac018389/patch_3.jpeg,Negative Immune,29,28
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04323-I-PD-22.ndpi__fb38ac018389/patch_3.jpeg,Positive Epithelial,0,0
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04323-I-PD-22.ndpi__fb38ac018389/patch_3.jpeg,Positive Immune,81,81
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04323-I-PD-22.ndpi__fb38ac018389/patch_3.jpeg,other,1484,1518
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04323-I-PD-22.ndpi__fb38ac018389/patch_4.jpeg,Negative Epithelial,20,23
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04323-I-PD-22.ndpi__fb38ac018389/patch_4.jpeg,Negative Immune,2,3
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04323-I-PD-22.ndpi__fb38ac018389/patch_4.jpeg,Positive Epithelial,0,0
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04323-I-PD-22.ndpi__fb38ac018389/patch_4.jpeg,Positive Immune,7,8
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04323-I-PD-22.ndpi__fb38ac018389/patch_4.jpeg,other,1911,1948
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04324-I-PD-22.ndpi__3d7038c68446/patch_1.jpeg,Negative Epithelial,1550,1585
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04324-I-PD-22.ndpi__3d7038c68446/patch_1.jpeg,Negative Immune,11,12
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04324-I-PD-22.ndpi__3d7038c68446/patch_1.jpeg,Positive Epithelial,494,498
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04324-I-PD-22.ndpi__3d7038c68446/patch_1.jpeg,Positive Immune,217,224
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04324-I-PD-22.ndpi__3d7038c68446/patch_1.jpeg,other,1297,1336
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04324-I-PD-22.ndpi__3d7038c68446/patch_2.jpeg,Negative Epithelial,1352,1371
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04324-I-PD-22.ndpi__3d7038c68446/patch_2.jpeg,Negative Immune,17,17
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04324-I-PD-22.ndpi__3d7038c68446/patch_2.jpeg,Positive Epithelial,44,44
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04324-I-PD-22.ndpi__3d7038c68446/patch_2.jpeg,Positive Immune,292,301
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04324-I-PD-22.ndpi__3d7038c68446/patch_2.jpeg,other,1535,1576
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04324-I-PD-22.ndpi__3d7038c68446/patch_3.jpeg,Negative Epithelial,0,0
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04324-I-PD-22.ndpi__3d7038c68446/patch_3.jpeg,Negative Immune,0,0
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04324-I-PD-22.ndpi__3d7038c68446/patch_3.jpeg,Positive Epithelial,0,0
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04324-I-PD-22.ndpi__3d7038c68446/patch_3.jpeg,Positive Immune,0,0
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04324-I-PD-22.ndpi__3d7038c68446/patch_3.jpeg,other,4869,5033
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04325-I-PD-22.ndpi__19fb5dfbe60a/patch_1.jpeg,Negative Epithelial,14,14
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04325-I-PD-22.ndpi__19fb5dfbe60a/patch_1.jpeg,Negative Immune,13,13
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04325-I-PD-22.ndpi__19fb5dfbe60a/patch_1.jpeg,Positive Epithelial,572,588
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04325-I-PD-22.ndpi__19fb5dfbe60a/patch_1.jpeg,Positive Immune,111,113
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04325-I-PD-22.ndpi__19fb5dfbe60a/patch_1.jpeg,other,465,482
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04325-I-PD-22.ndpi__19fb5dfbe60a/patch_2.jpeg,Negative Epithelial,10,10
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04325-I-PD-22.ndpi__19fb5dfbe60a/patch_2.jpeg,Negative Immune,22,22
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04325-I-PD-22.ndpi__19fb5dfbe60a/patch_2.jpeg,Positive Epithelial,301,303
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04325-I-PD-22.ndpi__19fb5dfbe60a/patch_2.jpeg,Positive Immune,186,188
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04325-I-PD-22.ndpi__19fb5dfbe60a/patch_2.jpeg,other,924,970
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04325-I-PD-22.ndpi__19fb5dfbe60a/patch_3.jpeg,Negative Epithelial,65,65
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04325-I-PD-22.ndpi__19fb5dfbe60a/patch_3.jpeg,Negative Immune,16,15
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04325-I-PD-22.ndpi__19fb5dfbe60a/patch_3.jpeg,Positive Epithelial,427,433
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04325-I-PD-22.ndpi__19fb5dfbe60a/patch_3.jpeg,Positive Immune,115,116
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04325-I-PD-22.ndpi__19fb5dfbe60a/patch_3.jpeg,other,936,969
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04325-I-PD-22.ndpi__19fb5dfbe60a/patch_4.jpeg,Negative Epithelial,23,24
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04325-I-PD-22.ndpi__19fb5dfbe60a/patch_4.jpeg,Negative Immune,6,6
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04325-I-PD-22.ndpi__19fb5dfbe60a/patch_4.jpeg,Positive Epithelial,190,193
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04325-I-PD-22.ndpi__19fb5dfbe60a/patch_4.jpeg,Positive Immune,116,120
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04325-I-PD-22.ndpi__19fb5dfbe60a/patch_4.jpeg,other,88,105
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04325-I-PD-22.ndpi__19fb5dfbe60a/patch_5.jpeg,Negative Epithelial,9,11
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04325-I-PD-22.ndpi__19fb5dfbe60a/patch_5.jpeg,Negative Immune,7,7
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04325-I-PD-22.ndpi__19fb5dfbe60a/patch_5.jpeg,Positive Epithelial,353,363
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04325-I-PD-22.ndpi__19fb5dfbe60a/patch_5.jpeg,Positive Immune,85,88
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04325-I-PD-22.ndpi__19fb5dfbe60a/patch_5.jpeg,other,68,69
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04325-I-PD-22.ndpi__19fb5dfbe60a/patch_6.jpeg,Negative Epithelial,3,3
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04325-I-PD-22.ndpi__19fb5dfbe60a/patch_6.jpeg,Negative Immune,4,4
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04325-I-PD-22.ndpi__19fb5dfbe60a/patch_6.jpeg,Positive Epithelial,245,249
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04325-I-PD-22.ndpi__19fb5dfbe60a/patch_6.jpeg,Positive Immune,87,88
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04325-I-PD-22.ndpi__19fb5dfbe60a/patch_6.jpeg,other,90,101
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04326-I-PD-22.ndpi__74fce2ff798a/patch_1.jpeg,Negative Epithelial,173,173
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04326-I-PD-22.ndpi__74fce2ff798a/patch_1.jpeg,Negative Immune,14,13
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04326-I-PD-22.ndpi__74fce2ff798a/patch_1.jpeg,Positive Epithelial,40,40
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04326-I-PD-22.ndpi__74fce2ff798a/patch_1.jpeg,Positive Immune,87,84
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04326-I-PD-22.ndpi__74fce2ff798a/patch_1.jpeg,other,1089,1118
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04326-I-PD-22.ndpi__74fce2ff798a/patch_2.jpeg,Negative Epithelial,3,4
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04326-I-PD-22.ndpi__74fce2ff798a/patch_2.jpeg,Negative Immune,2,2
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04326-I-PD-22.ndpi__74fce2ff798a/patch_2.jpeg,Positive Epithelial,46,47
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04326-I-PD-22.ndpi__74fce2ff798a/patch_2.jpeg,Positive Immune,27,27
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04326-I-PD-22.ndpi__74fce2ff798a/patch_2.jpeg,other,985,1008
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04326-I-PD-22.ndpi__74fce2ff798a/patch_3.jpeg,Negative Epithelial,0,1
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04326-I-PD-22.ndpi__74fce2ff798a/patch_3.jpeg,Negative Immune,0,0
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04326-I-PD-22.ndpi__74fce2ff798a/patch_3.jpeg,Positive Epithelial,0,0
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04326-I-PD-22.ndpi__74fce2ff798a/patch_3.jpeg,Positive Immune,0,0
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04326-I-PD-22.ndpi__74fce2ff798a/patch_3.jpeg,other,758,771
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04327-I-PD-22.ndpi__e514d744a656/patch_1.jpeg,Negative Epithelial,131,131
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04327-I-PD-22.ndpi__e514d744a656/patch_1.jpeg,Negative Immune,7,7
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04327-I-PD-22.ndpi__e514d744a656/patch_1.jpeg,Positive Epithelial,0,0
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04327-I-PD-22.ndpi__e514d744a656/patch_1.jpeg,Positive Immune,0,0
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04327-I-PD-22.ndpi__e514d744a656/patch_1.jpeg,other,900,924
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04327-I-PD-22.ndpi__e514d744a656/patch_2.jpeg,Negative Epithelial,249,251
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04327-I-PD-22.ndpi__e514d744a656/patch_2.jpeg,Negative Immune,35,39
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04327-I-PD-22.ndpi__e514d744a656/patch_2.jpeg,Positive Epithelial,0,0
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04327-I-PD-22.ndpi__e514d744a656/patch_2.jpeg,Positive Immune,12,12
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04327-I-PD-22.ndpi__e514d744a656/patch_2.jpeg,other,729,750
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04327-I-PD-22.ndpi__e514d744a656/patch_3.jpeg,Negative Epithelial,542,557
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04327-I-PD-22.ndpi__e514d744a656/patch_3.jpeg,Negative Immune,24,24
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04327-I-PD-22.ndpi__e514d744a656/patch_3.jpeg,Positive Epithelial,0,0
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04327-I-PD-22.ndpi__e514d744a656/patch_3.jpeg,Positive Immune,16,15
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04327-I-PD-22.ndpi__e514d744a656/patch_3.jpeg,other,757,793
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04327-I-PD-22.ndpi__e514d744a656/patch_4.jpeg,Negative Epithelial,99,101
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04327-I-PD-22.ndpi__e514d744a656/patch_4.jpeg,Negative Immune,10,10
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04327-I-PD-22.ndpi__e514d744a656/patch_4.jpeg,Positive Epithelial,0,0
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04327-I-PD-22.ndpi__e514d744a656/patch_4.jpeg,Positive Immune,10,10
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04327-I-PD-22.ndpi__e514d744a656/patch_4.jpeg,other,821,843
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04328-I-PD-22.ndpi__72e6d29b69e4/patch_1.jpeg,Negative Epithelial,287,290
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04328-I-PD-22.ndpi__72e6d29b69e4/patch_1.jpeg,Negative Immune,16,16
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04328-I-PD-22.ndpi__72e6d29b69e4/patch_1.jpeg,Positive Epithelial,0,1
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04328-I-PD-22.ndpi__72e6d29b69e4/patch_1.jpeg,Positive Immune,43,43
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04328-I-PD-22.ndpi__72e6d29b69e4/patch_1.jpeg,other,853,871
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04328-I-PD-22.ndpi__72e6d29b69e4/patch_2.jpeg,Negative Epithelial,222,228
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04328-I-PD-22.ndpi__72e6d29b69e4/patch_2.jpeg,Negative Immune,6,8
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04328-I-PD-22.ndpi__72e6d29b69e4/patch_2.jpeg,Positive Epithelial,0,0
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04328-I-PD-22.ndpi__72e6d29b69e4/patch_2.jpeg,Positive Immune,47,50
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04328-I-PD-22.ndpi__72e6d29b69e4/patch_2.jpeg,other,1154,1207
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04328-I-PD-22.ndpi__72e6d29b69e4/patch_3.jpeg,Negative Epithelial,391,398
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04328-I-PD-22.ndpi__72e6d29b69e4/patch_3.jpeg,Negative Immune,28,27
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04328-I-PD-22.ndpi__72e6d29b69e4/patch_3.jpeg,Positive Epithelial,0,0
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04328-I-PD-22.ndpi__72e6d29b69e4/patch_3.jpeg,Positive Immune,106,108
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04328-I-PD-22.ndpi__72e6d29b69e4/patch_3.jpeg,other,655,673
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04328-I-PD-22.ndpi__72e6d29b69e4/patch_4.jpeg,Negative Epithelial,719,743
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04328-I-PD-22.ndpi__72e6d29b69e4/patch_4.jpeg,Negative Immune,66,64
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04328-I-PD-22.ndpi__72e6d29b69e4/patch_4.jpeg,Positive Epithelial,1,1
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04328-I-PD-22.ndpi__72e6d29b69e4/patch_4.jpeg,Positive Immune,82,83
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04328-I-PD-22.ndpi__72e6d29b69e4/patch_4.jpeg,other,876,911
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04329-I-PD-22.ndpi__7c796a533ca6/patch_1.jpeg,Negative Epithelial,232,238
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04329-I-PD-22.ndpi__7c796a533ca6/patch_1.jpeg,Negative Immune,16,17
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04329-I-PD-22.ndpi__7c796a533ca6/patch_1.jpeg,Positive Epithelial,1,1
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04329-I-PD-22.ndpi__7c796a533ca6/patch_1.jpeg,Positive Immune,92,95
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04329-I-PD-22.ndpi__7c796a533ca6/patch_1.jpeg,other,797,821
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04329-I-PD-22.ndpi__7c796a533ca6/patch_2.jpeg,Negative Epithelial,129,130
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04329-I-PD-22.ndpi__7c796a533ca6/patch_2.jpeg,Negative Immune,8,8
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04329-I-PD-22.ndpi__7c796a533ca6/patch_2.jpeg,Positive Epithelial,12,12
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04329-I-PD-22.ndpi__7c796a533ca6/patch_2.jpeg,Positive Immune,50,52
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04329-I-PD-22.ndpi__7c796a533ca6/patch_2.jpeg,other,1445,1501
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04329-I-PD-22.ndpi__7c796a533ca6/patch_3.jpeg,Negative Epithelial,92,93
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04329-I-PD-22.ndpi__7c796a533ca6/patch_3.jpeg,Negative Immune,7,7
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04329-I-PD-22.ndpi__7c796a533ca6/patch_3.jpeg,Positive Epithelial,0,0
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04329-I-PD-22.ndpi__7c796a533ca6/patch_3.jpeg,Positive Immune,8,7
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04329-I-PD-22.ndpi__7c796a533ca6/patch_3.jpeg,other,567,578
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04330-I-PD-22.ndpi__86981b3f5da8/patch_1.jpeg,Negative Epithelial,19,20
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04330-I-PD-22.ndpi__86981b3f5da8/patch_1.jpeg,Negative Immune,14,10
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04330-I-PD-22.ndpi__86981b3f5da8/patch_1.jpeg,Positive Epithelial,138,138
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04330-I-PD-22.ndpi__86981b3f5da8/patch_1.jpeg,Positive Immune,86,87
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04330-I-PD-22.ndpi__86981b3f5da8/patch_1.jpeg,other,1278,1296
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04330-I-PD-22.ndpi__86981b3f5da8/patch_2.jpeg,Negative Epithelial,354,363
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04330-I-PD-22.ndpi__86981b3f5da8/patch_2.jpeg,Negative Immune,65,63
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04330-I-PD-22.ndpi__86981b3f5da8/patch_2.jpeg,Positive Epithelial,127,132
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04330-I-PD-22.ndpi__86981b3f5da8/patch_2.jpeg,Positive Immune,375,386
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04330-I-PD-22.ndpi__86981b3f5da8/patch_2.jpeg,other,1450,1511
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04330-I-PD-22.ndpi__86981b3f5da8/patch_3.jpeg,Negative Epithelial,25,25
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04330-I-PD-22.ndpi__86981b3f5da8/patch_3.jpeg,Negative Immune,31,30
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04330-I-PD-22.ndpi__86981b3f5da8/patch_3.jpeg,Positive Epithelial,105,106
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04330-I-PD-22.ndpi__86981b3f5da8/patch_3.jpeg,Positive Immune,66,69
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04330-I-PD-22.ndpi__86981b3f5da8/patch_3.jpeg,other,787,820
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04330-I-PD-22.ndpi__86981b3f5da8/patch_4.jpeg,Negative Epithelial,5,5
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04330-I-PD-22.ndpi__86981b3f5da8/patch_4.jpeg,Negative Immune,31,31
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04330-I-PD-22.ndpi__86981b3f5da8/patch_4.jpeg,Positive Epithelial,73,76
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04330-I-PD-22.ndpi__86981b3f5da8/patch_4.jpeg,Positive Immune,241,247
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04330-I-PD-22.ndpi__86981b3f5da8/patch_4.jpeg,other,1263,1292
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04331-I-PD-22.ndpi__b4123461a043/patch_1.jpeg,Negative Epithelial,163,167
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04331-I-PD-22.ndpi__b4123461a043/patch_1.jpeg,Negative Immune,10,11
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04331-I-PD-22.ndpi__b4123461a043/patch_1.jpeg,Positive Epithelial,82,83
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04331-I-PD-22.ndpi__b4123461a043/patch_1.jpeg,Positive Immune,16,17
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04331-I-PD-22.ndpi__b4123461a043/patch_1.jpeg,other,460,483
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04331-I-PD-22.ndpi__b4123461a043/patch_2.jpeg,Negative Epithelial,121,121
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04331-I-PD-22.ndpi__b4123461a043/patch_2.jpeg,Negative Immune,12,12
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04331-I-PD-22.ndpi__b4123461a043/patch_2.jpeg,Positive Epithelial,2,2
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04331-I-PD-22.ndpi__b4123461a043/patch_2.jpeg,Positive Immune,88,88
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04331-I-PD-22.ndpi__b4123461a043/patch_2.jpeg,other,633,655
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04331-I-PD-22.ndpi__b4123461a043/patch_3.jpeg,Negative Epithelial,293,301
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04331-I-PD-22.ndpi__b4123461a043/patch_3.jpeg,Negative Immune,5,5
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04331-I-PD-22.ndpi__b4123461a043/patch_3.jpeg,Positive Epithelial,0,0
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04331-I-PD-22.ndpi__b4123461a043/patch_3.jpeg,Positive Immune,72,75
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04331-I-PD-22.ndpi__b4123461a043/patch_3.jpeg,other,1535,1636
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04331-I-PD-22.ndpi__b4123461a043/patch_4.jpeg,Negative Epithelial,120,123
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04331-I-PD-22.ndpi__b4123461a043/patch_4.jpeg,Negative Immune,2,2
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04331-I-PD-22.ndpi__b4123461a043/patch_4.jpeg,Positive Epithelial,41,41
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04331-I-PD-22.ndpi__b4123461a043/patch_4.jpeg,Positive Immune,50,51
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04331-I-PD-22.ndpi__b4123461a043/patch_4.jpeg,other,1209,1256
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04332-I-PD-22.ndpi__5fea13563d92/patch_1.jpeg,Negative Epithelial,1589,1658
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04332-I-PD-22.ndpi__5fea13563d92/patch_1.jpeg,Negative Immune,83,85
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04332-I-PD-22.ndpi__5fea13563d92/patch_1.jpeg,Positive Epithelial,2,2
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04332-I-PD-22.ndpi__5fea13563d92/patch_1.jpeg,Positive Immune,95,100
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04332-I-PD-22.ndpi__5fea13563d92/patch_1.jpeg,other,483,485
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04332-I-PD-22.ndpi__5fea13563d92/patch_2.jpeg,Negative Epithelial,759,779
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04332-I-PD-22.ndpi__5fea13563d92/patch_2.jpeg,Negative Immune,37,37
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04332-I-PD-22.ndpi__5fea13563d92/patch_2.jpeg,Positive Epithelial,23,25
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04332-I-PD-22.ndpi__5fea13563d92/patch_2.jpeg,Positive Immune,88,92
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04332-I-PD-22.ndpi__5fea13563d92/patch_2.jpeg,other,211,216
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04332-I-PD-22.ndpi__5fea13563d92/patch_3.jpeg,Negative Epithelial,434,445
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04332-I-PD-22.ndpi__5fea13563d92/patch_3.jpeg,Negative Immune,33,33
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04332-I-PD-22.ndpi__5fea13563d92/patch_3.jpeg,Positive Epithelial,61,62
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04332-I-PD-22.ndpi__5fea13563d92/patch_3.jpeg,Positive Immune,192,197
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04332-I-PD-22.ndpi__5fea13563d92/patch_3.jpeg,other,376,385
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04332-I-PD-22.ndpi__5fea13563d92/patch_4.jpeg,Negative Epithelial,712,724
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04332-I-PD-22.ndpi__5fea13563d92/patch_4.jpeg,Negative Immune,64,66
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04332-I-PD-22.ndpi__5fea13563d92/patch_4.jpeg,Positive Epithelial,79,82
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04332-I-PD-22.ndpi__5fea13563d92/patch_4.jpeg,Positive Immune,328,339
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04332-I-PD-22.ndpi__5fea13563d92/patch_4.jpeg,other,1211,1240
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04333-I-PD-22.ndpi__6551101236bf/patch_1.jpeg,Negative Epithelial,0,0
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04333-I-PD-22.ndpi__6551101236bf/patch_1.jpeg,Negative Immune,0,0
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04333-I-PD-22.ndpi__6551101236bf/patch_1.jpeg,Positive Epithelial,0,0
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04333-I-PD-22.ndpi__6551101236bf/patch_1.jpeg,Positive Immune,0,0
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04333-I-PD-22.ndpi__6551101236bf/patch_1.jpeg,other,1372,1402
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04333-I-PD-22.ndpi__6551101236bf/patch_2.jpeg,Negative Epithelial,0,0
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04333-I-PD-22.ndpi__6551101236bf/patch_2.jpeg,Negative Immune,0,0
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04333-I-PD-22.ndpi__6551101236bf/patch_2.jpeg,Positive Epithelial,0,0
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04333-I-PD-22.ndpi__6551101236bf/patch_2.jpeg,Positive Immune,0,0
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04333-I-PD-22.ndpi__6551101236bf/patch_2.jpeg,other,649,659
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04333-I-PD-22.ndpi__6551101236bf/patch_3.jpeg,Negative Epithelial,0,0
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04333-I-PD-22.ndpi__6551101236bf/patch_3.jpeg,Negative Immune,0,0
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04333-I-PD-22.ndpi__6551101236bf/patch_3.jpeg,Positive Epithelial,0,0
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04333-I-PD-22.ndpi__6551101236bf/patch_3.jpeg,Positive Immune,0,0
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04333-I-PD-22.ndpi__6551101236bf/patch_3.jpeg,other,713,725
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04334-I-PD-22.ndpi__0ac93e3885a5/patch_1.jpeg,Negative Epithelial,1,1
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04334-I-PD-22.ndpi__0ac93e3885a5/patch_1.jpeg,Negative Immune,4,4
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04334-I-PD-22.ndpi__0ac93e3885a5/patch_1.jpeg,Positive Epithelial,238,240
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04334-I-PD-22.ndpi__0ac93e3885a5/patch_1.jpeg,Positive Immune,82,86
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04334-I-PD-22.ndpi__0ac93e3885a5/patch_1.jpeg,other,978,1022
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04334-I-PD-22.ndpi__0ac93e3885a5/patch_2.jpeg,Negative Epithelial,0,0
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04334-I-PD-22.ndpi__0ac93e3885a5/patch_2.jpeg,Negative Immune,0,0
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04334-I-PD-22.ndpi__0ac93e3885a5/patch_2.jpeg,Positive Epithelial,0,0
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04334-I-PD-22.ndpi__0ac93e3885a5/patch_2.jpeg,Positive Immune,0,0
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04334-I-PD-22.ndpi__0ac93e3885a5/patch_2.jpeg,other,2566,2636
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04334-I-PD-22.ndpi__0ac93e3885a5/patch_3.jpeg,Negative Epithelial,0,0
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04334-I-PD-22.ndpi__0ac93e3885a5/patch_3.jpeg,Negative Immune,0,0
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04334-I-PD-22.ndpi__0ac93e3885a5/patch_3.jpeg,Positive Epithelial,0,0
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04334-I-PD-22.ndpi__0ac93e3885a5/patch_3.jpeg,Positive Immune,0,0
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04334-I-PD-22.ndpi__0ac93e3885a5/patch_3.jpeg,other,2275,2338
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04335-I-PD-22.ndpi__ee4f01d53ab8/patch_1.jpeg,Negative Epithelial,515,522
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04335-I-PD-22.ndpi__ee4f01d53ab8/patch_1.jpeg,Negative Immune,5,5
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04335-I-PD-22.ndpi__ee4f01d53ab8/patch_1.jpeg,Positive Epithelial,0,0
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04335-I-PD-22.ndpi__ee4f01d53ab8/patch_1.jpeg,Positive Immune,36,38
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04335-I-PD-22.ndpi__ee4f01d53ab8/patch_1.jpeg,other,1211,1247
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04335-I-PD-22.ndpi__ee4f01d53ab8/patch_2.jpeg,Negative Epithelial,1122,1157
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04335-I-PD-22.ndpi__ee4f01d53ab8/patch_2.jpeg,Negative Immune,42,44
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04335-I-PD-22.ndpi__ee4f01d53ab8/patch_2.jpeg,Positive Epithelial,0,0
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04335-I-PD-22.ndpi__ee4f01d53ab8/patch_2.jpeg,Positive Immune,57,58
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04335-I-PD-22.ndpi__ee4f01d53ab8/patch_2.jpeg,other,671,687
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04335-I-PD-22.ndpi__ee4f01d53ab8/patch_3.jpeg,Negative Epithelial,1062,1076
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04335-I-PD-22.ndpi__ee4f01d53ab8/patch_3.jpeg,Negative Immune,38,39
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04335-I-PD-22.ndpi__ee4f01d53ab8/patch_3.jpeg,Positive Epithelial,4,4
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04335-I-PD-22.ndpi__ee4f01d53ab8/patch_3.jpeg,Positive Immune,49,51
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04335-I-PD-22.ndpi__ee4f01d53ab8/patch_3.jpeg,other,656,684
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04335-I-PD-22.ndpi__ee4f01d53ab8/patch_4.jpeg,Negative Epithelial,395,398
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04335-I-PD-22.ndpi__ee4f01d53ab8/patch_4.jpeg,Negative Immune,17,18
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04335-I-PD-22.ndpi__ee4f01d53ab8/patch_4.jpeg,Positive Epithelial,0,0
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04335-I-PD-22.ndpi__ee4f01d53ab8/patch_4.jpeg,Positive Immune,32,33
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04335-I-PD-22.ndpi__ee4f01d53ab8/patch_4.jpeg,other,1477,1537
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04336-I-PD-22.ndpi__61722d18ad2e/patch_1.jpeg,Negative Epithelial,223,225
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04336-I-PD-22.ndpi__61722d18ad2e/patch_1.jpeg,Negative Immune,0,0
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04336-I-PD-22.ndpi__61722d18ad2e/patch_1.jpeg,Positive Epithelial,0,0
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04336-I-PD-22.ndpi__61722d18ad2e/patch_1.jpeg,Positive Immune,0,0
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04336-I-PD-22.ndpi__61722d18ad2e/patch_1.jpeg,other,1329,1363
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04336-I-PD-22.ndpi__61722d18ad2e/patch_2.jpeg,Negative Epithelial,484,496
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04336-I-PD-22.ndpi__61722d18ad2e/patch_2.jpeg,Negative Immune,25,26
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04336-I-PD-22.ndpi__61722d18ad2e/patch_2.jpeg,Positive Epithelial,3,3
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04336-I-PD-22.ndpi__61722d18ad2e/patch_2.jpeg,Positive Immune,2,3
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04336-I-PD-22.ndpi__61722d18ad2e/patch_2.jpeg,other,660,686
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04336-I-PD-22.ndpi__61722d18ad2e/patch_3.jpeg,Negative Epithelial,170,175
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04336-I-PD-22.ndpi__61722d18ad2e/patch_3.jpeg,Negative Immune,1,1
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04336-I-PD-22.ndpi__61722d18ad2e/patch_3.jpeg,Positive Epithelial,1,1
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04336-I-PD-22.ndpi__61722d18ad2e/patch_3.jpeg,Positive Immune,18,18
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04336-I-PD-22.ndpi__61722d18ad2e/patch_3.jpeg,other,845,882
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04336-I-PD-22.ndpi__61722d18ad2e/patch_4.jpeg,Negative Epithelial,61,64
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04336-I-PD-22.ndpi__61722d18ad2e/patch_4.jpeg,Negative Immune,0,0
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04336-I-PD-22.ndpi__61722d18ad2e/patch_4.jpeg,Positive Epithelial,0,0
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04336-I-PD-22.ndpi__61722d18ad2e/patch_4.jpeg,Positive Immune,1,1
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04336-I-PD-22.ndpi__61722d18ad2e/patch_4.jpeg,other,1339,1361
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04337-I-PD-22.ndpi__2bf1ee99ffb2/patch_1.jpeg,Negative Epithelial,45,44
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04337-I-PD-22.ndpi__2bf1ee99ffb2/patch_1.jpeg,Negative Immune,0,0
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04337-I-PD-22.ndpi__2bf1ee99ffb2/patch_1.jpeg,Positive Epithelial,19,19
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04337-I-PD-22.ndpi__2bf1ee99ffb2/patch_1.jpeg,Positive Immune,15,15
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04337-I-PD-22.ndpi__2bf1ee99ffb2/patch_1.jpeg,other,1597,1661
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04337-I-PD-22.ndpi__2bf1ee99ffb2/patch_2.jpeg,Negative Epithelial,144,145
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04337-I-PD-22.ndpi__2bf1ee99ffb2/patch_2.jpeg,Negative Immune,5,5
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04337-I-PD-22.ndpi__2bf1ee99ffb2/patch_2.jpeg,Positive Epithelial,112,113
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04337-I-PD-22.ndpi__2bf1ee99ffb2/patch_2.jpeg,Positive Immune,133,137
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04337-I-PD-22.ndpi__2bf1ee99ffb2/patch_2.jpeg,other,1234,1286
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04337-I-PD-22.ndpi__2bf1ee99ffb2/patch_3.jpeg,Negative Epithelial,0,0
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04337-I-PD-22.ndpi__2bf1ee99ffb2/patch_3.jpeg,Negative Immune,0,0
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04337-I-PD-22.ndpi__2bf1ee99ffb2/patch_3.jpeg,Positive Epithelial,0,0
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04337-I-PD-22.ndpi__2bf1ee99ffb2/patch_3.jpeg,Positive Immune,0,0
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04337-I-PD-22.ndpi__2bf1ee99ffb2/patch_3.jpeg,other,1491,1518
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04339-I-PD-22.ndpi__4251c3629de5/patch_1.jpeg,Negative Epithelial,58,59
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04339-I-PD-22.ndpi__4251c3629de5/patch_1.jpeg,Negative Immune,0,0
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04339-I-PD-22.ndpi__4251c3629de5/patch_1.jpeg,Positive Epithelial,2,2
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04339-I-PD-22.ndpi__4251c3629de5/patch_1.jpeg,Positive Immune,5,5
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04339-I-PD-22.ndpi__4251c3629de5/patch_1.jpeg,other,638,658
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04339-I-PD-22.ndpi__4251c3629de5/patch_2.jpeg,Negative Epithelial,541,556
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04339-I-PD-22.ndpi__4251c3629de5/patch_2.jpeg,Negative Immune,2,2
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04339-I-PD-22.ndpi__4251c3629de5/patch_2.jpeg,Positive Epithelial,1,1
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04339-I-PD-22.ndpi__4251c3629de5/patch_2.jpeg,Positive Immune,16,16
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04339-I-PD-22.ndpi__4251c3629de5/patch_2.jpeg,other,1058,1095
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04339-I-PD-22.ndpi__4251c3629de5/patch_3.jpeg,Negative Epithelial,0,338
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04339-I-PD-22.ndpi__4251c3629de5/patch_3.jpeg,Negative Immune,0,4
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04339-I-PD-22.ndpi__4251c3629de5/patch_3.jpeg,Positive Epithelial,0,1
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04339-I-PD-22.ndpi__4251c3629de5/patch_3.jpeg,Positive Immune,0,13
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04339-I-PD-22.ndpi__4251c3629de5/patch_3.jpeg,other,0,854
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04339-I-PD-22.ndpi__4251c3629de5/patch_4.jpeg,Negative Epithelial,0,0
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04339-I-PD-22.ndpi__4251c3629de5/patch_4.jpeg,Negative Immune,0,0
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04339-I-PD-22.ndpi__4251c3629de5/patch_4.jpeg,Positive Epithelial,0,0
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04339-I-PD-22.ndpi__4251c3629de5/patch_4.jpeg,Positive Immune,0,0
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04339-I-PD-22.ndpi__4251c3629de5/patch_4.jpeg,other,1576,1607
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04340-I-PD-22.ndpi__5f8363c7a635/patch_1.jpeg,Negative Epithelial,919,926
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04340-I-PD-22.ndpi__5f8363c7a635/patch_1.jpeg,Negative Immune,10,10
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04340-I-PD-22.ndpi__5f8363c7a635/patch_1.jpeg,Positive Epithelial,0,0
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04340-I-PD-22.ndpi__5f8363c7a635/patch_1.jpeg,Positive Immune,2,2
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04340-I-PD-22.ndpi__5f8363c7a635/patch_1.jpeg,other,1100,1152
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04340-I-PD-22.ndpi__5f8363c7a635/patch_2.jpeg,Negative Epithelial,256,260
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04340-I-PD-22.ndpi__5f8363c7a635/patch_2.jpeg,Negative Immune,0,0
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04340-I-PD-22.ndpi__5f8363c7a635/patch_2.jpeg,Positive Epithelial,0,0
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04340-I-PD-22.ndpi__5f8363c7a635/patch_2.jpeg,Positive Immune,2,2
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04340-I-PD-22.ndpi__5f8363c7a635/patch_2.jpeg,other,1405,1460
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04340-I-PD-22.ndpi__5f8363c7a635/patch_3.jpeg,Negative Epithelial,0,0
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04340-I-PD-22.ndpi__5f8363c7a635/patch_3.jpeg,Negative Immune,0,0
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04340-I-PD-22.ndpi__5f8363c7a635/patch_3.jpeg,Positive Epithelial,0,0
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04340-I-PD-22.ndpi__5f8363c7a635/patch_3.jpeg,Positive Immune,0,0
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04340-I-PD-22.ndpi__5f8363c7a635/patch_3.jpeg,other,1340,1367
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04341-I-PD-22.ndpi__58e86713adc5/patch_1.jpeg,Negative Epithelial,0,0
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04341-I-PD-22.ndpi__58e86713adc5/patch_1.jpeg,Negative Immune,0,0
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04341-I-PD-22.ndpi__58e86713adc5/patch_1.jpeg,Positive Epithelial,0,0
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04341-I-PD-22.ndpi__58e86713adc5/patch_1.jpeg,Positive Immune,0,0
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04341-I-PD-22.ndpi__58e86713adc5/patch_1.jpeg,other,471,484
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04341-I-PD-22.ndpi__58e86713adc5/patch_2.jpeg,Negative Epithelial,1197,1227
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04341-I-PD-22.ndpi__58e86713adc5/patch_2.jpeg,Negative Immune,4,4
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04341-I-PD-22.ndpi__58e86713adc5/patch_2.jpeg,Positive Epithelial,0,0
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04341-I-PD-22.ndpi__58e86713adc5/patch_2.jpeg,Positive Immune,34,36
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04341-I-PD-22.ndpi__58e86713adc5/patch_2.jpeg,other,870,914
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04341-I-PD-22.ndpi__58e86713adc5/patch_3.jpeg,Negative Epithelial,0,0
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04341-I-PD-22.ndpi__58e86713adc5/patch_3.jpeg,Negative Immune,0,0
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04341-I-PD-22.ndpi__58e86713adc5/patch_3.jpeg,Positive Epithelial,0,0
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04341-I-PD-22.ndpi__58e86713adc5/patch_3.jpeg,Positive Immune,0,0
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04341-I-PD-22.ndpi__58e86713adc5/patch_3.jpeg,other,671,687
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04342-I-PD-22.ndpi__6bb57fe2fa06/patch_10.jpeg,Negative Epithelial,31,31
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04342-I-PD-22.ndpi__6bb57fe2fa06/patch_10.jpeg,Negative Immune,0,0
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04342-I-PD-22.ndpi__6bb57fe2fa06/patch_10.jpeg,Positive Epithelial,0,0
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04342-I-PD-22.ndpi__6bb57fe2fa06/patch_10.jpeg,Positive Immune,0,0
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04342-I-PD-22.ndpi__6bb57fe2fa06/patch_10.jpeg,other,307,326
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04342-I-PD-22.ndpi__6bb57fe2fa06/patch_11.jpeg,Negative Epithelial,0,0
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04342-I-PD-22.ndpi__6bb57fe2fa06/patch_11.jpeg,Negative Immune,0,0
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04342-I-PD-22.ndpi__6bb57fe2fa06/patch_11.jpeg,Positive Epithelial,0,0
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04342-I-PD-22.ndpi__6bb57fe2fa06/patch_11.jpeg,Positive Immune,0,0
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04342-I-PD-22.ndpi__6bb57fe2fa06/patch_11.jpeg,other,0,1
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04342-I-PD-22.ndpi__6bb57fe2fa06/patch_12.jpeg,Negative Epithelial,15,15
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04342-I-PD-22.ndpi__6bb57fe2fa06/patch_12.jpeg,Negative Immune,0,0
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04342-I-PD-22.ndpi__6bb57fe2fa06/patch_12.jpeg,Positive Epithelial,0,0
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04342-I-PD-22.ndpi__6bb57fe2fa06/patch_12.jpeg,Positive Immune,0,0
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04342-I-PD-22.ndpi__6bb57fe2fa06/patch_12.jpeg,other,172,174
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04342-I-PD-22.ndpi__6bb57fe2fa06/patch_13.jpeg,Negative Epithelial,179,181
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04342-I-PD-22.ndpi__6bb57fe2fa06/patch_13.jpeg,Negative Immune,0,0
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04342-I-PD-22.ndpi__6bb57fe2fa06/patch_13.jpeg,Positive Epithelial,0,0
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04342-I-PD-22.ndpi__6bb57fe2fa06/patch_13.jpeg,Positive Immune,9,10
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04342-I-PD-22.ndpi__6bb57fe2fa06/patch_13.jpeg,other,285,290
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04342-I-PD-22.ndpi__6bb57fe2fa06/patch_2.jpeg,Negative Epithelial,602,613
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04342-I-PD-22.ndpi__6bb57fe2fa06/patch_2.jpeg,Negative Immune,0,0
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04342-I-PD-22.ndpi__6bb57fe2fa06/patch_2.jpeg,Positive Epithelial,0,0
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04342-I-PD-22.ndpi__6bb57fe2fa06/patch_2.jpeg,Positive Immune,45,46
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04342-I-PD-22.ndpi__6bb57fe2fa06/patch_2.jpeg,other,801,828
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04342-I-PD-22.ndpi__6bb57fe2fa06/patch_3.jpeg,Negative Epithelial,311,328
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04342-I-PD-22.ndpi__6bb57fe2fa06/patch_3.jpeg,Negative Immune,0,0
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04342-I-PD-22.ndpi__6bb57fe2fa06/patch_3.jpeg,Positive Epithelial,0,0
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04342-I-PD-22.ndpi__6bb57fe2fa06/patch_3.jpeg,Positive Immune,3,4
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04342-I-PD-22.ndpi__6bb57fe2fa06/patch_3.jpeg,other,468,486
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04342-I-PD-22.ndpi__6bb57fe2fa06/patch_4.jpeg,Negative Epithelial,63,65
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04342-I-PD-22.ndpi__6bb57fe2fa06/patch_4.jpeg,Negative Immune,0,0
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04342-I-PD-22.ndpi__6bb57fe2fa06/patch_4.jpeg,Positive Epithelial,0,0
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04342-I-PD-22.ndpi__6bb57fe2fa06/patch_4.jpeg,Positive Immune,16,17
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04342-I-PD-22.ndpi__6bb57fe2fa06/patch_4.jpeg,other,344,352
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04342-I-PD-22.ndpi__6bb57fe2fa06/patch_5.jpeg,Negative Epithelial,295,306
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04342-I-PD-22.ndpi__6bb57fe2fa06/patch_5.jpeg,Negative Immune,0,0
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04342-I-PD-22.ndpi__6bb57fe2fa06/patch_5.jpeg,Positive Epithelial,2,2
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04342-I-PD-22.ndpi__6bb57fe2fa06/patch_5.jpeg,Positive Immune,92,103
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04342-I-PD-22.ndpi__6bb57fe2fa06/patch_5.jpeg,other,893,928
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04342-I-PD-22.ndpi__6bb57fe2fa06/patch_6.jpeg,Negative Epithelial,273,289
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04342-I-PD-22.ndpi__6bb57fe2fa06/patch_6.jpeg,Negative Immune,1,1
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04342-I-PD-22.ndpi__6bb57fe2fa06/patch_6.jpeg,Positive Epithelial,0,0
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04342-I-PD-22.ndpi__6bb57fe2fa06/patch_6.jpeg,Positive Immune,70,80
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04342-I-PD-22.ndpi__6bb57fe2fa06/patch_6.jpeg,other,839,881
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04342-I-PD-22.ndpi__6bb57fe2fa06/patch_9.jpeg,Negative Epithelial,53,53
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04342-I-PD-22.ndpi__6bb57fe2fa06/patch_9.jpeg,Negative Immune,0,0
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04342-I-PD-22.ndpi__6bb57fe2fa06/patch_9.jpeg,Positive Epithelial,0,0
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04342-I-PD-22.ndpi__6bb57fe2fa06/patch_9.jpeg,Positive Immune,0,0
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04342-I-PD-22.ndpi__6bb57fe2fa06/patch_9.jpeg,other,628,682
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04343-I-PD-22.ndpi__8386143e3209/patch_1.jpeg,Negative Epithelial,183,189
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04343-I-PD-22.ndpi__8386143e3209/patch_1.jpeg,Negative Immune,2,2
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04343-I-PD-22.ndpi__8386143e3209/patch_1.jpeg,Positive Epithelial,5,5
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04343-I-PD-22.ndpi__8386143e3209/patch_1.jpeg,Positive Immune,31,31
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04343-I-PD-22.ndpi__8386143e3209/patch_1.jpeg,other,228,230
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04343-I-PD-22.ndpi__8386143e3209/patch_2.jpeg,Negative Epithelial,168,173
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04343-I-PD-22.ndpi__8386143e3209/patch_2.jpeg,Negative Immune,1,1
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04343-I-PD-22.ndpi__8386143e3209/patch_2.jpeg,Positive Epithelial,1,1
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04343-I-PD-22.ndpi__8386143e3209/patch_2.jpeg,Positive Immune,156,160
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04343-I-PD-22.ndpi__8386143e3209/patch_2.jpeg,other,494,509
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04343-I-PD-22.ndpi__8386143e3209/patch_3.jpeg,Negative Epithelial,131,137
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04343-I-PD-22.ndpi__8386143e3209/patch_3.jpeg,Negative Immune,0,0
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04343-I-PD-22.ndpi__8386143e3209/patch_3.jpeg,Positive Epithelial,0,0
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04343-I-PD-22.ndpi__8386143e3209/patch_3.jpeg,Positive Immune,2,2
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04343-I-PD-22.ndpi__8386143e3209/patch_3.jpeg,other,1503,1554
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04343-I-PD-22.ndpi__8386143e3209/patch_4.jpeg,Negative Epithelial,149,152
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04343-I-PD-22.ndpi__8386143e3209/patch_4.jpeg,Negative Immune,43,43
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04343-I-PD-22.ndpi__8386143e3209/patch_4.jpeg,Positive Epithelial,0,0
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04343-I-PD-22.ndpi__8386143e3209/patch_4.jpeg,Positive Immune,57,57
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04343-I-PD-22.ndpi__8386143e3209/patch_4.jpeg,other,1714,1766
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04344-I-PD-22.ndpi__b91c896f73dc/patch_1.jpeg,Negative Epithelial,47,47
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04344-I-PD-22.ndpi__b91c896f73dc/patch_1.jpeg,Negative Immune,0,0
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04344-I-PD-22.ndpi__b91c896f73dc/patch_1.jpeg,Positive Epithelial,0,0
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04344-I-PD-22.ndpi__b91c896f73dc/patch_1.jpeg,Positive Immune,16,16
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04344-I-PD-22.ndpi__b91c896f73dc/patch_1.jpeg,other,750,767
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04344-I-PD-22.ndpi__b91c896f73dc/patch_2.jpeg,Negative Epithelial,38,39
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04344-I-PD-22.ndpi__b91c896f73dc/patch_2.jpeg,Negative Immune,4,4
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04344-I-PD-22.ndpi__b91c896f73dc/patch_2.jpeg,Positive Epithelial,0,0
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04344-I-PD-22.ndpi__b91c896f73dc/patch_2.jpeg,Positive Immune,14,14
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04344-I-PD-22.ndpi__b91c896f73dc/patch_2.jpeg,other,1022,1038
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04344-I-PD-22.ndpi__b91c896f73dc/patch_3.jpeg,Negative Epithelial,0,0
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04344-I-PD-22.ndpi__b91c896f73dc/patch_3.jpeg,Negative Immune,0,0
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04344-I-PD-22.ndpi__b91c896f73dc/patch_3.jpeg,Positive Epithelial,0,0
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04344-I-PD-22.ndpi__b91c896f73dc/patch_3.jpeg,Positive Immune,0,0
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04344-I-PD-22.ndpi__b91c896f73dc/patch_3.jpeg,other,442,455
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04344-I-PD-22.ndpi__b91c896f73dc/patch_4.jpeg,Negative Epithelial,0,0
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04344-I-PD-22.ndpi__b91c896f73dc/patch_4.jpeg,Negative Immune,0,0
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04344-I-PD-22.ndpi__b91c896f73dc/patch_4.jpeg,Positive Epithelial,0,0
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04344-I-PD-22.ndpi__b91c896f73dc/patch_4.jpeg,Positive Immune,0,0
+flat5,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04344-I-PD-22.ndpi__b91c896f73dc/patch_4.jpeg,other,1233,1267
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04320-I-PD-22.ndpi__14e53e4c2b62/patch_1.jpeg,Negative Epithelial,0,0
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04320-I-PD-22.ndpi__14e53e4c2b62/patch_1.jpeg,Negative Immune,0,0
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04320-I-PD-22.ndpi__14e53e4c2b62/patch_1.jpeg,Positive Epithelial,0,0
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04320-I-PD-22.ndpi__14e53e4c2b62/patch_1.jpeg,Positive Immune,0,0
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04320-I-PD-22.ndpi__14e53e4c2b62/patch_1.jpeg,other,903,935
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04320-I-PD-22.ndpi__14e53e4c2b62/patch_2.jpeg,Negative Epithelial,230,230
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04320-I-PD-22.ndpi__14e53e4c2b62/patch_2.jpeg,Negative Immune,23,23
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04320-I-PD-22.ndpi__14e53e4c2b62/patch_2.jpeg,Positive Epithelial,0,0
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04320-I-PD-22.ndpi__14e53e4c2b62/patch_2.jpeg,Positive Immune,19,19
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04320-I-PD-22.ndpi__14e53e4c2b62/patch_2.jpeg,other,1237,1276
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04320-I-PD-22.ndpi__14e53e4c2b62/patch_3.jpeg,Negative Epithelial,0,0
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04320-I-PD-22.ndpi__14e53e4c2b62/patch_3.jpeg,Negative Immune,0,0
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04320-I-PD-22.ndpi__14e53e4c2b62/patch_3.jpeg,Positive Epithelial,0,0
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04320-I-PD-22.ndpi__14e53e4c2b62/patch_3.jpeg,Positive Immune,0,0
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04320-I-PD-22.ndpi__14e53e4c2b62/patch_3.jpeg,other,574,595
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04320-I-PD-22.ndpi__14e53e4c2b62/patch_4.jpeg,Negative Epithelial,68,67
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04320-I-PD-22.ndpi__14e53e4c2b62/patch_4.jpeg,Negative Immune,6,6
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04320-I-PD-22.ndpi__14e53e4c2b62/patch_4.jpeg,Positive Epithelial,0,0
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04320-I-PD-22.ndpi__14e53e4c2b62/patch_4.jpeg,Positive Immune,3,3
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04320-I-PD-22.ndpi__14e53e4c2b62/patch_4.jpeg,other,1079,1134
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04320-I-PD-22.ndpi__14e53e4c2b62/patch_5.jpeg,Negative Epithelial,696,717
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04320-I-PD-22.ndpi__14e53e4c2b62/patch_5.jpeg,Negative Immune,30,30
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04320-I-PD-22.ndpi__14e53e4c2b62/patch_5.jpeg,Positive Epithelial,58,60
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04320-I-PD-22.ndpi__14e53e4c2b62/patch_5.jpeg,Positive Immune,164,169
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04320-I-PD-22.ndpi__14e53e4c2b62/patch_5.jpeg,other,474,489
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04320-I-PD-22.ndpi__14e53e4c2b62/patch_6.jpeg,Negative Epithelial,909,927
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04320-I-PD-22.ndpi__14e53e4c2b62/patch_6.jpeg,Negative Immune,19,19
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04320-I-PD-22.ndpi__14e53e4c2b62/patch_6.jpeg,Positive Epithelial,5,5
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04320-I-PD-22.ndpi__14e53e4c2b62/patch_6.jpeg,Positive Immune,97,100
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04320-I-PD-22.ndpi__14e53e4c2b62/patch_6.jpeg,other,668,699
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04321-I-PD-22.ndpi__fbb4b006f8d4/patch_1.jpeg,Negative Epithelial,0,0
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04321-I-PD-22.ndpi__fbb4b006f8d4/patch_1.jpeg,Negative Immune,0,0
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04321-I-PD-22.ndpi__fbb4b006f8d4/patch_1.jpeg,Positive Epithelial,0,0
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04321-I-PD-22.ndpi__fbb4b006f8d4/patch_1.jpeg,Positive Immune,0,0
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04321-I-PD-22.ndpi__fbb4b006f8d4/patch_1.jpeg,other,1367,1395
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04321-I-PD-22.ndpi__fbb4b006f8d4/patch_2.jpeg,Negative Epithelial,0,0
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04321-I-PD-22.ndpi__fbb4b006f8d4/patch_2.jpeg,Negative Immune,0,0
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04321-I-PD-22.ndpi__fbb4b006f8d4/patch_2.jpeg,Positive Epithelial,0,0
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04321-I-PD-22.ndpi__fbb4b006f8d4/patch_2.jpeg,Positive Immune,0,0
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04321-I-PD-22.ndpi__fbb4b006f8d4/patch_2.jpeg,other,966,986
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04321-I-PD-22.ndpi__fbb4b006f8d4/patch_3.jpeg,Negative Epithelial,158,162
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04321-I-PD-22.ndpi__fbb4b006f8d4/patch_3.jpeg,Negative Immune,18,20
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04321-I-PD-22.ndpi__fbb4b006f8d4/patch_3.jpeg,Positive Epithelial,0,0
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04321-I-PD-22.ndpi__fbb4b006f8d4/patch_3.jpeg,Positive Immune,21,21
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04321-I-PD-22.ndpi__fbb4b006f8d4/patch_3.jpeg,other,771,793
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04321-I-PD-22.ndpi__fbb4b006f8d4/patch_4.jpeg,Negative Epithelial,290,294
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04321-I-PD-22.ndpi__fbb4b006f8d4/patch_4.jpeg,Negative Immune,26,27
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04321-I-PD-22.ndpi__fbb4b006f8d4/patch_4.jpeg,Positive Epithelial,0,0
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04321-I-PD-22.ndpi__fbb4b006f8d4/patch_4.jpeg,Positive Immune,29,29
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04321-I-PD-22.ndpi__fbb4b006f8d4/patch_4.jpeg,other,319,326
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04321-I-PD-22.ndpi__fbb4b006f8d4/patch_5.jpeg,Negative Epithelial,478,484
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04321-I-PD-22.ndpi__fbb4b006f8d4/patch_5.jpeg,Negative Immune,165,167
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04321-I-PD-22.ndpi__fbb4b006f8d4/patch_5.jpeg,Positive Epithelial,0,0
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04321-I-PD-22.ndpi__fbb4b006f8d4/patch_5.jpeg,Positive Immune,66,65
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04321-I-PD-22.ndpi__fbb4b006f8d4/patch_5.jpeg,other,1646,1747
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04321-I-PD-22.ndpi__fbb4b006f8d4/patch_6.jpeg,Negative Epithelial,313,324
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04321-I-PD-22.ndpi__fbb4b006f8d4/patch_6.jpeg,Negative Immune,44,44
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04321-I-PD-22.ndpi__fbb4b006f8d4/patch_6.jpeg,Positive Epithelial,0,0
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04321-I-PD-22.ndpi__fbb4b006f8d4/patch_6.jpeg,Positive Immune,32,33
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04321-I-PD-22.ndpi__fbb4b006f8d4/patch_6.jpeg,other,1269,1320
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04322-I-PD-22.ndpi__ea8e3ff733bc/patch_1.jpeg,Negative Epithelial,280,289
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04322-I-PD-22.ndpi__ea8e3ff733bc/patch_1.jpeg,Negative Immune,9,10
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04322-I-PD-22.ndpi__ea8e3ff733bc/patch_1.jpeg,Positive Epithelial,0,0
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04322-I-PD-22.ndpi__ea8e3ff733bc/patch_1.jpeg,Positive Immune,24,24
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04322-I-PD-22.ndpi__ea8e3ff733bc/patch_1.jpeg,other,720,752
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04322-I-PD-22.ndpi__ea8e3ff733bc/patch_2.jpeg,Negative Epithelial,294,299
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04322-I-PD-22.ndpi__ea8e3ff733bc/patch_2.jpeg,Negative Immune,3,4
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04322-I-PD-22.ndpi__ea8e3ff733bc/patch_2.jpeg,Positive Epithelial,0,0
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04322-I-PD-22.ndpi__ea8e3ff733bc/patch_2.jpeg,Positive Immune,20,21
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04322-I-PD-22.ndpi__ea8e3ff733bc/patch_2.jpeg,other,1333,1374
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04322-I-PD-22.ndpi__ea8e3ff733bc/patch_3.jpeg,Negative Epithelial,5,5
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04322-I-PD-22.ndpi__ea8e3ff733bc/patch_3.jpeg,Negative Immune,0,0
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04322-I-PD-22.ndpi__ea8e3ff733bc/patch_3.jpeg,Positive Epithelial,0,0
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04322-I-PD-22.ndpi__ea8e3ff733bc/patch_3.jpeg,Positive Immune,0,1
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04322-I-PD-22.ndpi__ea8e3ff733bc/patch_3.jpeg,other,1302,1353
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04322-I-PD-22.ndpi__ea8e3ff733bc/patch_4.jpeg,Negative Epithelial,5,5
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04322-I-PD-22.ndpi__ea8e3ff733bc/patch_4.jpeg,Negative Immune,0,0
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04322-I-PD-22.ndpi__ea8e3ff733bc/patch_4.jpeg,Positive Epithelial,6,6
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04322-I-PD-22.ndpi__ea8e3ff733bc/patch_4.jpeg,Positive Immune,0,0
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04322-I-PD-22.ndpi__ea8e3ff733bc/patch_4.jpeg,other,1473,1547
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04323-I-PD-22.ndpi__fb38ac018389/patch_1.jpeg,Negative Epithelial,534,545
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04323-I-PD-22.ndpi__fb38ac018389/patch_1.jpeg,Negative Immune,25,26
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04323-I-PD-22.ndpi__fb38ac018389/patch_1.jpeg,Positive Epithelial,4,3
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04323-I-PD-22.ndpi__fb38ac018389/patch_1.jpeg,Positive Immune,72,73
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04323-I-PD-22.ndpi__fb38ac018389/patch_1.jpeg,other,956,986
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04323-I-PD-22.ndpi__fb38ac018389/patch_2.jpeg,Negative Epithelial,282,286
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04323-I-PD-22.ndpi__fb38ac018389/patch_2.jpeg,Negative Immune,9,9
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04323-I-PD-22.ndpi__fb38ac018389/patch_2.jpeg,Positive Epithelial,0,0
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04323-I-PD-22.ndpi__fb38ac018389/patch_2.jpeg,Positive Immune,46,48
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04323-I-PD-22.ndpi__fb38ac018389/patch_2.jpeg,other,1528,1576
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04323-I-PD-22.ndpi__fb38ac018389/patch_3.jpeg,Negative Epithelial,148,150
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04323-I-PD-22.ndpi__fb38ac018389/patch_3.jpeg,Negative Immune,29,29
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04323-I-PD-22.ndpi__fb38ac018389/patch_3.jpeg,Positive Epithelial,0,0
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04323-I-PD-22.ndpi__fb38ac018389/patch_3.jpeg,Positive Immune,81,84
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04323-I-PD-22.ndpi__fb38ac018389/patch_3.jpeg,other,1484,1529
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04323-I-PD-22.ndpi__fb38ac018389/patch_4.jpeg,Negative Epithelial,20,21
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04323-I-PD-22.ndpi__fb38ac018389/patch_4.jpeg,Negative Immune,2,2
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04323-I-PD-22.ndpi__fb38ac018389/patch_4.jpeg,Positive Epithelial,0,0
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04323-I-PD-22.ndpi__fb38ac018389/patch_4.jpeg,Positive Immune,7,7
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04323-I-PD-22.ndpi__fb38ac018389/patch_4.jpeg,other,1911,1954
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04324-I-PD-22.ndpi__3d7038c68446/patch_1.jpeg,Negative Epithelial,1550,1571
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04324-I-PD-22.ndpi__3d7038c68446/patch_1.jpeg,Negative Immune,11,11
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04324-I-PD-22.ndpi__3d7038c68446/patch_1.jpeg,Positive Epithelial,494,507
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04324-I-PD-22.ndpi__3d7038c68446/patch_1.jpeg,Positive Immune,217,219
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04324-I-PD-22.ndpi__3d7038c68446/patch_1.jpeg,other,1297,1342
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04324-I-PD-22.ndpi__3d7038c68446/patch_2.jpeg,Negative Epithelial,1352,1367
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04324-I-PD-22.ndpi__3d7038c68446/patch_2.jpeg,Negative Immune,17,20
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04324-I-PD-22.ndpi__3d7038c68446/patch_2.jpeg,Positive Epithelial,44,44
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04324-I-PD-22.ndpi__3d7038c68446/patch_2.jpeg,Positive Immune,292,298
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04324-I-PD-22.ndpi__3d7038c68446/patch_2.jpeg,other,1535,1571
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04324-I-PD-22.ndpi__3d7038c68446/patch_3.jpeg,Negative Epithelial,0,0
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04324-I-PD-22.ndpi__3d7038c68446/patch_3.jpeg,Negative Immune,0,1
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04324-I-PD-22.ndpi__3d7038c68446/patch_3.jpeg,Positive Epithelial,0,0
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04324-I-PD-22.ndpi__3d7038c68446/patch_3.jpeg,Positive Immune,0,0
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04324-I-PD-22.ndpi__3d7038c68446/patch_3.jpeg,other,4869,5074
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04325-I-PD-22.ndpi__19fb5dfbe60a/patch_1.jpeg,Negative Epithelial,14,14
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04325-I-PD-22.ndpi__19fb5dfbe60a/patch_1.jpeg,Negative Immune,13,13
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04325-I-PD-22.ndpi__19fb5dfbe60a/patch_1.jpeg,Positive Epithelial,572,593
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04325-I-PD-22.ndpi__19fb5dfbe60a/patch_1.jpeg,Positive Immune,111,117
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04325-I-PD-22.ndpi__19fb5dfbe60a/patch_1.jpeg,other,465,475
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04325-I-PD-22.ndpi__19fb5dfbe60a/patch_2.jpeg,Negative Epithelial,10,10
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04325-I-PD-22.ndpi__19fb5dfbe60a/patch_2.jpeg,Negative Immune,22,22
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04325-I-PD-22.ndpi__19fb5dfbe60a/patch_2.jpeg,Positive Epithelial,301,307
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04325-I-PD-22.ndpi__19fb5dfbe60a/patch_2.jpeg,Positive Immune,186,188
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04325-I-PD-22.ndpi__19fb5dfbe60a/patch_2.jpeg,other,924,966
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04325-I-PD-22.ndpi__19fb5dfbe60a/patch_3.jpeg,Negative Epithelial,65,65
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04325-I-PD-22.ndpi__19fb5dfbe60a/patch_3.jpeg,Negative Immune,16,16
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04325-I-PD-22.ndpi__19fb5dfbe60a/patch_3.jpeg,Positive Epithelial,427,431
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04325-I-PD-22.ndpi__19fb5dfbe60a/patch_3.jpeg,Positive Immune,115,119
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04325-I-PD-22.ndpi__19fb5dfbe60a/patch_3.jpeg,other,936,966
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04325-I-PD-22.ndpi__19fb5dfbe60a/patch_4.jpeg,Negative Epithelial,23,22
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04325-I-PD-22.ndpi__19fb5dfbe60a/patch_4.jpeg,Negative Immune,6,7
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04325-I-PD-22.ndpi__19fb5dfbe60a/patch_4.jpeg,Positive Epithelial,190,193
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04325-I-PD-22.ndpi__19fb5dfbe60a/patch_4.jpeg,Positive Immune,116,116
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04325-I-PD-22.ndpi__19fb5dfbe60a/patch_4.jpeg,other,88,119
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04325-I-PD-22.ndpi__19fb5dfbe60a/patch_5.jpeg,Negative Epithelial,9,10
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04325-I-PD-22.ndpi__19fb5dfbe60a/patch_5.jpeg,Negative Immune,7,7
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04325-I-PD-22.ndpi__19fb5dfbe60a/patch_5.jpeg,Positive Epithelial,353,368
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04325-I-PD-22.ndpi__19fb5dfbe60a/patch_5.jpeg,Positive Immune,85,86
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04325-I-PD-22.ndpi__19fb5dfbe60a/patch_5.jpeg,other,68,72
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04325-I-PD-22.ndpi__19fb5dfbe60a/patch_6.jpeg,Negative Epithelial,3,3
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04325-I-PD-22.ndpi__19fb5dfbe60a/patch_6.jpeg,Negative Immune,4,4
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04325-I-PD-22.ndpi__19fb5dfbe60a/patch_6.jpeg,Positive Epithelial,245,248
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04325-I-PD-22.ndpi__19fb5dfbe60a/patch_6.jpeg,Positive Immune,87,87
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04325-I-PD-22.ndpi__19fb5dfbe60a/patch_6.jpeg,other,90,126
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04326-I-PD-22.ndpi__74fce2ff798a/patch_1.jpeg,Negative Epithelial,173,175
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04326-I-PD-22.ndpi__74fce2ff798a/patch_1.jpeg,Negative Immune,14,13
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04326-I-PD-22.ndpi__74fce2ff798a/patch_1.jpeg,Positive Epithelial,40,41
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04326-I-PD-22.ndpi__74fce2ff798a/patch_1.jpeg,Positive Immune,87,88
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04326-I-PD-22.ndpi__74fce2ff798a/patch_1.jpeg,other,1089,1121
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04326-I-PD-22.ndpi__74fce2ff798a/patch_2.jpeg,Negative Epithelial,3,4
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04326-I-PD-22.ndpi__74fce2ff798a/patch_2.jpeg,Negative Immune,2,2
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04326-I-PD-22.ndpi__74fce2ff798a/patch_2.jpeg,Positive Epithelial,46,46
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04326-I-PD-22.ndpi__74fce2ff798a/patch_2.jpeg,Positive Immune,27,28
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04326-I-PD-22.ndpi__74fce2ff798a/patch_2.jpeg,other,985,1013
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04326-I-PD-22.ndpi__74fce2ff798a/patch_3.jpeg,Negative Epithelial,0,0
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04326-I-PD-22.ndpi__74fce2ff798a/patch_3.jpeg,Negative Immune,0,0
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04326-I-PD-22.ndpi__74fce2ff798a/patch_3.jpeg,Positive Epithelial,0,0
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04326-I-PD-22.ndpi__74fce2ff798a/patch_3.jpeg,Positive Immune,0,0
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04326-I-PD-22.ndpi__74fce2ff798a/patch_3.jpeg,other,758,775
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04327-I-PD-22.ndpi__e514d744a656/patch_1.jpeg,Negative Epithelial,131,130
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04327-I-PD-22.ndpi__e514d744a656/patch_1.jpeg,Negative Immune,7,8
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04327-I-PD-22.ndpi__e514d744a656/patch_1.jpeg,Positive Epithelial,0,0
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04327-I-PD-22.ndpi__e514d744a656/patch_1.jpeg,Positive Immune,0,0
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04327-I-PD-22.ndpi__e514d744a656/patch_1.jpeg,other,900,931
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04327-I-PD-22.ndpi__e514d744a656/patch_2.jpeg,Negative Epithelial,249,252
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04327-I-PD-22.ndpi__e514d744a656/patch_2.jpeg,Negative Immune,35,41
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04327-I-PD-22.ndpi__e514d744a656/patch_2.jpeg,Positive Epithelial,0,0
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04327-I-PD-22.ndpi__e514d744a656/patch_2.jpeg,Positive Immune,12,12
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04327-I-PD-22.ndpi__e514d744a656/patch_2.jpeg,other,729,762
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04327-I-PD-22.ndpi__e514d744a656/patch_3.jpeg,Negative Epithelial,542,557
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04327-I-PD-22.ndpi__e514d744a656/patch_3.jpeg,Negative Immune,24,24
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04327-I-PD-22.ndpi__e514d744a656/patch_3.jpeg,Positive Epithelial,0,0
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04327-I-PD-22.ndpi__e514d744a656/patch_3.jpeg,Positive Immune,16,16
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04327-I-PD-22.ndpi__e514d744a656/patch_3.jpeg,other,757,787
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04327-I-PD-22.ndpi__e514d744a656/patch_4.jpeg,Negative Epithelial,99,100
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04327-I-PD-22.ndpi__e514d744a656/patch_4.jpeg,Negative Immune,10,10
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04327-I-PD-22.ndpi__e514d744a656/patch_4.jpeg,Positive Epithelial,0,0
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04327-I-PD-22.ndpi__e514d744a656/patch_4.jpeg,Positive Immune,10,10
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04327-I-PD-22.ndpi__e514d744a656/patch_4.jpeg,other,821,844
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04328-I-PD-22.ndpi__72e6d29b69e4/patch_1.jpeg,Negative Epithelial,287,287
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04328-I-PD-22.ndpi__72e6d29b69e4/patch_1.jpeg,Negative Immune,16,17
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04328-I-PD-22.ndpi__72e6d29b69e4/patch_1.jpeg,Positive Epithelial,0,0
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04328-I-PD-22.ndpi__72e6d29b69e4/patch_1.jpeg,Positive Immune,43,43
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04328-I-PD-22.ndpi__72e6d29b69e4/patch_1.jpeg,other,853,871
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04328-I-PD-22.ndpi__72e6d29b69e4/patch_2.jpeg,Negative Epithelial,222,227
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04328-I-PD-22.ndpi__72e6d29b69e4/patch_2.jpeg,Negative Immune,6,6
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04328-I-PD-22.ndpi__72e6d29b69e4/patch_2.jpeg,Positive Epithelial,0,0
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04328-I-PD-22.ndpi__72e6d29b69e4/patch_2.jpeg,Positive Immune,47,48
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04328-I-PD-22.ndpi__72e6d29b69e4/patch_2.jpeg,other,1154,1176
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04328-I-PD-22.ndpi__72e6d29b69e4/patch_3.jpeg,Negative Epithelial,391,400
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04328-I-PD-22.ndpi__72e6d29b69e4/patch_3.jpeg,Negative Immune,28,26
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04328-I-PD-22.ndpi__72e6d29b69e4/patch_3.jpeg,Positive Epithelial,0,0
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04328-I-PD-22.ndpi__72e6d29b69e4/patch_3.jpeg,Positive Immune,106,111
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04328-I-PD-22.ndpi__72e6d29b69e4/patch_3.jpeg,other,655,677
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04328-I-PD-22.ndpi__72e6d29b69e4/patch_4.jpeg,Negative Epithelial,719,736
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04328-I-PD-22.ndpi__72e6d29b69e4/patch_4.jpeg,Negative Immune,66,72
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04328-I-PD-22.ndpi__72e6d29b69e4/patch_4.jpeg,Positive Epithelial,1,1
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04328-I-PD-22.ndpi__72e6d29b69e4/patch_4.jpeg,Positive Immune,82,85
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04328-I-PD-22.ndpi__72e6d29b69e4/patch_4.jpeg,other,876,917
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04329-I-PD-22.ndpi__7c796a533ca6/patch_1.jpeg,Negative Epithelial,232,232
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04329-I-PD-22.ndpi__7c796a533ca6/patch_1.jpeg,Negative Immune,16,16
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04329-I-PD-22.ndpi__7c796a533ca6/patch_1.jpeg,Positive Epithelial,1,1
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04329-I-PD-22.ndpi__7c796a533ca6/patch_1.jpeg,Positive Immune,92,95
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04329-I-PD-22.ndpi__7c796a533ca6/patch_1.jpeg,other,797,827
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04329-I-PD-22.ndpi__7c796a533ca6/patch_2.jpeg,Negative Epithelial,129,131
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04329-I-PD-22.ndpi__7c796a533ca6/patch_2.jpeg,Negative Immune,8,9
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04329-I-PD-22.ndpi__7c796a533ca6/patch_2.jpeg,Positive Epithelial,12,12
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04329-I-PD-22.ndpi__7c796a533ca6/patch_2.jpeg,Positive Immune,50,54
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04329-I-PD-22.ndpi__7c796a533ca6/patch_2.jpeg,other,1445,1500
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04329-I-PD-22.ndpi__7c796a533ca6/patch_3.jpeg,Negative Epithelial,92,92
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04329-I-PD-22.ndpi__7c796a533ca6/patch_3.jpeg,Negative Immune,7,7
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04329-I-PD-22.ndpi__7c796a533ca6/patch_3.jpeg,Positive Epithelial,0,0
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04329-I-PD-22.ndpi__7c796a533ca6/patch_3.jpeg,Positive Immune,8,8
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04329-I-PD-22.ndpi__7c796a533ca6/patch_3.jpeg,other,567,590
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04330-I-PD-22.ndpi__86981b3f5da8/patch_1.jpeg,Negative Epithelial,19,19
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04330-I-PD-22.ndpi__86981b3f5da8/patch_1.jpeg,Negative Immune,14,12
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04330-I-PD-22.ndpi__86981b3f5da8/patch_1.jpeg,Positive Epithelial,138,152
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04330-I-PD-22.ndpi__86981b3f5da8/patch_1.jpeg,Positive Immune,86,91
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04330-I-PD-22.ndpi__86981b3f5da8/patch_1.jpeg,other,1278,1307
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04330-I-PD-22.ndpi__86981b3f5da8/patch_2.jpeg,Negative Epithelial,354,362
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04330-I-PD-22.ndpi__86981b3f5da8/patch_2.jpeg,Negative Immune,65,67
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04330-I-PD-22.ndpi__86981b3f5da8/patch_2.jpeg,Positive Epithelial,127,132
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04330-I-PD-22.ndpi__86981b3f5da8/patch_2.jpeg,Positive Immune,375,393
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04330-I-PD-22.ndpi__86981b3f5da8/patch_2.jpeg,other,1450,1489
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04330-I-PD-22.ndpi__86981b3f5da8/patch_3.jpeg,Negative Epithelial,25,27
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04330-I-PD-22.ndpi__86981b3f5da8/patch_3.jpeg,Negative Immune,31,30
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04330-I-PD-22.ndpi__86981b3f5da8/patch_3.jpeg,Positive Epithelial,105,109
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04330-I-PD-22.ndpi__86981b3f5da8/patch_3.jpeg,Positive Immune,66,68
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04330-I-PD-22.ndpi__86981b3f5da8/patch_3.jpeg,other,787,823
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04330-I-PD-22.ndpi__86981b3f5da8/patch_4.jpeg,Negative Epithelial,5,5
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04330-I-PD-22.ndpi__86981b3f5da8/patch_4.jpeg,Negative Immune,31,31
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04330-I-PD-22.ndpi__86981b3f5da8/patch_4.jpeg,Positive Epithelial,73,76
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04330-I-PD-22.ndpi__86981b3f5da8/patch_4.jpeg,Positive Immune,241,249
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04330-I-PD-22.ndpi__86981b3f5da8/patch_4.jpeg,other,1263,1289
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04331-I-PD-22.ndpi__b4123461a043/patch_1.jpeg,Negative Epithelial,163,164
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04331-I-PD-22.ndpi__b4123461a043/patch_1.jpeg,Negative Immune,10,10
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04331-I-PD-22.ndpi__b4123461a043/patch_1.jpeg,Positive Epithelial,82,82
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04331-I-PD-22.ndpi__b4123461a043/patch_1.jpeg,Positive Immune,16,17
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04331-I-PD-22.ndpi__b4123461a043/patch_1.jpeg,other,460,492
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04331-I-PD-22.ndpi__b4123461a043/patch_2.jpeg,Negative Epithelial,121,123
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04331-I-PD-22.ndpi__b4123461a043/patch_2.jpeg,Negative Immune,12,12
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04331-I-PD-22.ndpi__b4123461a043/patch_2.jpeg,Positive Epithelial,2,2
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04331-I-PD-22.ndpi__b4123461a043/patch_2.jpeg,Positive Immune,88,89
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04331-I-PD-22.ndpi__b4123461a043/patch_2.jpeg,other,633,656
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04331-I-PD-22.ndpi__b4123461a043/patch_3.jpeg,Negative Epithelial,293,300
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04331-I-PD-22.ndpi__b4123461a043/patch_3.jpeg,Negative Immune,5,5
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04331-I-PD-22.ndpi__b4123461a043/patch_3.jpeg,Positive Epithelial,0,0
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04331-I-PD-22.ndpi__b4123461a043/patch_3.jpeg,Positive Immune,72,76
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04331-I-PD-22.ndpi__b4123461a043/patch_3.jpeg,other,1535,1621
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04331-I-PD-22.ndpi__b4123461a043/patch_4.jpeg,Negative Epithelial,120,123
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04331-I-PD-22.ndpi__b4123461a043/patch_4.jpeg,Negative Immune,2,2
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04331-I-PD-22.ndpi__b4123461a043/patch_4.jpeg,Positive Epithelial,41,41
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04331-I-PD-22.ndpi__b4123461a043/patch_4.jpeg,Positive Immune,50,49
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04331-I-PD-22.ndpi__b4123461a043/patch_4.jpeg,other,1209,1250
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04332-I-PD-22.ndpi__5fea13563d92/patch_1.jpeg,Negative Epithelial,1589,1643
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04332-I-PD-22.ndpi__5fea13563d92/patch_1.jpeg,Negative Immune,83,90
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04332-I-PD-22.ndpi__5fea13563d92/patch_1.jpeg,Positive Epithelial,2,2
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04332-I-PD-22.ndpi__5fea13563d92/patch_1.jpeg,Positive Immune,95,101
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04332-I-PD-22.ndpi__5fea13563d92/patch_1.jpeg,other,483,491
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04332-I-PD-22.ndpi__5fea13563d92/patch_2.jpeg,Negative Epithelial,759,779
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04332-I-PD-22.ndpi__5fea13563d92/patch_2.jpeg,Negative Immune,37,38
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04332-I-PD-22.ndpi__5fea13563d92/patch_2.jpeg,Positive Epithelial,23,24
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04332-I-PD-22.ndpi__5fea13563d92/patch_2.jpeg,Positive Immune,88,90
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04332-I-PD-22.ndpi__5fea13563d92/patch_2.jpeg,other,211,217
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04332-I-PD-22.ndpi__5fea13563d92/patch_3.jpeg,Negative Epithelial,434,457
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04332-I-PD-22.ndpi__5fea13563d92/patch_3.jpeg,Negative Immune,33,34
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04332-I-PD-22.ndpi__5fea13563d92/patch_3.jpeg,Positive Epithelial,61,62
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04332-I-PD-22.ndpi__5fea13563d92/patch_3.jpeg,Positive Immune,192,206
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04332-I-PD-22.ndpi__5fea13563d92/patch_3.jpeg,other,376,386
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04332-I-PD-22.ndpi__5fea13563d92/patch_4.jpeg,Negative Epithelial,712,728
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04332-I-PD-22.ndpi__5fea13563d92/patch_4.jpeg,Negative Immune,64,66
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04332-I-PD-22.ndpi__5fea13563d92/patch_4.jpeg,Positive Epithelial,79,91
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04332-I-PD-22.ndpi__5fea13563d92/patch_4.jpeg,Positive Immune,328,339
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04332-I-PD-22.ndpi__5fea13563d92/patch_4.jpeg,other,1211,1243
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04333-I-PD-22.ndpi__6551101236bf/patch_1.jpeg,Negative Epithelial,0,0
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04333-I-PD-22.ndpi__6551101236bf/patch_1.jpeg,Negative Immune,0,0
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04333-I-PD-22.ndpi__6551101236bf/patch_1.jpeg,Positive Epithelial,0,0
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04333-I-PD-22.ndpi__6551101236bf/patch_1.jpeg,Positive Immune,0,0
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04333-I-PD-22.ndpi__6551101236bf/patch_1.jpeg,other,1372,1394
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04333-I-PD-22.ndpi__6551101236bf/patch_2.jpeg,Negative Epithelial,0,1
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04333-I-PD-22.ndpi__6551101236bf/patch_2.jpeg,Negative Immune,0,0
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04333-I-PD-22.ndpi__6551101236bf/patch_2.jpeg,Positive Epithelial,0,0
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04333-I-PD-22.ndpi__6551101236bf/patch_2.jpeg,Positive Immune,0,0
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04333-I-PD-22.ndpi__6551101236bf/patch_2.jpeg,other,649,657
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04333-I-PD-22.ndpi__6551101236bf/patch_3.jpeg,Negative Epithelial,0,0
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04333-I-PD-22.ndpi__6551101236bf/patch_3.jpeg,Negative Immune,0,0
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04333-I-PD-22.ndpi__6551101236bf/patch_3.jpeg,Positive Epithelial,0,0
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04333-I-PD-22.ndpi__6551101236bf/patch_3.jpeg,Positive Immune,0,0
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04333-I-PD-22.ndpi__6551101236bf/patch_3.jpeg,other,713,729
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04334-I-PD-22.ndpi__0ac93e3885a5/patch_1.jpeg,Negative Epithelial,1,1
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04334-I-PD-22.ndpi__0ac93e3885a5/patch_1.jpeg,Negative Immune,4,4
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04334-I-PD-22.ndpi__0ac93e3885a5/patch_1.jpeg,Positive Epithelial,238,246
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04334-I-PD-22.ndpi__0ac93e3885a5/patch_1.jpeg,Positive Immune,82,84
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04334-I-PD-22.ndpi__0ac93e3885a5/patch_1.jpeg,other,978,1034
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04334-I-PD-22.ndpi__0ac93e3885a5/patch_2.jpeg,Negative Epithelial,0,0
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04334-I-PD-22.ndpi__0ac93e3885a5/patch_2.jpeg,Negative Immune,0,0
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04334-I-PD-22.ndpi__0ac93e3885a5/patch_2.jpeg,Positive Epithelial,0,0
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04334-I-PD-22.ndpi__0ac93e3885a5/patch_2.jpeg,Positive Immune,0,0
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04334-I-PD-22.ndpi__0ac93e3885a5/patch_2.jpeg,other,2566,2638
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04334-I-PD-22.ndpi__0ac93e3885a5/patch_3.jpeg,Negative Epithelial,0,0
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04334-I-PD-22.ndpi__0ac93e3885a5/patch_3.jpeg,Negative Immune,0,0
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04334-I-PD-22.ndpi__0ac93e3885a5/patch_3.jpeg,Positive Epithelial,0,0
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04334-I-PD-22.ndpi__0ac93e3885a5/patch_3.jpeg,Positive Immune,0,0
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04334-I-PD-22.ndpi__0ac93e3885a5/patch_3.jpeg,other,2275,2341
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04335-I-PD-22.ndpi__ee4f01d53ab8/patch_1.jpeg,Negative Epithelial,515,526
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04335-I-PD-22.ndpi__ee4f01d53ab8/patch_1.jpeg,Negative Immune,5,5
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04335-I-PD-22.ndpi__ee4f01d53ab8/patch_1.jpeg,Positive Epithelial,0,0
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04335-I-PD-22.ndpi__ee4f01d53ab8/patch_1.jpeg,Positive Immune,36,37
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04335-I-PD-22.ndpi__ee4f01d53ab8/patch_1.jpeg,other,1211,1272
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04335-I-PD-22.ndpi__ee4f01d53ab8/patch_2.jpeg,Negative Epithelial,1122,1160
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04335-I-PD-22.ndpi__ee4f01d53ab8/patch_2.jpeg,Negative Immune,42,46
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04335-I-PD-22.ndpi__ee4f01d53ab8/patch_2.jpeg,Positive Epithelial,0,0
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04335-I-PD-22.ndpi__ee4f01d53ab8/patch_2.jpeg,Positive Immune,57,57
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04335-I-PD-22.ndpi__ee4f01d53ab8/patch_2.jpeg,other,671,687
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04335-I-PD-22.ndpi__ee4f01d53ab8/patch_3.jpeg,Negative Epithelial,1062,1074
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04335-I-PD-22.ndpi__ee4f01d53ab8/patch_3.jpeg,Negative Immune,38,38
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04335-I-PD-22.ndpi__ee4f01d53ab8/patch_3.jpeg,Positive Epithelial,4,4
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04335-I-PD-22.ndpi__ee4f01d53ab8/patch_3.jpeg,Positive Immune,49,50
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04335-I-PD-22.ndpi__ee4f01d53ab8/patch_3.jpeg,other,656,693
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04335-I-PD-22.ndpi__ee4f01d53ab8/patch_4.jpeg,Negative Epithelial,395,401
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04335-I-PD-22.ndpi__ee4f01d53ab8/patch_4.jpeg,Negative Immune,17,18
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04335-I-PD-22.ndpi__ee4f01d53ab8/patch_4.jpeg,Positive Epithelial,0,0
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04335-I-PD-22.ndpi__ee4f01d53ab8/patch_4.jpeg,Positive Immune,32,33
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04335-I-PD-22.ndpi__ee4f01d53ab8/patch_4.jpeg,other,1477,1542
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04336-I-PD-22.ndpi__61722d18ad2e/patch_1.jpeg,Negative Epithelial,223,226
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04336-I-PD-22.ndpi__61722d18ad2e/patch_1.jpeg,Negative Immune,0,0
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04336-I-PD-22.ndpi__61722d18ad2e/patch_1.jpeg,Positive Epithelial,0,0
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04336-I-PD-22.ndpi__61722d18ad2e/patch_1.jpeg,Positive Immune,0,0
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04336-I-PD-22.ndpi__61722d18ad2e/patch_1.jpeg,other,1329,1379
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04336-I-PD-22.ndpi__61722d18ad2e/patch_2.jpeg,Negative Epithelial,484,495
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04336-I-PD-22.ndpi__61722d18ad2e/patch_2.jpeg,Negative Immune,25,25
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04336-I-PD-22.ndpi__61722d18ad2e/patch_2.jpeg,Positive Epithelial,3,3
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04336-I-PD-22.ndpi__61722d18ad2e/patch_2.jpeg,Positive Immune,2,2
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04336-I-PD-22.ndpi__61722d18ad2e/patch_2.jpeg,other,660,679
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04336-I-PD-22.ndpi__61722d18ad2e/patch_3.jpeg,Negative Epithelial,170,177
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04336-I-PD-22.ndpi__61722d18ad2e/patch_3.jpeg,Negative Immune,1,2
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04336-I-PD-22.ndpi__61722d18ad2e/patch_3.jpeg,Positive Epithelial,1,1
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04336-I-PD-22.ndpi__61722d18ad2e/patch_3.jpeg,Positive Immune,18,18
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04336-I-PD-22.ndpi__61722d18ad2e/patch_3.jpeg,other,845,880
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04336-I-PD-22.ndpi__61722d18ad2e/patch_4.jpeg,Negative Epithelial,61,62
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04336-I-PD-22.ndpi__61722d18ad2e/patch_4.jpeg,Negative Immune,0,0
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04336-I-PD-22.ndpi__61722d18ad2e/patch_4.jpeg,Positive Epithelial,0,0
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04336-I-PD-22.ndpi__61722d18ad2e/patch_4.jpeg,Positive Immune,1,1
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04336-I-PD-22.ndpi__61722d18ad2e/patch_4.jpeg,other,1339,1371
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04337-I-PD-22.ndpi__2bf1ee99ffb2/patch_1.jpeg,Negative Epithelial,45,44
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04337-I-PD-22.ndpi__2bf1ee99ffb2/patch_1.jpeg,Negative Immune,0,0
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04337-I-PD-22.ndpi__2bf1ee99ffb2/patch_1.jpeg,Positive Epithelial,19,19
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04337-I-PD-22.ndpi__2bf1ee99ffb2/patch_1.jpeg,Positive Immune,15,16
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04337-I-PD-22.ndpi__2bf1ee99ffb2/patch_1.jpeg,other,1597,1669
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04337-I-PD-22.ndpi__2bf1ee99ffb2/patch_2.jpeg,Negative Epithelial,144,144
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04337-I-PD-22.ndpi__2bf1ee99ffb2/patch_2.jpeg,Negative Immune,5,5
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04337-I-PD-22.ndpi__2bf1ee99ffb2/patch_2.jpeg,Positive Epithelial,112,113
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04337-I-PD-22.ndpi__2bf1ee99ffb2/patch_2.jpeg,Positive Immune,133,135
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04337-I-PD-22.ndpi__2bf1ee99ffb2/patch_2.jpeg,other,1234,1306
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04337-I-PD-22.ndpi__2bf1ee99ffb2/patch_3.jpeg,Negative Epithelial,0,0
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04337-I-PD-22.ndpi__2bf1ee99ffb2/patch_3.jpeg,Negative Immune,0,0
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04337-I-PD-22.ndpi__2bf1ee99ffb2/patch_3.jpeg,Positive Epithelial,0,0
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04337-I-PD-22.ndpi__2bf1ee99ffb2/patch_3.jpeg,Positive Immune,0,0
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04337-I-PD-22.ndpi__2bf1ee99ffb2/patch_3.jpeg,other,1491,1521
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04339-I-PD-22.ndpi__4251c3629de5/patch_1.jpeg,Negative Epithelial,58,59
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04339-I-PD-22.ndpi__4251c3629de5/patch_1.jpeg,Negative Immune,0,0
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04339-I-PD-22.ndpi__4251c3629de5/patch_1.jpeg,Positive Epithelial,2,2
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04339-I-PD-22.ndpi__4251c3629de5/patch_1.jpeg,Positive Immune,5,5
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04339-I-PD-22.ndpi__4251c3629de5/patch_1.jpeg,other,638,658
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04339-I-PD-22.ndpi__4251c3629de5/patch_2.jpeg,Negative Epithelial,541,556
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04339-I-PD-22.ndpi__4251c3629de5/patch_2.jpeg,Negative Immune,2,2
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04339-I-PD-22.ndpi__4251c3629de5/patch_2.jpeg,Positive Epithelial,1,1
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04339-I-PD-22.ndpi__4251c3629de5/patch_2.jpeg,Positive Immune,16,16
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04339-I-PD-22.ndpi__4251c3629de5/patch_2.jpeg,other,1058,1105
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04339-I-PD-22.ndpi__4251c3629de5/patch_3.jpeg,Negative Epithelial,0,245
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04339-I-PD-22.ndpi__4251c3629de5/patch_3.jpeg,Negative Immune,0,2
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04339-I-PD-22.ndpi__4251c3629de5/patch_3.jpeg,Positive Epithelial,0,1
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04339-I-PD-22.ndpi__4251c3629de5/patch_3.jpeg,Positive Immune,0,12
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04339-I-PD-22.ndpi__4251c3629de5/patch_3.jpeg,other,0,993
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04339-I-PD-22.ndpi__4251c3629de5/patch_4.jpeg,Negative Epithelial,0,0
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04339-I-PD-22.ndpi__4251c3629de5/patch_4.jpeg,Negative Immune,0,0
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04339-I-PD-22.ndpi__4251c3629de5/patch_4.jpeg,Positive Epithelial,0,0
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04339-I-PD-22.ndpi__4251c3629de5/patch_4.jpeg,Positive Immune,0,0
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04339-I-PD-22.ndpi__4251c3629de5/patch_4.jpeg,other,1576,1620
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04340-I-PD-22.ndpi__5f8363c7a635/patch_1.jpeg,Negative Epithelial,919,931
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04340-I-PD-22.ndpi__5f8363c7a635/patch_1.jpeg,Negative Immune,10,10
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04340-I-PD-22.ndpi__5f8363c7a635/patch_1.jpeg,Positive Epithelial,0,0
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04340-I-PD-22.ndpi__5f8363c7a635/patch_1.jpeg,Positive Immune,2,2
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04340-I-PD-22.ndpi__5f8363c7a635/patch_1.jpeg,other,1100,1145
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04340-I-PD-22.ndpi__5f8363c7a635/patch_2.jpeg,Negative Epithelial,256,260
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04340-I-PD-22.ndpi__5f8363c7a635/patch_2.jpeg,Negative Immune,0,0
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04340-I-PD-22.ndpi__5f8363c7a635/patch_2.jpeg,Positive Epithelial,0,0
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04340-I-PD-22.ndpi__5f8363c7a635/patch_2.jpeg,Positive Immune,2,2
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04340-I-PD-22.ndpi__5f8363c7a635/patch_2.jpeg,other,1405,1443
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04340-I-PD-22.ndpi__5f8363c7a635/patch_3.jpeg,Negative Epithelial,0,0
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04340-I-PD-22.ndpi__5f8363c7a635/patch_3.jpeg,Negative Immune,0,0
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04340-I-PD-22.ndpi__5f8363c7a635/patch_3.jpeg,Positive Epithelial,0,0
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04340-I-PD-22.ndpi__5f8363c7a635/patch_3.jpeg,Positive Immune,0,0
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04340-I-PD-22.ndpi__5f8363c7a635/patch_3.jpeg,other,1340,1374
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04341-I-PD-22.ndpi__58e86713adc5/patch_1.jpeg,Negative Epithelial,0,0
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04341-I-PD-22.ndpi__58e86713adc5/patch_1.jpeg,Negative Immune,0,0
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04341-I-PD-22.ndpi__58e86713adc5/patch_1.jpeg,Positive Epithelial,0,0
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04341-I-PD-22.ndpi__58e86713adc5/patch_1.jpeg,Positive Immune,0,0
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04341-I-PD-22.ndpi__58e86713adc5/patch_1.jpeg,other,471,486
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04341-I-PD-22.ndpi__58e86713adc5/patch_2.jpeg,Negative Epithelial,1197,1222
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04341-I-PD-22.ndpi__58e86713adc5/patch_2.jpeg,Negative Immune,4,4
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04341-I-PD-22.ndpi__58e86713adc5/patch_2.jpeg,Positive Epithelial,0,0
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04341-I-PD-22.ndpi__58e86713adc5/patch_2.jpeg,Positive Immune,34,37
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04341-I-PD-22.ndpi__58e86713adc5/patch_2.jpeg,other,870,899
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04341-I-PD-22.ndpi__58e86713adc5/patch_3.jpeg,Negative Epithelial,0,0
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04341-I-PD-22.ndpi__58e86713adc5/patch_3.jpeg,Negative Immune,0,0
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04341-I-PD-22.ndpi__58e86713adc5/patch_3.jpeg,Positive Epithelial,0,0
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04341-I-PD-22.ndpi__58e86713adc5/patch_3.jpeg,Positive Immune,0,0
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04341-I-PD-22.ndpi__58e86713adc5/patch_3.jpeg,other,671,676
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04342-I-PD-22.ndpi__6bb57fe2fa06/patch_10.jpeg,Negative Epithelial,31,31
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04342-I-PD-22.ndpi__6bb57fe2fa06/patch_10.jpeg,Negative Immune,0,0
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04342-I-PD-22.ndpi__6bb57fe2fa06/patch_10.jpeg,Positive Epithelial,0,0
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04342-I-PD-22.ndpi__6bb57fe2fa06/patch_10.jpeg,Positive Immune,0,0
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04342-I-PD-22.ndpi__6bb57fe2fa06/patch_10.jpeg,other,307,328
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04342-I-PD-22.ndpi__6bb57fe2fa06/patch_11.jpeg,Negative Epithelial,0,0
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04342-I-PD-22.ndpi__6bb57fe2fa06/patch_11.jpeg,Negative Immune,0,0
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04342-I-PD-22.ndpi__6bb57fe2fa06/patch_11.jpeg,Positive Epithelial,0,0
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04342-I-PD-22.ndpi__6bb57fe2fa06/patch_11.jpeg,Positive Immune,0,0
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04342-I-PD-22.ndpi__6bb57fe2fa06/patch_11.jpeg,other,0,1
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04342-I-PD-22.ndpi__6bb57fe2fa06/patch_12.jpeg,Negative Epithelial,15,15
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04342-I-PD-22.ndpi__6bb57fe2fa06/patch_12.jpeg,Negative Immune,0,0
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04342-I-PD-22.ndpi__6bb57fe2fa06/patch_12.jpeg,Positive Epithelial,0,0
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04342-I-PD-22.ndpi__6bb57fe2fa06/patch_12.jpeg,Positive Immune,0,0
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04342-I-PD-22.ndpi__6bb57fe2fa06/patch_12.jpeg,other,172,170
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04342-I-PD-22.ndpi__6bb57fe2fa06/patch_13.jpeg,Negative Epithelial,179,179
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04342-I-PD-22.ndpi__6bb57fe2fa06/patch_13.jpeg,Negative Immune,0,0
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04342-I-PD-22.ndpi__6bb57fe2fa06/patch_13.jpeg,Positive Epithelial,0,0
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04342-I-PD-22.ndpi__6bb57fe2fa06/patch_13.jpeg,Positive Immune,9,9
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04342-I-PD-22.ndpi__6bb57fe2fa06/patch_13.jpeg,other,285,285
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04342-I-PD-22.ndpi__6bb57fe2fa06/patch_2.jpeg,Negative Epithelial,602,611
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04342-I-PD-22.ndpi__6bb57fe2fa06/patch_2.jpeg,Negative Immune,0,0
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04342-I-PD-22.ndpi__6bb57fe2fa06/patch_2.jpeg,Positive Epithelial,0,0
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04342-I-PD-22.ndpi__6bb57fe2fa06/patch_2.jpeg,Positive Immune,45,48
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04342-I-PD-22.ndpi__6bb57fe2fa06/patch_2.jpeg,other,801,833
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04342-I-PD-22.ndpi__6bb57fe2fa06/patch_3.jpeg,Negative Epithelial,311,318
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04342-I-PD-22.ndpi__6bb57fe2fa06/patch_3.jpeg,Negative Immune,0,0
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04342-I-PD-22.ndpi__6bb57fe2fa06/patch_3.jpeg,Positive Epithelial,0,1
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04342-I-PD-22.ndpi__6bb57fe2fa06/patch_3.jpeg,Positive Immune,3,3
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04342-I-PD-22.ndpi__6bb57fe2fa06/patch_3.jpeg,other,468,477
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04342-I-PD-22.ndpi__6bb57fe2fa06/patch_4.jpeg,Negative Epithelial,63,62
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04342-I-PD-22.ndpi__6bb57fe2fa06/patch_4.jpeg,Negative Immune,0,0
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04342-I-PD-22.ndpi__6bb57fe2fa06/patch_4.jpeg,Positive Epithelial,0,0
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04342-I-PD-22.ndpi__6bb57fe2fa06/patch_4.jpeg,Positive Immune,16,19
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04342-I-PD-22.ndpi__6bb57fe2fa06/patch_4.jpeg,other,344,359
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04342-I-PD-22.ndpi__6bb57fe2fa06/patch_5.jpeg,Negative Epithelial,295,299
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04342-I-PD-22.ndpi__6bb57fe2fa06/patch_5.jpeg,Negative Immune,0,0
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04342-I-PD-22.ndpi__6bb57fe2fa06/patch_5.jpeg,Positive Epithelial,2,2
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04342-I-PD-22.ndpi__6bb57fe2fa06/patch_5.jpeg,Positive Immune,92,99
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04342-I-PD-22.ndpi__6bb57fe2fa06/patch_5.jpeg,other,893,935
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04342-I-PD-22.ndpi__6bb57fe2fa06/patch_6.jpeg,Negative Epithelial,273,277
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04342-I-PD-22.ndpi__6bb57fe2fa06/patch_6.jpeg,Negative Immune,1,1
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04342-I-PD-22.ndpi__6bb57fe2fa06/patch_6.jpeg,Positive Epithelial,0,0
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04342-I-PD-22.ndpi__6bb57fe2fa06/patch_6.jpeg,Positive Immune,70,79
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04342-I-PD-22.ndpi__6bb57fe2fa06/patch_6.jpeg,other,839,858
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04342-I-PD-22.ndpi__6bb57fe2fa06/patch_9.jpeg,Negative Epithelial,53,53
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04342-I-PD-22.ndpi__6bb57fe2fa06/patch_9.jpeg,Negative Immune,0,0
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04342-I-PD-22.ndpi__6bb57fe2fa06/patch_9.jpeg,Positive Epithelial,0,0
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04342-I-PD-22.ndpi__6bb57fe2fa06/patch_9.jpeg,Positive Immune,0,0
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04342-I-PD-22.ndpi__6bb57fe2fa06/patch_9.jpeg,other,628,683
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04343-I-PD-22.ndpi__8386143e3209/patch_1.jpeg,Negative Epithelial,183,190
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04343-I-PD-22.ndpi__8386143e3209/patch_1.jpeg,Negative Immune,2,2
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04343-I-PD-22.ndpi__8386143e3209/patch_1.jpeg,Positive Epithelial,5,5
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04343-I-PD-22.ndpi__8386143e3209/patch_1.jpeg,Positive Immune,31,32
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04343-I-PD-22.ndpi__8386143e3209/patch_1.jpeg,other,228,230
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04343-I-PD-22.ndpi__8386143e3209/patch_2.jpeg,Negative Epithelial,168,175
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04343-I-PD-22.ndpi__8386143e3209/patch_2.jpeg,Negative Immune,1,1
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04343-I-PD-22.ndpi__8386143e3209/patch_2.jpeg,Positive Epithelial,1,1
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04343-I-PD-22.ndpi__8386143e3209/patch_2.jpeg,Positive Immune,156,157
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04343-I-PD-22.ndpi__8386143e3209/patch_2.jpeg,other,494,510
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04343-I-PD-22.ndpi__8386143e3209/patch_3.jpeg,Negative Epithelial,131,134
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04343-I-PD-22.ndpi__8386143e3209/patch_3.jpeg,Negative Immune,0,0
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04343-I-PD-22.ndpi__8386143e3209/patch_3.jpeg,Positive Epithelial,0,0
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04343-I-PD-22.ndpi__8386143e3209/patch_3.jpeg,Positive Immune,2,2
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04343-I-PD-22.ndpi__8386143e3209/patch_3.jpeg,other,1503,1567
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04343-I-PD-22.ndpi__8386143e3209/patch_4.jpeg,Negative Epithelial,149,151
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04343-I-PD-22.ndpi__8386143e3209/patch_4.jpeg,Negative Immune,43,46
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04343-I-PD-22.ndpi__8386143e3209/patch_4.jpeg,Positive Epithelial,0,0
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04343-I-PD-22.ndpi__8386143e3209/patch_4.jpeg,Positive Immune,57,57
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04343-I-PD-22.ndpi__8386143e3209/patch_4.jpeg,other,1714,1776
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04344-I-PD-22.ndpi__b91c896f73dc/patch_1.jpeg,Negative Epithelial,47,49
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04344-I-PD-22.ndpi__b91c896f73dc/patch_1.jpeg,Negative Immune,0,0
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04344-I-PD-22.ndpi__b91c896f73dc/patch_1.jpeg,Positive Epithelial,0,0
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04344-I-PD-22.ndpi__b91c896f73dc/patch_1.jpeg,Positive Immune,16,16
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04344-I-PD-22.ndpi__b91c896f73dc/patch_1.jpeg,other,750,778
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04344-I-PD-22.ndpi__b91c896f73dc/patch_2.jpeg,Negative Epithelial,38,39
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04344-I-PD-22.ndpi__b91c896f73dc/patch_2.jpeg,Negative Immune,4,4
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04344-I-PD-22.ndpi__b91c896f73dc/patch_2.jpeg,Positive Epithelial,0,0
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04344-I-PD-22.ndpi__b91c896f73dc/patch_2.jpeg,Positive Immune,14,15
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04344-I-PD-22.ndpi__b91c896f73dc/patch_2.jpeg,other,1022,1047
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04344-I-PD-22.ndpi__b91c896f73dc/patch_3.jpeg,Negative Epithelial,0,0
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04344-I-PD-22.ndpi__b91c896f73dc/patch_3.jpeg,Negative Immune,0,0
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04344-I-PD-22.ndpi__b91c896f73dc/patch_3.jpeg,Positive Epithelial,0,0
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04344-I-PD-22.ndpi__b91c896f73dc/patch_3.jpeg,Positive Immune,0,0
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04344-I-PD-22.ndpi__b91c896f73dc/patch_3.jpeg,other,442,457
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04344-I-PD-22.ndpi__b91c896f73dc/patch_4.jpeg,Negative Epithelial,0,0
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04344-I-PD-22.ndpi__b91c896f73dc/patch_4.jpeg,Negative Immune,0,0
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04344-I-PD-22.ndpi__b91c896f73dc/patch_4.jpeg,Positive Epithelial,0,0
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04344-I-PD-22.ndpi__b91c896f73dc/patch_4.jpeg,Positive Immune,0,0
+flat5_positive_weighted,../../data/mediautoAI_PDL1_Stomach/CODIPAI-STBX-SS-04344-I-PD-22.ndpi__b91c896f73dc/patch_4.jpeg,other,1233,1266
