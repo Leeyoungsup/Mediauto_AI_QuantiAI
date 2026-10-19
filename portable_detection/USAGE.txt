@@ -1,0 +1,24 @@
+Copy this entire folder to the other PC. Original nets/ and utils/ are not required.
+
+1. Open detection_test.ipynb with this folder as the working directory.
+2. Set TEST_FOLDER to your image/JSON folder (recursive).
+3. Set CHECKPOINTS to the existing compatible model_state_dict checkpoint files.
+4. Run all cells. Output is written to results/.
+
+Data and model weights are NOT bundled. Default model paths:
+models/pdl1_flat_5class/last_model.pt
+models/pdl1_flat_5class_positive_weighted/last_model.pt
+
+Use the same environment as the original PC; requirements.txt lists dependencies,
+not pinned versions. Keep torch/torchvision and GPU runtime compatible.
+
+Only the required model architecture, NMS/anchor helpers, fixed crop dataset,
+are included. The notebook contains calculate_dice/map/pcc; helper primitives and
+disk prediction storage live in detection_support/helpers.py. No training, optimizer, augmentation,
+or hierarchical model code is required. Notebook functions remain editable.
+Metrics use 5-class CPS order: negative epithelial, negative immune,
+positive epithelial, positive immune, other.
+
+Predictions are saved per patch in *_patches/*.npz, not accumulated in RAM.
+Optional JSON export uses SAVE_PREDICTIONS_JSON=True and streams one patch at a time.
+This trades disk I/O for lower RAM use. AP sorting still scales with predictions per class.

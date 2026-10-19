@@ -38,6 +38,10 @@ class Flat5EvaluationDataset(IHCHierarchicalDataset):
         labels = []
         for cell in annotations['cells']:
             name = str(cell.get('class_name', '')).strip().casefold()
+            # Tumor is a region annotation, not a positive/negative cell class.
+            # Match the training reader without dropping the image or its other cells.
+            if name == 'tumor':
+                continue
             if name not in NAME_TO_FLAT5:
                 raise ValueError(f'{label_path}: unknown class_name={cell.get("class_name")!r}')
             box = cls._mediauto_box(cell, width, height)

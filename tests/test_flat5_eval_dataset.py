@@ -42,3 +42,16 @@ def test_fixed_manifest_excludes_extra_records_and_rejects_missing():
         try:select_fixed_test_records(records[1:],root,manifest)
         except FileNotFoundError:pass
         else:raise AssertionError('Missing records must fail')
+
+
+def test_tumor_region_is_not_a_cell_and_keeps_other_labels():
+    with tempfile.TemporaryDirectory() as directory:
+        path = Path(directory)/'labels.json'
+        region = {'class_name': 'Tumor', 'class_id': 'class_8',
+                  'local_coordinates': [[0, 0], [90, 90]]}
+        cell = {'class_name': 'Positive Tumor(Epithelial)',
+                'local_coordinates': [[10, 10], [30, 30]]}
+        path.write_text(json.dumps({'cells': [region, cell]}))
+        assert Flat5EvaluationDataset.load_labels(path, (100, 100))[:, 0].tolist() == [2]
+        path.write_text(json.dumps({'cells': [region]}))
+        assert Flat5EvaluationDataset.load_labels(path, (100, 100)).shape == (0, 5)
